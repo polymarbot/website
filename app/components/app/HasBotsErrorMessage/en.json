@@ -1,0 +1,4 @@
+{
+  "andMore": "and {count} more...",
+  "message": "This item is used by {count} bot(s). Please delete them first:"
+}

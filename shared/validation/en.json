@@ -1,0 +1,82 @@
+{
+  "agreeToTerms": {
+    "required": "You must agree to the Terms of Service and Privacy Policy"
+  },
+  "amountRange": {
+    "minGreaterThanMax": "Minimum amount must be less than or equal to maximum amount"
+  },
+  "billingCycle": {
+    "invalid": "Invalid billing cycle"
+  },
+  "botDisableReason": {
+    "required": "Bot stop reason is required"
+  },
+  "bots": {
+    "required": "At least one bot is required",
+    "tooMany": "Cannot create more than {maximum} bots at once"
+  },
+  "email": {
+    "invalid": "Invalid email format",
+    "required": "Email is required"
+  },
+  "inviteCode": {
+    "invalid": "Invalid invite code format",
+    "required": "Invite code is required"
+  },
+  "marketInterval": {
+    "invalid": "Invalid interval value"
+  },
+  "marketSymbol": {
+    "invalid": "Invalid market symbol"
+  },
+  "privateKey": {
+    "invalid": "Invalid private key format (must be 0x + 64 hex characters)",
+    "required": "Private key is required"
+  },
+  "publicKey": {
+    "invalid": "Invalid RSA public key format",
+    "required": "Public key is required"
+  },
+  "strategyId": {
+    "required": "Strategy ID is required"
+  },
+  "strategyJson": {
+    "invalid": "Invalid strategy configuration",
+    "required": "Strategy configuration is required"
+  },
+  "strategyName": {
+    "required": "Strategy name is required",
+    "tooLong": "Strategy name must be {maximum} characters or less"
+  },
+  "subscriptionPlan": {
+    "invalid": "Invalid subscription plan"
+  },
+  "timeRange": {
+    "startAfterEnd": "Start time must be less than or equal to end time"
+  },
+  "turnstileToken": {
+    "invalid": "Security verification failed",
+    "required": "Please complete the security verification"
+  },
+  "verificationCode": {
+    "invalid": "Invalid verification code format (must be 6 digits)",
+    "required": "Verification code is required"
+  },
+  "verificationToken": {
+    "invalid": "Invalid verification token format",
+    "required": "Verification token is required"
+  },
+  "walletAddress": {
+    "invalid": "Invalid wallet address format (must be 0x + 40 hex characters)",
+    "required": "Wallet address is required"
+  },
+  "walletName": {
+    "required": "Wallet name is required",
+    "tooLong": "Wallet name must be {maximum} characters or less"
+  },
+  "withdrawAmount": {
+    "invalid": "Invalid withdrawal amount",
+    "min": "Amount must be greater than 0",
+    "required": "Withdrawal amount is required"
+  }
+}

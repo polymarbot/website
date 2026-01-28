@@ -1,0 +1,34 @@
+/* Layout transition (fade only) */
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity .2s;
+}
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+}
+
+/* Page transition */
+.page-enter-active,
+.page-leave-active {
+  transition: all .2s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+/* Tab transition */
+.tab-enter-active,
+.tab-leave-active {
+  transition: all .2s;
+}
+.tab-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.tab-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}

@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "戻る",
+      "cancel": "キャンセル",
+      "clear": "クリア",
+      "close": "閉じる",
+      "confirm": "確認",
+      "continue": "続ける",
+      "create": "作成",
+      "delete": "削除",
+      "deposit": "入金",
+      "duplicate": "複製",
+      "edit": "編集",
+      "export": "エクスポート",
+      "goBack": "戻る",
+      "import": "インポート",
+      "install": "インストール",
+      "learnMore": "詳細を見る",
+      "more": "もっと見る",
+      "next": "次へ",
+      "ok": "OK",
+      "refresh": "更新",
+      "reload": "再読み込み",
+      "reportIssue": "問題を報告",
+      "retry": "再試行",
+      "save": "保存",
+      "search": "検索",
+      "signIn": "ログイン",
+      "signOut": "ログアウト",
+      "submit": "送信",
+      "transfer": "転送",
+      "uninstall": "アンインストール",
+      "viewDetails": "詳細を表示",
+      "withdraw": "出金"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "ログアウトしてもよろしいですか？",
+        "title": "ログアウト"
+      }
+    },
+    "formats": {
+      "date": "YYYY/MM/DD",
+      "dateRange": {
+        "date": "M月D日",
+        "dateTime": "M月D日 HH:mm"
+      },
+      "dateTime": "YYYY/MM/DD HH:mm:ss",
+      "duration": {
+        "days": "日",
+        "hours": "時",
+        "minutes": "分",
+        "seconds": "秒"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "操作",
+      "active": "アクティブ",
+      "alert": "アラート",
+      "all": "すべて",
+      "amount": "金額",
+      "chain": "チェーン",
+      "confirmation": "確認",
+      "createdAt": "作成日時",
+      "dateRange": "日付範囲",
+      "delete": "削除",
+      "deleteConfirmation": "削除の確認",
+      "email": "メールアドレス",
+      "error": "エラー",
+      "max": "最大",
+      "new": "新規",
+      "no": "いいえ",
+      "optional": "オプション",
+      "or": "または",
+      "password": "パスワード",
+      "private": "プライベート",
+      "privateKey": "秘密鍵",
+      "success": "成功",
+      "token": "トークン",
+      "transactionHash": "トランザクションハッシュ",
+      "unknown": "不明",
+      "unlimited": "無制限",
+      "updatedAt": "更新日時",
+      "yes": "はい"
+    },
+    "messages": {
+      "createSuccess": "作成しました",
+      "deleteSuccess": "削除しました",
+      "importSuccess": "インポートしました",
+      "saveSuccess": "保存しました",
+      "submitSuccess": "送信しました",
+      "updateSuccess": "更新しました"
+    },
+    "statuses": {
+      "closing": "終了中...",
+      "completed": "完了",
+      "failed": "失敗",
+      "loading": "読み込み中...",
+      "pending": "保留中",
+      "processing": "処理中...",
+      "success": "成功"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "ダークモード",
+        "lightMode": "ライトモード",
+        "switchToDark": "ダークモードに切り替える",
+        "switchToLight": "ライトモードに切り替える"
+      },
+      "Footer": {
+        "copyright": "© {year} すべての権利を保有しています。"
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "他 {count} 件...",
+        "message": "このアイテムは {count} 個のボットで使用されています。先に削除してください："
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "言語を切り替える"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15分",
+          "1d": "1日",
+          "1h": "1時間",
+          "4h": "4時間"
+        },
+        "placeholder": "間隔を選択"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "シンボルを選択"
+      },
+      "Navbar": {
+        "collapseSidebar": "サイドバーを折りたたむ",
+        "expandSidebar": "サイドバーを展開する",
+        "goBack": "戻る"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "問題を報告"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "ストラテジーの詳細を表示",
+        "viewStats": "統計を表示"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "すべての期間",
+          "custom": "カスタム",
+          "month": "過去30日間",
+          "quarter": "過去90日間",
+          "week": "過去7日間"
+        },
+        "labels": {
+          "dateRange": "期間",
+          "interval": "間隔",
+          "symbol": "シンボル"
+        },
+        "upgradeDialog": {
+          "cancel": "キャンセル",
+          "message": "プラスプラン以上にアップグレードすると、カスタム日付範囲を含む、より多くの日付範囲オプションにアクセスできます。",
+          "title": "アップグレードが必要です",
+          "upgrade": "今すぐアップグレード"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "新しいストラテジーを作成",
+        "emptyMessage": "利用可能なストラテジーがありません",
+        "placeholder": "ストラテジーを選択"
+      },
+      "UpgradeOverlay": {
+        "description": "サブスクリプションをアップグレードして、この機能のロックを解除し、包括的な統計情報にアクセスしてください。",
+        "title": "プレミアム機能",
+        "upgradeButton": "今すぐアップグレード"
+      },
+      "WalletSelect": {
+        "createNew": "新しいウォレットを作成",
+        "emptyMessage": "利用可能なウォレットがありません",
+        "placeholder": "ウォレットを選択"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "支出（購入）",
+        "income": "収益（売却＋換金）",
+        "netProfit": "ネット利益",
+        "txCount": "トランザクション"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "操作",
+        "pageReport": "{'{totalRecords}'} 件中 {'{first}'} から {'{last}'} を表示",
+        "pageReportMobile": "合計: {'{totalRecords}'} 件"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "削除",
+        "confirmationText": "DELETE",
+        "defaultMessage": "この操作は取り消せません。続行する前に、重要なデータをバックアップしていることを確認してください。",
+        "inputLabel": "削除を確認するには {0} と入力してください",
+        "title": "削除"
+      },
+      "CopyButton": {
+        "copied": "コピーしました！",
+        "copyToClipboard": "クリップボードにコピー"
+      },
+      "DataTable": {
+        "empty": "データがありません",
+        "filterAll": "すべて",
+        "filterApply": "適用",
+        "filterClear": "クリア"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "終了日",
+        "startPlaceholder": "開始日",
+        "to": "～"
+      },
+      "EmptyState": {
+        "defaultMessage": "データがありません"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "ログがありません",
+        "refresh": "更新",
+        "scrollToBottom": "最下部へスクロール"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "クリップボードから貼り付け",
+        "pasted": "貼り付けました！"
+      },
+      "SearchSelect": {
+        "createNew": "新規作成",
+        "noItems": "利用可能なオプションがありません",
+        "noSearchItems": "結果が見つかりません",
+        "searchPlaceholder": "検索..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "アプリを起動",
+      "pricing": {
+        "features": {
+          "bots": "{count} ボット",
+          "maxAmount": "ストラテジーあたり最大 {amount}",
+          "strategies": "{count} ストラテジー",
+          "wallets": "{count} ウォレット"
+        },
+        "getStarted": "無料で始める",
+        "perMonth": "/月",
+        "subtitle": "トレードのニーズに合ったプランを選択してください",
+        "title": "シンプルで透明性のある価格設定"
+      },
+      "tagline": "トレード戦略を自動化",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "ボットが24時間体制で市場を監視し、手動操作なしに取引を実行します。",
+            "title": "常時稼働"
+          },
+          "easySetup": {
+            "description": "コード不要。シンプルなパラメータでストラテジーを作成し、数分でデプロイできます。",
+            "title": "簡単セットアップ"
+          },
+          "gasless": {
+            "description": "Polymarketの Gnosis Safe コントラクトを使用し、ガス代なしで取引できます。",
+            "title": "ガスレス取引"
+          },
+          "multiWallet": {
+            "description": "複数のウォレットを管理して、取引ストラテジーポートフォリオを多様化できます。",
+            "title": "マルチウォレット対応"
+          },
+          "realTimeAnalytics": {
+            "description": "ダッシュボード、統計情報、詳細なログでストラテジーのパフォーマンスを包括的に監視します。",
+            "title": "リアルタイム分析"
+          },
+          "strategyStats": {
+            "description": "ストラテジーのパフォーマンスを追跡し、トップパフォーマーを使用して素早く利益を得始めることができます。",
+            "title": "ストラテジー分析"
+          }
+        },
+        "title": "なぜ当社を選ぶのか"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket プロキシウォレット（Gnosis Safe）を作成",
+            "title": "ウォレットを追加"
+          },
+          "createStrategies": {
+            "description": "トレードルールとパラメータを定義",
+            "title": "ストラテジーを作成"
+          },
+          "deployBots": {
+            "description": "ボットを起動し、自動取引を開始",
+            "title": "ボットをデプロイ"
+          },
+          "signUp": {
+            "description": "数秒でアカウントを作成",
+            "title": "サインアップ"
+          }
+        },
+        "subtitle": "シンプルな4ステップのプロセスで数分で始めることができます",
+        "title": "仕組み"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "停止",
+              "ENABLED": "開始"
+            },
+            "fun-logs": {
+              "notice": "実行ログはリアルタイムではなく、遅延があります。これらは履歴の確認とトラブルシューティングのみを目的としており、現在のボットステータスの評価には使用できません。過去1か月のログのみが保持されます。",
+              "title": "実行ログ"
+            },
+            "info": {
+              "strategy": "ストラテジー",
+              "wallet": "ウォレット"
+            },
+            "reason": {
+              "USER_ACTION": "ユーザーアクション",
+              "WALLET_INSUFFICIENT_BALANCE": "ウォレット残高不足",
+              "WALLET_TRANSACTION_ERROR": "トランザクションエラー"
+            },
+            "table": {
+              "action": "アクション",
+              "operatedAt": "操作日時",
+              "reason": "理由"
+            },
+            "tabs": {
+              "logs": "実行ログ",
+              "operations": "操作履歴"
+            },
+            "title": "ボット実行履歴"
+          }
+        },
+        "actions": {
+          "batchDelete": "削除",
+          "batchDisable": "停止",
+          "batchEnable": "開始",
+          "create": "作成",
+          "viewRunHistory": "実行履歴"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "すべて削除",
+              "disableAll": "すべて停止",
+              "enableAll": "すべて開始"
+            },
+            "menu": {
+              "byConditions": "条件別"
+            },
+            "messages": {
+              "deleteSuccess": "ボットを削除しました",
+              "disableSuccess": "ボットを停止しました",
+              "enableSuccess": "ボットを開始しました",
+              "noBotsToDelete": "削除するボットがありません（停止中のボットのみ削除できます）",
+              "noBotsToDisable": "停止するボットがありません",
+              "noBotsToEnable": "開始するボットがありません",
+              "resultDeleteSkipped": "{count}個のボット(実行中)は削除できません。",
+              "resultDeleted": "{count}個のボットが正常に削除されました。",
+              "resultEnableSkipped": "{count}個のボット(残高不足、ウォレットステータス、または戦略金額がプラン上限超過)は開始できません。",
+              "resultEnabled": "{count}個のボットが正常に開始されました。",
+              "resultPending": "{count}個のボットはウォレットアクティベーション待機中です。",
+              "resultPendingAutoStart": "{count}個のボットはウォレットアクティベーション待機中で、アクティベーション後に自動開始されます。"
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "停止中のすべてのボットが削除されます。この操作は取り消せません。これらのボットを削除してもよろしいですか？",
+                "title": "ボットを削除"
+              },
+              "batchDisable": {
+                "message": "すべての実行中のボットが停止します。ただし、すでに発注された注文は自動的にキャンセルされません。すべてのボットを停止してもよろしいですか？",
+                "title": "ボットを停止"
+              },
+              "batchEnable": {
+                "message": "すべての停止中のボットが開始します。開始すると、ウォレット内の資金を使用して注文を発注し始め、利益または損失が発生する可能性があります。すべてのボットを開始してもよろしいですか？",
+                "title": "ボットを開始"
+              },
+              "byConditions": {
+                "hint": "選択した条件に一致するすべてのボットが影響を受けます。",
+                "intervalDisabledHint": "ストラテジーが選択されているため、間隔フィルターは無効です",
+                "intervalLabel": "間隔",
+                "selectInterval": "間隔を選択",
+                "selectStrategy": "ストラテジーを選択",
+                "selectSymbol": "シンボルを選択",
+                "selectWallet": "ウォレットを選択",
+                "strategyDisabledHint": "間隔が選択されているため、ストラテジーフィルターは無効です",
+                "strategyLabel": "ストラテジー",
+                "symbolLabel": "シンボル",
+                "titleDelete": "条件別にボットを削除",
+                "titleDisable": "条件別にボットを停止",
+                "titleEnable": "条件別にボットを開始",
+                "walletLabel": "ウォレット"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "間隔",
+              "strategy": "ストラテジー",
+              "symbols": "シンボル",
+              "wallet": "ウォレット"
+            },
+            "hints": {
+              "batchCreate": "各マーケット（シンボル + 間隔）ごとにボットが作成されます。そのマーケットでウォレットがすでにボットを持っている場合はスキップされます。",
+              "intervalFirst": "最初に間隔を選択し、次に一致するストラテジーを選択してください",
+              "strategyFiltered": "選択した間隔のストラテジーのみが表示されます",
+              "symbolsOptional": "すべてのシンボルのボットを作成する場合は空のままにしてください"
+            },
+            "messages": {
+              "createSuccess": "{count}個のボットを作成しました",
+              "noBotsToCreate": "作成するボットがありません",
+              "resultCreated": "{count}個のボットが正常に作成されました。",
+              "resultSkipped": "{count}個のボット(ウォレットがそのマーケットに既にボットがある)がスキップされました。"
+            },
+            "modals": {
+              "result": {
+                "title": "作成結果"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "すべて",
+              "selectStrategy": "ストラテジーを選択",
+              "selectWallet": "ウォレットを選択"
+            },
+            "title": "ボット一括作成"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "必要残高は、このウォレットで実行中のすべてのボットの合計です：\n各ボットに必要な金額 = 1取引あたりの最大金額 × {multiplier}",
+            "current": "現在の残高",
+            "description": "ウォレット残高が不足しており、すべての実行中のボットをサポートできません。残高要件を満たすまで、このボットを開始することはできません。",
+            "required": "必要（すべての実行中のボット）",
+            "shortfall": "不足額",
+            "suggestion": "不足分をカバーするために資金を入金するか、他のボットを停止して必要な残高を確保してください。"
+          }
+        },
+        "messages": {
+          "deleteSuccess": "ボットを削除しました",
+          "disableSuccess": "ボットを停止しました",
+          "enableSuccess": "ボットを開始しました",
+          "walletActivating": "ウォレットをアクティベート中です。ウォレットがアクティブになるとボットが開始されます"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "{count}個のボットを削除してもよろしいですか？この操作は取り消せません。",
+            "title": "ボット一括削除"
+          },
+          "batchDisable": {
+            "message": "{count}個のボットを停止してもよろしいですか？",
+            "title": "ボット一括停止"
+          },
+          "batchEnable": {
+            "message": "{count}個のボットを開始してもよろしいですか？",
+            "title": "ボット一括開始"
+          },
+          "delete": {
+            "message": "このボットを削除してもよろしいですか？この操作は取り消せません。",
+            "title": "ボットを削除"
+          },
+          "disable": {
+            "message": "このボットを停止してもよろしいですか？",
+            "title": "ボットを停止"
+          },
+          "enable": {
+            "message": "このボットを開始してもよろしいですか？",
+            "title": "ボットを開始"
+          }
+        },
+        "name": "ボット",
+        "searchPlaceholder": "ウォレット名またはストラテジー名で検索",
+        "table": {
+          "market": "マーケット",
+          "runtime": "実行時間",
+          "status": "ステータス",
+          "strategy": "ストラテジー",
+          "wallet": "ウォレット"
+        },
+        "tooltips": {
+          "disable": "ボットを停止",
+          "disabling": "停止中...",
+          "enable": "ボットを開始",
+          "enabling": "開始中...",
+          "walletDeploying": "ウォレットをデプロイ中です。開始できません",
+          "walletFailed": "ウォレットのデプロイに失敗しました"
+        },
+        "walletStatus": {
+          "DEPLOYING": "デプロイ中",
+          "FAILED": "失敗"
+        }
+      },
+      "dashboard": {
+        "botCount": "ボット",
+        "name": "ダッシュボード",
+        "profitHistory": {
+          "title": "利益履歴(過去30日間)"
+        },
+        "running": "実行中",
+        "strategyCount": "ストラテジー",
+        "totalBalance": "総残高",
+        "walletCount": "ウォレット"
+      },
+      "markets": {
+        "empty": "マーケットが見つかりません",
+        "name": "マーケット",
+        "tooltip": {
+          "enabledBots": "稼働中のボット",
+          "totalBots": "ボット総数"
+        }
+      },
+      "me": {
+        "anonymous": "匿名ユーザー",
+        "language": {
+          "name": "言語",
+          "title": "言語を選択"
+        },
+        "name": "マイページ"
+      },
+      "rankings": {
+        "apr": {
+          "description": "利益率（総記録数）",
+          "title": "年率利回りランキング"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "ストラテジーを作成",
+              "editStrategy": "ストラテジーを編集"
+            },
+            "myStrategy": "マイストラテジー"
+          }
+        },
+        "filters": {
+          "amountRange": "取引金額範囲"
+        },
+        "hitRate": {
+          "description": "参加数 / 総記録数",
+          "title": "ヒット率ランキング"
+        },
+        "name": "ランキング",
+        "profitRate": {
+          "description": "総利益 / 総コスト（参加数）",
+          "title": "利益率ランキング"
+        },
+        "title": "ストラテジーランキング",
+        "upgradeRequired": {
+          "description": "プロプラン以上にアップグレードして、ストラテジーランキングと詳細な統計情報にアクセスしてください。",
+          "title": "アップグレードが必要です"
+        },
+        "winRate": {
+          "description": "黒字 / 参加数",
+          "title": "勝率ランキング"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "統計"
+          },
+          "autoNameNoSteps": "先にトレードステップを作成してください",
+          "autoNameTooltip": "ストラテジー名を自動生成",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "統計",
+              "stats": {
+                "apr": "年率利回り",
+                "hitRate": "ヒット率",
+                "profitRate": "利益率",
+                "winRate": "勝率"
+              },
+              "stepCount": "{count}ステップ",
+              "title": "ストラテジー統計",
+              "upgradeRequired": {
+                "description": "プロプラン以上にアップグレードして、ストラテジー統計を表示してください。",
+                "title": "アップグレードが必要です"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "ステップを追加"
+              },
+              "emptyState": "まだトレードステップが追加されていません。「ステップを追加」をクリックして最初のトレードステップを作成してください。",
+              "stats": {
+                "buyCount": "買い：{count}",
+                "sellCount": "売り：{count}",
+                "stepCount": "{count}/{max} ステップ",
+                "totalAmount": "取引あたりの最大金額"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "削除",
+                "edit": "編集"
+              },
+              "fields": {
+                "maxChange": "原資産価格変動上限",
+                "minChange": "原資産価格変動下限",
+                "once": "1回のみ",
+                "outcome": "結果",
+                "price": "価格",
+                "size": "シェア数",
+                "timeRange": "時間範囲"
+              },
+              "side": {
+                "buy": "買い",
+                "sell": "売り"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "追い上げモード（価格 > $0.50）\n取引戦略を十分に理解していない限り、このモードは大きな損失をもたらす可能性があるため推奨されません。",
+                "lowBuy": "低価格買いモード（価格 ≤ $0.50）"
+              },
+              "fields": {
+                "maxChange": "原資産価格変動上限",
+                "minChange": "原資産価格変動下限",
+                "once": "1回のみ実行",
+                "outcome": "結果",
+                "price": "価格",
+                "side": "取引方向",
+                "size": "シェア数",
+                "timeRange": "時間範囲"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "低価格買いモードでは、原資産価格変動がこの値を超えると、価格変動方向に基づいて対応するトークンの購入を停止します。0に設定すると、この制限が無効になります。",
+                  "minChange": "追い上げモードでは、原資産価格変動がこの値を下回ると、購入を停止します。0に設定すると、この制限が無効になります。",
+                  "once": "通常、取引サイクル内で以前に購入したポジションが完全に売却された場合、ボットは別の買い注文を発注しようとします。サイクルごとに1回のみ取引したい場合は、このオプションを有効にしてください。",
+                  "outcome": "取引結果の方向。将来の価格方向について非常に自信がない限り、両方を選択することをお勧めします。",
+                  "price": "この取引のシェアあたりの買い価格。価格が低いほど、潜在的な利益率が高くなり、逆もまた然りです。",
+                  "size": "購入するシェア数。シェア数に買い価格を掛けたものが、この取引の総コストになります。",
+                  "timeRange": "この買い注文の有効時間枠。この時間範囲を超えて約定しない注文はキャンセルされます。",
+                  "timeRangeChaseUp": "取引サイクルでは、特定の時点以降、結果の逆転確率が大幅に低下し、追い上げで利益を得る可能性が高くなります。したがって、この時点以降に買い操作を開始するように設定してください。",
+                  "timeRangeLowBuy": "取引サイクルでは、特定の時点以降、結果の逆転確率が大幅に低下し、低価格買いで損失を被る可能性が高くなります。したがって、この時点より前に買い操作を終了するように設定してください。"
+                },
+                "sell": {
+                  "price": "この取引のシェアあたりの売り価格。価格が高いほど、潜在的な利益率が高くなり、逆もまた然りです。買い価格より低い価格を設定すると、損失取引を完了する可能性があります。",
+                  "size": "売却するシェア数。シェア数に売り価格を掛けたものが、この取引から受け取る総額になります。",
+                  "timeRange": "この売り注文の有効時間枠。この時間範囲を超えて約定しない注文はキャンセルされます。\n\nこの時間制限の目的は、マーケットが閉じるまで売り注文を開いたままにせず、現在の取引サイクルで早期に利益を確定することです。結果が変わる可能性が低い安全な時間範囲内で、注文を早期にキャンセルして利益を最大化できます。"
+                }
+              },
+              "hints": {
+                "minSize": "最小5シェア",
+                "outcome": "特定の結果を選択するか、両方を取引",
+                "priceRange": "$0.01から$0.99の値を入力してください",
+                "timeRange": "開始時刻と終了時刻（分）（0-{max}）"
+              },
+              "modal": {
+                "titleCreate": "トレードステップを追加",
+                "titleEdit": "トレードステップを編集"
+              },
+              "outcomes": {
+                "both": "両方",
+                "down": "下",
+                "up": "上"
+              },
+              "side": {
+                "buy": "買い",
+                "sell": "売り"
+              },
+              "validation": {
+                "priceMax": "価格は最大$0.99である必要があります",
+                "priceMin": "価格は最小$0.01である必要があります",
+                "sizeMin": "シェア数は最小5である必要があります",
+                "timeRange": "終了時刻は開始時刻より後である必要があります"
+              }
+            }
+          },
+          "duplicateSuffix": "（コピー）",
+          "fields": {
+            "interval": "間隔",
+            "name": "ストラテジー名",
+            "strategyJson": "トレードステップ"
+          },
+          "placeholders": {
+            "interval": "間隔を選択",
+            "name": "ストラテジー名を入力"
+          },
+          "title": "ストラテジー詳細",
+          "titleCreate": "ストラテジーを作成",
+          "titleEdit": "ストラテジー詳細"
+        },
+        "actions": {
+          "create": "ストラテジーを作成",
+          "viewBots": "関連ボットを表示"
+        },
+        "modals": {
+          "delete": {
+            "message": "ストラテジー「{name}」を削除してもよろしいですか？",
+            "title": "ストラテジーを削除"
+          }
+        },
+        "name": "ストラテジー",
+        "searchPlaceholder": "ストラテジー名で検索",
+        "table": {
+          "amount": "取引あたりの最大金額",
+          "botCount": "ボット数",
+          "interval": "間隔",
+          "name": "名前"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "月額",
+          "YEARLY": "年額"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "ダウングレード",
+            "limits": {
+              "bots": "ボット",
+              "maxStrategyAmount": "最大ストラテジー金額",
+              "statsAccess": "統計へのアクセス",
+              "strategies": "ストラテジー",
+              "wallets": "ウォレット"
+            },
+            "perMonth": "/月",
+            "perYear": "/年",
+            "pricing": {
+              "monthlyEquivalent": "{price}/月",
+              "originalPrice": "通常 {price}",
+              "save": "{amount}お得"
+            },
+            "renew": "更新",
+            "statsAccess": {
+              "full": "フルアクセス",
+              "limited": "部分アクセス",
+              "none": "利用不可"
+            },
+            "unlimited": "無制限",
+            "upgrade": "アップグレード"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "追加日数",
+            "confirm": "確認",
+            "convertedDays": "変換日数",
+            "creditAmount": "クレジット: {amount}",
+            "currentRemaining": "現在の残り",
+            "days": "{count}日",
+            "downgrade": {
+              "description": "残りのサブスクリプション価値は、下位プランのより多くの日数に変換されます。返金は行われません。",
+              "title": "プランのダウングレード"
+            },
+            "expiresAt": "有効期限: {date}",
+            "newExpiration": "新しい有効期限",
+            "payAndConfirm": "{amount}を支払う",
+            "periodDays": "期間日数",
+            "renew": {
+              "description": "更新すると、現在のサブスクリプションに{days}日が追加されます。",
+              "title": "サブスクリプションの更新"
+            },
+            "totalAmount": "合計金額",
+            "upgrade": {
+              "description": "残りのサブスクリプション価値は、新しいプランの日数に変換されます。差額のみお支払いいただきます。",
+              "fullyCovered": "残りのサブスクリプションでこのアップグレードを完全にカバーできます！追加のお支払いは不要です。",
+              "title": "プランのアップグレード"
+            },
+            "years": "{count}年",
+            "yearsAndDays": "{years}年{days}日"
+          }
+        },
+        "currentPlan": "現在のプラン",
+        "expired": "期限切れ",
+        "expiredWarning": {
+          "description": "サブスクリプションの有効期限が切れました。現在、機能が制限された無料プランをご利用中です。以前のプランの特典を復元するにはアップグレードしてください。",
+          "title": "サブスクリプション期限切れ"
+        },
+        "expiresAt": "有効期限",
+        "name": "サブスクリプション",
+        "neverExpires": "無期限",
+        "payment": {
+          "createChargeFailed": "支払いの作成に失敗しました。もう一度お試しください。",
+          "noPaymentNeeded": "このアクションに対して支払いは不要です。",
+          "title": "支払い"
+        },
+        "paymentHistory": "支払い履歴",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "サブスクリプションに戻る",
+              "description": "お支払いが完了しませんでした。お客様のアカウントへの請求はありません。",
+              "name": "支払いキャンセル",
+              "reasons": {
+                "cancelled": "支払いをキャンセルしました",
+                "expired": "支払いセッションが期限切れになりました",
+                "insufficientFunds": "ウォレットの残高が不足しています",
+                "networkError": "ネットワークまたはブロックチェーンエラー",
+                "title": "考えられる理由："
+              },
+              "retryPayment": "支払いを再試行",
+              "title": "支払いキャンセル"
+            },
+            "success": {
+              "backToSubscription": "サブスクリプションに戻る",
+              "confirmed": {
+                "description": "ご使用の {plan} サブスクリプションが有効になりました。",
+                "title": "支払いが成功しました！"
+              },
+              "expired": {
+                "createNew": "新しい支払いを作成",
+                "description": "支払いセッションが期限切れになりました。新しい支払いを作成してください。",
+                "title": "支払い期限切れ"
+              },
+              "failed": {
+                "description": "支払いを完了できませんでした。もう一度お試しください。",
+                "title": "支払い失敗",
+                "tryAgain": "もう一度試す"
+              },
+              "loading": {
+                "description": "支払いステータスを取得中",
+                "title": "読み込み中..."
+              },
+              "name": "支払いステータス",
+              "notFound": {
+                "description": "この支払いレコードが見つかりませんでした。",
+                "title": "支払いが見つかりません"
+              },
+              "pending": {
+                "continuePayment": "支払いを続行",
+                "description": "支払いはブロックチェーンで処理されています。",
+                "note": "暗号資産の支払いが確認されるまで数分かかる場合があります。支払いが確認されたら、このページは自動的に更新されます。",
+                "title": "支払い処理中"
+              }
+            }
+          },
+          "name": "支払い履歴",
+          "status": {
+            "CONFIRMED": "確認済み",
+            "EXPIRED": "有効期限切れ",
+            "FAILED": "失敗",
+            "PENDING": "保留中"
+          },
+          "table": {
+            "amount": "金額",
+            "billingCycle": "請求サイクル",
+            "chargeCode": "チャージコード",
+            "createdAt": "作成日時",
+            "plan": "プラン",
+            "status": "ステータス"
+          },
+          "title": "支払い履歴"
+        },
+        "plans": {
+          "description": "ニーズに合ったプランをお選びください",
+          "title": "利用可能なプラン"
+        },
+        "savePercent": "{percent}%を節約",
+        "usage": {
+          "bots": "ボット",
+          "strategies": "戦略",
+          "wallets": "ウォレット"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "購入",
+              "CLAIM": "換金",
+              "SELL": "売却"
+            },
+            "notice": "トランザクション記録はリアルタイムではなく、遅延が生じる可能性があります。遅延はマーケット決済サイクルに関連しています。確定済みマーケットからのトランザクションのみがここに表示されます。未確定マーケットからのトランザクションは決済後に表示されます。",
+            "profitHistory": {
+              "title": "利益履歴(過去30日間)"
+            },
+            "table": {
+              "action": "アクション",
+              "amount": "金額",
+              "market": "マーケット",
+              "timestamp": "日時",
+              "transactionHash": "トランザクションハッシュ"
+            },
+            "title": "取引履歴",
+            "tooltip": {
+              "marketLink": "Polymarketで表示"
+            }
+          }
+        },
+        "actions": {
+          "create": "ウォレットを作成",
+          "import": "ウォレットをインポート",
+          "transactions": "取引履歴",
+          "viewBots": "関連ボットを表示"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "削除する前に、秘密鍵をエクスポートしてバックアップしていることを確認してください。秘密鍵がないと、このウォレット内のすべての資金へのアクセスを永久に失います。",
+            "message": "ウォレット\"{name}\"を削除してもよろしいですか？",
+            "title": "ウォレットを削除",
+            "warning": "ウォレットの削除は取り消せません。すべてのウォレットデータは当システムから永久に削除されます。"
+          },
+          "DepositModal": {
+            "address": "入金アドレス",
+            "bridgeAddress": "アセットブリッジアドレス",
+            "note": "入金アドレスはPolymarketによって生成された{bridgeAddress}です。Polymarketがサポートするすべての暗号資産を送信できます。資金は自動的にPolygonにブリッジされUSDC.eに変換されます。Polygon上のUSDC.eを直接送信する場合（例：当社の出金機能を使用している場合）は、ファンダーアドレスに直接資金を送信できます。",
+            "selectChain": "チェーンを選択",
+            "supportedCrypto": "Polymarketがサポートする暗号資産",
+            "title": "入金"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "新しいウォレットが一意の秘密鍵で作成されます。取引開始前にGnosis Safeコントラクトがデプロイされます。",
+              "title": "新規ウォレット作成"
+            },
+            "edit": {
+              "title": "ウォレットを編集"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "リスクを理解し、秘密鍵をエクスポートすることに同意します",
+            "connectToPolymarket": "ウォレットをPolymarketに接続",
+            "copyWarning": "目のアイコンをクリックして秘密鍵を表示します。周りに誰もいないことを確認してください。\nクリップボードにコピーした場合は、漏洩を防ぐため後でクリップボードをクリアしてください。",
+            "decryptFailed": "秘密鍵の復号化に失敗しました",
+            "funderNotice": "注意：お客様の資金は、この秘密鍵から派生したウォレットアドレスではなく、ファンダーアドレス（Gnosis Safeコントラクト）に保存されています。ファンダーアドレスはお客様の秘密鍵で制御されるスマートコントラクトです。このキーを暗号資産ウォレットにインポートすると、異なるアドレスが表示され、そこに資産が見つかりません。資金にアクセスするには、{connectToPolymarket}して{withdraw}機能を使用してください。",
+            "title": "秘密鍵をエクスポート",
+            "warningDetail": "秘密鍵を誰とも共有しないでください。秘密鍵にアクセスできる人は誰でもウォレット内のすべての資産を盗むことができます。",
+            "withdraw": "出金"
+          },
+          "ImportModal": {
+            "description": "秘密鍵を使用して既存のウォレットをインポートします。新規ウォレットの場合、取引開始前にGnosis Safeコントラクトがデプロイされます。",
+            "encryptFailed": "秘密鍵の暗号化に失敗しました",
+            "privateKeyPlaceholder": "秘密鍵を入力 (0x...)",
+            "title": "ウォレットをインポート",
+            "warning": {
+              "description": "Polymarketからエクスポートした秘密鍵をインポートしないでください。これらのキーはプロキシウォレット（MagicLinkでメールまたはGoogleログインで作成）に属し、当サービスはGnosis Safeウォレットが必要です。",
+              "learnMore": "Polymarketウォレットの種類について詳しく知る"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "送信元ウォレット",
+            "info": "転送はPolymarket Relayer（ガスレス）を経由して処理されます。トランザクションは即座に送信されますが、オンチェーン確認に数分かかる場合があります。",
+            "submitted": "転送リクエストが正常に送信されました。PolygonScanでトランザクションステータスを追跡できます。",
+            "title": "内部転送",
+            "toWallet": "受取先ウォレット",
+            "toWalletHint": "資金を転送するウォレットを選択",
+            "walletActivating": "転送前にウォレットをアクティベートする必要があります。アクティベーションと転送は自動的に処理されます。数分かかる場合があります。PolygonScanでウォレットアドレスを確認して進行状況を監視できます。"
+          },
+          "WithdrawModal": {
+            "info": "出金はPolymarket Relayer（ガスレス）を経由して処理されます。トランザクションは即座に送信されますが、オンチェーン確認に数分かかる場合があります。",
+            "recipientAddress": "受取人アドレス",
+            "recipientPlaceholder": "Polygonアドレスを入力 (0x...)",
+            "submitted": "出金リクエストが正常に送信されました。PolygonScanでトランザクションステータスを追跡できます。",
+            "title": "出金",
+            "walletActivating": "出金前にウォレットをアクティベートする必要があります。アクティベーションと出金は自動的に処理されます。数分かかる場合があります。PolygonScanでウォレットアドレスを確認して進行状況を監視できます。"
+          }
+        },
+        "labels": {
+          "availableBalance": "利用可能残高",
+          "viewOnPolygonscan": "PolygonScanで表示",
+          "viewWalletOnPolygonscan": "ウォレットをPolygonScanで表示",
+          "walletName": "ウォレット名"
+        },
+        "messages": {
+          "insufficientBalance": "金額が利用可能残高を超えています"
+        },
+        "name": "ウォレット",
+        "placeholders": {
+          "amount": "金額を入力",
+          "walletName": "ウォレット名を入力"
+        },
+        "searchPlaceholder": "ウォレット名で検索",
+        "status": {
+          "ACTIVE": "アクティブ",
+          "DEPLOYING": "デプロイ中",
+          "FAILED": "失敗",
+          "INACTIVE": "非アクティブ"
+        },
+        "table": {
+          "balance": "残高",
+          "funder": "ファンダーアドレス",
+          "name": "名前",
+          "status": "ステータス"
+        },
+        "tooltips": {
+          "funderHelp": "FunderアドレスはあなたのPolymarket Gnosis Safeウォレットです。Polygonに展開されたスマートコントラクトウォレットで、あなたのポジションとUSDC.eを保有しています。EOAウォレットによって制御され、ガスレストランザクションを可能にします。",
+          "funderHelpLink": "詳細を見る",
+          "inactive": "取引開始前にウォレットが自動的にアクティベートされます。"
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "別のメールアドレスを使用",
+        "codeHint": "{email}に送信された6桁のコードを入力",
+        "codeLabel": "認証コード",
+        "emailLabel": "メールアドレス",
+        "emailPlaceholder": "メールアドレスを入力",
+        "name": "ログイン",
+        "noAccount": "アカウントをお持ちではありませんか？",
+        "sendCode": "認証コードを送信",
+        "signInWithGithub": "GitHubでログイン",
+        "signInWithGoogle": "Googleでログイン",
+        "signUp": "サインアップ",
+        "subtitle": "続行するにはアカウントにサインインしてください",
+        "title": "おかえりなさい",
+        "verify": "認証してサインイン"
+      },
+      "sign-up": {
+        "agreeToTerms": "{termsOfService}と{privacyPolicy}に同意します",
+        "changeEmail": "別のメールアドレスを使用",
+        "codeHint": "{email}に送信された6桁のコードを入力",
+        "codeLabel": "認証コード",
+        "createAccount": "アカウントを作成",
+        "emailLabel": "メールアドレス",
+        "emailPlaceholder": "メールアドレスを入力",
+        "haveAccount": "すでにアカウントをお持ちですか？",
+        "inviteCodeLabel": "招待コード",
+        "inviteCodePlaceholder": "招待コードを入力",
+        "marketingEmailsLabel": "製品のアップデートとおすすめ情報を送信してください",
+        "name": "サインアップ",
+        "sendCode": "認証コードを送信",
+        "signIn": "サインイン",
+        "signUpWithGithub": "GitHubで登録",
+        "signUpWithGoogle": "Googleで登録",
+        "subtitle": "アカウントを作成して始めましょう",
+        "title": "アカウントを作成"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "プライバシーポリシー"
+      },
+      "terms-of-service": {
+        "title": "サービス利用規約"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "無効な認証コードです",
+      "AUTH_OAUTH_FAILED": "認証に失敗しました。もう一度お試しください。",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "別のコードをリクエストする前に60秒お待ちください",
+      "AUTH_OTP_IP_RATE_LIMITED": "リクエストが多すぎます。後でもう一度お試しください。",
+      "AUTH_TURNSTILE_FAILED": "セキュリティ認証に失敗しました。もう一度お試しください。",
+      "AUTH_USER_ALREADY_EXISTS": "このメールアドレスのアカウントは既に存在します",
+      "AUTH_USER_NOT_FOUND": "このメールアドレスのアカウントが見つかりません",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "認証コードの有効期限が切れています",
+      "BOT_ALREADY_EXISTS": "このマーケットのボットは既に存在します",
+      "BOT_ENABLED_CANNOT_DELETE": "実行中のボットは削除できません",
+      "BOT_ENABLED_CANNOT_MODIFY": "実行中のボットは変更できません",
+      "BOT_NOT_FOUND": "ボットが見つかりません",
+      "BOT_WALLET_DEPLOYING": "ウォレットを現在デプロイ中です",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "ボットを開始するためのウォレット残高が不足しています",
+      "BOT_WALLET_MARKET_IN_USE": "このウォレットは既にこのマーケットで使用されています",
+      "COMMON_FORBIDDEN_ERROR": "アクセスが禁止されています",
+      "COMMON_NETWORK_ERROR": "ネットワークエラーが発生しました",
+      "COMMON_NOT_FOUND_ERROR": "リソースが見つかりません",
+      "COMMON_RATE_LIMIT_EXCEEDED": "リクエストが多すぎます。後でもう一度お試しください",
+      "COMMON_SERVER_ERROR": "内部サーバーエラー",
+      "COMMON_TIMEOUT_ERROR": "リクエストタイムアウト",
+      "COMMON_UNAUTHORIZED_ERROR": "認証されていないアクセスです",
+      "COMMON_UNKNOWN_ERROR": "不明なエラーが発生しました",
+      "COMMON_VALIDATION_ERROR": "検証に失敗しました",
+      "INTERNAL_API_KEY_INVALID": "無効なAPIキーです",
+      "INTERNAL_API_KEY_MISSING": "APIキーは必須です",
+      "INVALID_EMAIL": "無効なメールアドレスです",
+      "INVITE_CODE_EXPIRED": "招待コードの有効期限が切れています",
+      "INVITE_CODE_INVALID": "無効な招待コードです",
+      "INVITE_CODE_REQUIRED": "招待コードは必須です",
+      "INVITE_CODE_USAGE_EXCEEDED": "招待コードが使用制限に達しました",
+      "PAYMENT_CHARGE_CREATION_FAILED": "支払いチャージの作成に失敗しました。後でもう一度お試しください。",
+      "PAYMENT_NOT_FOUND": "支払いが見つかりません",
+      "STRATEGY_ALREADY_EXISTS": "戦略は既に存在します",
+      "STRATEGY_HAS_BOTS": "ボットで使用されているストラテジーは削除できません",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "作成後に間隔は変更できません",
+      "STRATEGY_INVALID_JSON": "無効なストラテジー設定です",
+      "STRATEGY_NOT_FOUND": "ストラテジーが見つかりません",
+      "STRATEGY_NO_BUY_STEPS": "ストラテジーには少なくとも1つの買いステップが必要です",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "ボットの上限に達しました。より多くのボットを作成するにはプランをアップグレードしてください。",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "統計アクセスが拒否されました。この機能にアクセスするにはプランをアップグレードしてください。",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "戦略金額がプランの上限を超えています。より高い金額を使用するにはアップグレードしてください。",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "戦略の上限に達しました。より多くの戦略を作成するにはプランをアップグレードしてください。",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "ウォレットの上限に達しました。より多くのウォレットを作成するにはプランをアップグレードしてください。",
+      "WALLET_ALREADY_EXISTS": "ウォレットは既に存在します",
+      "WALLET_ALREADY_IN_USE": "このウォレットは既に別のユーザーが使用しています",
+      "WALLET_CREATION_FAILED": "ウォレットの作成に失敗しました",
+      "WALLET_DEPLOYING": "ウォレットを現在デプロイ中です。しばらく待ってから再度お試しください。",
+      "WALLET_HAS_BOTS": "ボットで使用されているウォレットは削除できません",
+      "WALLET_INSUFFICIENT_BALANCE": "出金するための残高が不足しています",
+      "WALLET_INVALID_PRIVATE_KEY": "無効な秘密鍵形式です",
+      "WALLET_NOT_FOUND": "ウォレットが見つかりません",
+      "WALLET_WITHDRAW_FAILED": "出金に失敗しました"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "あなたの認証コード：",
+          "expiry": "このコードは10分後に期限切れになります。",
+          "ignore": "このコードを要求しなかった場合は、このメールを無視してください。",
+          "subject": "あなたの認証コード",
+          "title": "認証コード"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "利用規約とプライバシーポリシーに同意する必要があります"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "最小金額は最大金額以下である必要があります"
+      },
+      "billingCycle": {
+        "invalid": "無効な請求サイクルです"
+      },
+      "botDisableReason": {
+        "required": "ボット無効化の理由は必須です"
+      },
+      "bots": {
+        "required": "少なくとも1つのボットが必要です",
+        "tooMany": "一度に{maximum}個を超えるボットを作成することはできません"
+      },
+      "email": {
+        "invalid": "無効なメールアドレス形式です",
+        "required": "メールアドレスは必須です"
+      },
+      "inviteCode": {
+        "invalid": "無効な招待コード形式です",
+        "required": "招待コードは必須です"
+      },
+      "marketInterval": {
+        "invalid": "無効な間隔値です"
+      },
+      "marketSymbol": {
+        "invalid": "無効なマーケットシンボルです"
+      },
+      "privateKey": {
+        "invalid": "無効な秘密鍵形式です（0x + 64桁の16進数である必要があります）",
+        "required": "秘密鍵は必須です"
+      },
+      "publicKey": {
+        "invalid": "無効なRSA公開鍵形式です",
+        "required": "公開鍵は必須です"
+      },
+      "strategyId": {
+        "required": "ストラテジーIDは必須です"
+      },
+      "strategyJson": {
+        "invalid": "無効なストラテジー設定です",
+        "required": "ストラテジー設定は必須です"
+      },
+      "strategyName": {
+        "required": "ストラテジー名は必須です",
+        "tooLong": "ストラテジー名は{maximum}文字以内である必要があります"
+      },
+      "subscriptionPlan": {
+        "invalid": "無効なサブスクリプションプランです"
+      },
+      "timeRange": {
+        "startAfterEnd": "開始時刻は終了時刻以下である必要があります"
+      },
+      "turnstileToken": {
+        "invalid": "セキュリティ認証に失敗しました",
+        "required": "セキュリティ認証を完了してください"
+      },
+      "verificationCode": {
+        "invalid": "無効な認証コード形式です（6桁である必要があります）",
+        "required": "認証コードは必須です"
+      },
+      "verificationToken": {
+        "invalid": "無効な認証トークン形式です",
+        "required": "認証トークンは必須です"
+      },
+      "walletAddress": {
+        "invalid": "無効なウォレットアドレス形式です（0x + 40桁の16進数である必要があります）",
+        "required": "ウォレットアドレスは必須です"
+      },
+      "walletName": {
+        "required": "ウォレット名は必須です",
+        "tooLong": "ウォレット名は{maximum}文字以内である必要があります"
+      },
+      "withdrawAmount": {
+        "invalid": "無効な出金金額です",
+        "min": "金額は0より大きい必要があります",
+        "required": "出金金額は必須です"
+      }
+    }
+  }
+}

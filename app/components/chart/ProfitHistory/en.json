@@ -1,0 +1,6 @@
+{
+  "expense": "Expense (Buy)",
+  "income": "Income (Sell + Claim)",
+  "netProfit": "Net Profit",
+  "txCount": "Transactions"
+}

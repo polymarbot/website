@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "Quay lại",
+      "cancel": "Hủy",
+      "clear": "Xóa",
+      "close": "Đóng",
+      "confirm": "Xác nhận",
+      "continue": "Tiếp tục",
+      "create": "Tạo",
+      "delete": "Xóa",
+      "deposit": "Gửi tiền",
+      "duplicate": "Nhân đôi",
+      "edit": "Chỉnh sửa",
+      "export": "Xuất",
+      "goBack": "Quay lại",
+      "import": "Nhập",
+      "install": "Cài đặt",
+      "learnMore": "Tìm hiểu thêm",
+      "more": "Thêm",
+      "next": "Tiếp theo",
+      "ok": "OK",
+      "refresh": "Làm mới",
+      "reload": "Tải lại",
+      "reportIssue": "Báo cáo vấn đề",
+      "retry": "Thử lại",
+      "save": "Lưu",
+      "search": "Tìm kiếm",
+      "signIn": "Đăng nhập",
+      "signOut": "Đăng xuất",
+      "submit": "Gửi",
+      "transfer": "Chuyển",
+      "uninstall": "Gỡ cài đặt",
+      "viewDetails": "Xem chi tiết",
+      "withdraw": "Rút tiền"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Bạn có chắc chắn muốn đăng xuất?",
+        "title": "Đăng xuất"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Hành động",
+      "active": "Hoạt động",
+      "alert": "Cảnh báo",
+      "all": "Tất cả",
+      "amount": "Số tiền",
+      "chain": "Chuỗi",
+      "confirmation": "Xác nhận",
+      "createdAt": "Được tạo lúc",
+      "dateRange": "Phạm vi ngày",
+      "delete": "Xóa",
+      "deleteConfirmation": "Xác nhận xóa",
+      "email": "Email",
+      "error": "Lỗi",
+      "max": "Tối đa",
+      "new": "Mới",
+      "no": "Không",
+      "optional": "Tùy chọn",
+      "or": "hoặc",
+      "password": "Mật khẩu",
+      "private": "Riêng tư",
+      "privateKey": "Khoá Riêng Tư",
+      "success": "Thành công",
+      "token": "Mã Thông Báo",
+      "transactionHash": "Hash Giao Dịch",
+      "unknown": "Không xác định",
+      "unlimited": "Không giới hạn",
+      "updatedAt": "Được cập nhật lúc",
+      "yes": "Có"
+    },
+    "messages": {
+      "createSuccess": "Tạo thành công",
+      "deleteSuccess": "Xóa thành công",
+      "importSuccess": "Nhập thành công",
+      "saveSuccess": "Lưu thành công",
+      "submitSuccess": "Gửi thành công",
+      "updateSuccess": "Cập nhật thành công"
+    },
+    "statuses": {
+      "closing": "Đang đóng...",
+      "completed": "Đã hoàn thành",
+      "failed": "Thất bại",
+      "loading": "Đang tải...",
+      "pending": "Đang chờ",
+      "processing": "Đang xử lý...",
+      "success": "Thành công"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Chế độ tối",
+        "lightMode": "Chế độ sáng",
+        "switchToDark": "Chuyển sang chế độ tối",
+        "switchToLight": "Chuyển sang chế độ sáng"
+      },
+      "Footer": {
+        "copyright": "© {year} Bảo lưu mọi quyền."
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "và {count} cái khác...",
+        "message": "Mục này được sử dụng bởi {count} bot. Vui lòng xóa chúng trước:"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Chuyển ngôn ngữ"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 phút",
+          "1d": "1 ngày",
+          "1h": "1 giờ",
+          "4h": "4 giờ"
+        },
+        "placeholder": "Chọn khoảng thời gian"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Chọn ký hiệu"
+      },
+      "Navbar": {
+        "collapseSidebar": "Thu gọn thanh bên",
+        "expandSidebar": "Mở rộng thanh bên",
+        "goBack": "Quay lại"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Báo cáo vấn đề"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "Xem chi tiết chiến lược",
+        "viewStats": "Xem thống kê"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "Tất cả thời gian",
+          "custom": "Tùy chỉnh",
+          "month": "30 ngày qua",
+          "quarter": "90 ngày qua",
+          "week": "7 ngày qua"
+        },
+        "labels": {
+          "dateRange": "Phạm vi ngày",
+          "interval": "Khoảng thời gian",
+          "symbol": "Ký hiệu"
+        },
+        "upgradeDialog": {
+          "cancel": "Hủy",
+          "message": "Nâng cấp lên Plus hoặc cao hơn để truy cập thêm tùy chọn phạm vi ngày bao gồm phạm vi ngày tùy chỉnh.",
+          "title": "Yêu cầu nâng cấp",
+          "upgrade": "Nâng cấp ngay"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Tạo chiến lược mới",
+        "emptyMessage": "Không có chiến lược nào",
+        "placeholder": "Chọn một chiến lược"
+      },
+      "UpgradeOverlay": {
+        "description": "Nâng cấp gói đăng ký của bạn để mở khóa tính năng này và truy cập thống kê toàn diện.",
+        "title": "Tính năng cao cấp",
+        "upgradeButton": "Nâng cấp ngay"
+      },
+      "WalletSelect": {
+        "createNew": "Tạo ví mới",
+        "emptyMessage": "Không có ví nào",
+        "placeholder": "Chọn một ví"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Chi phí (Mua)",
+        "income": "Thu nhập (Bán + Nhận)",
+        "netProfit": "Lợi nhuận ròng",
+        "txCount": "Giao dịch"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Hành động",
+        "pageReport": "Hiển thị {'{first}'} đến {'{last}'} trong {'{totalRecords}'}",
+        "pageReportMobile": "Tổng: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Xóa",
+        "confirmationText": "XÓA",
+        "defaultMessage": "Hành động này không thể hoàn tác. Vui lòng đảm bảo bạn đã sao lưu mọi dữ liệu quan trọng trước khi tiếp tục.",
+        "inputLabel": "Nhập {0} để xác nhận xóa",
+        "title": "Xóa"
+      },
+      "CopyButton": {
+        "copied": "Đã sao chép!",
+        "copyToClipboard": "Sao chép vào bộ nhớ tạm"
+      },
+      "DataTable": {
+        "empty": "Không có dữ liệu",
+        "filterAll": "Tất cả",
+        "filterApply": "Áp dụng",
+        "filterClear": "Xóa"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Ngày kết thúc",
+        "startPlaceholder": "Ngày bắt đầu",
+        "to": "đến"
+      },
+      "EmptyState": {
+        "defaultMessage": "Không có dữ liệu"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "Không có nhật ký nào",
+        "refresh": "Làm mới",
+        "scrollToBottom": "Cuộn xuống dưới cùng"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Dán từ bộ nhớ tạm",
+        "pasted": "Đã dán!"
+      },
+      "SearchSelect": {
+        "createNew": "Tạo mới",
+        "noItems": "Không có tùy chọn nào",
+        "noSearchItems": "Không tìm thấy kết quả",
+        "searchPlaceholder": "Tìm kiếm..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Khởi chạy ứng dụng",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxAmount": "{amount} Tối đa mỗi Chiến lược",
+          "strategies": "{count} Chiến lược",
+          "wallets": "{count} Ví"
+        },
+        "getStarted": "Bắt đầu miễn phí",
+        "perMonth": "/tháng",
+        "subtitle": "Chọn gói phù hợp với nhu cầu giao dịch của bạn",
+        "title": "Giá cả đơn giản, suốt"
+      },
+      "tagline": "Tự động hóa chiến lược giao dịch của bạn",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Bot của chúng tôi giám sát thị trường và thực hiện giao dịch 24/7 mà không cần sự can thiệp thủ công.",
+            "title": "Hoạt động 24/7"
+          },
+          "easySetup": {
+            "description": "Không cần mã hóa. Tạo chiến lược với các tham số đơn giản và triển khai trong vài phút.",
+            "title": "Thiết lập dễ dàng"
+          },
+          "gasless": {
+            "description": "Giao dịch mà không có phí gas bằng cách sử dụng hợp đồng Gnosis Safe của Polymarket.",
+            "title": "Giao dịch không Gas"
+          },
+          "multiWallet": {
+            "description": "Quản lý nhiều ví để đa dạng hóa danh mục chiến lược giao dịch của bạn.",
+            "title": "Đa ví"
+          },
+          "realTimeAnalytics": {
+            "description": "Giám sát toàn diện hiệu suất chiến lược của bạn bằng các bảng điều khiển, thống kê và nhật ký chi tiết.",
+            "title": "Phân tích thời gian thực"
+          },
+          "strategyStats": {
+            "description": "Theo dõi hiệu suất chiến lược và sử dụng các chiến lược hiệu suất cao nhất để bắt đầu kiếm lợi nhuận nhanh.",
+            "title": "Phân tích chiến lược"
+          }
+        },
+        "title": "Tại sao chọn chúng tôi"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Tạo ví proxy Polymarket (Gnosis Safe)",
+            "title": "Thêm Ví"
+          },
+          "createStrategies": {
+            "description": "Xác định các quy tắc giao dịch và tham số của bạn",
+            "title": "Tạo Chiến lược"
+          },
+          "deployBots": {
+            "description": "Khởi chạy bot của bạn và theo dõi chúng giao dịch tự động",
+            "title": "Triển khai Bot"
+          },
+          "signUp": {
+            "description": "Tạo tài khoản của bạn trong vài giây",
+            "title": "Đăng ký"
+          }
+        },
+        "subtitle": "Bắt đầu trong vài phút với quá trình 4 bước đơn giản của chúng tôi",
+        "title": "Cách hoạt động"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "Dừng",
+              "ENABLED": "Bắt đầu"
+            },
+            "fun-logs": {
+              "notice": "Nhật ký chạy không phải là thời gian thực và có độ trễ. Chúng chỉ để xem xét lịch sử và khắc phục sự cố, không phải để đánh giá trạng thái hiện tại của bot. Chỉ giữ nhật ký từ tháng vừa rồi.",
+              "title": "Nhật ký chạy"
+            },
+            "info": {
+              "strategy": "Chiến lược",
+              "wallet": "Ví"
+            },
+            "reason": {
+              "USER_ACTION": "Hành động của người dùng",
+              "WALLET_INSUFFICIENT_BALANCE": "Số dư ví không đủ",
+              "WALLET_TRANSACTION_ERROR": "Lỗi giao dịch"
+            },
+            "table": {
+              "action": "Hành động",
+              "operatedAt": "Được thao tác lúc",
+              "reason": "Lý do"
+            },
+            "tabs": {
+              "logs": "Nhật ký chạy",
+              "operations": "Hoạt động"
+            },
+            "title": "Lịch sử chạy Bot"
+          }
+        },
+        "actions": {
+          "batchDelete": "Xóa",
+          "batchDisable": "Dừng",
+          "batchEnable": "Bắt đầu",
+          "create": "Tạo",
+          "viewRunHistory": "Lịch sử chạy"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "Xóa tất cả",
+              "disableAll": "Dừng tất cả",
+              "enableAll": "Bắt đầu tất cả"
+            },
+            "menu": {
+              "byConditions": "Theo điều kiện"
+            },
+            "messages": {
+              "deleteSuccess": "Bot đã xóa thành công",
+              "disableSuccess": "Bot đã dừng thành công",
+              "enableSuccess": "Bot bắt đầu thành công",
+              "noBotsToDelete": "Không có bot để xóa (chỉ có thể xóa bot đã dừng)",
+              "noBotsToDisable": "Không có bot để dừng",
+              "noBotsToEnable": "Không có bot để bắt đầu",
+              "resultDeleteSkipped": "{count} bot không thể xóa (đang chạy).",
+              "resultDeleted": "{count} bot đã xóa thành công.",
+              "resultEnableSkipped": "{count} bot không thể bắt đầu do số dư không đủ hoặc trạng thái ví.",
+              "resultEnabled": "{count} bot bắt đầu thành công.",
+              "resultPending": "{count} bot đang chờ kích hoạt ví.",
+              "resultPendingAutoStart": "{count} bot đang chờ kích hoạt ví và sẽ tự động bắt đầu sau khi ví được kích hoạt."
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "Tất cả bot đã dừng sắp bị xóa. Hành động này không thể hoàn tác. Bạn có chắc chắn muốn xóa các bot này không?",
+                "title": "Xóa Bot"
+              },
+              "batchDisable": {
+                "message": "Tất cả bot đang chạy sắp dừng. Tuy nhiên, các đơn đặt hàng đã được đặt sẽ không bị hủy tự động. Bạn có chắc chắn muốn dừng tất cả bot không?",
+                "title": "Dừng Bot"
+              },
+              "batchEnable": {
+                "message": "Tất cả bot đã dừng sắp bắt đầu. Sau khi bắt đầu, chúng sẽ bắt đầu sử dụng tiền trong ví của chúng để đặt lệnh, điều này có thể dẫn đến lợi nhuận hoặc tổn thất. Bạn có chắc chắn muốn bắt đầu tất cả bot không?",
+                "title": "Bắt đầu Bot"
+              },
+              "byConditions": {
+                "hint": "Tất cả bot phù hợp với các điều kiện được chọn sẽ bị ảnh hưởng.",
+                "intervalDisabledHint": "Bộ lọc khoảng thời gian bị vô hiệu hóa vì đã chọn chiến lược",
+                "intervalLabel": "Khoảng thời gian",
+                "selectInterval": "Chọn khoảng thời gian",
+                "selectStrategy": "Chọn chiến lược",
+                "selectSymbol": "Chọn ký hiệu",
+                "selectWallet": "Chọn ví",
+                "strategyDisabledHint": "Bộ lọc chiến lược bị vô hiệu hóa vì đã chọn khoảng thời gian",
+                "strategyLabel": "Chiến lược",
+                "symbolLabel": "Ký hiệu",
+                "titleDelete": "Xóa Bot theo điều kiện",
+                "titleDisable": "Dừng Bot theo điều kiện",
+                "titleEnable": "Bắt đầu Bot theo điều kiện",
+                "walletLabel": "Ví"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "Khoảng thời gian",
+              "strategy": "Chiến lược",
+              "symbols": "Ký hiệu",
+              "wallet": "Ví"
+            },
+            "hints": {
+              "batchCreate": "Bot sẽ được tạo cho mỗi thị trường (ký hiệu + khoảng thời gian). Bỏ qua nếu ví đã có bot trên thị trường đó.",
+              "intervalFirst": "Chọn khoảng thời gian trước, sau đó chọn chiến lược phù hợp",
+              "strategyFiltered": "Chỉ các chiến lược có khoảng thời gian được chọn mới được hiển thị",
+              "symbolsOptional": "Để trống để tạo bot cho tất cả ký hiệu"
+            },
+            "messages": {
+              "createSuccess": "{count} bot được tạo thành công",
+              "noBotsToCreate": "Không có bot để tạo",
+              "resultCreated": "{count} bot được tạo thành công.",
+              "resultSkipped": "{count} bot bị bỏ qua (ví đã có bot trên những thị trường này)."
+            },
+            "modals": {
+              "result": {
+                "title": "Kết quả tạo"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "Tất cả",
+              "selectStrategy": "Chọn chiến lược",
+              "selectWallet": "Chọn ví"
+            },
+            "title": "Tạo Bot hàng loạt"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "Số dư yêu cầu là tổng của tất cả bot hoạt động trên ví này:\nMỗi bot yêu cầu = Số tiền tối đa mỗi giao dịch × {multiplier}",
+            "current": "Số dư hiện tại",
+            "description": "Số dư ví không đủ để hỗ trợ tất cả bot hoạt động. Bạn không thể bắt đầu bot này cho đến khi đáp ứng yêu cầu số dư.",
+            "required": "Yêu cầu (tất cả Bot hoạt động)",
+            "shortfall": "Thiếu",
+            "suggestion": "Vui lòng gửi tiền để bao phủ khoảng thiếu hoặc dừng các bot khác để giải phóng số dư yêu cầu."
+          }
+        },
+        "messages": {
+          "deleteSuccess": "Bot đã xóa thành công",
+          "disableSuccess": "Bot đã dừng thành công",
+          "enableSuccess": "Bot bắt đầu thành công",
+          "walletActivating": "Ví đang được kích hoạt, bot sẽ bắt đầu khi ví hoạt động"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "Bạn có chắc chắn muốn xóa {count} bot không? Hành động này không thể hoàn tác.",
+            "title": "Xóa Bot hàng loạt"
+          },
+          "batchDisable": {
+            "message": "Bạn có chắc chắn muốn dừng {count} bot không?",
+            "title": "Dừng Bot hàng loạt"
+          },
+          "batchEnable": {
+            "message": "Bạn có chắc chắn muốn bắt đầu {count} bot không?",
+            "title": "Bắt đầu Bot hàng loạt"
+          },
+          "delete": {
+            "message": "Bạn có chắc chắn muốn xóa bot này không? Hành động này không thể hoàn tác.",
+            "title": "Xóa Bot"
+          },
+          "disable": {
+            "message": "Bạn có chắc chắn muốn dừng bot này không?",
+            "title": "Dừng Bot"
+          },
+          "enable": {
+            "message": "Bạn có chắc chắn muốn bắt đầu bot này không?",
+            "title": "Bắt đầu Bot"
+          }
+        },
+        "name": "Bot",
+        "searchPlaceholder": "Tìm kiếm theo tên ví hoặc tên chiến lược",
+        "table": {
+          "market": "Thị trường",
+          "runtime": "Thời gian chạy",
+          "status": "Trạng thái",
+          "strategy": "Chiến lược",
+          "wallet": "Ví"
+        },
+        "tooltips": {
+          "disable": "Dừng bot",
+          "disabling": "Đang dừng...",
+          "enable": "Bắt đầu bot",
+          "enabling": "Đang bắt đầu...",
+          "walletDeploying": "Ví đang triển khai, không thể bắt đầu",
+          "walletFailed": "Triển khai ví thất bại"
+        },
+        "walletStatus": {
+          "DEPLOYING": "Đang triển khai",
+          "FAILED": "Thất bại"
+        }
+      },
+      "dashboard": {
+        "botCount": "Bot",
+        "name": "Bảng điều khiển",
+        "profitHistory": {
+          "title": "Lịch sử lợi nhuận (30 ngày qua)"
+        },
+        "running": "đang chạy",
+        "strategyCount": "Chiến lược",
+        "totalBalance": "Tổng số dư",
+        "walletCount": "Ví"
+      },
+      "markets": {
+        "empty": "Không tìm thấy thị trường nào",
+        "name": "Thị trường",
+        "tooltip": {
+          "enabledBots": "Bot đang chạy",
+          "totalBots": "Tổng Bot"
+        }
+      },
+      "me": {
+        "anonymous": "Ẩn danh",
+        "language": {
+          "name": "Ngôn ngữ",
+          "title": "Chọn ngôn ngữ"
+        },
+        "name": "Tôi"
+      },
+      "rankings": {
+        "apr": {
+          "description": "Tỷ lệ lợi nhuận (Tổng bản ghi)",
+          "title": "Xếp hạng APR"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "Tạo chiến lược",
+              "editStrategy": "Chỉnh sửa chiến lược"
+            },
+            "myStrategy": "Chiến lược của tôi"
+          }
+        },
+        "filters": {
+          "amountRange": "Phạm vi số tiền"
+        },
+        "hitRate": {
+          "description": "Tham gia / Tổng bản ghi",
+          "title": "Xếp hạng tỷ lệ trúng"
+        },
+        "name": "Xếp hạng",
+        "profitRate": {
+          "description": "Tổng lợi nhuận / Tổng chi phí (Tham gia)",
+          "title": "Xếp hạng tỷ lệ lợi nhuận"
+        },
+        "title": "Xếp hạng chiến lược",
+        "upgradeRequired": {
+          "description": "Nâng cấp lên Pro hoặc cao hơn để truy cập xếp hạng chiến lược và thống kê chi tiết.",
+          "title": "Yêu cầu nâng cấp"
+        },
+        "winRate": {
+          "description": "Có lợi nhuận / Tham gia",
+          "title": "Xếp hạng tỷ lệ thắng"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "Thống kê"
+          },
+          "autoNameNoSteps": "Vui lòng tạo các bước giao dịch trước",
+          "autoNameTooltip": "Tự động tạo tên chiến lược",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "Thống kê",
+              "stats": {
+                "apr": "APR",
+                "hitRate": "Tỷ lệ trúng",
+                "profitRate": "Tỷ lệ lợi nhuận",
+                "winRate": "Tỷ lệ thắng"
+              },
+              "stepCount": "{count} bước",
+              "title": "Thống kê chiến lược",
+              "upgradeRequired": {
+                "description": "Nâng cấp lên Pro hoặc cao hơn để xem thống kê chiến lược.",
+                "title": "Yêu cầu nâng cấp"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "Thêm bước"
+              },
+              "emptyState": "Chưa thêm bước giao dịch nào. Nhấp vào \"Thêm bước\" để tạo bước giao dịch đầu tiên.",
+              "stats": {
+                "buyCount": "Mua: {count}",
+                "sellCount": "Bán: {count}",
+                "stepCount": "{count}/{max} bước",
+                "totalAmount": "Số tiền tối đa mỗi giao dịch"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "Xóa",
+                "edit": "Chỉnh sửa"
+              },
+              "fields": {
+                "maxChange": "Thay đổi giá cơ sở tối đa",
+                "minChange": "Thay đổi giá cơ sở tối thiểu",
+                "once": "Một lần",
+                "outcome": "Kết quả",
+                "price": "Giá",
+                "size": "Cổ phiếu",
+                "timeRange": "Phạm vi thời gian"
+              },
+              "side": {
+                "buy": "Mua",
+                "sell": "Bán"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "Chế độ theo giá (giá > $0,50)\nTrừ khi bạn biết chiến lược giao dịch của mình rất tốt, chế độ này không được khuyến nghị vì nó có thể dẫn đến tổn thất đáng kể.",
+                "lowBuy": "Chế độ mua thấp (giá ≤ $0,50)"
+              },
+              "fields": {
+                "maxChange": "Thay đổi giá cơ sở tối đa",
+                "minChange": "Thay đổi giá cơ sở tối thiểu",
+                "once": "Thực hiện chỉ một lần",
+                "outcome": "Kết quả",
+                "price": "Giá",
+                "side": "Phía giao dịch",
+                "size": "Cổ phiếu",
+                "timeRange": "Phạm vi thời gian"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "Ở chế độ mua thấp, khi thay đổi giá cơ sở vượt quá giá trị này, bot sẽ dừng mua token tương ứng dựa trên hướng chuyển động giá. Đặt thành 0 để vô hiệu hóa giới hạn này.",
+                  "minChange": "Ở chế độ theo giá, khi thay đổi giá cơ sở giảm xuống dưới giá trị này, bot sẽ dừng mua. Đặt thành 0 để vô hiệu hóa giới hạn này.",
+                  "once": "Thông thường, trong một chu kỳ giao dịch, nếu vị trí bạn mua trước đó được bán hết, bot sẽ cố gắng đặt một lệnh mua khác. Bật tùy chọn này nếu bạn chỉ muốn giao dịch một lần mỗi chu kỳ.",
+                  "outcome": "Hướng kết quả giao dịch. Trừ khi bạn rất tự tin về hướng giá trong tương lai, nên chọn cả hai.",
+                  "price": "Giá mua mỗi cổ phiếu cho giao dịch này. Giá càng thấp, biên lợi nhuận tiềm năng càng cao, và ngược lại.",
+                  "size": "Số cổ phiếu để mua. Số cổ phiếu nhân với giá mua bằng tổng chi phí của giao dịch này.",
+                  "timeRange": "Cửa sổ thời gian hợp lệ cho lệnh mua này. Các lệnh không được điền ngoài phạm vi thời gian này sẽ bị hủy.",
+                  "timeRangeChaseUp": "Trong một chu kỳ giao dịch, sau một thời điểm nhất định, xác suất đảo ngược kết quả giảm đáng kể, làm cho việc theo giá có khả năng sinh lợi cao hơn. Do đó, hãy đặt thao tác mua bắt đầu sau thời điểm này.",
+                  "timeRangeLowBuy": "Trong một chu kỳ giao dịch, sau một thời điểm nhất định, xác suất đảo ngược kết quả giảm đáng kể, làm cho việc mua thấp có khả năng mất lợi nhuận cao hơn. Do đó, hãy đặt thao tác mua kết thúc trước thời điểm này."
+                },
+                "sell": {
+                  "price": "Giá bán mỗi cổ phiếu cho giao dịch này. Giá càng cao, biên lợi nhuận tiềm năng càng cao, và ngược lại. Nếu bạn đặt giá thấp hơn giá mua, bạn có thể hoàn thành một giao dịch lỗ.",
+                  "size": "Số cổ phiếu để bán. Số cổ phiếu nhân với giá bán bằng tổng số tiền bạn sẽ nhận từ giao dịch này.",
+                  "timeRange": "Cửa sổ thời gian hợp lệ cho lệnh bán này. Các lệnh không được điền ngoài phạm vi thời gian này sẽ bị hủy.\n\nMục đích của giới hạn thời gian này là lấy lợi nhuận sớm trong chu kỳ giao dịch hiện tại mà không giữ các lệnh bán mở cho đến khi thị trường đóng cửa. Trong một phạm vi thời gian an toàn nơi kết quả không có khả năng thay đổi, bạn có thể hủy đơn hàng sớm để tối đa hóa lợi nhuận."
+                }
+              },
+              "hints": {
+                "minSize": "Tối thiểu 5 cổ phiếu",
+                "outcome": "Chọn kết quả cụ thể hoặc giao dịch cả hai",
+                "priceRange": "Nhập giá trị từ $0,01 đến $0,99",
+                "timeRange": "Thời gian bắt đầu và kết thúc tính bằng phút (0-{max})"
+              },
+              "modal": {
+                "titleCreate": "Thêm bước giao dịch",
+                "titleEdit": "Chỉnh sửa bước giao dịch"
+              },
+              "outcomes": {
+                "both": "Cả hai",
+                "down": "Xuống",
+                "up": "Lên"
+              },
+              "side": {
+                "buy": "Mua",
+                "sell": "Bán"
+              },
+              "validation": {
+                "priceMax": "Giá phải không quá $0,99",
+                "priceMin": "Giá phải ít nhất $0,01",
+                "sizeMin": "Cổ phiếu phải ít nhất 5",
+                "timeRange": "Thời gian kết thúc phải lớn hơn thời gian bắt đầu"
+              }
+            }
+          },
+          "duplicateSuffix": "(Bản sao)",
+          "fields": {
+            "interval": "Khoảng thời gian",
+            "name": "Tên chiến lược",
+            "strategyJson": "Bước giao dịch"
+          },
+          "placeholders": {
+            "interval": "Chọn khoảng thời gian",
+            "name": "Nhập tên chiến lược"
+          },
+          "title": "Chi tiết chiến lược",
+          "titleCreate": "Tạo chiến lược",
+          "titleEdit": "Chi tiết chiến lược"
+        },
+        "actions": {
+          "create": "Tạo chiến lược",
+          "viewBots": "Xem Bot liên quan"
+        },
+        "modals": {
+          "delete": {
+            "message": "Bạn có chắc chắn muốn xóa chiến lược \"{name}\" không?",
+            "title": "Xóa chiến lược"
+          }
+        },
+        "name": "Chiến lược",
+        "searchPlaceholder": "Tìm kiếm theo tên chiến lược",
+        "table": {
+          "amount": "Số tiền tối đa mỗi giao dịch",
+          "botCount": "Bot",
+          "interval": "Khoảng thời gian",
+          "name": "Tên"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "Hàng tháng",
+          "YEARLY": "Hàng năm"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "Hạ cấp",
+            "limits": {
+              "bots": "Bot",
+              "maxStrategyAmount": "Số tiền chiến lược tối đa",
+              "statsAccess": "Truy cập thống kê",
+              "strategies": "Chiến lược",
+              "wallets": "Ví"
+            },
+            "perMonth": "/tháng",
+            "perYear": "/năm",
+            "pricing": {
+              "monthlyEquivalent": "{price}/tháng",
+              "originalPrice": "Giá gốc {price}",
+              "save": "Tiết kiệm {amount}"
+            },
+            "renew": "Gia hạn",
+            "statsAccess": {
+              "full": "Truy cập đầy đủ",
+              "limited": "Truy cập một phần",
+              "none": "Không có sẵn"
+            },
+            "unlimited": "Không giới hạn",
+            "upgrade": "Nâng cấp"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "Thêm ngày",
+            "confirm": "Xác nhận",
+            "convertedDays": "Ngày đã chuyển đổi",
+            "creditAmount": "Tín dụng: {amount}",
+            "currentRemaining": "Còn lại hiện tại",
+            "days": "{count} ngày",
+            "downgrade": {
+              "description": "Giá trị gói đăng ký còn lại của bạn sẽ được chuyển đổi thành nhiều ngày hơn trong gói cấp thấp hơn. Không hoàn lại tiền.",
+              "title": "Hạ cấp gói"
+            },
+            "expiresAt": "Hết hạn: {date}",
+            "newExpiration": "Hết hạn mới",
+            "payAndConfirm": "Thanh toán {amount}",
+            "periodDays": "Ngày kỳ hạn",
+            "renew": {
+              "description": "Gia hạn sẽ thêm {days} ngày vào gói đăng ký hiện tại của bạn.",
+              "title": "Gia hạn gói"
+            },
+            "totalAmount": "Tổng số tiền",
+            "upgrade": {
+              "description": "Giá trị gói đăng ký còn lại của bạn sẽ được chuyển đổi thành ngày trong gói mới. Bạn chỉ phải trả phần chênh lệch.",
+              "fullyCovered": "Gói đăng ký còn lại của bạn hoàn toàn bao phủ nâng cấp này! Không cần thanh toán thêm.",
+              "title": "Nâng cấp gói"
+            },
+            "years": "{count} năm | {count} năm",
+            "yearsAndDays": "{years} năm {days} ngày | {years} năm {days} ngày"
+          }
+        },
+        "currentPlan": "Gói hiện tại",
+        "expired": "Hết hạn",
+        "expiredWarning": {
+          "description": "Gói đăng ký của bạn đã hết hạn. Bây giờ bạn đang sử dụng gói Miễn phí với tính năng hạn chế. Nâng cấp để khôi phục lợi ích gói trước đó.",
+          "title": "Gói đăng ký đã hết hạn"
+        },
+        "expiresAt": "Hết hạn lúc",
+        "name": "Gói đăng ký",
+        "neverExpires": "Không bao giờ hết hạn",
+        "payment": {
+          "createChargeFailed": "Không tạo được thanh toán. Vui lòng thử lại.",
+          "noPaymentNeeded": "Không cần thanh toán cho hành động này.",
+          "title": "Thanh toán"
+        },
+        "paymentHistory": "Lịch sử thanh toán",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "Quay lại gói đăng ký",
+              "description": "Thanh toán của bạn chưa hoàn thành. Không có khoản phí nào đã được tính vào tài khoản của bạn.",
+              "name": "Thanh toán bị hủy",
+              "reasons": {
+                "cancelled": "Bạn đã hủy thanh toán",
+                "expired": "Phiên thanh toán đã hết hạn",
+                "insufficientFunds": "Số dư không đủ trong ví của bạn",
+                "networkError": "Lỗi mạng hoặc blockchain",
+                "title": "Các lý do có thể:"
+              },
+              "retryPayment": "Thử lại thanh toán",
+              "title": "Thanh toán bị hủy"
+            },
+            "success": {
+              "backToSubscription": "Quay lại gói đăng ký",
+              "confirmed": {
+                "description": "Gói đăng ký {plan} của bạn đã được kích hoạt.",
+                "title": "Thanh toán thành công!"
+              },
+              "expired": {
+                "createNew": "Tạo thanh toán mới",
+                "description": "Phiên thanh toán đã hết hạn. Vui lòng tạo thanh toán mới.",
+                "title": "Thanh toán hết hạn"
+              },
+              "failed": {
+                "description": "Thanh toán của bạn không thể hoàn thành. Vui lòng thử lại.",
+                "title": "Thanh toán thất bại",
+                "tryAgain": "Thử lại"
+              },
+              "loading": {
+                "description": "Đang truy xuất trạng thái thanh toán",
+                "title": "Đang tải..."
+              },
+              "name": "Trạng thái thanh toán",
+              "notFound": {
+                "description": "Chúng tôi không thể tìm thấy bản ghi thanh toán này.",
+                "title": "Thanh toán không tìm thấy"
+              },
+              "pending": {
+                "continuePayment": "Tiếp tục thanh toán",
+                "description": "Thanh toán của bạn đang được xử lý trên blockchain.",
+                "note": "Thanh toán tiền điện tử có thể mất vài phút để được xác nhận. Trang này sẽ tự động cập nhật khi thanh toán của bạn được xác nhận.",
+                "title": "Thanh toán đang xử lý"
+              }
+            }
+          },
+          "name": "Lịch sử thanh toán",
+          "status": {
+            "CONFIRMED": "Đã xác nhận",
+            "EXPIRED": "Hết hạn",
+            "FAILED": "Thất bại",
+            "PENDING": "Đang chờ"
+          },
+          "table": {
+            "amount": "Số tiền",
+            "billingCycle": "Chu kỳ thanh toán",
+            "chargeCode": "Mã tính phí",
+            "createdAt": "Được tạo lúc",
+            "plan": "Gói",
+            "status": "Trạng thái"
+          },
+          "title": "Lịch sử thanh toán"
+        },
+        "plans": {
+          "description": "Chọn gói phù hợp với nhu cầu của bạn",
+          "title": "Các gói có sẵn"
+        },
+        "savePercent": "Tiết kiệm {percent}%",
+        "usage": {
+          "bots": "Bot",
+          "strategies": "Chiến lược",
+          "wallets": "Ví"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "Mua",
+              "CLAIM": "Nhận",
+              "SELL": "Bán"
+            },
+            "notice": "Bản ghi giao dịch không phải là thời gian thực và có thể có độ trễ. Độ trễ liên quan đến chu kỳ thanh toán thị trường. Chỉ các giao dịch từ các thị trường đã thanh toán mới được hiển thị ở đây. Các giao dịch từ các thị trường chưa thanh toán sẽ xuất hiện sau khi thanh toán.",
+            "profitHistory": {
+              "title": "Lịch sử lợi nhuận (30 ngày qua)"
+            },
+            "table": {
+              "action": "Hành động",
+              "amount": "Số tiền",
+              "market": "Thị trường",
+              "timestamp": "Dấu thời gian",
+              "transactionHash": "Hash giao dịch"
+            },
+            "title": "Lịch sử giao dịch",
+            "tooltip": {
+              "marketLink": "Xem trên Polymarket"
+            }
+          }
+        },
+        "actions": {
+          "create": "Tạo ví",
+          "import": "Nhập ví",
+          "transactions": "Lịch sử giao dịch",
+          "viewBots": "Xem Bot liên quan"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "Trước khi xóa, hãy đảm bảo bạn đã xuất và sao lưu khoá riêng tư của bạn. Không có khoá riêng tư, bạn sẽ mất vĩnh viễn quyền truy cập vào bất kỳ quỹ nào trong ví này.",
+            "message": "Bạn có chắc chắn muốn xóa ví \"{name}\" không?",
+            "title": "Xóa Ví",
+            "warning": "Xóa một ví là không thể hoàn tác. Tất cả dữ liệu ví sẽ bị xóa vĩnh viễn khỏi hệ thống của chúng tôi."
+          },
+          "DepositModal": {
+            "address": "Địa Chỉ Gửi Tiền",
+            "bridgeAddress": "một địa chỉ cầu nối tài sản",
+            "note": "Địa chỉ gửi tiền là {bridgeAddress} được tạo bởi Polymarket. Bạn có thể gửi bất kỳ loại tiền điện tử nào được Polymarket hỗ trợ, và quỹ sẽ được tự động chuyển đến Polygon và chuyển đổi thành USDC.e. Nếu bạn gửi USDC.e trên Polygon trực tiếp (ví dụ: sử dụng tính năng rút tiền của chúng tôi), bạn có thể gửi quỹ trực tiếp tới Địa chỉ Người cấp vốn.",
+            "selectChain": "Chọn Chuỗi",
+            "supportedCrypto": "bất kỳ loại tiền điện tử nào được Polymarket hỗ trợ",
+            "title": "Gửi Tiền"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "Một ví mới sẽ được tạo với một khoá riêng tư duy nhất. Hợp đồng Gnosis Safe sẽ được triển khai trước khi giao dịch bắt đầu.",
+              "title": "Tạo Ví Mới"
+            },
+            "edit": {
+              "title": "Chỉnh Sửa Ví"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "Tôi hiểu rủi ro và muốn xuất khoá riêng tư của mình",
+            "connectToPolymarket": "kết nối ví của bạn với Polymarket",
+            "copyWarning": "Nhấp vào nút mắt để tiết lộ khoá riêng tư của bạn. Đảm bảo không có ai xung quanh bạn.\nNếu bạn sao chép nó vào bộ nhớ tạm, hãy nhớ xóa bộ nhớ tạm của bạn sau đó để tránh rò rỉ.",
+            "decryptFailed": "Không thể giải mã khoá riêng tư",
+            "funderNotice": "Lưu ý: Quỹ của bạn được lưu trữ trong Địa chỉ Người cấp vốn (hợp đồng Gnosis Safe), không phải địa chỉ ví được lấy từ khoá riêng tư này. Địa chỉ Người cấp vốn là hợp đồng thông minh được kiểm soát bởi khoá riêng tư của bạn. Nếu bạn nhập khoá này vào ví tiền điện tử, bạn sẽ thấy một địa chỉ khác và sẽ không tìm thấy tài sản của mình. Để truy cập quỹ của bạn, {connectToPolymarket} và sử dụng tính năng {withdraw}.",
+            "title": "Xuất Khoá Riêng Tư",
+            "warningDetail": "Không bao giờ chia sẻ khoá riêng tư của bạn với bất kỳ ai. Bất kỳ ai có quyền truy cập vào khoá riêng tư của bạn đều có thể đánh cắp tất cả tài sản trong ví của bạn.",
+            "withdraw": "Rút Tiền"
+          },
+          "ImportModal": {
+            "description": "Nhập một ví hiện có bằng cách sử dụng khoá riêng tư của nó. Đối với ví mới, hợp đồng Gnosis Safe sẽ được triển khai trước khi giao dịch bắt đầu.",
+            "encryptFailed": "Không thể mã hóa khoá riêng tư",
+            "privateKeyPlaceholder": "Nhập khoá riêng tư (0x...)",
+            "title": "Nhập Ví",
+            "warning": {
+              "description": "Không nhập khoá riêng tư được xuất từ Polymarket. Những khoá này thuộc về Ví Proxy (được tạo qua Email hoặc đăng nhập Google với MagicLink), và dịch vụ của chúng tôi yêu cầu ví Gnosis Safe.",
+              "learnMore": "Tìm hiểu thêm về các loại ví Polymarket"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "Từ Ví",
+            "info": "Chuyển được xử lý qua Polymarket Relayer (không cần gas). Giao dịch sẽ được gửi ngay lập tức nhưng có thể mất vài phút để xác nhận trên chuỗi.",
+            "submitted": "Yêu cầu chuyển đã được gửi thành công. Bạn có thể theo dõi trạng thái giao dịch trên PolygonScan.",
+            "title": "Chuyển Nội Bộ",
+            "toWallet": "Tới Ví",
+            "toWalletHint": "Chọn một ví để chuyển tiền tới",
+            "walletActivating": "Ví của bạn cần được kích hoạt trước khi chuyển. Kích hoạt và chuyển sẽ được xử lý tự động. Điều này có thể mất vài phút. Bạn có thể kiểm tra địa chỉ ví trên PolygonScan để theo dõi tiến độ."
+          },
+          "WithdrawModal": {
+            "info": "Rút được xử lý qua Polymarket Relayer (không cần gas). Giao dịch sẽ được gửi ngay lập tức nhưng có thể mất vài phút để xác nhận trên chuỗi.",
+            "recipientAddress": "Địa Chỉ Người Nhận",
+            "recipientPlaceholder": "Nhập địa chỉ Polygon (0x...)",
+            "submitted": "Yêu cầu rút đã được gửi thành công. Bạn có thể theo dõi trạng thái giao dịch trên PolygonScan.",
+            "title": "Rút Tiền",
+            "walletActivating": "Ví của bạn cần được kích hoạt trước khi rút. Kích hoạt và rút sẽ được xử lý tự động. Điều này có thể mất vài phút. Bạn có thể kiểm tra địa chỉ ví trên PolygonScan để theo dõi tiến độ."
+          }
+        },
+        "labels": {
+          "availableBalance": "Số Dư Khả Dụng",
+          "viewOnPolygonscan": "Xem trên PolygonScan",
+          "viewWalletOnPolygonscan": "Xem Ví trên PolygonScan",
+          "walletName": "Tên Ví"
+        },
+        "messages": {
+          "insufficientBalance": "Số tiền vượt quá số dư khả dụng"
+        },
+        "name": "Ví",
+        "placeholders": {
+          "amount": "Nhập số tiền",
+          "walletName": "Nhập tên ví"
+        },
+        "searchPlaceholder": "Tìm kiếm theo tên ví",
+        "status": {
+          "ACTIVE": "Hoạt động",
+          "DEPLOYING": "Đang triển khai",
+          "FAILED": "Thất bại",
+          "INACTIVE": "Không hoạt động"
+        },
+        "table": {
+          "balance": "Số dư",
+          "funder": "Địa chỉ người cấp vốn",
+          "name": "Tên",
+          "status": "Trạng thái"
+        },
+        "tooltips": {
+          "funderHelp": "Địa chỉ Funder là ví Polymarket Gnosis Safe của bạn - một ví hợp đồng thông minh được triển khai trên Polygon chứa vị trí giao dịch và USDC.e của bạn. Nó được kiểm soát bởi ví EOA của bạn và cho phép các giao dịch không cần gas.",
+          "funderHelpLink": "Tìm hiểu thêm",
+          "inactive": "Ví sẽ được tự động kích hoạt trước khi giao dịch bắt đầu."
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Sử dụng email khác",
+        "codeHint": "Nhập mã 6 chữ số được gửi đến {email}",
+        "codeLabel": "Mã xác minh",
+        "emailLabel": "Địa chỉ email",
+        "emailPlaceholder": "Nhập địa chỉ email của bạn",
+        "name": "Đăng nhập",
+        "noAccount": "Chưa có tài khoản?",
+        "sendCode": "Gửi mã xác minh",
+        "signInWithGithub": "Đăng nhập với GitHub",
+        "signInWithGoogle": "Đăng nhập với Google",
+        "signUp": "Đăng ký",
+        "subtitle": "Đăng nhập vào tài khoản của bạn để tiếp tục",
+        "title": "Chào mừng trở lại",
+        "verify": "Xác minh & Đăng nhập"
+      },
+      "sign-up": {
+        "agreeToTerms": "Tôi đồng ý với {termsOfService} và {privacyPolicy}",
+        "changeEmail": "Sử dụng email khác",
+        "codeHint": "Nhập mã 6 chữ số được gửi đến {email}",
+        "codeLabel": "Mã xác minh",
+        "createAccount": "Tạo tài khoản",
+        "emailLabel": "Địa chỉ email",
+        "emailPlaceholder": "Nhập địa chỉ email của bạn",
+        "haveAccount": "Đã có tài khoản?",
+        "inviteCodeLabel": "Mã mời",
+        "inviteCodePlaceholder": "Nhập mã mời của bạn",
+        "marketingEmailsLabel": "Gửi cho tôi các cập nhật sản phẩm và khuyến nghị",
+        "name": "Đăng ký",
+        "sendCode": "Gửi mã xác minh",
+        "signIn": "Đăng nhập",
+        "signUpWithGithub": "Đăng ký với GitHub",
+        "signUpWithGoogle": "Đăng ký với Google",
+        "subtitle": "Tạo một tài khoản để bắt đầu",
+        "title": "Tạo tài khoản"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Chính sách bảo mật"
+      },
+      "terms-of-service": {
+        "title": "Điều khoản dịch vụ"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Mã xác minh không hợp lệ",
+      "AUTH_OAUTH_FAILED": "Xác thực không thành công. Vui lòng thử lại.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Vui lòng chờ 60 giây trước khi yêu cầu mã khác",
+      "AUTH_OTP_IP_RATE_LIMITED": "Quá nhiều yêu cầu. Vui lòng thử lại sau.",
+      "AUTH_TURNSTILE_FAILED": "Xác minh bảo mật không thành công. Vui lòng thử lại.",
+      "AUTH_USER_ALREADY_EXISTS": "Một tài khoản với email này đã tồn tại",
+      "AUTH_USER_NOT_FOUND": "Không tìm thấy tài khoản nào với email này",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Mã xác minh đã hết hạn",
+      "BOT_ALREADY_EXISTS": "Bot đã tồn tại cho thị trường này",
+      "BOT_ENABLED_CANNOT_DELETE": "Không thể xóa bot đang chạy",
+      "BOT_ENABLED_CANNOT_MODIFY": "Không thể chỉnh sửa bot đang chạy",
+      "BOT_NOT_FOUND": "Bot không tìm thấy",
+      "BOT_WALLET_DEPLOYING": "Ví đang được triển khai",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Số dư ví không đủ để bắt đầu bot",
+      "BOT_WALLET_MARKET_IN_USE": "Ví này đã được sử dụng cho thị trường này",
+      "COMMON_FORBIDDEN_ERROR": "Truy cập bị cấm",
+      "COMMON_NETWORK_ERROR": "Lỗi mạng xảy ra",
+      "COMMON_NOT_FOUND_ERROR": "Không tìm thấy tài nguyên",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Quá nhiều yêu cầu. Vui lòng thử lại sau",
+      "COMMON_SERVER_ERROR": "Lỗi máy chủ nội bộ",
+      "COMMON_TIMEOUT_ERROR": "Hết thời gian chờ yêu cầu",
+      "COMMON_UNAUTHORIZED_ERROR": "Truy cập không được phép",
+      "COMMON_UNKNOWN_ERROR": "Đã xảy ra lỗi không xác định",
+      "COMMON_VALIDATION_ERROR": "Xác nhận không thành công",
+      "INTERNAL_API_KEY_INVALID": "Khoá API không hợp lệ",
+      "INTERNAL_API_KEY_MISSING": "Cần khoá API",
+      "INVALID_EMAIL": "Địa chỉ email không hợp lệ",
+      "INVITE_CODE_EXPIRED": "Mã mời đã hết hạn",
+      "INVITE_CODE_INVALID": "Mã mời không hợp lệ",
+      "INVITE_CODE_REQUIRED": "Mã mời là bắt buộc",
+      "INVITE_CODE_USAGE_EXCEEDED": "Mã mời đã đạt đến giới hạn sử dụng",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Không tạo được khoản tính phí thanh toán. Vui lòng thử lại sau.",
+      "PAYMENT_NOT_FOUND": "Thanh toán không tìm thấy",
+      "STRATEGY_ALREADY_EXISTS": "Chiến lược đã tồn tại",
+      "STRATEGY_HAS_BOTS": "Không thể xóa chiến lược được sử dụng bởi bot",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "Khoảng thời gian không thể thay đổi sau khi tạo",
+      "STRATEGY_INVALID_JSON": "Cấu hình chiến lược không hợp lệ",
+      "STRATEGY_NOT_FOUND": "Chiến lược không tìm thấy",
+      "STRATEGY_NO_BUY_STEPS": "Chiến lược phải chứa ít nhất một bước mua",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Giới hạn bot đã đạt được. Nâng cấp gói để tạo thêm bot.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "Truy cập thống kê bị từ chối. Nâng cấp gói của bạn để truy cập tính năng này.",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "Số tiền chiến lược vượt quá giới hạn gói của bạn. Nâng cấp để sử dụng số tiền cao hơn.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Giới hạn chiến lược đã đạt được. Nâng cấp gói để tạo thêm chiến lược.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Giới hạn ví đã đạt được. Nâng cấp gói để tạo thêm ví.",
+      "WALLET_ALREADY_EXISTS": "Ví đã tồn tại",
+      "WALLET_ALREADY_IN_USE": "Ví này đã được sử dụng bởi người dùng khác",
+      "WALLET_CREATION_FAILED": "Không tạo được ví",
+      "WALLET_DEPLOYING": "Ví đang được triển khai. Vui lòng chờ và thử lại sau.",
+      "WALLET_HAS_BOTS": "Không thể xóa ví được sử dụng bởi bot",
+      "WALLET_INSUFFICIENT_BALANCE": "Số dư không đủ cho rút tiền",
+      "WALLET_INVALID_PRIVATE_KEY": "Định dạng khoá riêng tư không hợp lệ",
+      "WALLET_NOT_FOUND": "Ví không tìm thấy",
+      "WALLET_WITHDRAW_FAILED": "Rút tiền không thành công"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Mã xác minh của bạn là:",
+          "expiry": "Mã này sẽ hết hạn trong 10 phút.",
+          "ignore": "Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.",
+          "subject": "Mã xác minh của bạn",
+          "title": "Mã Xác Minh"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "Bạn phải đồng ý với Điều khoản dịch vụ và Chính sách bảo mật"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "Số tiền tối thiểu phải nhỏ hơn hoặc bằng số tiền tối đa"
+      },
+      "billingCycle": {
+        "invalid": "Chu kỳ thanh toán không hợp lệ"
+      },
+      "botDisableReason": {
+        "required": "Lý do dừng bot là bắt buộc"
+      },
+      "bots": {
+        "required": "Ít nhất một bot là bắt buộc",
+        "tooMany": "Không thể tạo nhiều hơn {maximum} bot cùng lúc"
+      },
+      "email": {
+        "invalid": "Định dạng email không hợp lệ",
+        "required": "Email là bắt buộc"
+      },
+      "inviteCode": {
+        "invalid": "Định dạng mã mời không hợp lệ",
+        "required": "Mã mời là bắt buộc"
+      },
+      "marketInterval": {
+        "invalid": "Giá trị khoảng thời gian không hợp lệ"
+      },
+      "marketSymbol": {
+        "invalid": "Ký hiệu thị trường không hợp lệ"
+      },
+      "privateKey": {
+        "invalid": "Định dạng khoá riêng tư không hợp lệ (phải là 0x + 64 ký tự hex)",
+        "required": "Khoá riêng tư là bắt buộc"
+      },
+      "publicKey": {
+        "invalid": "Định dạng khoá công khai RSA không hợp lệ",
+        "required": "Khoá công khai là bắt buộc"
+      },
+      "strategyId": {
+        "required": "ID chiến lược là bắt buộc"
+      },
+      "strategyJson": {
+        "invalid": "Cấu hình chiến lược không hợp lệ",
+        "required": "Cấu hình chiến lược là bắt buộc"
+      },
+      "strategyName": {
+        "required": "Tên chiến lược là bắt buộc",
+        "tooLong": "Tên chiến lược phải có {maximum} ký tự hoặc ít hơn"
+      },
+      "subscriptionPlan": {
+        "invalid": "Gói đăng ký không hợp lệ"
+      },
+      "timeRange": {
+        "startAfterEnd": "Thời gian bắt đầu phải nhỏ hơn hoặc bằng thời gian kết thúc"
+      },
+      "turnstileToken": {
+        "invalid": "Xác minh bảo mật không thành công",
+        "required": "Vui lòng hoàn thành xác minh bảo mật"
+      },
+      "verificationCode": {
+        "invalid": "Định dạng mã xác minh không hợp lệ (phải là 6 chữ số)",
+        "required": "Mã xác minh là bắt buộc"
+      },
+      "verificationToken": {
+        "invalid": "Định dạng mã thông báo xác minh không hợp lệ",
+        "required": "Mã thông báo xác minh là bắt buộc"
+      },
+      "walletAddress": {
+        "invalid": "Định dạng địa chỉ ví không hợp lệ (phải là 0x + 40 ký tự hex)",
+        "required": "Địa chỉ ví là bắt buộc"
+      },
+      "walletName": {
+        "required": "Tên ví là bắt buộc",
+        "tooLong": "Tên ví phải có {maximum} ký tự hoặc ít hơn"
+      },
+      "withdrawAmount": {
+        "invalid": "Số tiền rút không hợp lệ",
+        "min": "Số tiền phải lớn hơn 0",
+        "required": "Số tiền rút là bắt buộc"
+      }
+    }
+  }
+}

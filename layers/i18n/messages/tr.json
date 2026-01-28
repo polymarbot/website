@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "Geri",
+      "cancel": "İptal",
+      "clear": "Temizle",
+      "close": "Kapat",
+      "confirm": "Onayla",
+      "continue": "Devam Et",
+      "create": "Oluştur",
+      "delete": "Sil",
+      "deposit": "Para Yatır",
+      "duplicate": "Çoğalt",
+      "edit": "Düzenle",
+      "export": "Dışa Aktar",
+      "goBack": "Geri Git",
+      "import": "İçe Aktar",
+      "install": "Yükle",
+      "learnMore": "Daha Fazla Öğren",
+      "more": "Daha Fazla",
+      "next": "Sonraki",
+      "ok": "Tamam",
+      "refresh": "Yenile",
+      "reload": "Yeniden Yükle",
+      "reportIssue": "Sorun Bildir",
+      "retry": "Tekrar Dene",
+      "save": "Kaydet",
+      "search": "Ara",
+      "signIn": "Oturum Aç",
+      "signOut": "Çıkış Yap",
+      "submit": "Gönder",
+      "transfer": "Aktar",
+      "uninstall": "Kaldır",
+      "viewDetails": "Detayları Görüntüle",
+      "withdraw": "Para Çek"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Çıkış yapmak istediğinizden emin misiniz?",
+        "title": "Çıkış Yap"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "g",
+        "hours": "s",
+        "minutes": "d",
+        "seconds": "sn"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "İşlemler",
+      "active": "Aktif",
+      "alert": "Uyarı",
+      "all": "Tümü",
+      "amount": "Tutar",
+      "chain": "Zincir",
+      "confirmation": "Onay",
+      "createdAt": "Oluşturulma Tarihi",
+      "dateRange": "Tarih Aralığı",
+      "delete": "Sil",
+      "deleteConfirmation": "Silme Onayı",
+      "email": "E-posta",
+      "error": "Hata",
+      "max": "Maksimum",
+      "new": "Yeni",
+      "no": "Hayır",
+      "optional": "İsteğe Bağlı",
+      "or": "veya",
+      "password": "Şifre",
+      "private": "Özel",
+      "privateKey": "Özel Anahtar",
+      "success": "Başarı",
+      "token": "Token",
+      "transactionHash": "İşlem Hash'ı",
+      "unknown": "Bilinmiyor",
+      "unlimited": "Sınırsız",
+      "updatedAt": "Güncellenme Tarihi",
+      "yes": "Evet"
+    },
+    "messages": {
+      "createSuccess": "Başarıyla oluşturuldu",
+      "deleteSuccess": "Başarıyla silindi",
+      "importSuccess": "Başarıyla içe aktarıldı",
+      "saveSuccess": "Başarıyla kaydedildi",
+      "submitSuccess": "Başarıyla gönderildi",
+      "updateSuccess": "Başarıyla güncellendi"
+    },
+    "statuses": {
+      "closing": "Kapatılıyor...",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız",
+      "loading": "Yükleniyor...",
+      "pending": "Beklemede",
+      "processing": "İşleniyor...",
+      "success": "Başarı"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Koyu Mod",
+        "lightMode": "Açık Mod",
+        "switchToDark": "Koyu Moda Geç",
+        "switchToLight": "Açık Moda Geç"
+      },
+      "Footer": {
+        "copyright": "© {year} Tüm hakları saklıdır."
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "ve {count} tane daha...",
+        "message": "Bu öğe {count} bot tarafından kullanılıyor. Lütfen önce onları silin:"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Dili değiştir"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 Dakika",
+          "1d": "1 Gün",
+          "1h": "1 Saat",
+          "4h": "4 Saat"
+        },
+        "placeholder": "Aralık seçin"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Sembolleri seçin"
+      },
+      "Navbar": {
+        "collapseSidebar": "Kenar çubuğunu daralt",
+        "expandSidebar": "Kenar çubuğunu genişlet",
+        "goBack": "Geri git"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Sorun Bildir"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "Strateji detaylarını görüntüle",
+        "viewStats": "İstatistikleri görüntüle"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "Tüm Zamanlar",
+          "custom": "Özel",
+          "month": "Son 30 Gün",
+          "quarter": "Son 90 Gün",
+          "week": "Son 7 Gün"
+        },
+        "labels": {
+          "dateRange": "Tarih Aralığı",
+          "interval": "Aralık",
+          "symbol": "Sembol"
+        },
+        "upgradeDialog": {
+          "cancel": "İptal",
+          "message": "Özel tarih aralıkları dahil daha fazla tarih aralığı seçeneğine erişmek için Plus veya daha yüksek sürüme yükseltin.",
+          "title": "Yükseltme Gerekli",
+          "upgrade": "Şimdi Yükselt"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Yeni strateji oluştur",
+        "emptyMessage": "Kullanılabilir strateji yok",
+        "placeholder": "Strateji seçin"
+      },
+      "UpgradeOverlay": {
+        "description": "Aboneliğinizi yükselterek bu özelliğin kilidini açın ve kapsamlı istatistiklere erişin.",
+        "title": "Premium Özellik",
+        "upgradeButton": "Şimdi Yükselt"
+      },
+      "WalletSelect": {
+        "createNew": "Yeni cüzdan oluştur",
+        "emptyMessage": "Kullanılabilir cüzdan yok",
+        "placeholder": "Cüzdan seçin"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Gider (Satın Al)",
+        "income": "Gelir (Satış + Talep)",
+        "netProfit": "Net Kar",
+        "txCount": "İşlemler"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "İşlemler",
+        "pageReport": "{'{first}'} ile {'{last}'} arasındaki {'{totalRecords}'} gösteriliyor",
+        "pageReportMobile": "Toplam: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Sil",
+        "confirmationText": "SİL",
+        "defaultMessage": "Bu işlem geri alınamaz. Lütfen devam etmeden önce önemli verileri yedeklediğinizden emin olun.",
+        "inputLabel": "Silme işlemini onaylamak için {0} yazın",
+        "title": "Sil"
+      },
+      "CopyButton": {
+        "copied": "Kopyalandı!",
+        "copyToClipboard": "Panoya kopyala"
+      },
+      "DataTable": {
+        "empty": "Veri yok",
+        "filterAll": "Tümü",
+        "filterApply": "Uygula",
+        "filterClear": "Temizle"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Bitiş tarihi",
+        "startPlaceholder": "Başlangıç tarihi",
+        "to": "şu tarihe:"
+      },
+      "EmptyState": {
+        "defaultMessage": "Veri yok"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "Günlük yok",
+        "refresh": "Yenile",
+        "scrollToBottom": "Aşağıya kaydır"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Panodan yapıştır",
+        "pasted": "Yapıştırıldı!"
+      },
+      "SearchSelect": {
+        "createNew": "Yeni oluştur",
+        "noItems": "Kullanılabilir seçenek yok",
+        "noSearchItems": "Sonuç bulunamadı",
+        "searchPlaceholder": "Ara..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Uygulamayı Başlat",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxAmount": "Strateji Başına {amount} Maksimum",
+          "strategies": "{count} Strateji",
+          "wallets": "{count} Cüzdan"
+        },
+        "getStarted": "Ücretsiz Başlayın",
+        "perMonth": "/ay",
+        "subtitle": "Ticaret ihtiyaçlarınıza uygun planı seçin",
+        "title": "Basit, Şeffaf Fiyatlandırma"
+      },
+      "tagline": "Ticaret stratejilerinizi otomatikleştirin",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Botlarımız piyasaları izler ve hiçbir manuel müdahale olmaksızın gün içinde ticari işlemler yürütür.",
+            "title": "Her Zaman Aktif"
+          },
+          "easySetup": {
+            "description": "Kodlamaya gerek yok. Basit parametrelerle stratejiler oluşturun ve dakikalar içinde dağıtın.",
+            "title": "Kolay Kurulum"
+          },
+          "gasless": {
+            "description": "Polymarket'in Gnosis Safe sözleşmelerini kullanarak gaz ücretleri olmadan ticaret yapın.",
+            "title": "Gaz Ücretsiz Ticaret"
+          },
+          "multiWallet": {
+            "description": "Ticaret stratejisi portföyünüzü çeşitlendirmek için birden fazla cüzdanı yönetin.",
+            "title": "Çoklu Cüzdan"
+          },
+          "realTimeAnalytics": {
+            "description": "Gösterge panoları, istatistikler ve ayrıntılı günlüklerle strateji performansınızı kapsamlı bir şekilde izleyin.",
+            "title": "Gerçek Zamanlı Analitik"
+          },
+          "strategyStats": {
+            "description": "Strateji performansını takip edin ve hızla kar etmeye başlamak için en iyi performans gösteren stratejileri kullanın.",
+            "title": "Strateji Analitikleri"
+          }
+        },
+        "title": "Neden Bizi Seçin"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket proxy cüzdanları oluşturun (Gnosis Safe)",
+            "title": "Cüzdan Ekle"
+          },
+          "createStrategies": {
+            "description": "Ticaret kurallarınızı ve parametrelerini tanımlayın",
+            "title": "Stratejiler Oluşturun"
+          },
+          "deployBots": {
+            "description": "Botlarınızı başlatın ve ticaret yaparken izleyin otomatik olarak",
+            "title": "Botları Dağıt"
+          },
+          "signUp": {
+            "description": "Hesabınızı saniyeler içinde oluşturun",
+            "title": "Kaydol"
+          }
+        },
+        "subtitle": "Basit 4 adımlı sürecimizle dakikalar içinde başlayın",
+        "title": "Nasıl Çalışır"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "Durdur",
+              "ENABLED": "Başlat"
+            },
+            "fun-logs": {
+              "notice": "Çalıştırma günlükleri gerçek zamanlı değildir ve gecikmeler olabilir. Sadece tarihsel inceleme ve sorun giderme içindir, mevcut bot durumunu değerlendirmek için değil. Sadece son bir ayın günlükleri saklanır.",
+              "title": "Çalıştırma Günlükleri"
+            },
+            "info": {
+              "strategy": "Strateji",
+              "wallet": "Cüzdan"
+            },
+            "reason": {
+              "USER_ACTION": "Kullanıcı işlemi",
+              "WALLET_INSUFFICIENT_BALANCE": "Yetersiz cüzdan bakiyesi",
+              "WALLET_TRANSACTION_ERROR": "İşlem hatası"
+            },
+            "table": {
+              "action": "İşlem",
+              "operatedAt": "İşlem Tarihi",
+              "reason": "Neden"
+            },
+            "tabs": {
+              "logs": "Çalıştırma Günlükleri",
+              "operations": "İşlemler"
+            },
+            "title": "Bot Çalıştırma Geçmişi"
+          }
+        },
+        "actions": {
+          "batchDelete": "Sil",
+          "batchDisable": "Durdur",
+          "batchEnable": "Başlat",
+          "create": "Oluştur",
+          "viewRunHistory": "Çalıştırma Geçmişi"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "Tümünü Sil",
+              "disableAll": "Tümünü Durdur",
+              "enableAll": "Tümünü Başlat"
+            },
+            "menu": {
+              "byConditions": "Koşullara Göre"
+            },
+            "messages": {
+              "deleteSuccess": "Botlar başarıyla silindi",
+              "disableSuccess": "Botlar başarıyla durduruldu",
+              "enableSuccess": "Botlar başarıyla başlatıldı",
+              "noBotsToDelete": "Silinecek bot yok (sadece durmuş botlar silinebilir)",
+              "noBotsToDisable": "Durduracak bot yok",
+              "noBotsToEnable": "Başlatacak bot yok",
+              "resultDeleteSkipped": "{count} bot silinemedi (çalışıyor).",
+              "resultDeleted": "{count} bot başarıyla silindi.",
+              "resultEnableSkipped": "{count} bot yetersiz bakiye veya cüzdan durumu nedeniyle başlatılamadı.",
+              "resultEnabled": "{count} bot başarıyla başlatıldı.",
+              "resultPending": "{count} bot cüzdan aktivasyonu beklemede.",
+              "resultPendingAutoStart": "{count} bot cüzdan aktivasyonu beklemede ve cüzdanlar etkinleştirildikten sonra otomatik olarak başlayacak."
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "Tüm durmuş botlar silinmeye hazırlanıyor. Bu işlem geri alınamaz. Bu botları silmek istediğinizden emin misiniz?",
+                "title": "Botları Sil"
+              },
+              "batchDisable": {
+                "message": "Tüm çalışan botlar durdurulmaya hazırlanıyor. Ancak zaten yerleştirilen siparişler otomatik olarak iptal edilmeyecektir. Tüm botları durdurmak istediğinizden emin misiniz?",
+                "title": "Botları Durdur"
+              },
+              "batchEnable": {
+                "message": "Tüm durmuş botlar başlatılmaya hazırlanıyor. Başlatıldığında, cüzdanlarındaki fonları kullanarak siparişleri yerleştirmeye başlayacaklar; bu kar veya zarar ile sonuçlanabilir. Tüm botları başlatmak istediğinizden emin misiniz?",
+                "title": "Botları Başlat"
+              },
+              "byConditions": {
+                "hint": "Seçilen koşulları eşleştiren tüm botlar etkilenecektir.",
+                "intervalDisabledHint": "Aralık filtresi devre dışı bırakıldı çünkü bir strateji seçildi",
+                "intervalLabel": "Aralık",
+                "selectInterval": "Aralık Seçin",
+                "selectStrategy": "Strateji Seçin",
+                "selectSymbol": "Sembol Seçin",
+                "selectWallet": "Cüzdan Seçin",
+                "strategyDisabledHint": "Strateji filtresi devre dışı bırakıldı çünkü aralıklar seçildi",
+                "strategyLabel": "Strateji",
+                "symbolLabel": "Sembol",
+                "titleDelete": "Koşullara Göre Botları Sil",
+                "titleDisable": "Koşullara Göre Botları Durdur",
+                "titleEnable": "Koşullara Göre Botları Başlat",
+                "walletLabel": "Cüzdan"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "Aralık",
+              "strategy": "Strateji",
+              "symbols": "Semboller",
+              "wallet": "Cüzdan"
+            },
+            "hints": {
+              "batchCreate": "Her pazar için (sembol + aralık) bir bot oluşturulacaktır. Cüzdan bu pazarda zaten bir bota sahipse atlanır.",
+              "intervalFirst": "Önce aralık seçin, ardından eşleşen bir strateji seçin",
+              "strategyFiltered": "Sadece seçilen aralığa sahip stratejiler gösterilir",
+              "symbolsOptional": "Tüm semboller için botlar oluşturmak üzere boş bırakın"
+            },
+            "messages": {
+              "createSuccess": "{count} bot başarıyla oluşturuldu",
+              "noBotsToCreate": "Oluşturulacak bot yok",
+              "resultCreated": "{count} bot başarıyla oluşturuldu.",
+              "resultSkipped": "{count} bot atlandı (cüzdan bu pazarlarda zaten bir bota sahip)."
+            },
+            "modals": {
+              "result": {
+                "title": "Oluşturma Sonucu"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "Tümü",
+              "selectStrategy": "Strateji seçin",
+              "selectWallet": "Cüzdan seçin"
+            },
+            "title": "Toplu Olarak Bot Oluştur"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "Gerekli bakiye, bu cüzdandaki tüm aktif botların toplamıdır:\nHer bot için gereken = Her İşlem İçin Maksimum Tutar × {multiplier}",
+            "current": "Mevcut Bakiye",
+            "description": "Cüzdan bakiyesi tüm aktif botları desteklemek için yetersizdir. Bakiye gereksinimi karşılanana kadar bu botu başlatamazsınız.",
+            "required": "Gerekli (Tüm Aktif Botlar)",
+            "shortfall": "Açık",
+            "suggestion": "Lütfen açığı kapatmak için fon yatırın veya gerekli bakiyeyi serbest bırakmak için diğer botları durdurun."
+          }
+        },
+        "messages": {
+          "deleteSuccess": "Bot başarıyla silindi",
+          "disableSuccess": "Bot başarıyla durduruldu",
+          "enableSuccess": "Bot başarıyla başlatıldı",
+          "walletActivating": "Cüzdan etkinleştiriliyordu, botlar etkinleştirildikten sonra başlatılacak"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "{count} botu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+            "title": "Toplu Olarak Botları Sil"
+          },
+          "batchDisable": {
+            "message": "{count} botu durdurmak istediğinizden emin misiniz?",
+            "title": "Toplu Olarak Botları Durdur"
+          },
+          "batchEnable": {
+            "message": "{count} botu başlatmak istediğinizden emin misiniz?",
+            "title": "Toplu Olarak Botları Başlat"
+          },
+          "delete": {
+            "message": "Bu botu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+            "title": "Botu Sil"
+          },
+          "disable": {
+            "message": "Bu botu durdurmak istediğinizden emin misiniz?",
+            "title": "Botu Durdur"
+          },
+          "enable": {
+            "message": "Bu botu başlatmak istediğinizden emin misiniz?",
+            "title": "Botu Başlat"
+          }
+        },
+        "name": "Botlar",
+        "searchPlaceholder": "Cüzdan adı veya strateji adıyla ara",
+        "table": {
+          "market": "Pazar",
+          "runtime": "Çalıştırma Süresi",
+          "status": "Durum",
+          "strategy": "Strateji",
+          "wallet": "Cüzdan"
+        },
+        "tooltips": {
+          "disable": "Botu durdur",
+          "disabling": "Durduruluyor...",
+          "enable": "Botu başlat",
+          "enabling": "Başlatılıyor...",
+          "walletDeploying": "Cüzdan dağıtılıyor, başlatanamaz",
+          "walletFailed": "Cüzdan dağıtılması başarısız oldu"
+        },
+        "walletStatus": {
+          "DEPLOYING": "Dağıtılıyor",
+          "FAILED": "Başarısız"
+        }
+      },
+      "dashboard": {
+        "botCount": "Botlar",
+        "name": "Gösterge Paneli",
+        "profitHistory": {
+          "title": "Kar Geçmişi (Son 30 Gün)"
+        },
+        "running": "çalışıyor",
+        "strategyCount": "Stratejiler",
+        "totalBalance": "Toplam Bakiye",
+        "walletCount": "Cüzdanlar"
+      },
+      "markets": {
+        "empty": "Pazar bulunamadı",
+        "name": "Pazarlar",
+        "tooltip": {
+          "enabledBots": "Çalışan Botlar",
+          "totalBots": "Toplam Botlar"
+        }
+      },
+      "me": {
+        "anonymous": "Anonim",
+        "language": {
+          "name": "Dil",
+          "title": "Dil Seçin"
+        },
+        "name": "Hesabım"
+      },
+      "rankings": {
+        "apr": {
+          "description": "Kar Oranı (Toplam Kayıtlar)",
+          "title": "APR Sıralamaları"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "Strateji Oluştur",
+              "editStrategy": "Stratejiyi Düzenle"
+            },
+            "myStrategy": "Benim Stratejim"
+          }
+        },
+        "filters": {
+          "amountRange": "Tutar Aralığı"
+        },
+        "hitRate": {
+          "description": "Katılınan / Toplam Kayıtlar",
+          "title": "İsabet Oranı Sıralamaları"
+        },
+        "name": "Sıralamalar",
+        "profitRate": {
+          "description": "Toplam Kar / Toplam Maliyet (Katılınan)",
+          "title": "Kar Oranı Sıralamaları"
+        },
+        "title": "Strateji Sıralamaları",
+        "upgradeRequired": {
+          "description": "Strateji sıralamaları ve detaylı istatistiklere erişmek için Pro veya daha yüksek sürüme yükseltin.",
+          "title": "Yükseltme Gerekli"
+        },
+        "winRate": {
+          "description": "Karlı / Katılınan",
+          "title": "Kazanma Oranı Sıralamaları"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "İstatistikler"
+          },
+          "autoNameNoSteps": "Lütfen önce ticaret adımları oluşturun",
+          "autoNameTooltip": "Strateji adını otomatik oluştur",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "İstatistikler",
+              "stats": {
+                "apr": "APR",
+                "hitRate": "İsabet Oranı",
+                "profitRate": "Kar Oranı",
+                "winRate": "Kazanma Oranı"
+              },
+              "stepCount": "{count} Adım",
+              "title": "Strateji İstatistikleri",
+              "upgradeRequired": {
+                "description": "Strateji istatistiklerini görmek için Pro veya daha yüksek sürüme yükseltin.",
+                "title": "Yükseltme Gerekli"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "Adım Ekle"
+              },
+              "emptyState": "Henüz hiç ticaret adımı eklenmedi. İlk ticaret adımınızı oluşturmak için \"Adım Ekle\" düğmesini tıklayın.",
+              "stats": {
+                "buyCount": "Satın Al: {count}",
+                "sellCount": "Sat: {count}",
+                "stepCount": "{count}/{max} adım",
+                "totalAmount": "Her İşlem İçin Maksimum Tutar"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "Sil",
+                "edit": "Düzenle"
+              },
+              "fields": {
+                "maxChange": "Maksimum Dayanak Fiyat Değişikliği",
+                "minChange": "Minimum Dayanak Fiyat Değişikliği",
+                "once": "Bir Kez",
+                "outcome": "Sonuç",
+                "price": "Fiyat",
+                "size": "Hisse Senetleri",
+                "timeRange": "Zaman Aralığı"
+              },
+              "side": {
+                "buy": "Satın Al",
+                "sell": "Sat"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "Yukarı Takip Modu (fiyat > $0.50)\nTicaret stratejinizi iyi bilmediğiniz sürece bu mod önerilmez çünkü önemli kayıplarla sonuçlanabilir.",
+                "lowBuy": "Düşük Satın Alma Modu (fiyat ≤ $0.50)"
+              },
+              "fields": {
+                "maxChange": "Maksimum Dayanak Fiyat Değişikliği",
+                "minChange": "Minimum Dayanak Fiyat Değişikliği",
+                "once": "Sadece bir kez çalıştır",
+                "outcome": "Sonuç",
+                "price": "Fiyat",
+                "side": "Ticaret Tarafı",
+                "size": "Hisse Senetleri",
+                "timeRange": "Zaman Aralığı"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "Düşük Satın Alma Modunda, dayanak fiyat değişikliği bu değeri aştığında, bot fiyat hareketi yönüne bağlı olarak ilgili tokeni satın almayı durdurur. Devre dışı bırakmak için 0 olarak ayarlayın.",
+                  "minChange": "Yukarı Takip Modunda, dayanak fiyat değişikliği bu değerin altına düştüğünde, bot satın almayı durdurur. Devre dışı bırakmak için 0 olarak ayarlayın.",
+                  "once": "Normalde, bir ticaret döngüsü içinde, daha önce satın aldığınız pozisyon tamamen satılırsa, bot başka bir satın alma siparişi yerleştirmeye çalışacaktır. Döngü başına sadece bir kez ticarette bulunmak istiyorsanız bu seçeneği etkinleştirin.",
+                  "outcome": "Ticaret sonucu yönü. Gelecekteki fiyat yönü konusunda çok emin olmadığınız sürece her ikisini de seçmeniz önerilir.",
+                  "price": "Bu ticaret için hisse başına satın alma fiyatı. Fiyat ne kadar düşükse, potansiyel kar marjınız o kadar yüksek olur ve bunun tersi de geçerlidir.",
+                  "size": "Satın alınacak hisse sayısı. Hisse sayısı çarpı satın alma fiyatı bu ticaretin toplam maliyetine eşittir.",
+                  "timeRange": "Bu satın alma siparişi için geçerli zaman penceresi. Bu zaman aralığının ötesinde doldurulamayan siparişler iptal edilecektir.",
+                  "timeRangeChaseUp": "Bir ticaret döngüsü içinde, belirli bir zaman noktasından sonra sonuç tersine dönüş olasılığı önemli ölçüde düşer, bu da yukarı takibi daha kârlı hale getirir. Bu nedenle satın alma işlemini bu noktadan sonra başlayacak şekilde ayarlayın.",
+                  "timeRangeLowBuy": "Bir ticaret döngüsü içinde, belirli bir zaman noktasından sonra sonuç tersine dönüş olasılığı önemli ölçüde düşer, bu da düşük satın almayı daha kayıplı hale getirir. Bu nedenle satın alma işlemini bu noktadan önce sonlanacak şekilde ayarlayın."
+                },
+                "sell": {
+                  "price": "Bu ticaret için hisse başına satış fiyatı. Fiyat ne kadar yüksekse, potansiyel kar marjınız o kadar yüksek olur ve bunun tersi de geçerlidir. Satın alma fiyatından daha düşük bir fiyat belirlerseniz, kaybetmek üzere bir ticaret tamamlayabilirsiniz.",
+                  "size": "Satılacak hisse sayısı. Hisse sayısı çarpı satış fiyatı bu ticaretten alacağınız toplam tutara eşittir.",
+                  "timeRange": "Bu satış siparişi için geçerli zaman penceresi. Bu zaman aralığının ötesinde doldurulamayan siparişler iptal edilecektir.\n\nBu zaman limitinin amacı mevcut ticaret döngüsü içinde karları erken almak ve satış siparişlerini pazar kapanana kadar açık tutmamaktır. Sonucun değişme olasılığı olmayan güvenli bir zaman aralığında, karı maksimize etmek için siparişleri erken iptal edebilirsiniz."
+                }
+              },
+              "hints": {
+                "minSize": "Minimum 5 hisse",
+                "outcome": "Belirli sonuç seçin veya her ikisinde ticarete katılın",
+                "priceRange": "$0.01 ile $0.99 arasında bir değer girin",
+                "timeRange": "Başlangıç ve bitiş saati dakikalar cinsinden (0-{max})"
+              },
+              "modal": {
+                "titleCreate": "Ticaret Adımı Ekle",
+                "titleEdit": "Ticaret Adımını Düzenle"
+              },
+              "outcomes": {
+                "both": "Her İkisi",
+                "down": "Aşağı",
+                "up": "Yukarı"
+              },
+              "side": {
+                "buy": "Satın Al",
+                "sell": "Sat"
+              },
+              "validation": {
+                "priceMax": "Fiyat en fazla $0.99 olmalı",
+                "priceMin": "Fiyat en az $0.01 olmalı",
+                "sizeMin": "Hisse senetleri en az 5 olmalı",
+                "timeRange": "Bitiş saati başlangıç saatinden büyük olmalı"
+              }
+            }
+          },
+          "duplicateSuffix": "(Kopya)",
+          "fields": {
+            "interval": "Aralık",
+            "name": "Strateji Adı",
+            "strategyJson": "Ticaret Adımları"
+          },
+          "placeholders": {
+            "interval": "Aralık seçin",
+            "name": "Strateji adını girin"
+          },
+          "title": "Strateji Detayları",
+          "titleCreate": "Strateji Oluştur",
+          "titleEdit": "Strateji Detayları"
+        },
+        "actions": {
+          "create": "Strateji Oluştur",
+          "viewBots": "İlgili Botları Görüntüle"
+        },
+        "modals": {
+          "delete": {
+            "message": "\"{name}\" stratejisini silmek istediğinizden emin misiniz?",
+            "title": "Stratejiyi Sil"
+          }
+        },
+        "name": "Stratejiler",
+        "searchPlaceholder": "Strateji adıyla ara",
+        "table": {
+          "amount": "Her İşlem İçin Maksimum Tutar",
+          "botCount": "Botlar",
+          "interval": "Aralık",
+          "name": "Ad"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "Aylık",
+          "YEARLY": "Yıllık"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "Düşür",
+            "limits": {
+              "bots": "Botlar",
+              "maxStrategyAmount": "Maksimum Strateji Tutarı",
+              "statsAccess": "İstatistik Erişimi",
+              "strategies": "Stratejiler",
+              "wallets": "Cüzdanlar"
+            },
+            "perMonth": "/ay",
+            "perYear": "/yıl",
+            "pricing": {
+              "monthlyEquivalent": "{price}/ay",
+              "originalPrice": "Daha önce {price}",
+              "save": "{amount} kadar tasarruf edin"
+            },
+            "renew": "Yenile",
+            "statsAccess": {
+              "full": "Tam Erişim",
+              "limited": "Kısmi Erişim",
+              "none": "Mevcut Değil"
+            },
+            "unlimited": "Sınırsız",
+            "upgrade": "Yükselt"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "Gün Ekle",
+            "confirm": "Onayla",
+            "convertedDays": "Dönüştürülen Günler",
+            "creditAmount": "Kredi: {amount}",
+            "currentRemaining": "Mevcut Kalan",
+            "days": "{count} gün",
+            "downgrade": {
+              "description": "Kalan abonelik değeriniz daha düşük planda daha fazla güne dönüştürülecektir. Para iadesi yapılmayacaktır.",
+              "title": "Planı Düşür"
+            },
+            "expiresAt": "Süresi Doluyor: {date}",
+            "newExpiration": "Yeni Son Tarih",
+            "payAndConfirm": "{amount} Ödeme Yap",
+            "periodDays": "Dönem Günleri",
+            "renew": {
+              "description": "Yenileme, mevcut aboneliğinize {days} gün ekleyecektir.",
+              "title": "Aboneliği Yenile"
+            },
+            "totalAmount": "Toplam Tutar",
+            "upgrade": {
+              "description": "Kalan abonelik değeriniz yeni planda günlere dönüştürülecektir. Yalnızca farkı ödeyebilirsiniz.",
+              "fullyCovered": "Kalan aboneliğiniz bu yükseltmeyi tamamen karşılamaktadır! Ek ödeme gerekmemektedir.",
+              "title": "Planı Yükselt"
+            },
+            "years": "{count} yıl | {count} yıl",
+            "yearsAndDays": "{years} yıl {days} gün | {years} yıl {days} gün"
+          }
+        },
+        "currentPlan": "Mevcut Plan",
+        "expired": "Süresi Doldu",
+        "expiredWarning": {
+          "description": "Aboneliğinizin süresi doldu. Artık sınırlı özelliklere sahip Ücretsiz plandaysınız. Önceki plan avantajlarınızı geri yüklemek için yükseltin.",
+          "title": "Abonelik Süresi Doldu"
+        },
+        "expiresAt": "Son Tarihi",
+        "name": "Abonelik",
+        "neverExpires": "Hiçbir Zaman Süresi Dolmaz",
+        "payment": {
+          "createChargeFailed": "Ödeme oluşturulamadı. Lütfen tekrar deneyin.",
+          "noPaymentNeeded": "Bu işlem için ödeme gerekmemektedir.",
+          "title": "Ödeme"
+        },
+        "paymentHistory": "Ödeme Geçmişi",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "Aboneliğe Geri Dön",
+              "description": "Ödemeniz tamamlanmadı. Hesabınıza herhangi bir ücret uygulanmamıştır.",
+              "name": "Ödeme İptal Edildi",
+              "reasons": {
+                "cancelled": "Ödemeyi iptal ettiniz",
+                "expired": "Ödeme oturumunun süresi doldu",
+                "insufficientFunds": "Cüzdanınızda yetersiz bakiye",
+                "networkError": "Ağ veya blokzincir hatası",
+                "title": "Olası nedenler:"
+              },
+              "retryPayment": "Ödemeyi Tekrar Dene",
+              "title": "Ödeme İptal Edildi"
+            },
+            "success": {
+              "backToSubscription": "Aboneliğe Geri Dön",
+              "confirmed": {
+                "description": "{plan} aboneliğiniz etkinleştirildi.",
+                "title": "Ödeme Başarılı!"
+              },
+              "expired": {
+                "createNew": "Yeni Ödeme Oluştur",
+                "description": "Ödeme oturumunun süresi doldu. Lütfen yeni bir ödeme oluşturun.",
+                "title": "Ödeme Süresi Doldu"
+              },
+              "failed": {
+                "description": "Ödemeniz tamamlanamadı. Lütfen tekrar deneyin.",
+                "title": "Ödeme Başarısız",
+                "tryAgain": "Tekrar Dene"
+              },
+              "loading": {
+                "description": "Ödeme durumu alınıyor",
+                "title": "Yükleniyor..."
+              },
+              "name": "Ödeme Durumu",
+              "notFound": {
+                "description": "Bu ödeme kaydını bulamadık.",
+                "title": "Ödeme Bulunamadı"
+              },
+              "pending": {
+                "continuePayment": "Ödemeye Devam Et",
+                "description": "Ödemeniz blokzincir üzerinde işleniyor.",
+                "note": "Kripto para ödemeşleri onaylanmak için birkaç dakika sürebilir. Bu sayfa ödemeniz onaylandığında otomatik olarak güncellenecektir.",
+                "title": "Ödeme İşleniyor"
+              }
+            }
+          },
+          "name": "Ödeme Geçmişi",
+          "status": {
+            "CONFIRMED": "Onaylandı",
+            "EXPIRED": "Süresi Doldu",
+            "FAILED": "Başarısız",
+            "PENDING": "Beklemede"
+          },
+          "table": {
+            "amount": "Tutar",
+            "billingCycle": "Faturalama Döngüsü",
+            "chargeCode": "Ücret Kodu",
+            "createdAt": "Oluşturulma Tarihi",
+            "plan": "Plan",
+            "status": "Durum"
+          },
+          "title": "Ödeme Geçmişi"
+        },
+        "plans": {
+          "description": "İhtiyaçlarınıza uygun bir plan seçin",
+          "title": "Mevcut Planlar"
+        },
+        "savePercent": "{percent}% Tasarruf Edin",
+        "usage": {
+          "bots": "Botlar",
+          "strategies": "Stratejiler",
+          "wallets": "Cüzdanlar"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "Satın Al",
+              "CLAIM": "Talep Et",
+              "SELL": "Sat"
+            },
+            "notice": "İşlem kayıtları gerçek zamanlı değildir ve gecikmeler olabilir. Gecikme pazar takas döngüsü ile ilgilidir. Burada sadece takas edilmiş pazarlardaki işlemler görüntülenir. Takas edilmemiş pazarlardaki işlemler takas edildikten sonra görünecektir.",
+            "profitHistory": {
+              "title": "Kar Geçmişi (Son 30 Gün)"
+            },
+            "table": {
+              "action": "İşlem",
+              "amount": "Tutar",
+              "market": "Pazar",
+              "timestamp": "Zaman Damgası",
+              "transactionHash": "İşlem Hash'ı"
+            },
+            "title": "İşlem Geçmişi",
+            "tooltip": {
+              "marketLink": "Polymarket'te Görüntüle"
+            }
+          }
+        },
+        "actions": {
+          "create": "Cüzdan Oluştur",
+          "import": "Cüzdan İçe Aktar",
+          "transactions": "İşlem Geçmişi",
+          "viewBots": "İlgili Botları Görüntüle"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "Silmeden önce, özel anahtarınızı dışa aktarıp yedeklediğinizden emin olun. Özel anahtar olmadan, bu cüzdandaki tüm fonlara kalıcı olarak erişim kaybedersiniz.",
+            "message": "Cüzdan \"{name}\" öğesini silmek istediğinizden emin misiniz?",
+            "title": "Cüzdanı Sil",
+            "warning": "Bir cüzdanı silmek geri alınamaz. Tüm cüzdan verileri sistemimizden kalıcı olarak kaldırılacaktır."
+          },
+          "DepositModal": {
+            "address": "Para Yatırma Adresi",
+            "bridgeAddress": "bir varlık köprüsü adresi",
+            "note": "Para yatırma adresi {bridgeAddress}, Polymarket tarafından oluşturulmuştur. Polymarket tarafından desteklenen herhangi bir kripto para gönderebilir ve fonlar otomatik olarak Polygon'a köprülenecek ve USDC.e'ye dönüştürülecektir. USDC.e'yi doğrudan Polygon'a gönderiyor iseniz (örneğin, para çekme özelliğimizi kullanarak), fonları doğrudan Fon Sağlayıcı Adresine gönderebilirsiniz.",
+            "selectChain": "Zincir Seçin",
+            "supportedCrypto": "Polymarket tarafından desteklenen kripto paralar",
+            "title": "Para Yatır"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "Benzersiz bir özel anahtarla yeni bir cüzdan oluşturulacak. Ticaret başlamadan önce bir Gnosis Safe sözleşmesi dağıtılacak.",
+              "title": "Yeni Cüzdan Oluştur"
+            },
+            "edit": {
+              "title": "Cüzdanı Düzenle"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "Riskleri anladığımı ve özel anahtarımı dışa aktarmak istediğimi kabul ediyorum",
+            "connectToPolymarket": "cüzdanınızı Polymarket'e bağlayın",
+            "copyWarning": "Özel anahtarınızı ortaya çıkarmak için göz düğmesine tıklayın. Etrafınızda kimsenin olmadığından emin olun.\nEğer panoya kopyalarsanız, sızıntıyı önlemek için sonra panonuzu temizlemeyi unutmayın.",
+            "decryptFailed": "Özel anahtar çözülemedi",
+            "funderNotice": "Not: Fonlarınız bu özel anahtardan türetilen cüzdan adresinde değil, Fon Sağlayıcı Adresinde (bir Gnosis Safe sözleşmesi) depolanır. Fon Sağlayıcı Adresi, özel anahtarınız tarafından kontrol edilen akıllı bir sözleşmedir. Bu anahtarı bir kripto para cüzdanına içe aktarırsanız, farklı bir adres göreceksiniz ve varlıklarınızı orada bulamayacaksınız. Fonlarınıza erişmek için {connectToPolymarket} ve {withdraw} özelliğini kullanın.",
+            "title": "Özel Anahtarı Dışa Aktar",
+            "warningDetail": "Özel anahtarınızı asla kimseyle paylaşmayın. Özel anahtarınıza erişimi olan herkes cüzdanınızdaki tüm varlıkları çalabilir.",
+            "withdraw": "Para Çek"
+          },
+          "ImportModal": {
+            "description": "Özel anahtarını kullanarak mevcut bir cüzdanı içe aktar. Yeni cüzdanlar için, ticaret başlamadan önce bir Gnosis Safe sözleşmesi dağıtılacak.",
+            "encryptFailed": "Özel anahtar şifrelenemedi",
+            "privateKeyPlaceholder": "Özel anahtarı girin (0x...)",
+            "title": "Cüzdanı İçe Aktar",
+            "warning": {
+              "description": "Polymarket'ten dışa aktarılan özel anahtarları içe aktarmayın. Bu anahtarlar Proxy Cüzdanlarına (E-posta veya MagicLink ile Google girişi aracılığıyla oluşturulan) aittir ve hizmetimiz Gnosis Safe cüzdanları gerektirir.",
+              "learnMore": "Polymarket cüzdan türleri hakkında daha fazla bilgi edinin"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "Kaynak Cüzdan",
+            "info": "Transfer Polymarket Relayer aracılığıyla (gazlı olmayan) işlenir. İşlem hemen gönderilecek ancak zincir üzerinde onaylanması birkaç dakika alabilir.",
+            "submitted": "Transfer isteği başarıyla gönderildi. İşlem durumunu PolygonScan'te takip edebilirsiniz.",
+            "title": "İç Transfer",
+            "toWallet": "Hedef Cüzdan",
+            "toWalletHint": "Fon aktaracağınız bir cüzdan seçin",
+            "walletActivating": "Transfer yapabilmeniz için cüzdanınızın etkinleştirilmesi gerekir. Etkinleştirme ve transfer otomatik olarak işlenecektir. Bu birkaç dakika alabilir. İlerlemeyi izlemek için cüzdan adresini PolygonScan'te kontrol edebilirsiniz."
+          },
+          "WithdrawModal": {
+            "info": "Para çekme Polymarket Relayer aracılığıyla (gazlı olmayan) işlenir. İşlem hemen gönderilecek ancak zincir üzerinde onaylanması birkaç dakika alabilir.",
+            "recipientAddress": "Alıcı Adresi",
+            "recipientPlaceholder": "Polygon adresini girin (0x...)",
+            "submitted": "Para çekme isteği başarıyla gönderildi. İşlem durumunu PolygonScan'te takip edebilirsiniz.",
+            "title": "Para Çek",
+            "walletActivating": "Para çekebilmek için cüzdanınızın etkinleştirilmesi gerekir. Etkinleştirme ve para çekme otomatik olarak işlenecektir. Bu birkaç dakika alabilir. İlerlemeyi izlemek için cüzdan adresini PolygonScan'te kontrol edebilirsiniz."
+          }
+        },
+        "labels": {
+          "availableBalance": "Mevcut Bakiye",
+          "viewOnPolygonscan": "PolygonScan'te Görüntüle",
+          "viewWalletOnPolygonscan": "Cüzdanı PolygonScan'te Görüntüle",
+          "walletName": "Cüzdan Adı"
+        },
+        "messages": {
+          "insufficientBalance": "Tutar mevcut bakiyeyi aşıyor"
+        },
+        "name": "Cüzdanlar",
+        "placeholders": {
+          "amount": "Tutarı girin",
+          "walletName": "Cüzdan adını girin"
+        },
+        "searchPlaceholder": "Cüzdan adıyla ara",
+        "status": {
+          "ACTIVE": "Aktif",
+          "DEPLOYING": "Dağıtılıyor",
+          "FAILED": "Başarısız",
+          "INACTIVE": "Aktif Değil"
+        },
+        "table": {
+          "balance": "Bakiye",
+          "funder": "Fon Sağlayıcı Adresi",
+          "name": "Ad",
+          "status": "Durum"
+        },
+        "tooltips": {
+          "funderHelp": "Fon Sağlayıcı Adresi, Polymarket Gnosis Safe cüzdanınızdır - Polygon üzerine dağıtılan ve konumlarınız ile USDC.e'yi tutan akıllı sözleşme cüzdanı. EOA cüzdanınız tarafından kontrol edilir ve gazlı olmayan işlemleri etkinleştirir.",
+          "funderHelpLink": "Daha fazla bilgi edinin",
+          "inactive": "Cüzdan ticaret başlamadan önce otomatik olarak etkinleştirilecek."
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Farklı bir e-posta kullan",
+        "codeHint": "{email} adresine gönderilen 6 haneli kodu girin",
+        "codeLabel": "Doğrulama Kodu",
+        "emailLabel": "E-posta Adresi",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "name": "Oturum Aç",
+        "noAccount": "Hesabınız yok mu?",
+        "sendCode": "Doğrulama Kodu Gönder",
+        "signInWithGithub": "GitHub ile Oturum Aç",
+        "signInWithGoogle": "Google ile Oturum Aç",
+        "signUp": "Kaydol",
+        "subtitle": "Devam etmek için hesabınıza oturum açın",
+        "title": "Tekrar Hoşgeldiniz",
+        "verify": "Doğrula ve Oturum Aç"
+      },
+      "sign-up": {
+        "agreeToTerms": "{termsOfService} ve {privacyPolicy} ile aynı fikirde olmayı kabul ederim",
+        "changeEmail": "Farklı bir e-posta kullan",
+        "codeHint": "{email} adresine gönderilen 6 haneli kodu girin",
+        "codeLabel": "Doğrulama Kodu",
+        "createAccount": "Hesap Oluştur",
+        "emailLabel": "E-posta Adresi",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "haveAccount": "Zaten bir hesabınız var mı?",
+        "inviteCodeLabel": "Davet Kodu",
+        "inviteCodePlaceholder": "Davet kodunuzu girin",
+        "marketingEmailsLabel": "Bana ürün güncellemeleri ve önerilerini gönder",
+        "name": "Kaydol",
+        "sendCode": "Doğrulama Kodu Gönder",
+        "signIn": "Oturum Aç",
+        "signUpWithGithub": "GitHub ile Kaydol",
+        "signUpWithGoogle": "Google ile Kaydol",
+        "subtitle": "Başlamak için bir hesap oluşturun",
+        "title": "Hesap Oluştur"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Gizlilik Politikası"
+      },
+      "terms-of-service": {
+        "title": "Hizmet Şartları"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Geçersiz doğrulama kodu",
+      "AUTH_OAUTH_FAILED": "Kimlik doğrulama başarısız. Lütfen tekrar deneyin.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Lütfen başka bir kod talep etmeden önce 60 saniye bekleyin",
+      "AUTH_OTP_IP_RATE_LIMITED": "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
+      "AUTH_TURNSTILE_FAILED": "Güvenlik doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
+      "AUTH_USER_ALREADY_EXISTS": "Bu e-posta adresiyle zaten bir hesap var",
+      "AUTH_USER_NOT_FOUND": "Bu e-posta adresiyle hiçbir hesap bulunamadı",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Doğrulama kodu süresi doldu",
+      "BOT_ALREADY_EXISTS": "Bu pazar için bot zaten var",
+      "BOT_ENABLED_CANNOT_DELETE": "Çalışan bir bot silinemez",
+      "BOT_ENABLED_CANNOT_MODIFY": "Çalışan bir bot değiştirilemez",
+      "BOT_NOT_FOUND": "Bot bulunamadı",
+      "BOT_WALLET_DEPLOYING": "Cüzdan şu anda dağıtılıyor",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Botu başlatmak için cüzdan bakiyesi yetersiz",
+      "BOT_WALLET_MARKET_IN_USE": "Bu cüzdan bu pazar için zaten kullanımda",
+      "COMMON_FORBIDDEN_ERROR": "Erişim yasaklandı",
+      "COMMON_NETWORK_ERROR": "Ağ hatası oluştu",
+      "COMMON_NOT_FOUND_ERROR": "Kaynak bulunamadı",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Çok fazla istek. Lütfen daha sonra tekrar deneyin",
+      "COMMON_SERVER_ERROR": "İç sunucu hatası",
+      "COMMON_TIMEOUT_ERROR": "İstek zaman aşımı",
+      "COMMON_UNAUTHORIZED_ERROR": "Yetkisiz erişim",
+      "COMMON_UNKNOWN_ERROR": "Bilinmeyen bir hata oluştu",
+      "COMMON_VALIDATION_ERROR": "Doğrulama başarısız",
+      "INTERNAL_API_KEY_INVALID": "Geçersiz API anahtarı",
+      "INTERNAL_API_KEY_MISSING": "API anahtarı gerekli",
+      "INVALID_EMAIL": "Geçersiz e-posta adresi",
+      "INVITE_CODE_EXPIRED": "Davet kodu süresi doldu",
+      "INVITE_CODE_INVALID": "Geçersiz davet kodu",
+      "INVITE_CODE_REQUIRED": "Davet kodu gerekli",
+      "INVITE_CODE_USAGE_EXCEEDED": "Davet kodu kullanım limitine ulaştı",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Ödeme ücreti oluşturulamadı. Lütfen daha sonra tekrar deneyin.",
+      "PAYMENT_NOT_FOUND": "Ödeme bulunamadı",
+      "STRATEGY_ALREADY_EXISTS": "Strateji zaten var",
+      "STRATEGY_HAS_BOTS": "Botlar tarafından kullanılan strateji silinemez",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "Aralık oluşturulduktan sonra değiştirilemez",
+      "STRATEGY_INVALID_JSON": "Geçersiz strateji konfigürasyonu",
+      "STRATEGY_NOT_FOUND": "Strateji bulunamadı",
+      "STRATEGY_NO_BUY_STEPS": "Strateji en az bir satın alma adımı içermelidir",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Bot limitine ulaşıldı. Daha fazla bot oluşturmak için planınızı yükseltin.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "İstatistik erişimi reddedildi. Bu özelliğe erişmek için planınızı yükseltin.",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "Strateji tutarı plan limitinizi aşıyor. Daha yüksek tutarları kullanmak için yükseltin.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Strateji limitine ulaşıldı. Daha fazla strateji oluşturmak için planınızı yükseltin.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Cüzdan limitine ulaşıldı. Daha fazla cüzdan oluşturmak için planınızı yükseltin.",
+      "WALLET_ALREADY_EXISTS": "Cüzdan zaten var",
+      "WALLET_ALREADY_IN_USE": "Bu cüzdan başka bir kullanıcı tarafından zaten kullanımda",
+      "WALLET_CREATION_FAILED": "Cüzdan oluşturulamadı",
+      "WALLET_DEPLOYING": "Cüzdan şu anda dağıtılıyor. Lütfen bekleyin ve daha sonra tekrar deneyin.",
+      "WALLET_HAS_BOTS": "Botlar tarafından kullanılan cüzdan silinemez",
+      "WALLET_INSUFFICIENT_BALANCE": "Para çekmek için yetersiz bakiye",
+      "WALLET_INVALID_PRIVATE_KEY": "Geçersiz özel anahtar formatı",
+      "WALLET_NOT_FOUND": "Cüzdan bulunamadı",
+      "WALLET_WITHDRAW_FAILED": "Para çekme başarısız oldu"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Doğrulama kodunuz:",
+          "expiry": "Bu kod 10 dakika içinde sona erecek.",
+          "ignore": "Bu kodu talep etmediyseniz, lütfen bu e-postayı görmezden gelin.",
+          "subject": "Doğrulama kodunuz",
+          "title": "Doğrulama Kodu"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "Hizmet Şartları ve Gizlilik Politikası ile aynı fikirde olmalısınız"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "Minimum tutar maksimum tutar değerine eşit veya daha küçük olmalı"
+      },
+      "billingCycle": {
+        "invalid": "Geçersiz faturalama döngüsü"
+      },
+      "botDisableReason": {
+        "required": "Bot durdurma nedeni gerekli"
+      },
+      "bots": {
+        "required": "En az bir bot gerekli",
+        "tooMany": "Aynı anda {maximum}'dan fazla bot oluşturulamaz"
+      },
+      "email": {
+        "invalid": "Geçersiz e-posta formatı",
+        "required": "E-posta gerekli"
+      },
+      "inviteCode": {
+        "invalid": "Geçersiz davet kodu formatı",
+        "required": "Davet kodu gerekli"
+      },
+      "marketInterval": {
+        "invalid": "Geçersiz aralık değeri"
+      },
+      "marketSymbol": {
+        "invalid": "Geçersiz pazar sembolü"
+      },
+      "privateKey": {
+        "invalid": "Geçersiz özel anahtar formatı (0x + 64 hex karakter olmalı)",
+        "required": "Özel anahtar gerekli"
+      },
+      "publicKey": {
+        "invalid": "Geçersiz RSA açık anahtarı formatı",
+        "required": "Açık anahtar gerekli"
+      },
+      "strategyId": {
+        "required": "Strateji ID'si gerekli"
+      },
+      "strategyJson": {
+        "invalid": "Geçersiz strateji konfigürasyonu",
+        "required": "Strateji konfigürasyonu gerekli"
+      },
+      "strategyName": {
+        "required": "Strateji adı gerekli",
+        "tooLong": "Strateji adı {maximum} karakter veya daha az olmalı"
+      },
+      "subscriptionPlan": {
+        "invalid": "Geçersiz abonelik planı"
+      },
+      "timeRange": {
+        "startAfterEnd": "Başlangıç saati bitiş saatine eşit veya daha küçük olmalı"
+      },
+      "turnstileToken": {
+        "invalid": "Güvenlik doğrulaması başarısız oldu",
+        "required": "Lütfen güvenlik doğrulamasını tamamlayın"
+      },
+      "verificationCode": {
+        "invalid": "Geçersiz doğrulama kodu formatı (6 haneli olmalı)",
+        "required": "Doğrulama kodu gerekli"
+      },
+      "verificationToken": {
+        "invalid": "Geçersiz doğrulama token'ı formatı",
+        "required": "Doğrulama token'ı gerekli"
+      },
+      "walletAddress": {
+        "invalid": "Geçersiz cüzdan adresi formatı (0x + 40 hex karakter olmalı)",
+        "required": "Cüzdan adresi gerekli"
+      },
+      "walletName": {
+        "required": "Cüzdan adı gerekli",
+        "tooLong": "Cüzdan adı {maximum} karakter veya daha az olmalı"
+      },
+      "withdrawAmount": {
+        "invalid": "Geçersiz para çekme tutarı",
+        "min": "Tutar 0'dan büyük olmalı",
+        "required": "Para çekme tutarı gerekli"
+      }
+    }
+  }
+}

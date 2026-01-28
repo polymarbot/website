@@ -1,0 +1,20 @@
+{
+  "actions": {
+    "create": "Create Strategy",
+    "viewBots": "View Related Bots"
+  },
+  "modals": {
+    "delete": {
+      "message": "Are you sure you want to delete strategy \"{name}\"?",
+      "title": "Delete Strategy"
+    }
+  },
+  "name": "Strategies",
+  "searchPlaceholder": "Search by strategy name",
+  "table": {
+    "amount": "Max Amount per Trade",
+    "botCount": "Bots",
+    "interval": "Interval",
+    "name": "Name"
+  }
+}

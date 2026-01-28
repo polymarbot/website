@@ -1,0 +1,8 @@
+{
+  "info": "Withdrawal is processed via Polymarket Relayer (gasless). The transaction will be submitted immediately but may take a few minutes to confirm on-chain.",
+  "recipientAddress": "Recipient Address",
+  "recipientPlaceholder": "Enter Polygon address (0x...)",
+  "submitted": "Withdrawal request submitted successfully. You can track the transaction status on PolygonScan.",
+  "title": "Withdraw",
+  "walletActivating": "Your wallet needs to be activated before withdrawal. The activation and withdrawal will be processed automatically. This may take a few minutes. You can check the wallet address on PolygonScan to monitor progress."
+}

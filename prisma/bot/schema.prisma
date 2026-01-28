@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model MarketStrategy {
+  id           Int      @id @default(autoincrement())
+  strategyJson String
+  strategyHash String   @db.VarChar(64)
+  amount       Decimal  @db.Decimal(10, 2)
+  interval     String   @db.VarChar(10)
+  memo         String?
+  createdAt    DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt    DateTime @db.Timestamptz(3)
+
+  @@unique([strategyHash, interval])
+}
+
+model MarketStrategyProfit {
+  funder             String   @db.VarChar(255)
+  strategyId         Int
+  slug               String   @db.VarChar(255)
+  symbol             String   @db.VarChar(10)
+  interval           String   @db.VarChar(10)
+  startTime          Int
+  endTime            Int
+  cost               Decimal? @db.Decimal(10, 2)
+  profit             Decimal? @db.Decimal(10, 2)
+  tradeDetailJson    String?
+  tradeDetailVersion Int?
+  calculated         Int      @default(0)
+  errorCount         Int      @default(0)
+  errorReason        String?
+  createdAt          DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt          DateTime @db.Timestamptz(3)
+
+  @@id([funder, symbol, interval, endTime])
+  @@index([strategyId])
+  @@index([symbol, interval])
+}
+
+model WalletTransaction {
+  sourceId        String                  @id @db.VarChar(255)
+  address         String                  @db.VarChar(255)
+  action          WalletTransactionAction
+  amount          Decimal                 @db.Decimal(10, 2)
+  timestamp       DateTime                @db.Timestamptz(3)
+  transactionHash String                  @db.VarChar(255)
+  createdAt       DateTime                @default(now()) @db.Timestamptz(3)
+  slug            String                  @db.VarChar(255)
+
+  @@index([action])
+  @@index([address])
+  @@index([timestamp])
+  @@index([address, timestamp])
+}
+
+enum WalletTransactionAction {
+  BUY
+  SELL
+  CLAIM
+}

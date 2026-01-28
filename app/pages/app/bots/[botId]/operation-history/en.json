@@ -1,0 +1,25 @@
+{
+  "action": {
+    "DISABLED": "Stop",
+    "ENABLED": "Start"
+  },
+  "info": {
+    "strategy": "Strategy",
+    "wallet": "Wallet"
+  },
+  "reason": {
+    "USER_ACTION": "User action",
+    "WALLET_INSUFFICIENT_BALANCE": "Insufficient wallet balance",
+    "WALLET_TRANSACTION_ERROR": "Transaction error"
+  },
+  "table": {
+    "action": "Action",
+    "operatedAt": "Operated At",
+    "reason": "Reason"
+  },
+  "tabs": {
+    "logs": "Run Logs",
+    "operations": "Operations"
+  },
+  "title": "Bot Run History"
+}

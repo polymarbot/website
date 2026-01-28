@@ -1,0 +1,40 @@
+{
+  "actions": {
+    "create": "Create Wallet",
+    "import": "Import Wallet",
+    "transactions": "Transaction History",
+    "viewBots": "View Related Bots"
+  },
+  "labels": {
+    "availableBalance": "Available Balance",
+    "viewOnPolygonscan": "View on PolygonScan",
+    "viewWalletOnPolygonscan": "View Wallet on PolygonScan",
+    "walletName": "Wallet Name"
+  },
+  "messages": {
+    "insufficientBalance": "Amount exceeds available balance"
+  },
+  "name": "Wallets",
+  "placeholders": {
+    "amount": "Enter amount",
+    "walletName": "Enter wallet name"
+  },
+  "searchPlaceholder": "Search by wallet name",
+  "status": {
+    "ACTIVE": "Active",
+    "DEPLOYING": "Deploying",
+    "FAILED": "Failed",
+    "INACTIVE": "Inactive"
+  },
+  "table": {
+    "balance": "Balance",
+    "funder": "Funder Address",
+    "name": "Name",
+    "status": "Status"
+  },
+  "tooltips": {
+    "funderHelp": "The Funder Address is your Polymarket Gnosis Safe wallet - a smart contract wallet deployed on Polygon that holds your positions and USDC.e. It's controlled by your EOA wallet and enables gasless transactions.",
+    "funderHelpLink": "Learn more",
+    "inactive": "Wallet will be automatically activated before trading starts."
+  }
+}

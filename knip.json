@@ -1,0 +1,35 @@
+{
+  "entry": [
+    "app/**/*.{vue,ts}",
+    "server/**/*.ts",
+    "shared/**/*.ts",
+    "prisma/**/*.ts",
+    "i18n/**/*.ts",
+    "config/**/*.ts",
+    "scripts/**/*.ts",
+    "nuxt.config.ts"
+  ],
+  "project": ["**/*.{js,ts,vue}"],
+  "ignore": [".nuxt/**", ".output/**"],
+  "ignoreDependencies": [
+    "tailwindcss",
+    "tailwindcss-primeui",
+    "sass",
+    "primeicons",
+    "vue-tsc",
+    "@nuxt/image"
+  ],
+  "rules": {
+    "files": "off",
+    "exports": "off",
+    "types": "off",
+    "enumMembers": "off",
+    "duplicates": "off",
+    "unlisted": "off",
+    "binaries": "off",
+    "unresolved": "off",
+    "dependencies": "error",
+    "devDependencies": "error",
+    "optionalPeerDependencies": "off"
+  }
+}

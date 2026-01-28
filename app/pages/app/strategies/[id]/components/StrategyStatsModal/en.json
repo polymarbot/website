@@ -1,0 +1,15 @@
+{
+  "statistics": "Statistics",
+  "stats": {
+    "apr": "APR",
+    "hitRate": "Hit Rate",
+    "profitRate": "Profit Rate",
+    "winRate": "Win Rate"
+  },
+  "stepCount": "{count} Steps",
+  "title": "Strategy Statistics",
+  "upgradeRequired": {
+    "description": "Upgrade to Pro or higher to view strategy statistics.",
+    "title": "Upgrade Required"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "actions": {
+    "batchDelete": "Delete",
+    "batchDisable": "Stop",
+    "batchEnable": "Start",
+    "create": "Create",
+    "viewRunHistory": "Run History"
+  },
+  "messages": {
+    "deleteSuccess": "Bot deleted successfully",
+    "disableSuccess": "Bot stopped successfully",
+    "enableSuccess": "Bot started successfully",
+    "walletActivating": "Wallet is being activated, bots will be started once wallet is active"
+  },
+  "modals": {
+    "batchDelete": {
+      "message": "Are you sure you want to delete {count} bots? This action cannot be undone.",
+      "title": "Batch Delete Bots"
+    },
+    "batchDisable": {
+      "message": "Are you sure you want to stop {count} bots?",
+      "title": "Batch Stop Bots"
+    },
+    "batchEnable": {
+      "message": "Are you sure you want to start {count} bots?",
+      "title": "Batch Start Bots"
+    },
+    "delete": {
+      "message": "Are you sure you want to delete this bot? This action cannot be undone.",
+      "title": "Delete Bot"
+    },
+    "disable": {
+      "message": "Are you sure you want to stop this bot?",
+      "title": "Stop Bot"
+    },
+    "enable": {
+      "message": "Are you sure you want to start this bot?",
+      "title": "Start Bot"
+    }
+  },
+  "name": "Bots",
+  "searchPlaceholder": "Search by wallet name or strategy name",
+  "table": {
+    "market": "Market",
+    "runtime": "Runtime",
+    "status": "Status",
+    "strategy": "Strategy",
+    "wallet": "Wallet"
+  },
+  "tooltips": {
+    "disable": "Stop bot",
+    "disabling": "Stopping...",
+    "enable": "Start bot",
+    "enabling": "Starting...",
+    "walletDeploying": "Wallet is deploying, cannot start",
+    "walletFailed": "Wallet deployment failed"
+  },
+  "walletStatus": {
+    "DEPLOYING": "Deploying",
+    "FAILED": "Failed"
+  }
+}

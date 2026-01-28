@@ -1,0 +1,31 @@
+{
+  "billingCycle": {
+    "MONTHLY": "Monthly",
+    "YEARLY": "Yearly"
+  },
+  "currentPlan": "Current Plan",
+  "expired": "Expired",
+  "expiredWarning": {
+    "description": "Your subscription has expired. You are now on the Free plan with limited features. Upgrade to restore your previous plan benefits.",
+    "title": "Subscription Expired"
+  },
+  "expiresAt": "Expires At",
+  "name": "Subscription",
+  "neverExpires": "Never Expires",
+  "payment": {
+    "createChargeFailed": "Failed to create payment. Please try again.",
+    "noPaymentNeeded": "No payment required for this action.",
+    "title": "Payment"
+  },
+  "paymentHistory": "Payment History",
+  "plans": {
+    "description": "Choose a plan that fits your needs",
+    "title": "Available Plans"
+  },
+  "savePercent": "Save {percent}%",
+  "usage": {
+    "bots": "Bots",
+    "strategies": "Strategies",
+    "wallets": "Wallets"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "confirm": "Delete",
+  "confirmationText": "DELETE",
+  "defaultMessage": "This action cannot be undone. Please make sure you have backed up any important data before proceeding.",
+  "inputLabel": "Type {0} to confirm deletion",
+  "title": "Delete"
+}

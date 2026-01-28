@@ -1,0 +1,54 @@
+{
+  "actions": {
+    "deleteAll": "Delete All",
+    "disableAll": "Stop All",
+    "enableAll": "Start All"
+  },
+  "menu": {
+    "byConditions": "By Conditions"
+  },
+  "messages": {
+    "deleteSuccess": "Bots deleted successfully",
+    "disableSuccess": "Bots stopped successfully",
+    "enableSuccess": "Bots started successfully",
+    "noBotsToDelete": "No bots to delete (only stopped bots can be deleted)",
+    "noBotsToDisable": "No bots to stop",
+    "noBotsToEnable": "No bots to start",
+    "resultDeleteSkipped": "{count} bot(s) could not be deleted (running).",
+    "resultDeleted": "{count} bot(s) deleted successfully.",
+    "resultEnableSkipped": "{count} bot(s) could not be started due to insufficient balance, wallet status, or strategy amount exceeding plan limit.",
+    "resultEnabled": "{count} bot(s) started successfully.",
+    "resultPending": "{count} bot(s) pending wallet activation.",
+    "resultPendingAutoStart": "{count} bot(s) pending wallet activation and will start automatically once wallets are activated."
+  },
+  "modals": {
+    "batchDelete": {
+      "message": "All stopped bots are about to be deleted. This action cannot be undone. Are you sure you want to delete these bots?",
+      "title": "Delete Bots"
+    },
+    "batchDisable": {
+      "message": "All running bots are about to stop. However, orders that have already been placed will not be automatically canceled. Are you sure you want to stop all bots?",
+      "title": "Stop Bots"
+    },
+    "batchEnable": {
+      "message": "All stopped bots are about to start. Once started, they will begin using funds in their wallets to place orders, which may result in profits or losses. Are you sure you want to start all bots?",
+      "title": "Start Bots"
+    },
+    "byConditions": {
+      "hint": "All bots matching the selected conditions will be affected.",
+      "intervalDisabledHint": "Interval filter is disabled because a strategy is selected",
+      "intervalLabel": "Interval",
+      "selectInterval": "Select Interval",
+      "selectStrategy": "Select Strategy",
+      "selectSymbol": "Select Symbol",
+      "selectWallet": "Select Wallet",
+      "strategyDisabledHint": "Strategy filter is disabled because intervals are selected",
+      "strategyLabel": "Strategy",
+      "symbolLabel": "Symbol",
+      "titleDelete": "Delete Bots by Conditions",
+      "titleDisable": "Stop Bots by Conditions",
+      "titleEnable": "Start Bots by Conditions",
+      "walletLabel": "Wallet"
+    }
+  }
+}

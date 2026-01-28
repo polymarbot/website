@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "Indietro",
+      "cancel": "Annulla",
+      "clear": "Cancella",
+      "close": "Chiudi",
+      "confirm": "Conferma",
+      "continue": "Continua",
+      "create": "Crea",
+      "delete": "Elimina",
+      "deposit": "Deposita",
+      "duplicate": "Duplica",
+      "edit": "Modifica",
+      "export": "Esporta",
+      "goBack": "Torna Indietro",
+      "import": "Importa",
+      "install": "Installa",
+      "learnMore": "Scopri di più",
+      "more": "Altro",
+      "next": "Avanti",
+      "ok": "OK",
+      "refresh": "Aggiorna",
+      "reload": "Ricarica",
+      "reportIssue": "Segnala un Problema",
+      "retry": "Riprova",
+      "save": "Salva",
+      "search": "Ricerca",
+      "signIn": "Accedi",
+      "signOut": "Esci",
+      "submit": "Invia",
+      "transfer": "Trasferimento",
+      "uninstall": "Disinstalla",
+      "viewDetails": "Visualizza Dettagli",
+      "withdraw": "Ritira"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Sei sicuro di voler uscire?",
+        "title": "Esci"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "g",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Azioni",
+      "active": "Attivo",
+      "alert": "Avviso",
+      "all": "Tutti",
+      "amount": "Importo",
+      "chain": "Catena",
+      "confirmation": "Conferma",
+      "createdAt": "Creato Il",
+      "dateRange": "Intervallo Date",
+      "delete": "Elimina",
+      "deleteConfirmation": "Conferma Eliminazione",
+      "email": "Email",
+      "error": "Errore",
+      "max": "Massimo",
+      "new": "Nuovo",
+      "no": "No",
+      "optional": "Facoltativo",
+      "or": "o",
+      "password": "Password",
+      "private": "Privato",
+      "privateKey": "Chiave Privata",
+      "success": "Successo",
+      "token": "Token",
+      "transactionHash": "Hash della Transazione",
+      "unknown": "Sconosciuto",
+      "unlimited": "Illimitato",
+      "updatedAt": "Aggiornato Il",
+      "yes": "Sì"
+    },
+    "messages": {
+      "createSuccess": "Creato con successo",
+      "deleteSuccess": "Eliminato con successo",
+      "importSuccess": "Importato con successo",
+      "saveSuccess": "Salvato con successo",
+      "submitSuccess": "Inviato con successo",
+      "updateSuccess": "Aggiornato con successo"
+    },
+    "statuses": {
+      "closing": "Chiusura in corso...",
+      "completed": "Completato",
+      "failed": "Non riuscito",
+      "loading": "Caricamento in corso...",
+      "pending": "In Sospeso",
+      "processing": "Elaborazione in corso...",
+      "success": "Successo"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Modalità Scura",
+        "lightMode": "Modalità Chiara",
+        "switchToDark": "Passa a Modalità Scura",
+        "switchToLight": "Passa a Modalità Chiara"
+      },
+      "Footer": {
+        "copyright": "© {year} Tutti i diritti riservati"
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "e {count} altri...",
+        "message": "Questo elemento è utilizzato da {count} bot. Per favore eliminali prima:"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Cambia lingua"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 Minuti",
+          "1d": "1 Giorno",
+          "1h": "1 Ora",
+          "4h": "4 Ore"
+        },
+        "placeholder": "Seleziona intervallo"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Seleziona simboli"
+      },
+      "Navbar": {
+        "collapseSidebar": "Comprimi barra laterale",
+        "expandSidebar": "Espandi barra laterale",
+        "goBack": "Torna Indietro"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Segnala un Problema"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "Visualizza dettagli strategia",
+        "viewStats": "Visualizza statistiche"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "Tutto il Tempo",
+          "custom": "Personalizzato",
+          "month": "Ultimi 30 Giorni",
+          "quarter": "Ultimi 90 Giorni",
+          "week": "Ultimi 7 Giorni"
+        },
+        "labels": {
+          "dateRange": "Intervallo Date",
+          "interval": "Intervallo",
+          "symbol": "Simbolo"
+        },
+        "upgradeDialog": {
+          "cancel": "Annulla",
+          "message": "Aggiorna a Plus o superiore per accedere a più opzioni di intervallo date incluse date personalizzate.",
+          "title": "Aggiornamento Richiesto",
+          "upgrade": "Aggiorna Ora"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Crea nuova strategia",
+        "emptyMessage": "Nessuna strategia disponibile",
+        "placeholder": "Seleziona una strategia"
+      },
+      "UpgradeOverlay": {
+        "description": "Aggiorna il tuo abbonamento per sbloccare questa funzione e accedere a statistiche complete.",
+        "title": "Funzione Premium",
+        "upgradeButton": "Aggiorna Ora"
+      },
+      "WalletSelect": {
+        "createNew": "Crea nuovo portafoglio",
+        "emptyMessage": "Nessun portafoglio disponibile",
+        "placeholder": "Seleziona un portafoglio"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Spesa (Acquisto)",
+        "income": "Reddito (Vendita + Reclamo)",
+        "netProfit": "Profitto Netto",
+        "txCount": "Transazioni"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Azioni",
+        "pageReport": "Visualizzazione {'{first}'} a {'{last}'} di {'{totalRecords}'}",
+        "pageReportMobile": "Totale: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Elimina",
+        "confirmationText": "ELIMINA",
+        "defaultMessage": "Questa azione non può essere annullata. Assicurati di aver eseguito il backup di tutti i dati importanti prima di procedere.",
+        "inputLabel": "Digita {0} per confermare l'eliminazione",
+        "title": "Elimina"
+      },
+      "CopyButton": {
+        "copied": "Copiato!",
+        "copyToClipboard": "Copia negli appunti"
+      },
+      "DataTable": {
+        "empty": "Nessun dato disponibile",
+        "filterAll": "Tutti",
+        "filterApply": "Applica",
+        "filterClear": "Cancella"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Data di fine",
+        "startPlaceholder": "Data di inizio",
+        "to": "a"
+      },
+      "EmptyState": {
+        "defaultMessage": "Nessun dato"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "Nessun log disponibile",
+        "refresh": "Aggiorna",
+        "scrollToBottom": "Scorri verso il basso"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Incolla dagli appunti",
+        "pasted": "Incollato!"
+      },
+      "SearchSelect": {
+        "createNew": "Crea nuovo",
+        "noItems": "Nessuna opzione disponibile",
+        "noSearchItems": "Nessun risultato trovato",
+        "searchPlaceholder": "Ricerca..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Avvia App",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxAmount": "{amount} Massimo per Strategia",
+          "strategies": "{count} Strategie",
+          "wallets": "{count} Portafogli"
+        },
+        "getStarted": "Inizia Gratuitamente",
+        "perMonth": "/mese",
+        "subtitle": "Scegli il piano che si adatta alle tue esigenze di trading",
+        "title": "Prezzi Semplici e Trasparenti"
+      },
+      "tagline": "Automatizza le tue strategie di trading",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "I nostri bot monitorano i mercati ed eseguono scambi 24 ore su 24 senza alcun intervento manuale.",
+            "title": "Sempre Attivo"
+          },
+          "easySetup": {
+            "description": "Non è necessaria alcuna codifica. Crea strategie con semplici parametri e distribuisci in pochi minuti.",
+            "title": "Configurazione Facile"
+          },
+          "gasless": {
+            "description": "Scambia senza spese di gas utilizzando i contratti Gnosis Safe di Polymarket.",
+            "title": "Scambio Senza Gas"
+          },
+          "multiWallet": {
+            "description": "Gestisci più portafogli per diversificare il tuo portafoglio di strategie di trading.",
+            "title": "Multi-Portafoglio"
+          },
+          "realTimeAnalytics": {
+            "description": "Monitora completamente le prestazioni della tua strategia con dashboard, statistiche e log dettagliati.",
+            "title": "Analitiche in Tempo Reale"
+          },
+          "strategyStats": {
+            "description": "Traccia le prestazioni della strategia e utilizza le strategie migliori per iniziare a trarre profitti rapidamente.",
+            "title": "Analitiche Strategia"
+          }
+        },
+        "title": "Perché Scegliere Noi"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Crea portafogli proxy Polymarket (Gnosis Safe)",
+            "title": "Aggiungi Portafogli"
+          },
+          "createStrategies": {
+            "description": "Definisci le tue regole di trading e i parametri",
+            "title": "Crea Strategie"
+          },
+          "deployBots": {
+            "description": "Avvia i tuoi bot e guardali scambiare automaticamente",
+            "title": "Distribuisci Bot"
+          },
+          "signUp": {
+            "description": "Crea il tuo account in pochi secondi",
+            "title": "Iscriviti"
+          }
+        },
+        "subtitle": "Inizia in pochi minuti con il nostro semplice processo in 4 fasi",
+        "title": "Come Funziona"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "Ferma",
+              "ENABLED": "Avvia"
+            },
+            "fun-logs": {
+              "notice": "I log di esecuzione non sono in tempo reale e hanno ritardi. Sono solo per revisione storica e risoluzione dei problemi, non per valutare lo stato attuale del bot. Solo i log dell'ultimo mese vengono conservati.",
+              "title": "Log di Esecuzione"
+            },
+            "info": {
+              "strategy": "Strategia",
+              "wallet": "Portafoglio"
+            },
+            "reason": {
+              "USER_ACTION": "Azione utente",
+              "WALLET_INSUFFICIENT_BALANCE": "Saldo portafoglio insufficiente",
+              "WALLET_TRANSACTION_ERROR": "Errore transazione"
+            },
+            "table": {
+              "action": "Azione",
+              "operatedAt": "Operato Il",
+              "reason": "Motivo"
+            },
+            "tabs": {
+              "logs": "Log di Esecuzione",
+              "operations": "Operazioni"
+            },
+            "title": "Cronologia Esecuzione Bot"
+          }
+        },
+        "actions": {
+          "batchDelete": "Elimina",
+          "batchDisable": "Ferma",
+          "batchEnable": "Avvia",
+          "create": "Crea",
+          "viewRunHistory": "Cronologia Esecuzione"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "Elimina Tutto",
+              "disableAll": "Ferma Tutto",
+              "enableAll": "Avvia Tutto"
+            },
+            "menu": {
+              "byConditions": "Per Condizioni"
+            },
+            "messages": {
+              "deleteSuccess": "Bot eliminati con successo",
+              "disableSuccess": "Bot fermati con successo",
+              "enableSuccess": "Bot avviati con successo",
+              "noBotsToDelete": "Nessun bot da eliminare (solo i bot fermati possono essere eliminati)",
+              "noBotsToDisable": "Nessun bot da fermare",
+              "noBotsToEnable": "Nessun bot da avviare",
+              "resultDeleteSkipped": "{count} bot(s) non potevano essere eliminati (in esecuzione).",
+              "resultDeleted": "{count} bot(s) eliminati con successo.",
+              "resultEnableSkipped": "{count} bot(s) non potevano essere avviati a causa di saldo insufficiente, stato del portafoglio o importo della strategia che supera il limite del piano.",
+              "resultEnabled": "{count} bot(s) avviati con successo.",
+              "resultPending": "{count} bot(s) in attesa dell'attivazione del portafoglio.",
+              "resultPendingAutoStart": "{count} bot(s) in attesa dell'attivazione del portafoglio e avvieranno automaticamente una volta che i portafogli sono attivati."
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "Tutti i bot fermati stanno per essere eliminati. Questa azione non può essere annullata. Sei sicuro di voler eliminare questi bot?",
+                "title": "Elimina Bot"
+              },
+              "batchDisable": {
+                "message": "Tutti i bot in esecuzione stanno per fermarsi. Tuttavia, gli ordini che sono stati già piazzati non verranno annullati automaticamente. Sei sicuro di voler fermare tutti i bot?",
+                "title": "Ferma Bot"
+              },
+              "batchEnable": {
+                "message": "Tutti i bot fermati stanno per avviarsi. Una volta avviati, inizieranno a utilizzare i fondi nei loro portafogli per piazzare ordini, il che potrebbe comportare profitti o perdite. Sei sicuro di voler avviare tutti i bot?",
+                "title": "Avvia Bot"
+              },
+              "byConditions": {
+                "hint": "Tutti i bot che corrispondono alle condizioni selezionate saranno interessati.",
+                "intervalDisabledHint": "Il filtro intervallo è disabilitato perché è selezionata una strategia",
+                "intervalLabel": "Intervallo",
+                "selectInterval": "Seleziona Intervallo",
+                "selectStrategy": "Seleziona Strategia",
+                "selectSymbol": "Seleziona Simbolo",
+                "selectWallet": "Seleziona Portafoglio",
+                "strategyDisabledHint": "Il filtro strategia è disabilitato perché gli intervalli sono selezionati",
+                "strategyLabel": "Strategia",
+                "symbolLabel": "Simbolo",
+                "titleDelete": "Elimina Bot per Condizioni",
+                "titleDisable": "Ferma Bot per Condizioni",
+                "titleEnable": "Avvia Bot per Condizioni",
+                "walletLabel": "Portafoglio"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "Intervallo",
+              "strategy": "Strategia",
+              "symbols": "Simboli",
+              "wallet": "Portafoglio"
+            },
+            "hints": {
+              "batchCreate": "Verrà creato un bot per ogni mercato (simbolo + intervallo). Saltato se il portafoglio ha già un bot in quel mercato.",
+              "intervalFirst": "Seleziona prima l'intervallo, poi scegli una strategia corrispondente",
+              "strategyFiltered": "Sono mostrate solo le strategie con l'intervallo selezionato",
+              "symbolsOptional": "Lascia vuoto per creare bot per tutti i simboli"
+            },
+            "messages": {
+              "createSuccess": "{count} bot creati con successo",
+              "noBotsToCreate": "Nessun bot da creare",
+              "resultCreated": "{count} bot(s) creati con successo.",
+              "resultSkipped": "{count} bot(s) saltati (il portafoglio ha già un bot in quei mercati)."
+            },
+            "modals": {
+              "result": {
+                "title": "Risultato Creazione"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "Tutti",
+              "selectStrategy": "Seleziona strategia",
+              "selectWallet": "Seleziona portafoglio"
+            },
+            "title": "Creazione Batch Bot"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "Il saldo richiesto è il totale di tutti i bot attivi su questo portafoglio:\nOgni bot richiede = Importo Massimo per Operazione × {multiplier}",
+            "current": "Saldo Attuale",
+            "description": "Il saldo del portafoglio è insufficiente per supportare tutti i bot attivi. Non puoi avviare questo bot fino a quando il requisito di saldo non viene soddisfatto.",
+            "required": "Richiesto (Tutti i Bot Attivi)",
+            "shortfall": "Scarsità",
+            "suggestion": "Per favore deposita fondi per coprire la scarsità, o ferma altri bot per liberare il saldo richiesto."
+          }
+        },
+        "messages": {
+          "deleteSuccess": "Bot eliminato con successo",
+          "disableSuccess": "Bot fermato con successo",
+          "enableSuccess": "Bot avviato con successo",
+          "walletActivating": "Il portafoglio è in fase di attivazione, i bot verranno avviati una volta che il portafoglio è attivo"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "Sei sicuro di voler eliminare {count} bot? Questa azione non può essere annullata.",
+            "title": "Eliminazione Batch Bot"
+          },
+          "batchDisable": {
+            "message": "Sei sicuro di voler fermare {count} bot?",
+            "title": "Arresto Batch Bot"
+          },
+          "batchEnable": {
+            "message": "Sei sicuro di voler avviare {count} bot?",
+            "title": "Avvio Batch Bot"
+          },
+          "delete": {
+            "message": "Sei sicuro di voler eliminare questo bot? Questa azione non può essere annullata.",
+            "title": "Elimina Bot"
+          },
+          "disable": {
+            "message": "Sei sicuro di voler fermare questo bot?",
+            "title": "Ferma Bot"
+          },
+          "enable": {
+            "message": "Sei sicuro di voler avviare questo bot?",
+            "title": "Avvia Bot"
+          }
+        },
+        "name": "Bot",
+        "searchPlaceholder": "Ricerca per nome portafoglio o nome strategia",
+        "table": {
+          "market": "Mercato",
+          "runtime": "Tempo di Esecuzione",
+          "status": "Stato",
+          "strategy": "Strategia",
+          "wallet": "Portafoglio"
+        },
+        "tooltips": {
+          "disable": "Ferma bot",
+          "disabling": "Fermo in corso...",
+          "enable": "Avvia bot",
+          "enabling": "Avvio in corso...",
+          "walletDeploying": "Il portafoglio è in fase di distribuzione, non può essere avviato",
+          "walletFailed": "Distribuzione portafoglio non riuscita"
+        },
+        "walletStatus": {
+          "DEPLOYING": "In Distribuzione",
+          "FAILED": "Non Riuscito"
+        }
+      },
+      "dashboard": {
+        "botCount": "Bot",
+        "name": "Pannello Strumenti",
+        "profitHistory": {
+          "title": "Cronologia Profitti (Ultimi 30 Giorni)"
+        },
+        "running": "in esecuzione",
+        "strategyCount": "Strategie",
+        "totalBalance": "Saldo Totale",
+        "walletCount": "Portafogli"
+      },
+      "markets": {
+        "empty": "Nessun mercato trovato",
+        "name": "Mercati",
+        "tooltip": {
+          "enabledBots": "Bot in Esecuzione",
+          "totalBots": "Bot Totali"
+        }
+      },
+      "me": {
+        "anonymous": "Anonimo",
+        "language": {
+          "name": "Lingua",
+          "title": "Seleziona Lingua"
+        },
+        "name": "Profilo"
+      },
+      "rankings": {
+        "apr": {
+          "description": "Tasso di Profitto (Record Totali)",
+          "title": "Classifiche APR"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "Crea Strategia",
+              "editStrategy": "Modifica Strategia"
+            },
+            "myStrategy": "Mia Strategia"
+          }
+        },
+        "filters": {
+          "amountRange": "Intervallo Importo"
+        },
+        "hitRate": {
+          "description": "Partecipato / Record Totali",
+          "title": "Classifiche Tasso di Colpi"
+        },
+        "name": "Classifiche",
+        "profitRate": {
+          "description": "Profitto Totale / Costo Totale (Partecipato)",
+          "title": "Classifiche Tasso di Profitto"
+        },
+        "title": "Classifiche delle Strategie",
+        "upgradeRequired": {
+          "description": "Aggiorna a Pro o superiore per accedere alle classifiche delle strategie e alle statistiche dettagliate.",
+          "title": "Aggiornamento Richiesto"
+        },
+        "winRate": {
+          "description": "Redditizio / Partecipato",
+          "title": "Classifiche Tasso di Vittoria"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "Statistiche"
+          },
+          "autoNameNoSteps": "Per favore crea prima i passaggi di trading",
+          "autoNameTooltip": "Genera automaticamente nome strategia",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "Statistiche",
+              "stats": {
+                "apr": "APR",
+                "hitRate": "Tasso di Colpi",
+                "profitRate": "Tasso di Profitto",
+                "winRate": "Tasso di Vittoria"
+              },
+              "stepCount": "{count} Passaggi",
+              "title": "Statistiche Strategia",
+              "upgradeRequired": {
+                "description": "Aggiorna a Pro o superiore per visualizzare le statistiche della strategia.",
+                "title": "Aggiornamento Richiesto"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "Aggiungi Passaggio"
+              },
+              "emptyState": "Nessun passaggio di trading aggiunto ancora. Fai clic su \"Aggiungi Passaggio\" per creare il tuo primo passaggio di trading.",
+              "stats": {
+                "buyCount": "Acquisto: {count}",
+                "sellCount": "Vendita: {count}",
+                "stepCount": "{count}/{max} passaggi",
+                "totalAmount": "Importo Massimo per Operazione"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "Elimina",
+                "edit": "Modifica"
+              },
+              "fields": {
+                "maxChange": "Cambio Massimo Prezzo Sottostante",
+                "minChange": "Cambio Minimo Prezzo Sottostante",
+                "once": "Una Volta",
+                "outcome": "Risultato",
+                "price": "Prezzo",
+                "size": "Azioni",
+                "timeRange": "Intervallo Tempo"
+              },
+              "side": {
+                "buy": "Acquista",
+                "sell": "Vendi"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "Modalità Chase Up (prezzo > $0.50)\nA meno che non conosca bene la tua strategia di trading, questa modalità non è consigliata in quanto potrebbe comportare perdite significative.",
+                "lowBuy": "Modalità Low Buy (prezzo ≤ $0.50)"
+              },
+              "fields": {
+                "maxChange": "Cambio Massimo Prezzo Sottostante",
+                "minChange": "Cambio Minimo Prezzo Sottostante",
+                "once": "Esegui solo una volta",
+                "outcome": "Risultato",
+                "price": "Prezzo",
+                "side": "Lato Trading",
+                "size": "Azioni",
+                "timeRange": "Intervallo Tempo"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "In Modalità Low Buy, quando il cambio del prezzo sottostante supera questo valore, il bot smetterà di acquistare il token corrispondente in base alla direzione del movimento dei prezzi. Imposta a 0 per disabilitare questo limite.",
+                  "minChange": "In Modalità Chase Up, quando il cambio del prezzo sottostante scende al di sotto di questo valore, il bot smetterà di acquistare. Imposta a 0 per disabilitare questo limite.",
+                  "once": "Normalmente, all'interno di un ciclo di trading, se la tua posizione acquistata in precedenza viene completamente venduta, il bot tenterà di piazzare un altro ordine di acquisto. Abilita questa opzione se vuoi scambiare solo una volta per ciclo.",
+                  "outcome": "La direzione del risultato del trading. A meno che tu non sia molto sicuro della futura direzione dei prezzi, è consigliato selezionare entrambi.",
+                  "price": "Il prezzo di acquisto per azione per questo trading. Più basso è il prezzo, maggiore è il tuo potenziale margine di profitto, e viceversa.",
+                  "size": "Il numero di azioni da acquistare. Le azioni moltiplicate per il prezzo di acquisto equivalgono al costo totale di questo trading.",
+                  "timeRange": "La finestra di tempo valida per questo ordine di acquisto. Gli ordini non eseguiti oltre questo intervallo di tempo verranno annullati.",
+                  "timeRangeChaseUp": "In un ciclo di trading, dopo un certo punto nel tempo, la probabilità di inversione del risultato scende significativamente, rendendo il chase up più probabile di fare profitto. Pertanto, imposta l'operazione di acquisto per iniziare dopo questo momento.",
+                  "timeRangeLowBuy": "In un ciclo di trading, dopo un certo punto nel tempo, la probabilità di inversione del risultato scende significativamente, rendendo l'acquisto basso più probabile di perdere. Pertanto, imposta l'operazione di acquisto per terminare prima di questo momento."
+                },
+                "sell": {
+                  "price": "Il prezzo di vendita per azione per questo trading. Più alto è il prezzo, maggiore è il tuo potenziale margine di profitto, e viceversa. Se imposti un prezzo inferiore al prezzo di acquisto, potresti completare un trading in perdita.",
+                  "size": "Il numero di azioni da vendere. Le azioni moltiplicate per il prezzo di vendita equivalgono all'importo totale che riceverai da questo trading.",
+                  "timeRange": "La finestra di tempo valida per questo ordine di vendita. Gli ordini non eseguiti oltre questo intervallo di tempo verranno annullati.\n\nLo scopo di questo limite di tempo è prendere profitti all'inizio del ciclo di trading attuale senza mantenere gli ordini di vendita aperti fino alla chiusura del mercato. All'interno di un intervallo di tempo sicuro dove il risultato è improbabile che cambi, puoi annullare gli ordini in anticipo per massimizzare i profitti."
+                }
+              },
+              "hints": {
+                "minSize": "Minimo 5 azioni",
+                "outcome": "Seleziona risultato specifico o scambia entrambi",
+                "priceRange": "Inserisci un valore tra $0.01 e $0.99",
+                "timeRange": "Ora di inizio e fine in minuti (0-{max})"
+              },
+              "modal": {
+                "titleCreate": "Aggiungi Passaggio Trading",
+                "titleEdit": "Modifica Passaggio Trading"
+              },
+              "outcomes": {
+                "both": "Entrambi",
+                "down": "Giù",
+                "up": "Su"
+              },
+              "side": {
+                "buy": "Acquista",
+                "sell": "Vendi"
+              },
+              "validation": {
+                "priceMax": "Il prezzo deve essere al massimo $0.99",
+                "priceMin": "Il prezzo deve essere almeno $0.01",
+                "sizeMin": "Le azioni devono essere almeno 5",
+                "timeRange": "L'ora di fine deve essere maggiore dell'ora di inizio"
+              }
+            }
+          },
+          "duplicateSuffix": "(Copia)",
+          "fields": {
+            "interval": "Intervallo",
+            "name": "Nome Strategia",
+            "strategyJson": "Passaggi Trading"
+          },
+          "placeholders": {
+            "interval": "Seleziona intervallo",
+            "name": "Inserisci nome strategia"
+          },
+          "title": "Dettagli Strategia",
+          "titleCreate": "Crea Strategia",
+          "titleEdit": "Dettagli Strategia"
+        },
+        "actions": {
+          "create": "Crea Strategia",
+          "viewBots": "Visualizza Bot Correlati"
+        },
+        "modals": {
+          "delete": {
+            "message": "Sei sicuro di voler eliminare la strategia \"{name}\"?",
+            "title": "Elimina Strategia"
+          }
+        },
+        "name": "Strategie",
+        "searchPlaceholder": "Ricerca per nome strategia",
+        "table": {
+          "amount": "Importo Massimo per Operazione",
+          "botCount": "Bot",
+          "interval": "Intervallo",
+          "name": "Nome"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "Mensile",
+          "YEARLY": "Annuale"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "Downgrade",
+            "limits": {
+              "bots": "Bot",
+              "maxStrategyAmount": "Importo Strategia Massimo",
+              "statsAccess": "Accesso Statistiche",
+              "strategies": "Strategie",
+              "wallets": "Portafogli"
+            },
+            "perMonth": "/mese",
+            "perYear": "/anno",
+            "pricing": {
+              "monthlyEquivalent": "{price}/mese",
+              "originalPrice": "Era {price}",
+              "save": "Risparmia {amount}"
+            },
+            "renew": "Rinnova",
+            "statsAccess": {
+              "full": "Accesso Completo",
+              "limited": "Accesso Parziale",
+              "none": "Non Disponibile"
+            },
+            "unlimited": "Illimitato",
+            "upgrade": "Aggiorna"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "Aggiungi Giorni",
+            "confirm": "Conferma",
+            "convertedDays": "Giorni Convertiti",
+            "creditAmount": "Credito: {amount}",
+            "currentRemaining": "Rimanente Attuale",
+            "days": "{count} giorni",
+            "downgrade": {
+              "description": "Il tuo valore di abbonamento rimanente verrà convertito in più giorni nel piano inferiore. Nessun rimborso verrà emesso.",
+              "title": "Downgrade Piano"
+            },
+            "expiresAt": "Scade: {date}",
+            "newExpiration": "Nuova Scadenza",
+            "payAndConfirm": "Paga {amount}",
+            "periodDays": "Giorni Periodo",
+            "renew": {
+              "description": "Il rinnovo aggiungerà {days} giorni al tuo abbonamento attuale.",
+              "title": "Rinnova Abbonamento"
+            },
+            "totalAmount": "Importo Totale",
+            "upgrade": {
+              "description": "Il tuo valore di abbonamento rimanente verrà convertito in giorni nel nuovo piano. Pagherai solo la differenza.",
+              "fullyCovered": "Il tuo abbonamento rimanente copre completamente questo aggiornamento! Nessun pagamento aggiuntivo richiesto.",
+              "title": "Aggiorna Piano"
+            },
+            "years": "{count} anno | {count} anni",
+            "yearsAndDays": "{years} anno {days} giorni | {years} anni {days} giorni"
+          }
+        },
+        "currentPlan": "Piano Attuale",
+        "expired": "Scaduto",
+        "expiredWarning": {
+          "description": "Il tuo abbonamento è scaduto. Sei ora sul piano Gratuito con funzioni limitate. Aggiorna per ripristinare i vantaggi del tuo piano precedente.",
+          "title": "Abbonamento Scaduto"
+        },
+        "expiresAt": "Scade Il",
+        "name": "Abbonamento",
+        "neverExpires": "Non Scade Mai",
+        "payment": {
+          "createChargeFailed": "Impossibile creare il pagamento. Per favore riprova.",
+          "noPaymentNeeded": "Nessun pagamento richiesto per questa azione.",
+          "title": "Pagamento"
+        },
+        "paymentHistory": "Cronologia Pagamenti",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "Torna all'Abbonamento",
+              "description": "Il tuo pagamento non è stato completato. Nessun addebito è stato effettuato sul tuo account.",
+              "name": "Pagamento Annullato",
+              "reasons": {
+                "cancelled": "Hai annullato il pagamento",
+                "expired": "La sessione di pagamento è scaduta",
+                "insufficientFunds": "Fondi insufficienti nel tuo portafoglio",
+                "networkError": "Errore di rete o blockchain",
+                "title": "Possibili motivi:"
+              },
+              "retryPayment": "Riprova Pagamento",
+              "title": "Pagamento Annullato"
+            },
+            "success": {
+              "backToSubscription": "Torna all'Abbonamento",
+              "confirmed": {
+                "description": "Il tuo abbonamento {plan} è stato attivato.",
+                "title": "Pagamento Riuscito!"
+              },
+              "expired": {
+                "createNew": "Crea Nuovo Pagamento",
+                "description": "La sessione di pagamento è scaduta. Per favore crea un nuovo pagamento.",
+                "title": "Pagamento Scaduto"
+              },
+              "failed": {
+                "description": "Il tuo pagamento non ha potuto essere completato. Per favore riprova.",
+                "title": "Pagamento Non Riuscito",
+                "tryAgain": "Riprova"
+              },
+              "loading": {
+                "description": "Recupero dello stato del pagamento",
+                "title": "Caricamento..."
+              },
+              "name": "Stato Pagamento",
+              "notFound": {
+                "description": "Non riusciamo a trovare questo record di pagamento.",
+                "title": "Pagamento Non Trovato"
+              },
+              "pending": {
+                "continuePayment": "Continua Pagamento",
+                "description": "Il tuo pagamento è in fase di elaborazione sulla blockchain.",
+                "note": "I pagamenti in criptovaluta potrebbero richiedere alcuni minuti per essere confermati. Questa pagina si aggiornerà automaticamente quando il tuo pagamento viene confermato.",
+                "title": "Pagamento in Elaborazione"
+              }
+            }
+          },
+          "name": "Cronologia Pagamenti",
+          "status": {
+            "CONFIRMED": "Confermato",
+            "EXPIRED": "Scaduto",
+            "FAILED": "Non Riuscito",
+            "PENDING": "In Sospeso"
+          },
+          "table": {
+            "amount": "Importo",
+            "billingCycle": "Ciclo Fatturazione",
+            "chargeCode": "Codice Addebito",
+            "createdAt": "Creato Il",
+            "plan": "Piano",
+            "status": "Stato"
+          },
+          "title": "Cronologia Pagamenti"
+        },
+        "plans": {
+          "description": "Scegli un piano che si adatta alle tue esigenze",
+          "title": "Piani Disponibili"
+        },
+        "savePercent": "Risparmia {percent}%",
+        "usage": {
+          "bots": "Bot",
+          "strategies": "Strategie",
+          "wallets": "Portafogli"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "Acquista",
+              "CLAIM": "Reclama",
+              "SELL": "Vendi"
+            },
+            "notice": "I record delle transazioni non sono in tempo reale e potrebbero avere ritardi. Il ritardo è correlato al ciclo di liquidazione del mercato. Solo le transazioni dai mercati liquidati vengono visualizzate qui. Le transazioni dai mercati non liquidati appariranno dopo la liquidazione.",
+            "profitHistory": {
+              "title": "Cronologia Profitti (Ultimi 30 Giorni)"
+            },
+            "table": {
+              "action": "Azione",
+              "amount": "Importo",
+              "market": "Mercato",
+              "timestamp": "Timestamp",
+              "transactionHash": "Hash Transazione"
+            },
+            "title": "Cronologia Transazioni",
+            "tooltip": {
+              "marketLink": "Visualizza su Polymarket"
+            }
+          }
+        },
+        "actions": {
+          "create": "Crea Portafoglio",
+          "import": "Importa Portafoglio",
+          "transactions": "Cronologia Transazioni",
+          "viewBots": "Visualizza Bot Correlati"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "Prima di eliminare, assicurati di aver esportato e salvato il backup della tua chiave privata. Senza la chiave privata, perderai permanentemente l'accesso a tutti i fondi in questo portafoglio.",
+            "message": "Sei sicuro di voler eliminare il portafoglio \"{name}\"?",
+            "title": "Elimina Portafoglio",
+            "warning": "L'eliminazione di un portafoglio è irreversibile. Tutti i dati del portafoglio verranno rimossi permanentemente dal nostro sistema."
+          },
+          "DepositModal": {
+            "address": "Indirizzo di Deposito",
+            "bridgeAddress": "un indirizzo ponte di asset",
+            "note": "L'indirizzo di deposito è {bridgeAddress} generato da Polymarket. Puoi inviare qualsiasi criptovaluta supportata da Polymarket e i fondi verranno automaticamente trasferiti su Polygon e convertiti in USDC.e. Se stai inviando USDC.e su Polygon direttamente (ad esempio, utilizzando la nostra funzione di prelievo), puoi inviare i fondi direttamente all'Indirizzo Funder.",
+            "selectChain": "Seleziona Catena",
+            "supportedCrypto": "Criptovaluta supportata da Polymarket",
+            "title": "Deposita"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "Un nuovo portafoglio verrà creato con una chiave privata univoca. Un contratto Gnosis Safe verrà distribuito prima dell'inizio del trading.",
+              "title": "Crea Nuovo Portafoglio"
+            },
+            "edit": {
+              "title": "Modifica Portafoglio"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "Comprendo i rischi e desidero esportare la mia chiave privata",
+            "connectToPolymarket": "connetti il tuo portafoglio a Polymarket",
+            "copyWarning": "Fai clic sul pulsante occhio per rivelare la tua chiave privata. Assicurati che nessuno sia intorno a te.\nSe la copi negli appunti, ricordati di cancellare gli appunti in seguito per prevenire perdite.",
+            "decryptFailed": "Impossibile decifrare la chiave privata",
+            "funderNotice": "Nota: I tuoi fondi sono archiviati nell'Indirizzo Funder (un contratto Gnosis Safe), non all'indirizzo del portafoglio derivato da questa chiave privata. L'Indirizzo Funder è un contratto intelligente controllato dalla tua chiave privata. Se importi questa chiave in un portafoglio di criptovaluta, vedrai un indirizzo diverso e non troverai i tuoi asset lì. Per accedere ai tuoi fondi, {connectToPolymarket} e utilizza la funzione {withdraw}.",
+            "title": "Esporta Chiave Privata",
+            "warningDetail": "Non condividere mai la tua chiave privata con nessuno. Chiunque abbia accesso alla tua chiave privata può rubare tutti gli asset nel tuo portafoglio.",
+            "withdraw": "Ritira"
+          },
+          "ImportModal": {
+            "description": "Importa un portafoglio esistente utilizzando la sua chiave privata. Per i nuovi portafogli, un contratto Gnosis Safe verrà distribuito prima dell'inizio del trading.",
+            "encryptFailed": "Impossibile crittografare la chiave privata",
+            "privateKeyPlaceholder": "Inserisci chiave privata (0x...)",
+            "title": "Importa Portafoglio",
+            "warning": {
+              "description": "Non importare chiavi private esportate da Polymarket. Queste chiavi appartengono a Portafogli Proxy (creati tramite accesso Email o Google con MagicLink), e il nostro servizio richiede portafogli Gnosis Safe.",
+              "learnMore": "Scopri di più sui tipi di portafoglio Polymarket"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "Da Portafoglio",
+            "info": "Il trasferimento viene elaborato tramite Polymarket Relayer (senza gas). La transazione verrà inviata immediatamente ma potrebbe richiedere alcuni minuti per confermare sulla blockchain.",
+            "submitted": "Richiesta di trasferimento inviata con successo. Puoi tracciare lo stato della transazione su PolygonScan.",
+            "title": "Trasferimento Interno",
+            "toWallet": "A Portafoglio",
+            "toWalletHint": "Seleziona un portafoglio a cui trasferire i fondi",
+            "walletActivating": "Il tuo portafoglio deve essere attivato prima del trasferimento. L'attivazione e il trasferimento verranno elaborati automaticamente. Questo potrebbe richiedere alcuni minuti. Puoi controllare l'indirizzo del portafoglio su PolygonScan per monitorare i progressi."
+          },
+          "WithdrawModal": {
+            "info": "Il prelievo viene elaborato tramite Polymarket Relayer (senza gas). La transazione verrà inviata immediatamente ma potrebbe richiedere alcuni minuti per confermare sulla blockchain.",
+            "recipientAddress": "Indirizzo del Destinatario",
+            "recipientPlaceholder": "Inserisci indirizzo Polygon (0x...)",
+            "submitted": "Richiesta di prelievo inviata con successo. Puoi tracciare lo stato della transazione su PolygonScan.",
+            "title": "Ritira",
+            "walletActivating": "Il tuo portafoglio deve essere attivato prima del prelievo. L'attivazione e il prelievo verranno elaborati automaticamente. Questo potrebbe richiedere alcuni minuti. Puoi controllare l'indirizzo del portafoglio su PolygonScan per monitorare i progressi."
+          }
+        },
+        "labels": {
+          "availableBalance": "Saldo Disponibile",
+          "viewOnPolygonscan": "Visualizza su PolygonScan",
+          "viewWalletOnPolygonscan": "Visualizza Portafoglio su PolygonScan",
+          "walletName": "Nome Portafoglio"
+        },
+        "messages": {
+          "insufficientBalance": "L'importo supera il saldo disponibile"
+        },
+        "name": "Portafogli",
+        "placeholders": {
+          "amount": "Inserisci importo",
+          "walletName": "Inserisci nome portafoglio"
+        },
+        "searchPlaceholder": "Ricerca per nome portafoglio",
+        "status": {
+          "ACTIVE": "Attivo",
+          "DEPLOYING": "In Distribuzione",
+          "FAILED": "Non Riuscito",
+          "INACTIVE": "Inattivo"
+        },
+        "table": {
+          "balance": "Saldo",
+          "funder": "Indirizzo Funder",
+          "name": "Nome",
+          "status": "Stato"
+        },
+        "tooltips": {
+          "funderHelp": "L'indirizzo Funder è il tuo portafoglio Polymarket Gnosis Safe - un portafoglio contratto intelligente distribuito su Polygon che contiene le tue posizioni e USDC.e. È controllato dal tuo portafoglio EOA e abilita le transazioni senza gas.",
+          "funderHelpLink": "Scopri di più",
+          "inactive": "Il portafoglio verrà attivato automaticamente prima dell'inizio del trading."
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Usa un'email diversa",
+        "codeHint": "Inserisci il codice a 6 cifre inviato a {email}",
+        "codeLabel": "Codice Verifica",
+        "emailLabel": "Indirizzo Email",
+        "emailPlaceholder": "Inserisci il tuo indirizzo email",
+        "name": "Accedi",
+        "noAccount": "Non hai un account?",
+        "sendCode": "Invia Codice Verifica",
+        "signInWithGithub": "Accedi con GitHub",
+        "signInWithGoogle": "Accedi con Google",
+        "signUp": "Iscriviti",
+        "subtitle": "Accedi al tuo account per continuare",
+        "title": "Bentornato",
+        "verify": "Verifica e Accedi"
+      },
+      "sign-up": {
+        "agreeToTerms": "Accetto i {termsOfService} e la {privacyPolicy}",
+        "changeEmail": "Usa un'email diversa",
+        "codeHint": "Inserisci il codice a 6 cifre inviato a {email}",
+        "codeLabel": "Codice Verifica",
+        "createAccount": "Crea Account",
+        "emailLabel": "Indirizzo Email",
+        "emailPlaceholder": "Inserisci il tuo indirizzo email",
+        "haveAccount": "Hai già un account?",
+        "inviteCodeLabel": "Codice Invito",
+        "inviteCodePlaceholder": "Inserisci il tuo codice di invito",
+        "marketingEmailsLabel": "Inviami aggiornamenti dei prodotti e raccomandazioni",
+        "name": "Iscriviti",
+        "sendCode": "Invia Codice Verifica",
+        "signIn": "Accedi",
+        "signUpWithGithub": "Iscriviti con GitHub",
+        "signUpWithGoogle": "Iscriviti con Google",
+        "subtitle": "Crea un account per iniziare",
+        "title": "Crea Account"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Politica sulla Privacy"
+      },
+      "terms-of-service": {
+        "title": "Condizioni di Servizio"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Codice verifica non valido",
+      "AUTH_OAUTH_FAILED": "Autenticazione non riuscita. Per favore riprova.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Per favore attendi 60 secondi prima di richiedere un altro codice",
+      "AUTH_OTP_IP_RATE_LIMITED": "Troppe richieste. Per favore riprova più tardi.",
+      "AUTH_TURNSTILE_FAILED": "Verifica della sicurezza non riuscita. Per favore riprova.",
+      "AUTH_USER_ALREADY_EXISTS": "Un account con questa email esiste già",
+      "AUTH_USER_NOT_FOUND": "Nessun account trovato con questa email",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Il codice di verifica è scaduto",
+      "BOT_ALREADY_EXISTS": "Il bot esiste già per questo mercato",
+      "BOT_ENABLED_CANNOT_DELETE": "Impossibile eliminare un bot in esecuzione",
+      "BOT_ENABLED_CANNOT_MODIFY": "Impossibile modificare un bot in esecuzione",
+      "BOT_NOT_FOUND": "Bot non trovato",
+      "BOT_WALLET_DEPLOYING": "Il portafoglio è attualmente in fase di distribuzione",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Il saldo del portafoglio è insufficiente per avviare il bot",
+      "BOT_WALLET_MARKET_IN_USE": "Questo portafoglio è già in uso per questo mercato",
+      "COMMON_FORBIDDEN_ERROR": "Accesso vietato",
+      "COMMON_NETWORK_ERROR": "Si è verificato un errore di rete",
+      "COMMON_NOT_FOUND_ERROR": "Risorsa non trovata",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Troppe richieste. Per favore riprova più tardi",
+      "COMMON_SERVER_ERROR": "Errore interno del server",
+      "COMMON_TIMEOUT_ERROR": "Timeout della richiesta",
+      "COMMON_UNAUTHORIZED_ERROR": "Accesso non autorizzato",
+      "COMMON_UNKNOWN_ERROR": "Si è verificato un errore sconosciuto",
+      "COMMON_VALIDATION_ERROR": "Convalida non riuscita",
+      "INTERNAL_API_KEY_INVALID": "Chiave API non valida",
+      "INTERNAL_API_KEY_MISSING": "La chiave API è obbligatoria",
+      "INVALID_EMAIL": "Indirizzo email non valido",
+      "INVITE_CODE_EXPIRED": "Il codice di invito è scaduto",
+      "INVITE_CODE_INVALID": "Codice di invito non valido",
+      "INVITE_CODE_REQUIRED": "Il codice di invito è obbligatorio",
+      "INVITE_CODE_USAGE_EXCEEDED": "Il codice di invito ha raggiunto il limite di utilizzo",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Impossibile creare l'addebito del pagamento. Per favore riprova più tardi.",
+      "PAYMENT_NOT_FOUND": "Pagamento non trovato",
+      "STRATEGY_ALREADY_EXISTS": "La strategia esiste già",
+      "STRATEGY_HAS_BOTS": "Impossibile eliminare la strategia utilizzata dai bot",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "L'intervallo non può essere modificato dopo la creazione",
+      "STRATEGY_INVALID_JSON": "Configurazione strategia non valida",
+      "STRATEGY_NOT_FOUND": "Strategia non trovata",
+      "STRATEGY_NO_BUY_STEPS": "La strategia deve contenere almeno un passaggio di acquisto",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Limite di bot raggiunto. Aggiorna il tuo piano per creare più bot.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "Accesso alle statistiche negato. Aggiorna il tuo piano per accedere a questa funzione.",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "L'importo della strategia supera il limite del tuo piano. Aggiorna per utilizzare importi più elevati.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Limite di strategie raggiunto. Aggiorna il tuo piano per creare più strategie.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Limite di portafogli raggiunto. Aggiorna il tuo piano per creare più portafogli.",
+      "WALLET_ALREADY_EXISTS": "Il portafoglio esiste già",
+      "WALLET_ALREADY_IN_USE": "Questo portafoglio è già in uso da un altro utente",
+      "WALLET_CREATION_FAILED": "Impossibile creare il portafoglio",
+      "WALLET_DEPLOYING": "Il portafoglio è attualmente in fase di distribuzione. Per favore aspetta e riprova più tardi.",
+      "WALLET_HAS_BOTS": "Impossibile eliminare il portafoglio utilizzato dai bot",
+      "WALLET_INSUFFICIENT_BALANCE": "Saldo insufficiente per il ritiro",
+      "WALLET_INVALID_PRIVATE_KEY": "Formato chiave privata non valido",
+      "WALLET_NOT_FOUND": "Portafoglio non trovato",
+      "WALLET_WITHDRAW_FAILED": "Ritiro non riuscito"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Il tuo codice di verifica è:",
+          "expiry": "Questo codice scadrà tra 10 minuti.",
+          "ignore": "Se non hai richiesto questo codice, ignora questa email.",
+          "subject": "Il tuo codice di verifica",
+          "title": "Codice di Verifica"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "Devi accettare i Termini di Servizio e la Politica sulla Privacy"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "L'importo minimo deve essere minore o uguale all'importo massimo"
+      },
+      "billingCycle": {
+        "invalid": "Ciclo di fatturazione non valido"
+      },
+      "botDisableReason": {
+        "required": "Il motivo dell'arresto del bot è obbligatorio"
+      },
+      "bots": {
+        "required": "Almeno un bot è obbligatorio",
+        "tooMany": "Impossibile creare più di {maximum} bot contemporaneamente"
+      },
+      "email": {
+        "invalid": "Formato email non valido",
+        "required": "L'email è obbligatoria"
+      },
+      "inviteCode": {
+        "invalid": "Formato codice di invito non valido",
+        "required": "Il codice di invito è obbligatorio"
+      },
+      "marketInterval": {
+        "invalid": "Valore intervallo non valido"
+      },
+      "marketSymbol": {
+        "invalid": "Simbolo di mercato non valido"
+      },
+      "privateKey": {
+        "invalid": "Formato chiave privata non valido (deve essere 0x + 64 caratteri esadecimali)",
+        "required": "La chiave privata è obbligatoria"
+      },
+      "publicKey": {
+        "invalid": "Formato chiave pubblica RSA non valido",
+        "required": "La chiave pubblica è obbligatoria"
+      },
+      "strategyId": {
+        "required": "L'ID della strategia è obbligatorio"
+      },
+      "strategyJson": {
+        "invalid": "Configurazione strategia non valida",
+        "required": "La configurazione della strategia è obbligatoria"
+      },
+      "strategyName": {
+        "required": "Il nome della strategia è obbligatorio",
+        "tooLong": "Il nome della strategia deve contenere {maximum} caratteri o meno"
+      },
+      "subscriptionPlan": {
+        "invalid": "Piano di abbonamento non valido"
+      },
+      "timeRange": {
+        "startAfterEnd": "L'ora di inizio deve essere minore o uguale all'ora di fine"
+      },
+      "turnstileToken": {
+        "invalid": "Verifica della sicurezza non riuscita",
+        "required": "Per favore completa la verifica della sicurezza"
+      },
+      "verificationCode": {
+        "invalid": "Formato codice di verifica non valido (deve essere 6 cifre)",
+        "required": "Il codice di verifica è obbligatorio"
+      },
+      "verificationToken": {
+        "invalid": "Formato token di verifica non valido",
+        "required": "Il token di verifica è obbligatorio"
+      },
+      "walletAddress": {
+        "invalid": "Formato indirizzo portafoglio non valido (deve essere 0x + 40 caratteri esadecimali)",
+        "required": "L'indirizzo del portafoglio è obbligatorio"
+      },
+      "walletName": {
+        "required": "Il nome del portafoglio è obbligatorio",
+        "tooLong": "Il nome del portafoglio deve contenere {maximum} caratteri o meno"
+      },
+      "withdrawAmount": {
+        "invalid": "Importo di ritiro non valido",
+        "min": "L'importo deve essere maggiore di 0",
+        "required": "L'importo del ritiro è obbligatorio"
+      }
+    }
+  }
+}

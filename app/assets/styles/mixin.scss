@@ -1,0 +1,76 @@
+@use 'sass:color';
+
+@mixin text-stroke($color: #555, $thickness: 1px) {
+  text-shadow:
+    $color $thickness 0 0,
+    $color 0 $thickness 0,
+    $color ($thickness * -1) 0 0,
+    $color 0 ($thickness * -1) 0;
+}
+
+@mixin text-glow($color, $radius: 5px) {
+  text-shadow: 0 0 $radius $color;
+}
+
+@mixin text-embossed($bg_color) {
+  color: lighten($bg_color, 3%);
+  text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.5),
+    0 -1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@mixin text-debossed($bg_color) {
+  color: color.scale(darken($bg_color, 3%), $alpha: 80%);
+  text-shadow:
+    0 1px 1px $bg_color,
+    0 0 0 #000,
+    0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+@mixin part-transparent($direction, $thickness: 40px) {
+  @if $direction == left {
+    -webkit-mask-image: -webkit-linear-gradient(
+      left,
+      transparent 0,
+      #000 $thickness,
+      #000 100%
+    );
+  } @else if $direction == right {
+    -webkit-mask-image: -webkit-linear-gradient(
+      right,
+      transparent 0,
+      #000 $thickness,
+      #000 100%
+    );
+  } @else if $direction == top {
+    -webkit-mask-image: -webkit-linear-gradient(
+      top,
+      transparent 0,
+      #000 $thickness,
+      #000 100%
+    );
+  } @else if $direction == bottom {
+    -webkit-mask-image: -webkit-linear-gradient(
+      bottom,
+      transparent 0,
+      #000 $thickness,
+      #000 100%
+    );
+  } @else if $direction == x {
+    -webkit-mask-image: -webkit-linear-gradient(
+      left,
+      transparent 0,
+      #000 $thickness,
+      #000 calc(100% - $thickness),
+      transparent 100%
+    );
+  } @else if $direction == y {
+    -webkit-mask-image: -webkit-linear-gradient(
+      top,
+      transparent 0,
+      #000 $thickness,
+      #000 calc(100% - $thickness),
+      transparent 100%
+    );
+  }
+}

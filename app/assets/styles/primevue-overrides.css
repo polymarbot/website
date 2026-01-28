@@ -1,0 +1,67 @@
+/**
+ * PrimeVue style overrides
+ *
+ * This file overrides PrimeVue/PrimeIcons default styles.
+ * It should be imported AFTER primeicons.css to ensure higher priority.
+ */
+
+.p-toast-message {
+  line-height: 1.5;
+}
+
+.p-toast-summary {
+  margin-top: -0.25rem;
+}
+
+.p-toast-detail {
+  margin-top: -0.15rem;
+}
+
+.p-toast-summary:empty {
+  display: none;
+}
+
+.p-toast-message-icon {
+  margin-top: -0.06rem;
+}
+
+.p-toast-close-button {
+  margin: -20% 0 -20% 0;
+}
+
+.p-dialog {
+  @apply w-[90vw] sm:w-[36rem];
+}
+
+.p-dialog-content {
+  @apply whitespace-pre-wrap;
+}
+
+.p-message {
+  line-height: 1.5;
+}
+
+.p-message-icon {
+  line-height: 1.3; /* Align icon with text */
+}
+
+.p-tooltip {
+  line-height: 1.5;
+}
+
+.p-inputgroupaddon .p-button {
+  height: 100%;
+}
+
+.p-inputgroupaddon > :not(.p-button) {
+  height: 100%;
+}
+
+.p-textarea {
+  min-height: 2.5rem;
+}
+
+/* Fix frozen column z-index issue: body cells need z-index to stay above relative positioned elements */
+.p-datatable-scrollable td.p-datatable-frozen-column {
+  z-index: 1;
+}

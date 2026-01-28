@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "뒤로",
+      "cancel": "취소",
+      "clear": "지우기",
+      "close": "닫기",
+      "confirm": "확인",
+      "continue": "계속",
+      "create": "생성",
+      "delete": "삭제",
+      "deposit": "입금",
+      "duplicate": "복제",
+      "edit": "편집",
+      "export": "내보내기",
+      "goBack": "뒤로 가기",
+      "import": "가져오기",
+      "install": "설치",
+      "learnMore": "자세히 알아보기",
+      "more": "더 보기",
+      "next": "다음",
+      "ok": "확인",
+      "refresh": "새로고침",
+      "reload": "새로 불러오기",
+      "reportIssue": "문제 보고",
+      "retry": "다시 시도",
+      "save": "저장",
+      "search": "검색",
+      "signIn": "로그인",
+      "signOut": "로그아웃",
+      "submit": "제출",
+      "transfer": "이체",
+      "uninstall": "제거",
+      "viewDetails": "자세히 보기",
+      "withdraw": "출금"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "정말 로그아웃하시겠습니까?",
+        "title": "로그아웃"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "M월 D일",
+        "dateTime": "M월 D일 HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "일",
+        "hours": "시간",
+        "minutes": "분",
+        "seconds": "초"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "작업",
+      "active": "활성",
+      "alert": "알림",
+      "all": "전체",
+      "amount": "금액",
+      "chain": "체인",
+      "confirmation": "확인",
+      "createdAt": "생성일",
+      "dateRange": "날짜 범위",
+      "delete": "삭제",
+      "deleteConfirmation": "삭제 확인",
+      "email": "이메일",
+      "error": "오류",
+      "max": "최대",
+      "new": "새 항목",
+      "no": "아니요",
+      "optional": "선택 사항",
+      "or": "또는",
+      "password": "비밀번호",
+      "private": "비공개",
+      "privateKey": "개인 키",
+      "success": "성공",
+      "token": "토큰",
+      "transactionHash": "트랜잭션 해시",
+      "unknown": "알 수 없음",
+      "unlimited": "무제한",
+      "updatedAt": "업데이트일",
+      "yes": "예"
+    },
+    "messages": {
+      "createSuccess": "성공적으로 생성되었습니다",
+      "deleteSuccess": "성공적으로 삭제되었습니다",
+      "importSuccess": "성공적으로 가져왔습니다",
+      "saveSuccess": "성공적으로 저장되었습니다",
+      "submitSuccess": "성공적으로 제출되었습니다",
+      "updateSuccess": "성공적으로 업데이트되었습니다"
+    },
+    "statuses": {
+      "closing": "종료 중...",
+      "completed": "완료",
+      "failed": "실패",
+      "loading": "로딩 중...",
+      "pending": "대기 중",
+      "processing": "처리 중...",
+      "success": "성공"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "다크 모드",
+        "lightMode": "라이트 모드",
+        "switchToDark": "다크 모드로 전환",
+        "switchToLight": "라이트 모드로 전환"
+      },
+      "Footer": {
+        "copyright": "© {year} 모든 권리 보유."
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "외 {count}개...",
+        "message": "이 항목은 봇 {count}개에서 사용 중입니다. 먼저 해당 봇을 삭제하세요:"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "언어 변경"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15분",
+          "1d": "1일",
+          "1h": "1시간",
+          "4h": "4시간"
+        },
+        "placeholder": "주기를 선택하세요"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "심볼을 선택하세요"
+      },
+      "Navbar": {
+        "collapseSidebar": "사이드바 접기",
+        "expandSidebar": "사이드바 펼치기",
+        "goBack": "뒤로 가기"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "문제 보고"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "전략 상세 보기",
+        "viewStats": "통계 보기"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "전체 기간",
+          "custom": "사용자 정의",
+          "month": "지난 30일",
+          "quarter": "지난 90일",
+          "week": "지난 7일"
+        },
+        "labels": {
+          "dateRange": "기간",
+          "interval": "주기",
+          "symbol": "심볼"
+        },
+        "upgradeDialog": {
+          "cancel": "취소",
+          "message": "사용자 정의 날짜 범위를 포함한 더 많은 날짜 범위 옵션에 액세스하려면 Plus 이상으로 업그레이드하세요.",
+          "title": "업그레이드 필요",
+          "upgrade": "지금 업그레이드"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "새 전략 만들기",
+        "emptyMessage": "사용 가능한 전략이 없습니다",
+        "placeholder": "전략을 선택하세요"
+      },
+      "UpgradeOverlay": {
+        "description": "이 기능을 잠금 해제하고 포괄적인 통계에 액세스하려면 구독을 업그레이드하세요.",
+        "title": "프리미엄 기능",
+        "upgradeButton": "지금 업그레이드"
+      },
+      "WalletSelect": {
+        "createNew": "새 지갑 만들기",
+        "emptyMessage": "사용 가능한 지갑이 없습니다",
+        "placeholder": "지갑을 선택하세요"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "지출 (구매)",
+        "income": "수익 (판매 + 상환)",
+        "netProfit": "순이익",
+        "txCount": "거래"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "작업",
+        "pageReport": "전체 {'{totalRecords}'}건 중 {'{first}'}-{'{last}'} 표시",
+        "pageReportMobile": "총 {'{totalRecords}'}건"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "삭제",
+        "confirmationText": "삭제",
+        "defaultMessage": "이 작업은 되돌릴 수 없습니다. 진행 전에 중요한 데이터를 백업했는지 확인하세요.",
+        "inputLabel": "삭제를 확인하려면 {0}을 입력하세요",
+        "title": "삭제"
+      },
+      "CopyButton": {
+        "copied": "복사됨!",
+        "copyToClipboard": "클립보드에 복사"
+      },
+      "DataTable": {
+        "empty": "데이터가 없습니다",
+        "filterAll": "전체",
+        "filterApply": "적용",
+        "filterClear": "지우기"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "종료 날짜",
+        "startPlaceholder": "시작 날짜",
+        "to": "~"
+      },
+      "EmptyState": {
+        "defaultMessage": "데이터 없음"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "로그가 없습니다",
+        "refresh": "새로고침",
+        "scrollToBottom": "맨 아래로 이동"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "클립보드에서 붙여넣기",
+        "pasted": "붙여넣었습니다!"
+      },
+      "SearchSelect": {
+        "createNew": "새로 만들기",
+        "noItems": "선택지가 없습니다",
+        "noSearchItems": "결과가 없습니다",
+        "searchPlaceholder": "검색..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "앱 실행",
+      "pricing": {
+        "features": {
+          "bots": "{count}개 봇",
+          "maxAmount": "전략당 최대 {amount}",
+          "strategies": "{count}개 전략",
+          "wallets": "{count}개 지갑"
+        },
+        "getStarted": "무료로 시작하기",
+        "perMonth": "/월",
+        "subtitle": "거래 요구에 맞는 플랜을 선택하세요",
+        "title": "간단하고 투명한 가격 책정"
+      },
+      "tagline": "거래 전략을 자동화하세요",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "우리의 봇은 시장을 모니터링하고 수동 개입 없이 24시간 거래를 실행합니다.",
+            "title": "항상 활성"
+          },
+          "easySetup": {
+            "description": "코딩이 필요하지 않습니다. 간단한 매개변수로 전략을 만들고 몇 분 안에 배포하세요.",
+            "title": "쉬운 설정"
+          },
+          "gasless": {
+            "description": "Polymarket의 Gnosis Safe 계약을 사용하여 가스비 없이 거래하세요.",
+            "title": "가스비 없는 거래"
+          },
+          "multiWallet": {
+            "description": "여러 지갑을 관리하여 거래 전략 포트폴리오를 다양화하세요.",
+            "title": "다중 지갑"
+          },
+          "realTimeAnalytics": {
+            "description": "대시보드, 통계 및 상세 로그를 통해 전략 성과를 포괄적으로 모니터링합니다.",
+            "title": "실시간 분석"
+          },
+          "strategyStats": {
+            "description": "전략 성과를 추적하고 최고 성과 전략을 사용하여 빠르게 수익을 창출하세요.",
+            "title": "전략 분석"
+          }
+        },
+        "title": "왜 우리를 선택해야 하나요?"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket 프록시 지갑(Gnosis Safe) 만들기",
+            "title": "지갑 추가"
+          },
+          "createStrategies": {
+            "description": "거래 규칙과 매개변수 정의",
+            "title": "전략 만들기"
+          },
+          "deployBots": {
+            "description": "봇을 시작하고 자동 거래를 보기",
+            "title": "봇 배포"
+          },
+          "signUp": {
+            "description": "몇 초 안에 계정 만들기",
+            "title": "회원가입"
+          }
+        },
+        "subtitle": "우리의 간단한 4단계 과정으로 몇 분 안에 시작하세요",
+        "title": "어떻게 작동하는가"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "중지",
+              "ENABLED": "시작"
+            },
+            "fun-logs": {
+              "notice": "실행 로그는 실시간이 아니며 지연이 발생합니다. 현재 봇 상태 확인용이 아닌, 과거 기록 검토 및 문제 해결 용도로만 사용됩니다. 최근 한 달간의 로그만 보관됩니다.",
+              "title": "실행 로그"
+            },
+            "info": {
+              "strategy": "전략",
+              "wallet": "지갑"
+            },
+            "reason": {
+              "USER_ACTION": "사용자 작업",
+              "WALLET_INSUFFICIENT_BALANCE": "지갑 잔액 부족",
+              "WALLET_TRANSACTION_ERROR": "트랜잭션 오류"
+            },
+            "table": {
+              "action": "작업",
+              "operatedAt": "작업 시간",
+              "reason": "사유"
+            },
+            "tabs": {
+              "logs": "실행 로그",
+              "operations": "작업 기록"
+            },
+            "title": "봇 실행 기록"
+          }
+        },
+        "actions": {
+          "batchDelete": "삭제",
+          "batchDisable": "중지",
+          "batchEnable": "시작",
+          "create": "생성",
+          "viewRunHistory": "실행 기록"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "전체 삭제",
+              "disableAll": "전체 중지",
+              "enableAll": "전체 시작"
+            },
+            "menu": {
+              "byConditions": "조건별"
+            },
+            "messages": {
+              "deleteSuccess": "봇이 성공적으로 삭제되었습니다",
+              "disableSuccess": "봇이 성공적으로 중지되었습니다",
+              "enableSuccess": "봇이 성공적으로 시작되었습니다",
+              "noBotsToDelete": "삭제할 봇이 없습니다(중지된 봇만 삭제 가능)",
+              "noBotsToDisable": "중지할 봇이 없습니다",
+              "noBotsToEnable": "시작할 봇이 없습니다",
+              "resultDeleteSkipped": "{count}개 봇을 삭제할 수 없습니다(실행 중).",
+              "resultDeleted": "{count}개 봇이 성공적으로 삭제되었습니다.",
+              "resultEnableSkipped": "{count}개 봇을 시작할 수 없습니다(잔액 부족, 지갑 상태 문제 또는 전략 금액이 플랜 한도 초과).",
+              "resultEnabled": "{count}개 봇이 성공적으로 시작되었습니다.",
+              "resultPending": "{count}개 봇이 지갑 활성화를 기다리는 중입니다.",
+              "resultPendingAutoStart": "{count}개 봇이 지갑 활성화를 기다리며, 지갑이 활성화되면 자동으로 시작됩니다."
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "중지된 모든 봇이 삭제됩니다. 이 작업은 되돌릴 수 없습니다. 이 봇들을 삭제하시겠습니까?",
+                "title": "봇 삭제"
+              },
+              "batchDisable": {
+                "message": "실행 중인 모든 봇이 중지됩니다. 단, 이미 체결된 주문은 자동으로 취소되지 않습니다. 모든 봇을 중지하시겠습니까?",
+                "title": "봇 중지"
+              },
+              "batchEnable": {
+                "message": "중지된 모든 봇이 시작됩니다. 시작되면 지갑의 자금을 사용하여 주문을 하게 되며, 이는 이익 또는 손실을 초래할 수 있습니다. 모든 봇을 시작하시겠습니까?",
+                "title": "봇 시작"
+              },
+              "byConditions": {
+                "hint": "선택한 조건과 일치하는 모든 봇이 영향을 받습니다.",
+                "intervalDisabledHint": "전략이 선택되어 주기 필터가 비활성화됨",
+                "intervalLabel": "주기",
+                "selectInterval": "주기 선택",
+                "selectStrategy": "전략 선택",
+                "selectSymbol": "심볼 선택",
+                "selectWallet": "지갑 선택",
+                "strategyDisabledHint": "주기가 선택되어 전략 필터가 비활성화됨",
+                "strategyLabel": "전략",
+                "symbolLabel": "심볼",
+                "titleDelete": "조건별 봇 삭제",
+                "titleDisable": "조건별 봇 중지",
+                "titleEnable": "조건별 봇 시작",
+                "walletLabel": "지갑"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "주기",
+              "strategy": "전략",
+              "symbols": "심볼",
+              "wallet": "지갑"
+            },
+            "hints": {
+              "batchCreate": "각 마켓(심볼 + 주기)에 대해 봇이 생성됩니다. 해당 지갑이 이미 그 마켓에서 봇을 가지고 있으면 건너뜁니다.",
+              "intervalFirst": "먼저 주기를 선택한 다음 일치하는 전략을 선택하세요",
+              "strategyFiltered": "선택한 주기가 있는 전략만 표시됩니다",
+              "symbolsOptional": "비워두면 모든 심볼에 대해 봇이 생성됩니다"
+            },
+            "messages": {
+              "createSuccess": "{count}개 봇이 성공적으로 생성되었습니다",
+              "noBotsToCreate": "생성할 봇이 없습니다",
+              "resultCreated": "{count}개 봇이 성공적으로 생성되었습니다.",
+              "resultSkipped": "{count}개 봇을 건너뜀(지갑이 이미 해당 마켓에 봇을 가지고 있음)."
+            },
+            "modals": {
+              "result": {
+                "title": "생성 결과"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "전체",
+              "selectStrategy": "전략 선택",
+              "selectWallet": "지갑 선택"
+            },
+            "title": "봇 일괄 생성"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "필요 잔액은 이 지갑에서 실행 중인 모든 봇의 합계입니다:\n각 봇에 필요한 금액 = 거래당 최대 금액 × {multiplier}",
+            "current": "현재 잔액",
+            "description": "지갑 잔액이 부족하여 모든 활성 봇을 지원할 수 없습니다. 잔액 요구사항을 충족할 때까지 이 봇을 시작할 수 없습니다.",
+            "required": "필요(모든 활성 봇)",
+            "shortfall": "부족액",
+            "suggestion": "부족분을 충당하기 위해 자금을 입금하거나 다른 봇을 중지하여 필요한 잔액을 확보하세요."
+          }
+        },
+        "messages": {
+          "deleteSuccess": "봇이 성공적으로 삭제되었습니다",
+          "disableSuccess": "봇이 성공적으로 중지되었습니다",
+          "enableSuccess": "봇이 성공적으로 시작되었습니다",
+          "walletActivating": "지갑이 활성화 중입니다. 지갑이 활성화되면 봇이 시작됩니다"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "{count}개의 봇을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+            "title": "봇 일괄 삭제"
+          },
+          "batchDisable": {
+            "message": "{count}개의 봇을 중지하시겠습니까?",
+            "title": "봇 일괄 중지"
+          },
+          "batchEnable": {
+            "message": "{count}개의 봇을 시작하시겠습니까?",
+            "title": "봇 일괄 시작"
+          },
+          "delete": {
+            "message": "이 봇을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+            "title": "봇 삭제"
+          },
+          "disable": {
+            "message": "이 봇을 중지하시겠습니까?",
+            "title": "봇 중지"
+          },
+          "enable": {
+            "message": "이 봇을 시작하시겠습니까?",
+            "title": "봇 시작"
+          }
+        },
+        "name": "봇",
+        "searchPlaceholder": "지갑 이름 또는 전략 이름으로 검색",
+        "table": {
+          "market": "마켓",
+          "runtime": "실행 시간",
+          "status": "상태",
+          "strategy": "전략",
+          "wallet": "지갑"
+        },
+        "tooltips": {
+          "disable": "봇 중지",
+          "disabling": "중지 중...",
+          "enable": "봇 시작",
+          "enabling": "시작 중...",
+          "walletDeploying": "지갑 배포 중, 시작 불가",
+          "walletFailed": "지갑 배포 실패"
+        },
+        "walletStatus": {
+          "DEPLOYING": "배포 중",
+          "FAILED": "실패"
+        }
+      },
+      "dashboard": {
+        "botCount": "봇",
+        "name": "대시보드",
+        "profitHistory": {
+          "title": "수익 내역 (최근 30일)"
+        },
+        "running": "가동 중",
+        "strategyCount": "전략",
+        "totalBalance": "총 잔액",
+        "walletCount": "지갑"
+      },
+      "markets": {
+        "empty": "마켓을 찾을 수 없습니다",
+        "name": "시장",
+        "tooltip": {
+          "enabledBots": "실행 중인 봇",
+          "totalBots": "전체 봇"
+        }
+      },
+      "me": {
+        "anonymous": "익명",
+        "language": {
+          "name": "언어",
+          "title": "언어 선택"
+        },
+        "name": "나"
+      },
+      "rankings": {
+        "apr": {
+          "description": "수익률 (전체 기록)",
+          "title": "APR 랭킹"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "전략 만들기",
+              "editStrategy": "전략 편집"
+            },
+            "myStrategy": "내 전략"
+          }
+        },
+        "filters": {
+          "amountRange": "금액 범위"
+        },
+        "hitRate": {
+          "description": "참여 / 전체 기록",
+          "title": "적중률 랭킹"
+        },
+        "name": "랭킹",
+        "profitRate": {
+          "description": "총 수익 / 총 비용 (참여)",
+          "title": "이익률 랭킹"
+        },
+        "title": "전략 랭킹",
+        "upgradeRequired": {
+          "description": "전략 순위 및 상세 통계에 액세스하려면 Pro 이상으로 업그레이드하세요.",
+          "title": "업그레이드 필요"
+        },
+        "winRate": {
+          "description": "흑자 / 참여",
+          "title": "승률 랭킹"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "통계"
+          },
+          "autoNameNoSteps": "먼저 거래 단계를 생성하세요",
+          "autoNameTooltip": "전략 이름 자동 생성",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "통계",
+              "stats": {
+                "apr": "APR",
+                "hitRate": "적중률",
+                "profitRate": "수익률",
+                "winRate": "승률"
+              },
+              "stepCount": "{count}단계",
+              "title": "전략 통계",
+              "upgradeRequired": {
+                "description": "전략 통계를 보려면 Pro 이상으로 업그레이드하세요.",
+                "title": "업그레이드 필요"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "단계 추가"
+              },
+              "emptyState": "아직 거래 단계가 없습니다. \"단계 추가\"를 눌러 첫 거래 단계를 만드세요.",
+              "stats": {
+                "buyCount": "매수: {count}",
+                "sellCount": "매도: {count}",
+                "stepCount": "{count}/{max} 단계",
+                "totalAmount": "거래당 최대 금액"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "삭제",
+                "edit": "편집"
+              },
+              "fields": {
+                "maxChange": "최대 기초 가격 변동폭",
+                "minChange": "최소 기초 가격 변동폭",
+                "once": "한 번",
+                "outcome": "결과",
+                "price": "가격",
+                "size": "수량",
+                "timeRange": "시간 범위"
+              },
+              "side": {
+                "buy": "매수",
+                "sell": "매도"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "추격 매수 모드(가격 > $0.50)\n거래 전략에 대해 충분히 숙지하지 않았다면 큰 손실을 초래할 수 있으므로 이 모드는 권장되지 않습니다.",
+                "lowBuy": "저가 매수 모드(가격 ≤ $0.50)"
+              },
+              "fields": {
+                "maxChange": "최대 기초 가격 변동폭",
+                "minChange": "최소 기초 가격 변동폭",
+                "once": "한 번만 실행",
+                "outcome": "결과",
+                "price": "가격",
+                "side": "거래 방향",
+                "size": "수량",
+                "timeRange": "시간 범위"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "저가 매수 모드에서 기초 가격 변동이 이 값을 초과하면 가격 움직임 방향에 따라 해당 토큰 매수를 중단합니다. 이 제한을 끄려면 0으로 설정하세요.",
+                  "minChange": "추격 매수 모드에서 기초 가격 변동이 이 값 아래로 떨어지면 봇이 매수를 중단합니다. 이 제한을 끄려면 0으로 설정하세요.",
+                  "once": "일반적으로 한 거래 사이클 동안 이전에 매수한 포지션을 모두 매도하면 봇이 다시 매수 주문을 시도합니다. 한 사이클에 한 번만 거래하려면 이 옵션을 켜세요.",
+                  "outcome": "거래 결과 방향입니다. 미래 가격에 대한 확신이 없다면 양쪽 모두 선택하는 것이 좋습니다.",
+                  "price": "이번 거래의 주당 매수가입니다. 가격이 낮을수록 잠재 수익 폭이 커지고, 높을수록 줄어듭니다.",
+                  "size": "매수할 주식 수입니다. 수량에 매수가를 곱하면 이번 거래의 총 비용이 됩니다.",
+                  "timeRange": "이 매수 주문이 유효한 시간 범위입니다. 시간이 지나면 체결되지 않은 주문은 취소됩니다.",
+                  "timeRangeChaseUp": "거래 사이클에서 일정 시점 이후에는 결과가 반전될 확률이 크게 떨어져 추격 매수가 수익을 낼 가능성이 높아집니다. 따라서 해당 시점 이후에 매수 작업이 시작되도록 설정하세요.",
+                  "timeRangeLowBuy": "거래 사이클에서 일정 시점 이후에는 결과가 반전될 확률이 크게 떨어져 저가 매수가 손실을 볼 가능성이 높아집니다. 따라서 해당 시점 이전에 매수 작업이 종료되도록 설정하세요."
+                },
+                "sell": {
+                  "price": "이번 거래의 주당 매도가입니다. 가격이 높을수록 잠재 수익 폭이 커지고, 낮을수록 줄어듭니다. 매도가를 매수가보다 낮게 설정하면 손실 거래가 완료될 수 있습니다.",
+                  "size": "매도할 주식 수입니다. 수량에 매도가를 곱하면 이번 거래의 총 수령액이 됩니다.",
+                  "timeRange": "이 매도 주문이 유효한 시간 범위입니다. 시간이 지나면 체결되지 않은 주문은 취소됩니다.\n\n이 시간 제한은 시장 마감까지 주문을 유지하지 않고 현재 거래 사이클에서 조기 차익 실현을 하기 위한 것입니다. 결과가 바뀔 가능성이 낮은 안전한 시간대 안에서 주문을 취소하면 수익을 극대화할 수 있습니다."
+                }
+              },
+              "hints": {
+                "minSize": "최소 5주",
+                "outcome": "특정 결과를 선택하거나 양쪽 모두 거래하세요",
+                "priceRange": "$0.01 ~ $0.99 사이의 값을 입력하세요",
+                "timeRange": "시작/종료 시간을 분 단위로 입력하세요 (0-{max})"
+              },
+              "modal": {
+                "titleCreate": "거래 단계 추가",
+                "titleEdit": "거래 단계 편집"
+              },
+              "outcomes": {
+                "both": "양쪽",
+                "down": "하락",
+                "up": "상승"
+              },
+              "side": {
+                "buy": "매수",
+                "sell": "매도"
+              },
+              "validation": {
+                "priceMax": "가격은 최대 $0.99이어야 합니다",
+                "priceMin": "가격은 최소 $0.01이어야 합니다",
+                "sizeMin": "수량은 최소 5주여야 합니다",
+                "timeRange": "종료 시간은 시작 시간보다 커야 합니다"
+              }
+            }
+          },
+          "duplicateSuffix": "(복사)",
+          "fields": {
+            "interval": "주기",
+            "name": "전략 이름",
+            "strategyJson": "거래 단계"
+          },
+          "placeholders": {
+            "interval": "주기를 선택하세요",
+            "name": "전략 이름을 입력하세요"
+          },
+          "title": "전략 상세",
+          "titleCreate": "전략 만들기",
+          "titleEdit": "전략 상세"
+        },
+        "actions": {
+          "create": "전략 만들기",
+          "viewBots": "관련 봇 보기"
+        },
+        "modals": {
+          "delete": {
+            "message": "전략 \"{name}\"을 삭제하시겠습니까?",
+            "title": "전략 삭제"
+          }
+        },
+        "name": "전략",
+        "searchPlaceholder": "전략 이름으로 검색",
+        "table": {
+          "amount": "거래당 최대 금액",
+          "botCount": "봇 수",
+          "interval": "주기",
+          "name": "이름"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "월간",
+          "YEARLY": "연간"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "다운그레이드",
+            "limits": {
+              "bots": "봇",
+              "maxStrategyAmount": "최대 전략 금액",
+              "statsAccess": "통계 액세스",
+              "strategies": "전략",
+              "wallets": "지갑"
+            },
+            "perMonth": "/월",
+            "perYear": "/년",
+            "pricing": {
+              "monthlyEquivalent": "{price}/월",
+              "originalPrice": "정가 {price}",
+              "save": "{amount} 절약"
+            },
+            "renew": "갱신",
+            "statsAccess": {
+              "full": "전체 액세스",
+              "limited": "부분 액세스",
+              "none": "사용 불가"
+            },
+            "unlimited": "무제한",
+            "upgrade": "업그레이드"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "추가 일수",
+            "confirm": "확인",
+            "convertedDays": "전환 일수",
+            "creditAmount": "크레딧: {amount}",
+            "currentRemaining": "현재 잔여",
+            "days": "{count}일",
+            "downgrade": {
+              "description": "남은 구독 가치가 하위 플랜의 추가 일수로 전환됩니다. 환불은 제공되지 않습니다.",
+              "title": "플랜 다운그레이드"
+            },
+            "expiresAt": "만료일: {date}",
+            "newExpiration": "새 만료일",
+            "payAndConfirm": "{amount} 결제",
+            "periodDays": "기간 일수",
+            "renew": {
+              "description": "갱신하면 현재 구독에 {days}일이 추가됩니다.",
+              "title": "구독 갱신"
+            },
+            "totalAmount": "총 금액",
+            "upgrade": {
+              "description": "남은 구독 가치가 새 플랜의 일수로 전환됩니다. 차액만 결제하면 됩니다.",
+              "fullyCovered": "남은 구독 가치가 이 업그레이드를 완전히 충당합니다! 추가 결제가 필요 없습니다.",
+              "title": "플랜 업그레이드"
+            },
+            "years": "{count}년",
+            "yearsAndDays": "{years}년 {days}일"
+          }
+        },
+        "currentPlan": "현재 플랜",
+        "expired": "만료됨",
+        "expiredWarning": {
+          "description": "구독이 만료되었습니다. 현재 기능이 제한된 무료 플랜을 사용 중입니다. 이전 플랜 혜택을 복원하려면 업그레이드하세요.",
+          "title": "구독 만료"
+        },
+        "expiresAt": "만료일",
+        "name": "구독",
+        "neverExpires": "무기한",
+        "payment": {
+          "createChargeFailed": "결제 생성에 실패했습니다. 다시 시도하세요.",
+          "noPaymentNeeded": "이 작업에 결제가 필요하지 않습니다.",
+          "title": "결제"
+        },
+        "paymentHistory": "결제 내역",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "구독으로 돌아가기",
+              "description": "결제가 완료되지 않았습니다. 계정에 대한 요금이 부과되지 않았습니다.",
+              "name": "결제 취소됨",
+              "reasons": {
+                "cancelled": "결제를 취소했습니다",
+                "expired": "결제 세션이 만료되었습니다",
+                "insufficientFunds": "지갑의 잔액이 부족합니다",
+                "networkError": "네트워크 또는 블록체인 오류",
+                "title": "가능한 원인:"
+              },
+              "retryPayment": "결제 다시 시도",
+              "title": "결제 취소됨"
+            },
+            "success": {
+              "backToSubscription": "구독으로 돌아가기",
+              "confirmed": {
+                "description": "귀하의 {plan} 구독이 활성화되었습니다.",
+                "title": "결제 완료!"
+              },
+              "expired": {
+                "createNew": "새 결제 생성",
+                "description": "결제 세션이 만료되었습니다. 새로운 결제를 생성하세요.",
+                "title": "결제 만료됨"
+              },
+              "failed": {
+                "description": "결제를 완료할 수 없습니다. 다시 시도하세요.",
+                "title": "결제 실패",
+                "tryAgain": "다시 시도"
+              },
+              "loading": {
+                "description": "결제 상태를 확인 중입니다",
+                "title": "로딩 중..."
+              },
+              "name": "결제 상태",
+              "notFound": {
+                "description": "이 결제 기록을 찾을 수 없습니다.",
+                "title": "결제를 찾을 수 없습니다"
+              },
+              "pending": {
+                "continuePayment": "결제 계속",
+                "description": "귀하의 결제가 블록체인에서 처리 중입니다.",
+                "note": "암호화폐 결제는 확인되는 데 몇 분이 걸릴 수 있습니다. 결제가 확인되면 이 페이지가 자동으로 업데이트됩니다.",
+                "title": "결제 처리 중"
+              }
+            }
+          },
+          "name": "결제 내역",
+          "status": {
+            "CONFIRMED": "확인됨",
+            "EXPIRED": "만료됨",
+            "FAILED": "실패",
+            "PENDING": "대기 중"
+          },
+          "table": {
+            "amount": "금액",
+            "billingCycle": "결제 주기",
+            "chargeCode": "청구 코드",
+            "createdAt": "생성일",
+            "plan": "플랜",
+            "status": "상태"
+          },
+          "title": "결제 내역"
+        },
+        "plans": {
+          "description": "필요에 맞는 플랜을 선택하세요",
+          "title": "이용 가능한 플랜"
+        },
+        "savePercent": "{percent}% 절약",
+        "usage": {
+          "bots": "봇",
+          "strategies": "전략",
+          "wallets": "지갑"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "매수",
+              "CLAIM": "청구",
+              "SELL": "매도"
+            },
+            "notice": "거래 기록은 실시간이 아니며 지연이 발생할 수 있습니다. 지연은 마켓 결산 사이클과 관련이 있습니다. 정산된 마켓의 거래만 여기에 표시됩니다. 미정산 마켓의 거래는 정산 후에 나타납니다.",
+            "profitHistory": {
+              "title": "수익 내역 (최근 30일)"
+            },
+            "table": {
+              "action": "작업",
+              "amount": "금액",
+              "market": "마켓",
+              "timestamp": "타임스탬프",
+              "transactionHash": "트랜잭션 해시"
+            },
+            "title": "거래 내역",
+            "tooltip": {
+              "marketLink": "Polymarket에서 보기"
+            }
+          }
+        },
+        "actions": {
+          "create": "지갑 만들기",
+          "import": "지갑 가져오기",
+          "transactions": "거래 내역",
+          "viewBots": "관련 봇 보기"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "삭제하기 전에 개인 키를 내보내고 백업했는지 확인하세요. 개인 키가 없으면 이 지갑의 자금에 대한 접근 권한을 영구히 잃게 됩니다.",
+            "message": "지갑 \"{name}\"을(를) 삭제하시겠습니까?",
+            "title": "지갑 삭제",
+            "warning": "지갑 삭제는 되돌릴 수 없습니다. 모든 지갑 데이터가 우리 시스템에서 영구히 제거됩니다."
+          },
+          "DepositModal": {
+            "address": "입금 주소",
+            "bridgeAddress": "자산 브릿지 주소",
+            "note": "입금 주소는 Polymarket이 생성한 {bridgeAddress}입니다. Polymarket이 지원하는 암호화폐를 보낼 수 있으며, 자금은 자동으로 Polygon으로 브릿징되고 USDC.e로 변환됩니다. Polygon에서 USDC.e를 직접 보내는 경우(예: 출금 기능 사용), 자금을 Funder 주소로 직접 보낼 수 있습니다.",
+            "selectChain": "체인 선택",
+            "supportedCrypto": "Polymarket에서 지원하는 암호화폐",
+            "title": "입금"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "고유한 개인 키를 가진 새 지갑이 생성됩니다. 거래 시작 전에 Gnosis Safe 계약이 배포됩니다.",
+              "title": "새 지갑 만들기"
+            },
+            "edit": {
+              "title": "지갑 편집"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "위험성을 이해하고 개인 키를 내보내고 싶습니다",
+            "connectToPolymarket": "지갑을 Polymarket에 연결",
+            "copyWarning": "눈 버튼을 클릭하여 개인 키를 표시합니다. 주변에 아무도 없는지 확인하세요.\n클립보드에 복사한 경우 유출을 방지하기 위해 나중에 클립보드를 지우는 것을 잊지 마세요.",
+            "decryptFailed": "개인 키 복호화 실패",
+            "funderNotice": "참고: 자금은 이 개인 키에서 파생된 지갑 주소가 아닌 Funder 주소(Gnosis Safe 계약)에 저장됩니다. Funder 주소는 개인 키로 제어되는 스마트 계약입니다. 이 키를 암호화폐 지갑으로 가져오면 다른 주소가 표시되고 자산을 찾을 수 없습니다. 자금에 액세스하려면 {connectToPolymarket}하고 {withdraw} 기능을 사용하세요.",
+            "title": "개인 키 내보내기",
+            "warningDetail": "개인 키를 절대 누구와도 공유하지 마세요. 개인 키에 액세스할 수 있는 사람은 누구나 지갑의 모든 자산을 도용할 수 있습니다.",
+            "withdraw": "출금"
+          },
+          "ImportModal": {
+            "description": "개인 키를 사용하여 기존 지갑을 가져옵니다. 새 지갑의 경우 거래 시작 전에 Gnosis Safe 계약이 배포됩니다.",
+            "encryptFailed": "개인 키 암호화 실패",
+            "privateKeyPlaceholder": "개인 키 입력 (0x...)",
+            "title": "지갑 가져오기",
+            "warning": {
+              "description": "Polymarket에서 내보낸 개인 키를 가져오지 마세요. 이러한 키는 프록시 지갑(MagicLink를 통한 이메일 또는 Google 로그인으로 생성됨)에 속하며 당사 서비스는 Gnosis Safe 지갑이 필요합니다.",
+              "learnMore": "Polymarket 지갑 유형에 대해 자세히 알아보기"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "출발 지갑",
+            "info": "이체는 Polymarket Relayer(가스비 없음)를 통해 처리됩니다. 거래는 즉시 제출되지만 온체인 확인에 몇 분이 걸릴 수 있습니다.",
+            "submitted": "이체 요청이 성공적으로 제출되었습니다. PolygonScan에서 거래 상태를 추적할 수 있습니다.",
+            "title": "내부 이체",
+            "toWallet": "수신 지갑",
+            "toWalletHint": "자금을 이체할 지갑 선택",
+            "walletActivating": "이체 전에 지갑을 활성화해야 합니다. 활성화 및 이체는 자동으로 처리됩니다. 몇 분이 걸릴 수 있습니다. PolygonScan에서 지갑 주소를 확인하여 진행 상황을 모니터링할 수 있습니다."
+          },
+          "WithdrawModal": {
+            "info": "출금은 Polymarket Relayer(가스비 없음)를 통해 처리됩니다. 거래는 즉시 제출되지만 온체인 확인에 몇 분이 걸릴 수 있습니다.",
+            "recipientAddress": "수신자 주소",
+            "recipientPlaceholder": "Polygon 주소 입력 (0x...)",
+            "submitted": "출금 요청이 성공적으로 제출되었습니다. PolygonScan에서 거래 상태를 추적할 수 있습니다.",
+            "title": "출금",
+            "walletActivating": "출금 전에 지갑을 활성화해야 합니다. 활성화 및 출금은 자동으로 처리됩니다. 몇 분이 걸릴 수 있습니다. PolygonScan에서 지갑 주소를 확인하여 진행 상황을 모니터링할 수 있습니다."
+          }
+        },
+        "labels": {
+          "availableBalance": "사용 가능한 잔액",
+          "viewOnPolygonscan": "PolygonScan에서 보기",
+          "viewWalletOnPolygonscan": "PolygonScan에서 지갑 보기",
+          "walletName": "지갑 이름"
+        },
+        "messages": {
+          "insufficientBalance": "금액이 사용 가능한 잔액을 초과합니다"
+        },
+        "name": "지갑",
+        "placeholders": {
+          "amount": "금액 입력",
+          "walletName": "지갑 이름 입력"
+        },
+        "searchPlaceholder": "지갑 이름으로 검색",
+        "status": {
+          "ACTIVE": "활성",
+          "DEPLOYING": "배포 중",
+          "FAILED": "실패",
+          "INACTIVE": "비활성"
+        },
+        "table": {
+          "balance": "잔액",
+          "funder": "자금 제공자 주소",
+          "name": "이름",
+          "status": "상태"
+        },
+        "tooltips": {
+          "funderHelp": "Funder 주소는 당신의 Polymarket Gnosis Safe 지갑입니다 - Polygon에 배포된 스마트 컨트랙트 지갑으로 당신의 포지션과 USDC.e를 보유합니다. EOA 지갑으로 제어되며 가스비 없는 거래를 가능하게 합니다.",
+          "funderHelpLink": "자세히 알아보기",
+          "inactive": "거래 시작 전에 지갑이 자동으로 활성화됩니다."
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "다른 이메일을 사용하세요",
+        "codeHint": "{email}로 전송된 6자리 코드를 입력하세요",
+        "codeLabel": "인증 코드",
+        "emailLabel": "이메일 주소",
+        "emailPlaceholder": "이메일 주소를 입력하세요",
+        "name": "로그인",
+        "noAccount": "계정이 없으신가요?",
+        "sendCode": "인증 코드 보내기",
+        "signInWithGithub": "GitHub로 로그인",
+        "signInWithGoogle": "Google로 로그인",
+        "signUp": "회원가입",
+        "subtitle": "계속하려면 계정에 로그인하세요",
+        "title": "다시 오신 것을 환영합니다",
+        "verify": "확인하고 로그인"
+      },
+      "sign-up": {
+        "agreeToTerms": "{termsOfService}와 {privacyPolicy}에 동의합니다",
+        "changeEmail": "다른 이메일을 사용하세요",
+        "codeHint": "{email}로 전송된 6자리 코드를 입력하세요",
+        "codeLabel": "인증 코드",
+        "createAccount": "계정 만들기",
+        "emailLabel": "이메일 주소",
+        "emailPlaceholder": "이메일 주소를 입력하세요",
+        "haveAccount": "이미 계정이 있으신가요?",
+        "inviteCodeLabel": "초대 코드",
+        "inviteCodePlaceholder": "초대 코드를 입력하세요",
+        "marketingEmailsLabel": "제품 소식과 추천을 받겠습니다",
+        "name": "회원가입",
+        "sendCode": "인증 코드 보내기",
+        "signIn": "로그인",
+        "signUpWithGithub": "GitHub로 가입",
+        "signUpWithGoogle": "Google로 가입",
+        "subtitle": "시작하려면 계정을 생성하세요",
+        "title": "계정 만들기"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "개인정보처리방침"
+      },
+      "terms-of-service": {
+        "title": "이용약관"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "잘못된 인증 코드입니다",
+      "AUTH_OAUTH_FAILED": "인증에 실패했습니다. 다시 시도해 주세요.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "다른 코드를 요청하기 전에 60초를 기다리세요",
+      "AUTH_OTP_IP_RATE_LIMITED": "요청이 너무 많습니다. 나중에 다시 시도하세요.",
+      "AUTH_TURNSTILE_FAILED": "보안 검증에 실패했습니다. 다시 시도하세요.",
+      "AUTH_USER_ALREADY_EXISTS": "해당 이메일로 된 계정이 이미 있습니다",
+      "AUTH_USER_NOT_FOUND": "해당 이메일로 된 계정을 찾을 수 없습니다",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "인증 코드가 만료되었습니다",
+      "BOT_ALREADY_EXISTS": "이 마켓에는 이미 봇이 존재합니다",
+      "BOT_ENABLED_CANNOT_DELETE": "실행 중인 봇은 삭제할 수 없습니다",
+      "BOT_ENABLED_CANNOT_MODIFY": "실행 중인 봇은 수정할 수 없습니다",
+      "BOT_NOT_FOUND": "봇을 찾을 수 없습니다",
+      "BOT_WALLET_DEPLOYING": "지갑이 현재 배포 중입니다",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "지갑 잔액이 부족하여 봇을 시작할 수 없습니다",
+      "BOT_WALLET_MARKET_IN_USE": "이 지갑은 이미 이 마켓에서 사용 중입니다",
+      "COMMON_FORBIDDEN_ERROR": "접근이 거부되었습니다",
+      "COMMON_NETWORK_ERROR": "네트워크 오류가 발생했습니다",
+      "COMMON_NOT_FOUND_ERROR": "리소스를 찾을 수 없습니다",
+      "COMMON_RATE_LIMIT_EXCEEDED": "요청이 너무 많습니다. 나중에 다시 시도하세요",
+      "COMMON_SERVER_ERROR": "내부 서버 오류",
+      "COMMON_TIMEOUT_ERROR": "요청 시간이 초과되었습니다",
+      "COMMON_UNAUTHORIZED_ERROR": "권한이 없습니다",
+      "COMMON_UNKNOWN_ERROR": "알 수 없는 오류가 발생했습니다",
+      "COMMON_VALIDATION_ERROR": "검증에 실패했습니다",
+      "INTERNAL_API_KEY_INVALID": "잘못된 API 키입니다",
+      "INTERNAL_API_KEY_MISSING": "API 키가 필요합니다",
+      "INVALID_EMAIL": "유효하지 않은 이메일 주소입니다",
+      "INVITE_CODE_EXPIRED": "초대 코드가 만료되었습니다",
+      "INVITE_CODE_INVALID": "유효하지 않은 초대 코드입니다",
+      "INVITE_CODE_REQUIRED": "초대 코드가 필요합니다",
+      "INVITE_CODE_USAGE_EXCEEDED": "초대 코드 사용 한도에 도달했습니다",
+      "PAYMENT_CHARGE_CREATION_FAILED": "결제 청구 생성에 실패했습니다. 나중에 다시 시도해주세요.",
+      "PAYMENT_NOT_FOUND": "결제를 찾을 수 없습니다",
+      "STRATEGY_ALREADY_EXISTS": "전략이 이미 존재합니다",
+      "STRATEGY_HAS_BOTS": "봇이 사용 중인 전략은 삭제할 수 없습니다",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "생성 후에는 주기를 수정할 수 없습니다",
+      "STRATEGY_INVALID_JSON": "잘못된 전략 구성입니다",
+      "STRATEGY_NOT_FOUND": "전략을 찾을 수 없습니다",
+      "STRATEGY_NO_BUY_STEPS": "전략에는 최소 한 개의 매수 단계가 있어야 합니다",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "봇 한도에 도달했습니다. 더 많은 봇을 생성하려면 플랜을 업그레이드하세요.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "통계 액세스가 거부되었습니다. 이 기능에 액세스하려면 플랜을 업그레이드하세요.",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "전략 금액이 플랜 한도를 초과했습니다. 더 높은 금액을 사용하려면 업그레이드하세요.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "전략 한도에 도달했습니다. 더 많은 전략을 생성하려면 플랜을 업그레이드하세요.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "지갑 한도에 도달했습니다. 더 많은 지갑을 생성하려면 플랜을 업그레이드하세요.",
+      "WALLET_ALREADY_EXISTS": "지갑이 이미 존재합니다",
+      "WALLET_ALREADY_IN_USE": "이 지갑은 다른 사용자가 이미 사용 중입니다",
+      "WALLET_CREATION_FAILED": "지갑 생성에 실패했습니다",
+      "WALLET_DEPLOYING": "지갑이 현재 배포 중입니다. 잠시 기다린 후 다시 시도하세요.",
+      "WALLET_HAS_BOTS": "봇이 사용하는 지갑은 삭제할 수 없습니다",
+      "WALLET_INSUFFICIENT_BALANCE": "출금 가능 잔액이 부족합니다",
+      "WALLET_INVALID_PRIVATE_KEY": "잘못된 개인 키 형식입니다",
+      "WALLET_NOT_FOUND": "지갑을 찾을 수 없습니다",
+      "WALLET_WITHDRAW_FAILED": "출금에 실패했습니다"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "귀하의 인증 코드는:",
+          "expiry": "이 코드는 10분 후에 만료됩니다.",
+          "ignore": "이 코드를 요청하지 않으셨다면 이 이메일을 무시하세요.",
+          "subject": "귀하의 인증 코드",
+          "title": "인증 코드"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "이용 약관과 개인정보처리방침에 동의해야 합니다"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "최소 금액은 최대 금액보다 작거나 같아야 합니다"
+      },
+      "billingCycle": {
+        "invalid": "유효하지 않은 결제 주기"
+      },
+      "botDisableReason": {
+        "required": "봇 비활성화 사유가 필요합니다"
+      },
+      "bots": {
+        "required": "최소 한 개의 봇이 필요합니다",
+        "tooMany": "한 번에 {maximum}개 이상의 봇을 만들 수 없습니다"
+      },
+      "email": {
+        "invalid": "잘못된 이메일 형식입니다",
+        "required": "이메일이 필요합니다"
+      },
+      "inviteCode": {
+        "invalid": "잘못된 초대 코드 형식입니다",
+        "required": "초대 코드가 필요합니다"
+      },
+      "marketInterval": {
+        "invalid": "잘못된 주기 값입니다"
+      },
+      "marketSymbol": {
+        "invalid": "잘못된 마켓 심볼입니다"
+      },
+      "privateKey": {
+        "invalid": "잘못된 개인 키 형식입니다(0x + 64자리 16진수여야 함)",
+        "required": "개인 키가 필요합니다"
+      },
+      "publicKey": {
+        "invalid": "잘못된 RSA 공개 키 형식입니다",
+        "required": "공개 키가 필요합니다"
+      },
+      "strategyId": {
+        "required": "전략 ID가 필요합니다"
+      },
+      "strategyJson": {
+        "invalid": "잘못된 전략 구성입니다",
+        "required": "전략 구성이 필요합니다"
+      },
+      "strategyName": {
+        "required": "전략 이름이 필요합니다",
+        "tooLong": "전략 이름은 {maximum}자 이하이어야 합니다"
+      },
+      "subscriptionPlan": {
+        "invalid": "유효하지 않은 구독 플랜"
+      },
+      "timeRange": {
+        "startAfterEnd": "시작 시간은 종료 시간보다 이르거나 같아야 합니다"
+      },
+      "turnstileToken": {
+        "invalid": "보안 검증에 실패했습니다",
+        "required": "보안 검증을 완료하세요"
+      },
+      "verificationCode": {
+        "invalid": "잘못된 인증 코드 형식입니다(6자리여야 함)",
+        "required": "인증 코드가 필요합니다"
+      },
+      "verificationToken": {
+        "invalid": "잘못된 인증 토큰 형식입니다",
+        "required": "인증 토큰이 필요합니다"
+      },
+      "walletAddress": {
+        "invalid": "잘못된 지갑 주소 형식입니다(0x + 40자리 16진수여야 함)",
+        "required": "지갑 주소가 필요합니다"
+      },
+      "walletName": {
+        "required": "지갑 이름이 필요합니다",
+        "tooLong": "지갑 이름은 {maximum}자 이하이어야 합니다"
+      },
+      "withdrawAmount": {
+        "invalid": "잘못된 출금 금액입니다",
+        "min": "금액은 0보다 커야 합니다",
+        "required": "출금 금액이 필요합니다"
+      }
+    }
+  }
+}

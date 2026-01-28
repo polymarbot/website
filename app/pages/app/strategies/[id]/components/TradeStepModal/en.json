@@ -1,0 +1,59 @@
+{
+  "buyMode": {
+    "chaseUp": "Chase Up Mode (price > $0.50)\nUnless you know your trading strategy well, this mode is not recommended as it may result in significant losses.",
+    "lowBuy": "Low Buy Mode (price ≤ $0.50)"
+  },
+  "fields": {
+    "maxChange": "Max Underlying Price Change",
+    "minChange": "Min Underlying Price Change",
+    "once": "Execute only once",
+    "outcome": "Outcome",
+    "price": "Price",
+    "side": "Trade Side",
+    "size": "Shares",
+    "timeRange": "Time Range"
+  },
+  "help": {
+    "buy": {
+      "maxChange": "In Low Buy Mode, when the underlying price change exceeds this value, the bot will stop buying the corresponding token based on the price movement direction. Set to 0 to disable this limit.",
+      "minChange": "In Chase Up Mode, when the underlying price change falls below this value, the bot will stop buying. Set to 0 to disable this limit.",
+      "once": "Normally, within a trading cycle, if your previously bought position is fully sold, the bot will attempt to place another buy order. Enable this option if you only want to trade once per cycle.",
+      "outcome": "The trading outcome direction. Unless you are very confident about the future price direction, it is recommended to select both.",
+      "price": "The buy price per share for this trade. The lower the price, the higher your potential profit margin, and vice versa.",
+      "size": "The number of shares to buy. Shares multiplied by the buy price equals the total cost of this trade.",
+      "timeRange": "The valid time window for this buy order. Orders not filled beyond this time range will be cancelled.",
+      "timeRangeChaseUp": "In a trading cycle, after a certain point in time, the probability of outcome reversal drops significantly, making chasing up more likely to profit. Therefore, set the buy operation to start after this point.",
+      "timeRangeLowBuy": "In a trading cycle, after a certain point in time, the probability of outcome reversal drops significantly, making buying low more likely to lose. Therefore, set the buy operation to terminate before this point."
+    },
+    "sell": {
+      "price": "The sell price per share for this trade. The higher the price, the higher your potential profit margin, and vice versa. If you set a price lower than the buy price, you may complete a losing trade.",
+      "size": "The number of shares to sell. Shares multiplied by the sell price equals the total amount you will receive from this trade.",
+      "timeRange": "The valid time window for this sell order. Orders not filled beyond this time range will be cancelled.\n\nThe purpose of this time limit is to take profits early in the current trading cycle without keeping sell orders open until the market closes. Within a safe time range where the outcome is unlikely to change, you can cancel orders early to maximize profits."
+    }
+  },
+  "hints": {
+    "minSize": "Minimum 5 shares",
+    "outcome": "Select specific outcome or trade both",
+    "priceRange": "Enter a value between $0.01 and $0.99",
+    "timeRange": "Start and end time in minutes (0-{max})"
+  },
+  "modal": {
+    "titleCreate": "Add Trade Step",
+    "titleEdit": "Edit Trade Step"
+  },
+  "outcomes": {
+    "both": "Both",
+    "down": "Down",
+    "up": "Up"
+  },
+  "side": {
+    "buy": "Buy",
+    "sell": "Sell"
+  },
+  "validation": {
+    "priceMax": "Price must be at most $0.99",
+    "priceMin": "Price must be at least $0.01",
+    "sizeMin": "Shares must be at least 5",
+    "timeRange": "End time must be greater than start time"
+  }
+}

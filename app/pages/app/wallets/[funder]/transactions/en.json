@@ -1,0 +1,22 @@
+{
+  "action": {
+    "BUY": "Buy",
+    "CLAIM": "Claim",
+    "SELL": "Sell"
+  },
+  "notice": "Transaction records are not real-time and may have delays. The delay is related to the market settlement cycle. Only transactions from settled markets are displayed here. Transactions from unsettled markets will appear after settlement.",
+  "profitHistory": {
+    "title": "Profit History (Last 30 Days)"
+  },
+  "table": {
+    "action": "Action",
+    "amount": "Amount",
+    "market": "Market",
+    "timestamp": "Timestamp",
+    "transactionHash": "Transaction Hash"
+  },
+  "title": "Transaction History",
+  "tooltip": {
+    "marketLink": "View on Polymarket"
+  }
+}

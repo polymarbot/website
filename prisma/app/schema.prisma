@@ -1,0 +1,268 @@
+generator client {
+  provider = "prisma-client"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String  @id @default(cuid(2)) @db.VarChar(24)
+  email         String  @unique @db.VarChar(255)
+  emailVerified Boolean @default(false)
+  name          String? @db.VarChar(100)
+  image         String? @db.Text
+
+  // Relations
+  settings              UserSettings?
+  sessions              Session[]
+  accounts              Account[]
+  wallets               Wallet[]
+  strategies            Strategy[]
+  inviteRecord          InviteRecord?
+  subscription          UserSubscription?
+  subscriptionPayments  SubscriptionPayment[]
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+}
+
+// better-auth Session table
+model Session {
+  id        String   @id @default(cuid(2)) @db.VarChar(24)
+  userId    String   @db.VarChar(24)
+  token     String   @unique @db.VarChar(255)
+  expiresAt DateTime @db.Timestamptz(3)
+  ipAddress String?  @db.VarChar(45)
+  userAgent String?  @db.Text
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([userId])
+}
+
+// Invite code for registration
+model InviteCode {
+  code      String    @id @db.VarChar(32) // Invite code as primary key
+  maxUses   Int? // Max uses, null = unlimited
+  usedCount Int       @default(0)
+  expiresAt DateTime? @db.Timestamptz(3) // Expiry time, null = never expires
+  note      String?   @db.VarChar(255) // Note (e.g., "For xxx")
+  creatorId String?   @db.VarChar(24) // Reserved: creator user ID for user invite system
+  createdAt DateTime  @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  records InviteRecord[]
+}
+
+// Invite record (who used which invite code)
+model InviteRecord {
+  inviteCode String   @db.VarChar(32)
+  userId     String   @unique @db.VarChar(24) // One user can only be invited once
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  code InviteCode @relation(fields: [inviteCode], references: [code])
+  user User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([inviteCode, userId])
+}
+
+// better-auth Account table (OAuth connections)
+model Account {
+  id                    String    @id @default(cuid(2)) @db.VarChar(24)
+  userId                String    @db.VarChar(24)
+  accountId             String    @db.VarChar(255) // Provider user ID
+  providerId            String    @db.VarChar(50) // Provider name (e.g., "google", "credential")
+  accessToken           String?   @db.Text
+  refreshToken          String?   @db.Text
+  accessTokenExpiresAt  DateTime? @db.Timestamptz(3)
+  refreshTokenExpiresAt DateTime? @db.Timestamptz(3)
+  scope                 String?   @db.Text
+  idToken               String?   @db.Text
+  password              String?   @db.Text // For credential auth (not used)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+}
+
+model UserSettings {
+  userId          String  @id @db.VarChar(24)
+  user            User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  marketingEmails Boolean @default(false) // Product updates, service recommendations, etc.
+}
+
+// Verification table for email OTP and better-auth OAuth state
+model Verification {
+  id         String   @id @default(cuid(2)) @db.VarChar(24)
+  identifier String   @db.VarChar(255) // Email address
+  value      String   @db.Text // 6-digit code for email, or OAuth state JSON
+  expiresAt  DateTime @db.Timestamptz(3)
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt  DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([identifier])
+}
+
+enum WalletStatus {
+  INACTIVE
+  ACTIVE
+  DEPLOYING
+  FAILED
+}
+
+model Wallet {
+  funder       String       @id @db.VarChar(42) // Safe contract address as primary key
+  name         String       @db.VarChar(50) // User-defined wallet name
+  encryptedKey String       @db.Text // Encrypted private key
+  ownerId      String       @db.VarChar(24) // Owner user ID
+  owner        User         @relation(fields: [ownerId], references: [id])
+  status       WalletStatus @default(INACTIVE) // Wallet deployment status
+  deleted      Boolean      @default(false) // Soft delete flag
+  createdAt    DateTime     @default(now()) @db.Timestamptz(3)
+  updatedAt    DateTime     @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  bots Bot[]
+
+  @@index([ownerId, deleted]) // Composite index for common query: WHERE ownerId = ? AND deleted = false
+}
+
+model Strategy {
+  id           String   @id @default(cuid(2)) @db.VarChar(24)
+  name         String   @db.VarChar(100) // User-defined strategy name
+  interval     String   @db.VarChar(10) // Market time interval (15m/1h/4h/1d)
+  strategyJson String   @db.Text // JSON string of TradeStep[]
+  strategyHash String   @db.VarChar(64) // SHA-256 hash of normalized strategy JSON
+  amount       Decimal  @db.Decimal(10, 2) // Total investment amount (sum of all buy steps)
+  ownerId      String   @db.VarChar(24) // Owner user ID
+  owner        User     @relation(fields: [ownerId], references: [id])
+  createdAt    DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  bots Bot[]
+
+  @@unique([ownerId, strategyHash, interval])
+  @@index([ownerId, interval]) // Composite index for common query: WHERE ownerId = ? AND interval = ?
+}
+
+model Bot {
+  id                  String    @id @default(cuid(2)) @db.VarChar(24)
+  symbol              String    @db.VarChar(10) // Market symbol (e.g., "btc", "eth", "sol", "xrp")
+  interval            String    @db.VarChar(10) // Market time interval (15m/1h/4h/1d)
+  funder              String    @db.VarChar(42) // Wallet funder address
+  strategyId          String    @db.VarChar(24) // Associated strategy ID
+  enabled             Boolean   @default(false) // Whether the bot is enabled
+  enabledAt           DateTime? @db.Timestamptz(3) // Timestamp when bot was last enabled
+  totalRuntimeSeconds Int       @default(0) // Accumulated runtime in seconds (excludes current run)
+  createdAt           DateTime  @default(now()) @db.Timestamptz(3)
+  updatedAt           DateTime  @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  wallet           Wallet                @relation(fields: [funder], references: [funder])
+  strategy         Strategy              @relation(fields: [strategyId], references: [id])
+  operationHistory BotOperationHistory[]
+
+  @@unique([symbol, interval, funder])
+  @@index([funder])
+  @@index([strategyId])
+  @@index([enabled, createdAt]) // Composite index for common query: WHERE enabled = true ORDER BY createdAt DESC
+}
+
+enum BotOperationType {
+  ENABLED
+  DISABLED
+}
+
+model BotOperationHistory {
+  id        String           @id @default(cuid(2)) @db.VarChar(24)
+  botId     String           @db.VarChar(24)
+  action    BotOperationType
+  reason    String           @db.VarChar(50) // Reason code (e.g., USER_ACTION, WALLET_INSUFFICIENT_BALANCE)
+  createdAt DateTime         @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  bot Bot @relation(fields: [botId], references: [id], onDelete: Cascade)
+
+  @@index([botId])
+  @@index([createdAt])
+}
+
+enum SubscriptionPlan {
+  FREE
+  PRO
+  PLUS
+  MAX
+}
+
+enum BillingCycle {
+  MONTHLY
+  YEARLY
+}
+
+enum PaymentStatus {
+  PENDING
+  CONFIRMED
+  FAILED
+}
+
+model UserSubscription {
+  id        String           @id @default(cuid(2)) @db.VarChar(24)
+  userId    String           @unique @db.VarChar(24) // One subscription per user
+  plan      SubscriptionPlan @default(FREE)
+  expiresAt DateTime?        @db.Timestamptz(3) // null = never expires (for FREE or lifetime)
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+}
+
+model SubscriptionPayment {
+  id String @id @default(cuid(2)) @db.VarChar(24)
+
+  userId String @db.VarChar(24)
+
+  // Coinbase Charge info
+  chargeId   String @unique @db.VarChar(100) // Coinbase charge ID
+  chargeCode String @unique @db.VarChar(20) // Coinbase charge code
+  hostedUrl  String @db.VarChar(500) // Coinbase hosted payment page URL
+
+  // Subscription info
+  plan         SubscriptionPlan
+  billingCycle BillingCycle
+
+  // Amount info
+  amount   Decimal @db.Decimal(10, 2) // USD price
+  currency String  @default("USD") @db.VarChar(10)
+
+  // Status
+  status PaymentStatus @default(PENDING)
+
+  // Timestamps
+  chargeExpiresAt DateTime  @db.Timestamptz(3) // Charge expiration time
+  confirmedAt     DateTime? @db.Timestamptz(3) // Payment confirmation time
+
+  // Raw data from Coinbase
+  metadata Json?
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([userId])
+  @@index([status])
+}

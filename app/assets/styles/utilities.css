@@ -1,0 +1,33 @@
+/* Semantic color variables (light: 500, dark: 400) */
+:root {
+  --semantic-success: var(--p-green-500);
+  --semantic-info: var(--p-sky-500);
+  --semantic-warn: var(--p-orange-500);
+  --semantic-help: var(--p-purple-500);
+  --semantic-danger: var(--p-red-500);
+}
+
+.dark {
+  --semantic-success: var(--p-green-400);
+  --semantic-info: var(--p-sky-400);
+  --semantic-warn: var(--p-orange-400);
+  --semantic-help: var(--p-purple-400);
+  --semantic-danger: var(--p-red-400);
+}
+
+/* Register semantic colors in theme namespace (supports opacity modifier) */
+@theme inline {
+  --color-success: var(--semantic-success);
+  --color-info: var(--semantic-info);
+  --color-warn: var(--semantic-warn);
+  --color-help: var(--semantic-help);
+  --color-danger: var(--semantic-danger);
+}
+
+/* Background utilities */
+@utility bg-ground { background-color: var(--p-content-hover-background); }
+@utility bg-surface { background-color: var(--p-content-background); }
+@utility bg-surface-alt { background-color: color-mix(in srgb, var(--p-content-background) 50%, var(--p-content-hover-background) 50%); }
+
+/* Safe area utilities */
+@utility pb-safe { padding-bottom: env(safe-area-inset-bottom); }

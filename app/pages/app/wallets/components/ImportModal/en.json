@@ -1,0 +1,10 @@
+{
+  "description": "Import an existing wallet using its private key. For new wallets, a Gnosis Safe contract will be deployed before trading starts.",
+  "encryptFailed": "Failed to encrypt private key",
+  "privateKeyPlaceholder": "Enter private key (0x...)",
+  "title": "Import Wallet",
+  "warning": {
+    "description": "Do not import private keys exported from Polymarket. These keys belong to Proxy Wallets (created via Email or Google login with MagicLink), and our service requires Gnosis Safe wallets.",
+    "learnMore": "Learn more about Polymarket wallet types"
+  }
+}

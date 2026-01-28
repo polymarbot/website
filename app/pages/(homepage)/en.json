@@ -1,0 +1,68 @@
+{
+  "brand": "PolymarBot",
+  "launchApp": "Launch App",
+  "pricing": {
+    "features": {
+      "bots": "{count} Bots",
+      "maxAmount": "{amount} Max per Strategy",
+      "strategies": "{count} Strategies",
+      "wallets": "{count} Wallets"
+    },
+    "getStarted": "Get Started Free",
+    "perMonth": "/mo",
+    "subtitle": "Choose the plan that fits your trading needs",
+    "title": "Simple, Transparent Pricing"
+  },
+  "tagline": "Automate your trading strategies",
+  "whyChooseUs": {
+    "reasons": {
+      "alwaysOn": {
+        "description": "Our bots monitor markets and execute trades around the clock without any manual intervention.",
+        "title": "Always-On"
+      },
+      "easySetup": {
+        "description": "No coding required. Create strategies with simple parameters and deploy in minutes.",
+        "title": "Easy Setup"
+      },
+      "gasless": {
+        "description": "Trade without gas fees using Polymarket's Gnosis Safe contracts.",
+        "title": "Gasless Trading"
+      },
+      "multiWallet": {
+        "description": "Manage multiple wallets to diversify your trading strategy portfolio.",
+        "title": "Multi-Wallet"
+      },
+      "realTimeAnalytics": {
+        "description": "Comprehensively monitor your strategy performance with dashboards, statistics, and detailed logs.",
+        "title": "Real-time Analytics"
+      },
+      "strategyStats": {
+        "description": "Track strategy performance and use top-performing strategies to start profiting quickly.",
+        "title": "Strategy Analytics"
+      }
+    },
+    "title": "Why Choose Us"
+  },
+  "workflow": {
+    "steps": {
+      "addWallets": {
+        "description": "Create Polymarket proxy wallets (Gnosis Safe)",
+        "title": "Add Wallets"
+      },
+      "createStrategies": {
+        "description": "Define your trading rules and parameters",
+        "title": "Create Strategies"
+      },
+      "deployBots": {
+        "description": "Launch your bots and watch them trade automatically",
+        "title": "Deploy Bots"
+      },
+      "signUp": {
+        "description": "Create your account in seconds",
+        "title": "Sign Up"
+      }
+    },
+    "subtitle": "Get started in minutes with our simple 4-step process",
+    "title": "How It Works"
+  }
+}

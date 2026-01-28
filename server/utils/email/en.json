@@ -1,0 +1,9 @@
+{
+  "verification": {
+    "description": "Your verification code is:",
+    "expiry": "This code will expire in 10 minutes.",
+    "ignore": "If you didn't request this code, please ignore this email.",
+    "subject": "Your verification code",
+    "title": "Verification Code"
+  }
+}

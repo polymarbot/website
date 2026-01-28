@@ -1,0 +1,8 @@
+{
+  "empty": "No markets found",
+  "name": "Markets",
+  "tooltip": {
+    "enabledBots": "Running Bots",
+    "totalBots": "Total Bots"
+  }
+}

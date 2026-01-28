@@ -1,0 +1,25 @@
+{
+  "downgrade": "Downgrade",
+  "limits": {
+    "bots": "Bots",
+    "maxStrategyAmount": "Max Strategy Amount",
+    "statsAccess": "Stats Access",
+    "strategies": "Strategies",
+    "wallets": "Wallets"
+  },
+  "perMonth": "/month",
+  "perYear": "/year",
+  "pricing": {
+    "monthlyEquivalent": "{price}/mo",
+    "originalPrice": "Was {price}",
+    "save": "Save {amount}"
+  },
+  "renew": "Renew",
+  "statsAccess": {
+    "full": "Full Access",
+    "limited": "Partial Access",
+    "none": "Not Available"
+  },
+  "unlimited": "Unlimited",
+  "upgrade": "Upgrade"
+}

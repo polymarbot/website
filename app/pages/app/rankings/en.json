@@ -1,0 +1,27 @@
+{
+  "apr": {
+    "description": "Profit Rate (Total Records)",
+    "title": "APR Rankings"
+  },
+  "filters": {
+    "amountRange": "Amount Range"
+  },
+  "hitRate": {
+    "description": "Participated / Total Records",
+    "title": "Hit Rate Rankings"
+  },
+  "name": "Rankings",
+  "profitRate": {
+    "description": "Total Profit / Total Cost (Participated)",
+    "title": "Profit Rate Rankings"
+  },
+  "title": "Strategy Rankings",
+  "upgradeRequired": {
+    "description": "Upgrade to Pro or higher to access strategy rankings and detailed statistics.",
+    "title": "Upgrade Required"
+  },
+  "winRate": {
+    "description": "Profitable / Participated",
+    "title": "Win Rate Rankings"
+  }
+}

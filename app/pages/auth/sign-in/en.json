@@ -1,0 +1,16 @@
+{
+  "changeEmail": "Use a different email",
+  "codeHint": "Enter the 6-digit code sent to {email}",
+  "codeLabel": "Verification Code",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "name": "Sign In",
+  "noAccount": "Don't have an account?",
+  "sendCode": "Send Verification Code",
+  "signInWithGithub": "Sign in with GitHub",
+  "signInWithGoogle": "Sign in with Google",
+  "signUp": "Sign up",
+  "subtitle": "Sign in to your account to continue",
+  "title": "Welcome Back",
+  "verify": "Verify & Sign In"
+}

@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {
+      "back": "Back",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "close": "Close",
+      "confirm": "Confirm",
+      "continue": "Continue",
+      "create": "Create",
+      "delete": "Delete",
+      "deposit": "Deposit",
+      "duplicate": "Duplicate",
+      "edit": "Edit",
+      "export": "Export",
+      "goBack": "Go Back",
+      "import": "Import",
+      "install": "Install",
+      "learnMore": "Learn More",
+      "more": "More",
+      "next": "Next",
+      "ok": "OK",
+      "refresh": "Refresh",
+      "reload": "Reload",
+      "reportIssue": "Report Issue",
+      "retry": "Retry",
+      "save": "Save",
+      "search": "Search",
+      "signIn": "Sign-In",
+      "signOut": "Sign-Out",
+      "submit": "Submit",
+      "transfer": "Transfer",
+      "uninstall": "Uninstall",
+      "viewDetails": "View Details",
+      "withdraw": "Withdraw"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Are you sure you want to sign out?",
+        "title": "Sign Out"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Actions",
+      "active": "Active",
+      "alert": "Alert",
+      "all": "All",
+      "amount": "Amount",
+      "chain": "Chain",
+      "confirmation": "Confirmation",
+      "createdAt": "Created At",
+      "dateRange": "Date Range",
+      "delete": "Delete",
+      "deleteConfirmation": "Delete Confirmation",
+      "email": "Email",
+      "error": "Error",
+      "max": "Max",
+      "new": "New",
+      "no": "No",
+      "optional": "Optional",
+      "or": "or",
+      "password": "Password",
+      "private": "Private",
+      "privateKey": "Private Key",
+      "success": "Success",
+      "token": "Token",
+      "transactionHash": "Transaction Hash",
+      "unknown": "Unknown",
+      "unlimited": "Unlimited",
+      "updatedAt": "Updated At",
+      "yes": "Yes"
+    },
+    "messages": {
+      "createSuccess": "Created successfully",
+      "deleteSuccess": "Deleted successfully",
+      "importSuccess": "Imported successfully",
+      "saveSuccess": "Saved successfully",
+      "submitSuccess": "Submitted successfully",
+      "updateSuccess": "Updated successfully"
+    },
+    "statuses": {
+      "closing": "Closing...",
+      "completed": "Completed",
+      "failed": "Failed",
+      "loading": "Loading...",
+      "pending": "Pending",
+      "processing": "Processing...",
+      "success": "Success"
+    }
+  }
+}

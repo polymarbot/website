@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model BotLog {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  level     String   @db.VarChar(10)
+  message   String
+  botId     String   @db.VarChar(255)
+
+  @@index([botId])
+  @@index([createdAt])
+  @@index([botId, createdAt, id])
+}

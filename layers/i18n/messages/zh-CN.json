@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "返回",
+      "cancel": "取消",
+      "clear": "清除",
+      "close": "关闭",
+      "confirm": "确认",
+      "continue": "继续",
+      "create": "创建",
+      "delete": "删除",
+      "deposit": "充值",
+      "duplicate": "复制",
+      "edit": "编辑",
+      "export": "导出",
+      "goBack": "返回",
+      "import": "导入",
+      "install": "安装",
+      "learnMore": "了解更多",
+      "more": "更多",
+      "next": "下一步",
+      "ok": "确定",
+      "refresh": "刷新",
+      "reload": "重新加载",
+      "reportIssue": "报告问题",
+      "retry": "重试",
+      "save": "保存",
+      "search": "搜索",
+      "signIn": "登录",
+      "signOut": "退出登录",
+      "submit": "提交",
+      "transfer": "转账",
+      "uninstall": "卸载",
+      "viewDetails": "查看详情",
+      "withdraw": "提现"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "您确定要退出登录吗?",
+        "title": "退出登录"
+      }
+    },
+    "formats": {
+      "date": "YYYY年M月D日",
+      "dateRange": {
+        "date": "M月D日",
+        "dateTime": "M月D日 HH:mm"
+      },
+      "dateTime": "YYYY年M月D日 HH:mm:ss",
+      "duration": {
+        "days": "天",
+        "hours": "时",
+        "minutes": "分",
+        "seconds": "秒"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "操作",
+      "active": "激活",
+      "alert": "提醒",
+      "all": "全部",
+      "amount": "金额",
+      "chain": "链",
+      "confirmation": "确认",
+      "createdAt": "创建时间",
+      "dateRange": "日期范围",
+      "delete": "删除",
+      "deleteConfirmation": "删除确认",
+      "email": "邮箱",
+      "error": "错误",
+      "max": "最大值",
+      "new": "新建",
+      "no": "否",
+      "optional": "可选",
+      "or": "或",
+      "password": "密码",
+      "private": "私有",
+      "privateKey": "私钥",
+      "success": "成功",
+      "token": "代币",
+      "transactionHash": "交易哈希",
+      "unknown": "未知",
+      "unlimited": "无限制",
+      "updatedAt": "更新时间",
+      "yes": "是"
+    },
+    "messages": {
+      "createSuccess": "创建成功",
+      "deleteSuccess": "删除成功",
+      "importSuccess": "导入成功",
+      "saveSuccess": "保存成功",
+      "submitSuccess": "提交成功",
+      "updateSuccess": "更新成功"
+    },
+    "statuses": {
+      "closing": "关闭中...",
+      "completed": "已完成",
+      "failed": "失败",
+      "loading": "加载中...",
+      "pending": "待处理",
+      "processing": "处理中...",
+      "success": "成功"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "深色模式",
+        "lightMode": "浅色模式",
+        "switchToDark": "切换到深色模式",
+        "switchToLight": "切换到浅色模式"
+      },
+      "Footer": {
+        "copyright": "© {year} 版权所有。保留所有权利。"
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "还有 {count} 个...",
+        "message": "此项目被 {count} 个交易机器人使用。请先删除它们："
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "切换语言"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 分钟",
+          "1d": "1 天",
+          "1h": "1 小时",
+          "4h": "4 小时"
+        },
+        "placeholder": "选择时间周期"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "选择代号"
+      },
+      "Navbar": {
+        "collapseSidebar": "收起侧边栏",
+        "expandSidebar": "展开侧边栏",
+        "goBack": "返回"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "报告问题"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "查看策略详情",
+        "viewStats": "查看统计数据"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "全部时间",
+          "custom": "自定义",
+          "month": "过去 30 天",
+          "quarter": "过去 90 天",
+          "week": "过去 7 天"
+        },
+        "labels": {
+          "dateRange": "日期范围",
+          "interval": "时间周期",
+          "symbol": "代号"
+        },
+        "upgradeDialog": {
+          "cancel": "取消",
+          "message": "升级到 Plus 或更高级别套餐以访问更多日期范围选项，包括自定义日期范围。",
+          "title": "需要升级",
+          "upgrade": "立即升级"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "创建新策略",
+        "emptyMessage": "暂无可用策略",
+        "placeholder": "选择策略"
+      },
+      "UpgradeOverlay": {
+        "description": "升级您的订阅以解锁此功能并访问全面的统计数据。",
+        "title": "高级功能",
+        "upgradeButton": "立即升级"
+      },
+      "WalletSelect": {
+        "createNew": "创建新钱包",
+        "emptyMessage": "暂无可用钱包",
+        "placeholder": "选择钱包"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "支出（买入）",
+        "income": "收入（卖出 + 领取）",
+        "netProfit": "净利润",
+        "txCount": "交易"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "操作",
+        "pageReport": "显示 {'{first}'} 至 {'{last}'}，共 {'{totalRecords}'} 条",
+        "pageReportMobile": "共 {'{totalRecords}'} 条"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "删除",
+        "confirmationText": "DELETE",
+        "defaultMessage": "此操作无法撤销。请确保在继续之前已备份所有重要数据。",
+        "inputLabel": "输入 {0} 以确认删除",
+        "title": "删除"
+      },
+      "CopyButton": {
+        "copied": "已复制！",
+        "copyToClipboard": "复制到剪贴板"
+      },
+      "DataTable": {
+        "empty": "暂无数据",
+        "filterAll": "全部",
+        "filterApply": "应用",
+        "filterClear": "清除"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "结束日期",
+        "startPlaceholder": "开始日期",
+        "to": "至"
+      },
+      "EmptyState": {
+        "defaultMessage": "暂无数据"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "暂无日志",
+        "refresh": "刷新",
+        "scrollToBottom": "滚动到底部"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "从剪贴板粘贴",
+        "pasted": "已粘贴！"
+      },
+      "SearchSelect": {
+        "createNew": "创建新项",
+        "noItems": "暂无可用选项",
+        "noSearchItems": "未找到结果",
+        "searchPlaceholder": "搜索..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "启动应用",
+      "pricing": {
+        "features": {
+          "bots": "{count} 个机器人",
+          "maxAmount": "每个策略最多 {amount}",
+          "strategies": "{count} 个策略",
+          "wallets": "{count} 个钱包"
+        },
+        "getStarted": "免费开始",
+        "perMonth": "/月",
+        "subtitle": "选择适合您交易需求的套餐",
+        "title": "简单、透明的定价"
+      },
+      "tagline": "自动化您的交易策略",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "我们的机器人全天候监控市场并执行交易，无需任何手动干预。",
+            "title": "全天运行"
+          },
+          "easySetup": {
+            "description": "无需编码。使用简单参数创建策略，几分钟内部署。",
+            "title": "简单设置"
+          },
+          "gasless": {
+            "description": "使用 Polymarket 的 Gnosis Safe 合约进行无 Gas 交易。",
+            "title": "无 Gas 交易"
+          },
+          "multiWallet": {
+            "description": "管理多个钱包以分散您的交易策略组合。",
+            "title": "多钱包支持"
+          },
+          "realTimeAnalytics": {
+            "description": "通过仪表盘、统计数据和详细日志全面监控您的策略表现。",
+            "title": "实时分析"
+          },
+          "strategyStats": {
+            "description": "跟踪策略表现并使用表现最佳的策略快速开始盈利。",
+            "title": "策略分析"
+          }
+        },
+        "title": "为什么选择我们"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "创建 Polymarket 代理钱包（Gnosis Safe）",
+            "title": "添加钱包"
+          },
+          "createStrategies": {
+            "description": "定义您的交易规则和参数",
+            "title": "创建策略"
+          },
+          "deployBots": {
+            "description": "启动您的机器人并观看它们自动交易",
+            "title": "部署机器人"
+          },
+          "signUp": {
+            "description": "在几秒钟内创建您的账户",
+            "title": "注册"
+          }
+        },
+        "subtitle": "通过我们简单的 4 步流程在几分钟内开始",
+        "title": "工作原理"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "停止",
+              "ENABLED": "启动"
+            },
+            "fun-logs": {
+              "notice": "运行日志不是实时的，存在延迟。它们仅用于历史回顾和故障排除，不用于评估当前机器人状态。仅保留最近一个月的日志。",
+              "title": "运行日志"
+            },
+            "info": {
+              "strategy": "策略",
+              "wallet": "钱包"
+            },
+            "reason": {
+              "USER_ACTION": "用户操作",
+              "WALLET_INSUFFICIENT_BALANCE": "钱包余额不足",
+              "WALLET_TRANSACTION_ERROR": "交易错误"
+            },
+            "table": {
+              "action": "操作",
+              "operatedAt": "操作时间",
+              "reason": "原因"
+            },
+            "tabs": {
+              "logs": "运行日志",
+              "operations": "操作记录"
+            },
+            "title": "机器人运行历史"
+          }
+        },
+        "actions": {
+          "batchDelete": "删除",
+          "batchDisable": "停止",
+          "batchEnable": "启动",
+          "create": "创建",
+          "viewRunHistory": "运行历史"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "全部删除",
+              "disableAll": "全部停止",
+              "enableAll": "全部启动"
+            },
+            "menu": {
+              "byConditions": "按条件筛选"
+            },
+            "messages": {
+              "deleteSuccess": "机器人删除成功",
+              "disableSuccess": "机器人停止成功",
+              "enableSuccess": "机器人启动成功",
+              "noBotsToDelete": "没有可删除的机器人（只能删除已停止的机器人）",
+              "noBotsToDisable": "没有可停止的机器人",
+              "noBotsToEnable": "没有可启动的机器人",
+              "resultDeleteSkipped": "{count} 个机器人无法删除（运行中）。",
+              "resultDeleted": "{count} 个机器人删除成功。",
+              "resultEnableSkipped": "{count} 个机器人因余额不足、钱包状态或策略金额超过计划限制无法启动。",
+              "resultEnabled": "{count} 个机器人启动成功。",
+              "resultPending": "{count} 个机器人等待钱包激活。",
+              "resultPendingAutoStart": "{count} 个机器人等待钱包激活，激活后将自动启动。"
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "即将删除所有已停止的机器人。此操作无法撤销。您确定要删除这些机器人吗？",
+                "title": "删除机器人"
+              },
+              "batchDisable": {
+                "message": "所有运行中的机器人即将停止。但是，已经下达的订单不会自动取消。您确定要停止所有机器人吗？",
+                "title": "停止机器人"
+              },
+              "batchEnable": {
+                "message": "所有已停止的机器人即将启动。启动后，它们将开始使用钱包中的资金下单，这可能导致盈利或亏损。您确定要启动所有机器人吗？",
+                "title": "启动机器人"
+              },
+              "byConditions": {
+                "hint": "所有符合所选条件的机器人都将受到影响。",
+                "intervalDisabledHint": "因为已选择策略，时间周期筛选被禁用",
+                "intervalLabel": "时间周期",
+                "selectInterval": "选择时间周期",
+                "selectStrategy": "选择策略",
+                "selectSymbol": "选择代号",
+                "selectWallet": "选择钱包",
+                "strategyDisabledHint": "因为已选择时间周期，策略筛选被禁用",
+                "strategyLabel": "策略",
+                "symbolLabel": "代号",
+                "titleDelete": "按条件删除机器人",
+                "titleDisable": "按条件停止机器人",
+                "titleEnable": "按条件启动机器人",
+                "walletLabel": "钱包"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "时间周期",
+              "strategy": "策略",
+              "symbols": "代号",
+              "wallet": "钱包"
+            },
+            "hints": {
+              "batchCreate": "将为每个市场（由代号和时间周期组成）创建一个机器人。如果该钱包在某个市场已存在机器人，将跳过该市场。",
+              "intervalFirst": "先选择时间周期，然后选择匹配的策略",
+              "strategyFiltered": "仅显示具有所选时间周期的策略",
+              "symbolsOptional": "留空则为所有代号创建机器人"
+            },
+            "messages": {
+              "createSuccess": "成功创建 {count} 个机器人",
+              "noBotsToCreate": "没有可创建的机器人",
+              "resultCreated": "{count} 个机器人创建成功。",
+              "resultSkipped": "{count} 个机器人已跳过（该钱包在这些市场已有机器人）。"
+            },
+            "modals": {
+              "result": {
+                "title": "创建结果"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "全部",
+              "selectStrategy": "选择策略",
+              "selectWallet": "选择钱包"
+            },
+            "title": "批量创建机器人"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "所需余额为该钱包所有已启动机器人的总和：\n每个机器人需要的金额 = 单笔最大交易金额 × {multiplier}",
+            "current": "当前余额",
+            "description": "钱包余额不足以支撑所有已启动的机器人。在满足余额要求前，您无法启动此机器人。",
+            "required": "所需（所有已启动机器人）",
+            "shortfall": "缺口",
+            "suggestion": "请存入资金以弥补缺口，或停止其他机器人以释放所需余额。"
+          }
+        },
+        "messages": {
+          "deleteSuccess": "机器人删除成功",
+          "disableSuccess": "机器人停止成功",
+          "enableSuccess": "机器人启动成功",
+          "walletActivating": "钱包正在激活中，钱包激活后机器人将被启动"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "您确定要删除 {count} 个机器人吗？此操作无法撤销。",
+            "title": "批量删除机器人"
+          },
+          "batchDisable": {
+            "message": "您确定要停止 {count} 个机器人吗？",
+            "title": "批量停止机器人"
+          },
+          "batchEnable": {
+            "message": "您确定要启动 {count} 个机器人吗？",
+            "title": "批量启动机器人"
+          },
+          "delete": {
+            "message": "您确定要删除此机器人吗？此操作无法撤销。",
+            "title": "删除机器人"
+          },
+          "disable": {
+            "message": "您确定要停止此机器人吗？",
+            "title": "停止机器人"
+          },
+          "enable": {
+            "message": "您确定要启动此机器人吗？",
+            "title": "启动机器人"
+          }
+        },
+        "name": "机器人",
+        "searchPlaceholder": "按钱包名称或策略名称搜索",
+        "table": {
+          "market": "市场",
+          "runtime": "运行时长",
+          "status": "状态",
+          "strategy": "策略",
+          "wallet": "钱包"
+        },
+        "tooltips": {
+          "disable": "停止机器人",
+          "disabling": "停止中...",
+          "enable": "启动机器人",
+          "enabling": "启动中...",
+          "walletDeploying": "钱包正在部署中，无法启动",
+          "walletFailed": "钱包部署失败"
+        },
+        "walletStatus": {
+          "DEPLOYING": "部署中",
+          "FAILED": "失败"
+        }
+      },
+      "dashboard": {
+        "botCount": "机器人",
+        "name": "仪表盘",
+        "profitHistory": {
+          "title": "盈利历史(最近 30 天)"
+        },
+        "running": "运行中",
+        "strategyCount": "策略",
+        "totalBalance": "总余额",
+        "walletCount": "钱包"
+      },
+      "markets": {
+        "empty": "未找到市场",
+        "name": "市场",
+        "tooltip": {
+          "enabledBots": "启动中的机器人",
+          "totalBots": "机器人总数"
+        }
+      },
+      "me": {
+        "anonymous": "匿名用户",
+        "language": {
+          "name": "语言",
+          "title": "选择语言"
+        },
+        "name": "我的账户"
+      },
+      "rankings": {
+        "apr": {
+          "description": "利润率（总记录数）",
+          "title": "年化收益率排行榜"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "创建策略",
+              "editStrategy": "编辑策略"
+            },
+            "myStrategy": "我的策略"
+          }
+        },
+        "filters": {
+          "amountRange": "金额范围"
+        },
+        "hitRate": {
+          "description": "参与次数 / 总记录数",
+          "title": "命中率排行榜"
+        },
+        "name": "排行榜",
+        "profitRate": {
+          "description": "总利润 / 总成本（参与次数）",
+          "title": "利润率排行榜"
+        },
+        "title": "策略排行榜",
+        "upgradeRequired": {
+          "description": "升级到 Pro 或更高级别套餐以访问策略排行榜和详细统计数据。",
+          "title": "需要升级"
+        },
+        "winRate": {
+          "description": "盈利次数 / 参与次数",
+          "title": "胜率排行榜"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "统计数据"
+          },
+          "autoNameNoSteps": "请先创建交易步骤",
+          "autoNameTooltip": "自动生成策略名称",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "统计数据",
+              "stats": {
+                "apr": "年化收益率",
+                "hitRate": "命中率",
+                "profitRate": "利润率",
+                "winRate": "胜率"
+              },
+              "stepCount": "{count} 个步骤",
+              "title": "策略统计",
+              "upgradeRequired": {
+                "description": "升级到 Pro 或更高级别套餐以查看策略统计数据。",
+                "title": "需要升级"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "添加步骤"
+              },
+              "emptyState": "尚未添加交易步骤。点击「添加步骤」创建您的第一个交易步骤。",
+              "stats": {
+                "buyCount": "买入：{count}",
+                "sellCount": "卖出：{count}",
+                "stepCount": "{count}/{max} 步",
+                "totalAmount": "单次交易最大金额"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "删除",
+                "edit": "编辑"
+              },
+              "fields": {
+                "maxChange": "标的价格最大变化",
+                "minChange": "标的价格最小变化",
+                "once": "仅一次",
+                "outcome": "结果",
+                "price": "价格",
+                "size": "份额",
+                "timeRange": "时间范围"
+              },
+              "side": {
+                "buy": "买入",
+                "sell": "卖出"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "追涨模式（价格 > $0.50）\n除非您非常了解您的交易策略，否则不建议使用此模式，因为可能会导致重大损失。",
+                "lowBuy": "低买模式（价格 ≤ $0.50）"
+              },
+              "fields": {
+                "maxChange": "标的价格最大变化",
+                "minChange": "标的价格最小变化",
+                "once": "仅执行一次",
+                "outcome": "结果",
+                "price": "价格",
+                "side": "交易方向",
+                "size": "份额",
+                "timeRange": "时间范围"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "在低买模式下，当标的价格变化超过此值时，机器人将根据价格变动方向停止购买相应的代币。设置为 0 可禁用此限制。",
+                  "minChange": "在追涨模式下，当标的价格变化低于此值时，机器人将停止买入。设置为 0 可禁用此限制。",
+                  "once": "通常情况下，在一个交易周期内，如果您之前买入的仓位全部卖出，机器人会尝试再次下买单。如果您只想每个周期交易一次，请启用此选项。",
+                  "outcome": "交易结果方向。除非您对未来价格方向非常有把握，否则建议选择两者。",
+                  "price": "本次交易的每份买入价格。价格越低，您的潜在利润率越高，反之亦然。",
+                  "size": "要购买的份额数量。份额乘以买入价格等于本次交易的总成本。",
+                  "timeRange": "此买单的有效时间窗口。超出此时间范围未成交的订单将被取消。",
+                  "timeRangeChaseUp": "在一个交易周期中，过了某个时间点后，结果反转的概率会显著下降，追涨更有可能盈利。因此，将买入操作设置为在此时间点之后开始。",
+                  "timeRangeLowBuy": "在一个交易周期中，过了某个时间点后，结果反转的概率会显著下降，低买更有可能亏损。因此，将买入操作设置为在此时间点之前结束。"
+                },
+                "sell": {
+                  "price": "本次交易的每份卖出价格。价格越高，您的潜在利润率越高，反之亦然。如果您设置的价格低于买入价格，可能会完成一笔亏损交易。",
+                  "size": "要卖出的份额数量。份额乘以卖出价格等于您从本次交易中获得的总金额。",
+                  "timeRange": "此卖单的有效时间窗口。超出此时间范围未成交的订单将被取消。\n\n此时间限制的目的是在当前交易周期中尽早获利，而不是将卖单保持到市场关闭。在结果不太可能改变的安全时间范围内，您可以提前取消订单以最大化利润。"
+                }
+              },
+              "hints": {
+                "minSize": "最少 5 份",
+                "outcome": "选择特定结果或两者都交易",
+                "priceRange": "请输入 $0.01 至 $0.99 之间的值",
+                "timeRange": "开始和结束时间（分钟，0-{max}）"
+              },
+              "modal": {
+                "titleCreate": "添加交易步骤",
+                "titleEdit": "编辑交易步骤"
+              },
+              "outcomes": {
+                "both": "两者",
+                "down": "下跌",
+                "up": "上涨"
+              },
+              "side": {
+                "buy": "买入",
+                "sell": "卖出"
+              },
+              "validation": {
+                "priceMax": "价格最多为 $0.99",
+                "priceMin": "价格至少为 $0.01",
+                "sizeMin": "份额至少为 5",
+                "timeRange": "结束时间必须大于开始时间"
+              }
+            }
+          },
+          "duplicateSuffix": "（副本）",
+          "fields": {
+            "interval": "时间周期",
+            "name": "策略名称",
+            "strategyJson": "交易步骤"
+          },
+          "placeholders": {
+            "interval": "选择时间周期",
+            "name": "请输入策略名称"
+          },
+          "title": "策略详情",
+          "titleCreate": "创建策略",
+          "titleEdit": "策略详情"
+        },
+        "actions": {
+          "create": "创建策略",
+          "viewBots": "查看相关机器人"
+        },
+        "modals": {
+          "delete": {
+            "message": "确定要删除策略 \"{name}\" 吗？",
+            "title": "删除策略"
+          }
+        },
+        "name": "策略",
+        "searchPlaceholder": "按策略名称搜索",
+        "table": {
+          "amount": "单次交易最大金额",
+          "botCount": "机器人数量",
+          "interval": "时间周期",
+          "name": "名称"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "按月",
+          "YEARLY": "按年"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "降级",
+            "limits": {
+              "bots": "机器人",
+              "maxStrategyAmount": "单次交易最大金额",
+              "statsAccess": "统计数据访问权限",
+              "strategies": "策略",
+              "wallets": "钱包"
+            },
+            "perMonth": "/月",
+            "perYear": "/年",
+            "pricing": {
+              "monthlyEquivalent": "{price}/月",
+              "originalPrice": "原价 {price}",
+              "save": "省 {amount}"
+            },
+            "renew": "续订",
+            "statsAccess": {
+              "full": "完全访问权限",
+              "limited": "部分访问",
+              "none": "不可用"
+            },
+            "unlimited": "无限制",
+            "upgrade": "升级"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "增加天数",
+            "confirm": "确认",
+            "convertedDays": "转换天数",
+            "creditAmount": "余额：{amount}",
+            "currentRemaining": "当前剩余",
+            "days": "{count} 天",
+            "downgrade": {
+              "description": "您剩余的订阅价值将在降级套餐中转换为更多天数。不会进行退款。",
+              "title": "降级套餐"
+            },
+            "expiresAt": "到期：{date}",
+            "newExpiration": "新的到期时间",
+            "payAndConfirm": "支付 {amount}",
+            "periodDays": "周期天数",
+            "renew": {
+              "description": "续订将为您当前的订阅增加 {days} 天。",
+              "title": "续订订阅"
+            },
+            "totalAmount": "总金额",
+            "upgrade": {
+              "description": "您剩余的订阅价值将在新套餐中转换为天数。您只需支付差额。",
+              "fullyCovered": "您剩余的订阅完全覆盖此升级！无需额外付款。",
+              "title": "升级套餐"
+            },
+            "years": "{count} 年 | {count} 年",
+            "yearsAndDays": "{years} 年 {days} 天 | {years} 年 {days} 天"
+          }
+        },
+        "currentPlan": "当前套餐",
+        "expired": "已过期",
+        "expiredWarning": {
+          "description": "您的订阅已过期。您目前使用的是功能受限的免费套餐。升级以恢复之前的套餐权益。",
+          "title": "订阅已过期"
+        },
+        "expiresAt": "到期时间",
+        "name": "订阅管理",
+        "neverExpires": "永不过期",
+        "payment": {
+          "createChargeFailed": "创建付款失败。请重试。",
+          "noPaymentNeeded": "此操作无需付款。",
+          "title": "付款"
+        },
+        "paymentHistory": "支付历史",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "返回订阅",
+              "description": "您的付款未完成。您的账户没有任何费用。",
+              "name": "付款已取消",
+              "reasons": {
+                "cancelled": "您取消了付款",
+                "expired": "付款会话已过期",
+                "insufficientFunds": "钱包余额不足",
+                "networkError": "网络或区块链错误",
+                "title": "可能的原因："
+              },
+              "retryPayment": "重试付款",
+              "title": "付款已取消"
+            },
+            "success": {
+              "backToSubscription": "返回订阅",
+              "confirmed": {
+                "description": "您的 {plan} 订阅已被激活。",
+                "title": "支付成功！"
+              },
+              "expired": {
+                "createNew": "创建新付款",
+                "description": "付款会话已过期。请创建新付款。",
+                "title": "付款已过期"
+              },
+              "failed": {
+                "description": "您的付款无法完成。请重试。",
+                "title": "付款失败",
+                "tryAgain": "重试"
+              },
+              "loading": {
+                "description": "正在获取付款状态",
+                "title": "加载中..."
+              },
+              "name": "付款状态",
+              "notFound": {
+                "description": "我们找不到此付款记录。",
+                "title": "未找到付款"
+              },
+              "pending": {
+                "continuePayment": "继续付款",
+                "description": "您的付款正在区块链上处理。",
+                "note": "加密货币付款可能需要几分钟才能确认。当您的付款被确认时，此页面将自动更新。",
+                "title": "处理中"
+              }
+            }
+          },
+          "name": "支付历史",
+          "status": {
+            "CONFIRMED": "已确认",
+            "EXPIRED": "已过期",
+            "FAILED": "失败",
+            "PENDING": "待处理"
+          },
+          "table": {
+            "amount": "金额",
+            "billingCycle": "计费周期",
+            "chargeCode": "费用代码",
+            "createdAt": "创建时间",
+            "plan": "套餐",
+            "status": "状态"
+          },
+          "title": "支付历史"
+        },
+        "plans": {
+          "description": "选择适合您需求的套餐",
+          "title": "可选套餐"
+        },
+        "savePercent": "节省 {percent}%",
+        "usage": {
+          "bots": "机器人",
+          "strategies": "策略",
+          "wallets": "钱包"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "买入",
+              "CLAIM": "领取",
+              "SELL": "卖出"
+            },
+            "notice": "交易记录不是实时的，可能存在延迟。延迟与市场结算周期有关。此处仅显示已结算市场的交易。未结算市场的交易将在结算后显示。",
+            "profitHistory": {
+              "title": "盈利历史(最近 30 天)"
+            },
+            "table": {
+              "action": "操作",
+              "amount": "金额",
+              "market": "市场",
+              "timestamp": "时间",
+              "transactionHash": "交易哈希"
+            },
+            "title": "交易历史",
+            "tooltip": {
+              "marketLink": "在 Polymarket 上查看"
+            }
+          }
+        },
+        "actions": {
+          "create": "创建钱包",
+          "import": "导入钱包",
+          "transactions": "交易历史",
+          "viewBots": "查看相关机器人"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "删除前，请确保已导出并备份您的私钥。没有私钥，您将永久失去对此钱包中任何资金的访问权限。",
+            "message": "您确定要删除钱包 \"{name}\" 吗？",
+            "title": "删除钱包",
+            "warning": "删除钱包是不可逆的。所有钱包数据将从我们的系统中永久删除。"
+          },
+          "DepositModal": {
+            "address": "充值地址",
+            "bridgeAddress": "资产跨链桥地址",
+            "note": "充值地址是由 Polymarket 生成的 {bridgeAddress}。您可以发送 Polymarket 支持的任何加密货币，资金将自动跨链至 Polygon 并转换为 USDC.e。如果您直接发送 Polygon 上的 USDC.e（例如，使用我们的提现功能），您可以直接发送至资金地址。",
+            "selectChain": "选择链",
+            "supportedCrypto": "Polymarket 支持的加密货币",
+            "title": "充值"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "将使用唯一的私钥创建一个新钱包。交易开始前会部署 Gnosis Safe 合约。",
+              "title": "创建新钱包"
+            },
+            "edit": {
+              "title": "编辑钱包"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "我了解风险并想要导出我的私钥",
+            "connectToPolymarket": "将您的钱包连接到 Polymarket",
+            "copyWarning": "点击眼睛图标以显示您的私钥。确保周围没有其他人。\n如果您复制到剪贴板，请记得之后清除剪贴板以防止泄露。",
+            "decryptFailed": "私钥解密失败",
+            "funderNotice": "注意：您的资金存储在资金地址（Gnosis Safe 合约）中，而不是从此私钥派生的钱包地址中。资金地址是由您的私钥控制的智能合约。如果您将此密钥导入加密钱包，您将看到不同的地址，并且不会在那里找到您的资产。要访问您的资金，请 {connectToPolymarket} 并使用 {withdraw} 功能。",
+            "title": "导出私钥",
+            "warningDetail": "绝不要与任何人分享您的私钥。任何拥有您私钥的人都可以盗取您钱包中的所有资产。",
+            "withdraw": "提现"
+          },
+          "ImportModal": {
+            "description": "使用其私钥导入现有钱包。对于新钱包，交易开始前会部署 Gnosis Safe 合约。",
+            "encryptFailed": "私钥加密失败",
+            "privateKeyPlaceholder": "输入私钥 (0x...)",
+            "title": "导入钱包",
+            "warning": {
+              "description": "不要导入从 Polymarket 导出的私钥。这些密钥属于代理钱包（通过 MagicLink 的电子邮件或谷歌登录创建），我们的服务需要 Gnosis Safe 钱包。",
+              "learnMore": "了解有关 Polymarket 钱包类型的更多信息"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "源钱包",
+            "info": "转账通过 Polymarket Relayer（无 Gas）处理。交易将立即提交，但可能需要几分钟才能在链上确认。",
+            "submitted": "转账请求提交成功。您可以在 PolygonScan 上跟踪交易状态。",
+            "title": "内部转账",
+            "toWallet": "目标钱包",
+            "toWalletHint": "选择要转账至的钱包",
+            "walletActivating": "转账前需要激活钱包。激活和转账将自动处理。这可能需要几分钟。您可以在 PolygonScan 上检查钱包地址以监控进度。"
+          },
+          "WithdrawModal": {
+            "info": "提现通过 Polymarket Relayer（无 Gas）处理。交易将立即提交，但可能需要几分钟才能在链上确认。",
+            "recipientAddress": "收款地址",
+            "recipientPlaceholder": "输入 Polygon 地址 (0x...)",
+            "submitted": "提现请求提交成功。您可以在 PolygonScan 上跟踪交易状态。",
+            "title": "提现",
+            "walletActivating": "提现前需要激活钱包。激活和提现将自动处理。这可能需要几分钟。您可以在 PolygonScan 上检查钱包地址以监控进度。"
+          }
+        },
+        "labels": {
+          "availableBalance": "可用余额",
+          "viewOnPolygonscan": "在 PolygonScan 上查看",
+          "viewWalletOnPolygonscan": "在 PolygonScan 上查看钱包",
+          "walletName": "钱包名称"
+        },
+        "messages": {
+          "insufficientBalance": "金额超出可用余额"
+        },
+        "name": "钱包",
+        "placeholders": {
+          "amount": "输入金额",
+          "walletName": "输入钱包名称"
+        },
+        "searchPlaceholder": "按钱包名称搜索",
+        "status": {
+          "ACTIVE": "激活",
+          "DEPLOYING": "部署中",
+          "FAILED": "失败",
+          "INACTIVE": "未激活"
+        },
+        "table": {
+          "balance": "余额",
+          "funder": "资金地址",
+          "name": "名称",
+          "status": "状态"
+        },
+        "tooltips": {
+          "funderHelp": "资金地址是您的 Polymarket Gnosis Safe 钱包，这是一个部署在 Polygon 上的智能合约钱包，用于持有您的头寸和 USDC.e。它由您的 EOA 钱包控制，可实现无 Gas 交易。",
+          "funderHelpLink": "了解更多",
+          "inactive": "钱包将在交易开始前自动激活。"
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "使用其他邮箱",
+        "codeHint": "请输入发送到 {email} 的 6 位验证码",
+        "codeLabel": "验证码",
+        "emailLabel": "电子邮箱地址",
+        "emailPlaceholder": "请输入您的电子邮箱地址",
+        "name": "登录",
+        "noAccount": "还没有账户？",
+        "sendCode": "发送验证码",
+        "signInWithGithub": "通过 GitHub 登录",
+        "signInWithGoogle": "通过 Google 登录",
+        "signUp": "注册",
+        "subtitle": "登录您的账户以继续",
+        "title": "欢迎回来",
+        "verify": "验证并登录"
+      },
+      "sign-up": {
+        "agreeToTerms": "我同意{termsOfService}和{privacyPolicy}",
+        "changeEmail": "使用其他邮箱",
+        "codeHint": "请输入发送到 {email} 的 6 位验证码",
+        "codeLabel": "验证码",
+        "createAccount": "创建账户",
+        "emailLabel": "电子邮箱地址",
+        "emailPlaceholder": "请输入您的电子邮箱地址",
+        "haveAccount": "已有账户？",
+        "inviteCodeLabel": "邀请码",
+        "inviteCodePlaceholder": "请输入您的邀请码",
+        "marketingEmailsLabel": "向我发送产品更新和推荐",
+        "name": "注册",
+        "sendCode": "发送验证码",
+        "signIn": "登录",
+        "signUpWithGithub": "通过 GitHub 注册",
+        "signUpWithGoogle": "通过 Google 注册",
+        "subtitle": "创建账户以开始使用",
+        "title": "创建账户"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "隐私政策"
+      },
+      "terms-of-service": {
+        "title": "服务条款"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "验证码无效",
+      "AUTH_OAUTH_FAILED": "认证失败，请重试",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "请等待 60 秒后再请求新的验证码",
+      "AUTH_OTP_IP_RATE_LIMITED": "请求过于频繁。请稍后再试",
+      "AUTH_TURNSTILE_FAILED": "安全验证失败。请重试",
+      "AUTH_USER_ALREADY_EXISTS": "该邮箱已被注册",
+      "AUTH_USER_NOT_FOUND": "未找到与该邮箱关联的账户",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "验证码已过期",
+      "BOT_ALREADY_EXISTS": "该市场已存在机器人",
+      "BOT_ENABLED_CANNOT_DELETE": "无法删除运行中的机器人",
+      "BOT_ENABLED_CANNOT_MODIFY": "无法修改运行中的机器人",
+      "BOT_NOT_FOUND": "未找到机器人",
+      "BOT_WALLET_DEPLOYING": "钱包正在部署中",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "钱包余额不足，无法启动机器人",
+      "BOT_WALLET_MARKET_IN_USE": "该钱包已在此市场使用",
+      "COMMON_FORBIDDEN_ERROR": "访问被禁止",
+      "COMMON_NETWORK_ERROR": "网络错误",
+      "COMMON_NOT_FOUND_ERROR": "资源未找到",
+      "COMMON_RATE_LIMIT_EXCEEDED": "请求过多。请稍后再试",
+      "COMMON_SERVER_ERROR": "内部服务器错误",
+      "COMMON_TIMEOUT_ERROR": "请求超时",
+      "COMMON_UNAUTHORIZED_ERROR": "未授权访问",
+      "COMMON_UNKNOWN_ERROR": "发生未知错误",
+      "COMMON_VALIDATION_ERROR": "验证失败",
+      "INTERNAL_API_KEY_INVALID": "API 密钥无效",
+      "INTERNAL_API_KEY_MISSING": "API 密钥为必填项",
+      "INVALID_EMAIL": "邮箱地址无效",
+      "INVITE_CODE_EXPIRED": "邀请码已过期",
+      "INVITE_CODE_INVALID": "邀请码无效",
+      "INVITE_CODE_REQUIRED": "邀请码为必填项",
+      "INVITE_CODE_USAGE_EXCEEDED": "邀请码已达到使用上限",
+      "PAYMENT_CHARGE_CREATION_FAILED": "创建付款失败。请稍后重试。",
+      "PAYMENT_NOT_FOUND": "未找到付款",
+      "STRATEGY_ALREADY_EXISTS": "策略已存在",
+      "STRATEGY_HAS_BOTS": "无法删除正在被机器人使用的策略",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "创建后无法修改时间周期",
+      "STRATEGY_INVALID_JSON": "策略配置无效",
+      "STRATEGY_NOT_FOUND": "未找到策略",
+      "STRATEGY_NO_BUY_STEPS": "策略必须至少包含一个买入步骤",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "已达到机器人数量上限。请升级套餐以创建更多机器人。",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "统计数据访问被拒绝。升级您的套餐以访问此功能。",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "策略金额超出套餐限制。请升级以使用更高金额。",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "已达到策略数量上限。请升级套餐以创建更多策略。",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "已达到钱包数量上限。请升级套餐以创建更多钱包。",
+      "WALLET_ALREADY_EXISTS": "钱包已存在",
+      "WALLET_ALREADY_IN_USE": "此钱包已被其他用户使用",
+      "WALLET_CREATION_FAILED": "创建钱包失败",
+      "WALLET_DEPLOYING": "钱包正在部署中。请稍后再试。",
+      "WALLET_HAS_BOTS": "无法删除正在被机器人使用的钱包",
+      "WALLET_INSUFFICIENT_BALANCE": "余额不足，无法提现",
+      "WALLET_INVALID_PRIVATE_KEY": "私钥格式无效",
+      "WALLET_NOT_FOUND": "未找到钱包",
+      "WALLET_WITHDRAW_FAILED": "提现失败"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "您的验证码是：",
+          "expiry": "此验证码将在 10 分钟后过期。",
+          "ignore": "如果您没有请求此代码，请忽略此电子邮件。",
+          "subject": "您的验证码",
+          "title": "验证码"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "您必须同意服务条款和隐私政策"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "最小金额必须小于或等于最大金额"
+      },
+      "billingCycle": {
+        "invalid": "计费周期无效"
+      },
+      "botDisableReason": {
+        "required": "机器人停用原因为必填项"
+      },
+      "bots": {
+        "required": "至少需要一个机器人",
+        "tooMany": "一次最多只能创建 {maximum} 个机器人"
+      },
+      "email": {
+        "invalid": "邮箱格式无效",
+        "required": "邮箱为必填项"
+      },
+      "inviteCode": {
+        "invalid": "邀请码格式无效",
+        "required": "邀请码为必填项"
+      },
+      "marketInterval": {
+        "invalid": "时间周期值无效"
+      },
+      "marketSymbol": {
+        "invalid": "市场代号无效"
+      },
+      "privateKey": {
+        "invalid": "私钥格式无效（必须是 0x + 64 个十六进制字符）",
+        "required": "私钥为必填项"
+      },
+      "publicKey": {
+        "invalid": "RSA 公钥格式无效",
+        "required": "公钥为必填项"
+      },
+      "strategyId": {
+        "required": "策略 ID 为必填项"
+      },
+      "strategyJson": {
+        "invalid": "策略配置无效",
+        "required": "策略配置为必填项"
+      },
+      "strategyName": {
+        "required": "策略名称为必填项",
+        "tooLong": "策略名称不得超过 {maximum} 个字符"
+      },
+      "subscriptionPlan": {
+        "invalid": "订阅套餐无效"
+      },
+      "timeRange": {
+        "startAfterEnd": "开始时间必须小于或等于结束时间"
+      },
+      "turnstileToken": {
+        "invalid": "安全验证失败",
+        "required": "请完成安全验证"
+      },
+      "verificationCode": {
+        "invalid": "验证码格式无效（必须是 6 位数字）",
+        "required": "验证码为必填项"
+      },
+      "verificationToken": {
+        "invalid": "验证令牌格式无效",
+        "required": "验证令牌为必填项"
+      },
+      "walletAddress": {
+        "invalid": "钱包地址格式无效（必须是 0x + 40 个十六进制字符）",
+        "required": "钱包地址为必填项"
+      },
+      "walletName": {
+        "required": "钱包名称为必填项",
+        "tooLong": "钱包名称不得超过 {maximum} 个字符"
+      },
+      "withdrawAmount": {
+        "invalid": "提现金额无效",
+        "min": "金额必须大于 0",
+        "required": "提现金额为必填项"
+      }
+    }
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "Back",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "close": "Close",
+      "confirm": "Confirm",
+      "continue": "Continue",
+      "create": "Create",
+      "delete": "Delete",
+      "deposit": "Deposit",
+      "duplicate": "Duplicate",
+      "edit": "Edit",
+      "export": "Export",
+      "goBack": "Go Back",
+      "import": "Import",
+      "install": "Install",
+      "learnMore": "Learn More",
+      "more": "More",
+      "next": "Next",
+      "ok": "OK",
+      "refresh": "Refresh",
+      "reload": "Reload",
+      "reportIssue": "Report Issue",
+      "retry": "Retry",
+      "save": "Save",
+      "search": "Search",
+      "signIn": "Sign-In",
+      "signOut": "Sign-Out",
+      "submit": "Submit",
+      "transfer": "Transfer",
+      "uninstall": "Uninstall",
+      "viewDetails": "View Details",
+      "withdraw": "Withdraw"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Are you sure you want to sign out?",
+        "title": "Sign Out"
+      }
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Actions",
+      "active": "Active",
+      "alert": "Alert",
+      "all": "All",
+      "amount": "Amount",
+      "chain": "Chain",
+      "confirmation": "Confirmation",
+      "createdAt": "Created At",
+      "dateRange": "Date Range",
+      "delete": "Delete",
+      "deleteConfirmation": "Delete Confirmation",
+      "email": "Email",
+      "error": "Error",
+      "max": "Max",
+      "new": "New",
+      "no": "No",
+      "optional": "Optional",
+      "or": "or",
+      "password": "Password",
+      "private": "Private",
+      "privateKey": "Private Key",
+      "success": "Success",
+      "token": "Token",
+      "transactionHash": "Transaction Hash",
+      "unknown": "Unknown",
+      "unlimited": "Unlimited",
+      "updatedAt": "Updated At",
+      "yes": "Yes"
+    },
+    "messages": {
+      "createSuccess": "Created successfully",
+      "deleteSuccess": "Deleted successfully",
+      "importSuccess": "Imported successfully",
+      "saveSuccess": "Saved successfully",
+      "submitSuccess": "Submitted successfully",
+      "updateSuccess": "Updated successfully"
+    },
+    "statuses": {
+      "closing": "Closing...",
+      "completed": "Completed",
+      "failed": "Failed",
+      "loading": "Loading...",
+      "pending": "Pending",
+      "processing": "Processing...",
+      "success": "Success"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Dark Mode",
+        "lightMode": "Light Mode",
+        "switchToDark": "Switch to Dark Mode",
+        "switchToLight": "Switch to Light Mode"
+      },
+      "Footer": {
+        "copyright": "© {year} All rights reserved."
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "and {count} more...",
+        "message": "This item is used by {count} bot(s). Please delete them first:"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Switch language"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 Minutes",
+          "1d": "1 Day",
+          "1h": "1 Hour",
+          "4h": "4 Hours"
+        },
+        "placeholder": "Select interval"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Select symbols"
+      },
+      "Navbar": {
+        "collapseSidebar": "Collapse sidebar",
+        "expandSidebar": "Expand sidebar",
+        "goBack": "Go back"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Report Issue"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "View strategy details",
+        "viewStats": "View statistics"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "All Time",
+          "custom": "Custom",
+          "month": "Last 30 Days",
+          "quarter": "Last 90 Days",
+          "week": "Last 7 Days"
+        },
+        "labels": {
+          "dateRange": "Date Range",
+          "interval": "Interval",
+          "symbol": "Symbol"
+        },
+        "upgradeDialog": {
+          "cancel": "Cancel",
+          "message": "Upgrade to Plus or higher to access more date range options including custom date ranges.",
+          "title": "Upgrade Required",
+          "upgrade": "Upgrade Now"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Create new strategy",
+        "emptyMessage": "No strategies available",
+        "placeholder": "Select a strategy"
+      },
+      "UpgradeOverlay": {
+        "description": "Upgrade your subscription to unlock this feature and access comprehensive statistics.",
+        "title": "Premium Feature",
+        "upgradeButton": "Upgrade Now"
+      },
+      "WalletSelect": {
+        "createNew": "Create new wallet",
+        "emptyMessage": "No wallets available",
+        "placeholder": "Select a wallet"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Expense (Buy)",
+        "income": "Income (Sell + Claim)",
+        "netProfit": "Net Profit",
+        "txCount": "Transactions"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Actions",
+        "pageReport": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'}",
+        "pageReportMobile": "Total: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Delete",
+        "confirmationText": "DELETE",
+        "defaultMessage": "This action cannot be undone. Please make sure you have backed up any important data before proceeding.",
+        "inputLabel": "Type {0} to confirm deletion",
+        "title": "Delete"
+      },
+      "CopyButton": {
+        "copied": "Copied!",
+        "copyToClipboard": "Copy to clipboard"
+      },
+      "DataTable": {
+        "empty": "No data available",
+        "filterAll": "All",
+        "filterApply": "Apply",
+        "filterClear": "Clear"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "End date",
+        "startPlaceholder": "Start date",
+        "to": "to"
+      },
+      "EmptyState": {
+        "defaultMessage": "No data"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "No logs available",
+        "refresh": "Refresh",
+        "scrollToBottom": "Scroll to bottom"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Paste from clipboard",
+        "pasted": "Pasted!"
+      },
+      "SearchSelect": {
+        "createNew": "Create new",
+        "noItems": "No options available",
+        "noSearchItems": "No results found",
+        "searchPlaceholder": "Search..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Launch App",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bots",
+          "maxAmount": "{amount} Max per Strategy",
+          "strategies": "{count} Strategies",
+          "wallets": "{count} Wallets"
+        },
+        "getStarted": "Get Started Free",
+        "perMonth": "/mo",
+        "subtitle": "Choose the plan that fits your trading needs",
+        "title": "Simple, Transparent Pricing"
+      },
+      "tagline": "Automate your trading strategies",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Our bots monitor markets and execute trades around the clock without any manual intervention.",
+            "title": "Always-On"
+          },
+          "easySetup": {
+            "description": "No coding required. Create strategies with simple parameters and deploy in minutes.",
+            "title": "Easy Setup"
+          },
+          "gasless": {
+            "description": "Trade without gas fees using Polymarket's Gnosis Safe contracts.",
+            "title": "Gasless Trading"
+          },
+          "multiWallet": {
+            "description": "Manage multiple wallets to diversify your trading strategy portfolio.",
+            "title": "Multi-Wallet"
+          },
+          "realTimeAnalytics": {
+            "description": "Comprehensively monitor your strategy performance with dashboards, statistics, and detailed logs.",
+            "title": "Real-time Analytics"
+          },
+          "strategyStats": {
+            "description": "Track strategy performance and use top-performing strategies to start profiting quickly.",
+            "title": "Strategy Analytics"
+          }
+        },
+        "title": "Why Choose Us"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Create Polymarket proxy wallets (Gnosis Safe)",
+            "title": "Add Wallets"
+          },
+          "createStrategies": {
+            "description": "Define your trading rules and parameters",
+            "title": "Create Strategies"
+          },
+          "deployBots": {
+            "description": "Launch your bots and watch them trade automatically",
+            "title": "Deploy Bots"
+          },
+          "signUp": {
+            "description": "Create your account in seconds",
+            "title": "Sign Up"
+          }
+        },
+        "subtitle": "Get started in minutes with our simple 4-step process",
+        "title": "How It Works"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "Stop",
+              "ENABLED": "Start"
+            },
+            "fun-logs": {
+              "notice": "Run logs are not real-time and have delays. They are for historical review and troubleshooting only, not for assessing current bot status. Only logs from the last month are retained.",
+              "title": "Run Logs"
+            },
+            "info": {
+              "strategy": "Strategy",
+              "wallet": "Wallet"
+            },
+            "reason": {
+              "USER_ACTION": "User action",
+              "WALLET_INSUFFICIENT_BALANCE": "Insufficient wallet balance",
+              "WALLET_TRANSACTION_ERROR": "Transaction error"
+            },
+            "table": {
+              "action": "Action",
+              "operatedAt": "Operated At",
+              "reason": "Reason"
+            },
+            "tabs": {
+              "logs": "Run Logs",
+              "operations": "Operations"
+            },
+            "title": "Bot Run History"
+          }
+        },
+        "actions": {
+          "batchDelete": "Delete",
+          "batchDisable": "Stop",
+          "batchEnable": "Start",
+          "create": "Create",
+          "viewRunHistory": "Run History"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "Delete All",
+              "disableAll": "Stop All",
+              "enableAll": "Start All"
+            },
+            "menu": {
+              "byConditions": "By Conditions"
+            },
+            "messages": {
+              "deleteSuccess": "Bots deleted successfully",
+              "disableSuccess": "Bots stopped successfully",
+              "enableSuccess": "Bots started successfully",
+              "noBotsToDelete": "No bots to delete (only stopped bots can be deleted)",
+              "noBotsToDisable": "No bots to stop",
+              "noBotsToEnable": "No bots to start",
+              "resultDeleteSkipped": "{count} bot(s) could not be deleted (running).",
+              "resultDeleted": "{count} bot(s) deleted successfully.",
+              "resultEnableSkipped": "{count} bot(s) could not be started due to insufficient balance, wallet status, or strategy amount exceeding plan limit.",
+              "resultEnabled": "{count} bot(s) started successfully.",
+              "resultPending": "{count} bot(s) pending wallet activation.",
+              "resultPendingAutoStart": "{count} bot(s) pending wallet activation and will start automatically once wallets are activated."
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "All stopped bots are about to be deleted. This action cannot be undone. Are you sure you want to delete these bots?",
+                "title": "Delete Bots"
+              },
+              "batchDisable": {
+                "message": "All running bots are about to stop. However, orders that have already been placed will not be automatically canceled. Are you sure you want to stop all bots?",
+                "title": "Stop Bots"
+              },
+              "batchEnable": {
+                "message": "All stopped bots are about to start. Once started, they will begin using funds in their wallets to place orders, which may result in profits or losses. Are you sure you want to start all bots?",
+                "title": "Start Bots"
+              },
+              "byConditions": {
+                "hint": "All bots matching the selected conditions will be affected.",
+                "intervalDisabledHint": "Interval filter is disabled because a strategy is selected",
+                "intervalLabel": "Interval",
+                "selectInterval": "Select Interval",
+                "selectStrategy": "Select Strategy",
+                "selectSymbol": "Select Symbol",
+                "selectWallet": "Select Wallet",
+                "strategyDisabledHint": "Strategy filter is disabled because intervals are selected",
+                "strategyLabel": "Strategy",
+                "symbolLabel": "Symbol",
+                "titleDelete": "Delete Bots by Conditions",
+                "titleDisable": "Stop Bots by Conditions",
+                "titleEnable": "Start Bots by Conditions",
+                "walletLabel": "Wallet"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "Interval",
+              "strategy": "Strategy",
+              "symbols": "Symbols",
+              "wallet": "Wallet"
+            },
+            "hints": {
+              "batchCreate": "A bot will be created for each market (symbol + interval). Skipped if the wallet already has a bot in that market.",
+              "intervalFirst": "Select interval first, then choose a matching strategy",
+              "strategyFiltered": "Only strategies with the selected interval are shown",
+              "symbolsOptional": "Leave empty to create bots for all symbols"
+            },
+            "messages": {
+              "createSuccess": "{count} bots created successfully",
+              "noBotsToCreate": "No bots to create",
+              "resultCreated": "{count} bot(s) created successfully.",
+              "resultSkipped": "{count} bot(s) skipped (wallet already has a bot in those markets)."
+            },
+            "modals": {
+              "result": {
+                "title": "Creation Result"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "All",
+              "selectStrategy": "Select strategy",
+              "selectWallet": "Select wallet"
+            },
+            "title": "Batch Create Bots"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "The required balance is the total of all active bots on this wallet:\nEach bot requires = Max Amount per Trade × {multiplier}",
+            "current": "Current Balance",
+            "description": "The wallet balance is insufficient to support all active bots. You cannot start this bot until the balance requirement is met.",
+            "required": "Required (All Active Bots)",
+            "shortfall": "Shortfall",
+            "suggestion": "Please deposit funds to cover the shortfall, or stop other bots to free up the required balance."
+          }
+        },
+        "messages": {
+          "deleteSuccess": "Bot deleted successfully",
+          "disableSuccess": "Bot stopped successfully",
+          "enableSuccess": "Bot started successfully",
+          "walletActivating": "Wallet is being activated, bots will be started once wallet is active"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "Are you sure you want to delete {count} bots? This action cannot be undone.",
+            "title": "Batch Delete Bots"
+          },
+          "batchDisable": {
+            "message": "Are you sure you want to stop {count} bots?",
+            "title": "Batch Stop Bots"
+          },
+          "batchEnable": {
+            "message": "Are you sure you want to start {count} bots?",
+            "title": "Batch Start Bots"
+          },
+          "delete": {
+            "message": "Are you sure you want to delete this bot? This action cannot be undone.",
+            "title": "Delete Bot"
+          },
+          "disable": {
+            "message": "Are you sure you want to stop this bot?",
+            "title": "Stop Bot"
+          },
+          "enable": {
+            "message": "Are you sure you want to start this bot?",
+            "title": "Start Bot"
+          }
+        },
+        "name": "Bots",
+        "searchPlaceholder": "Search by wallet name or strategy name",
+        "table": {
+          "market": "Market",
+          "runtime": "Runtime",
+          "status": "Status",
+          "strategy": "Strategy",
+          "wallet": "Wallet"
+        },
+        "tooltips": {
+          "disable": "Stop bot",
+          "disabling": "Stopping...",
+          "enable": "Start bot",
+          "enabling": "Starting...",
+          "walletDeploying": "Wallet is deploying, cannot start",
+          "walletFailed": "Wallet deployment failed"
+        },
+        "walletStatus": {
+          "DEPLOYING": "Deploying",
+          "FAILED": "Failed"
+        }
+      },
+      "dashboard": {
+        "botCount": "Bots",
+        "name": "Dashboard",
+        "profitHistory": {
+          "title": "Profit History (Last 30 Days)"
+        },
+        "running": "running",
+        "strategyCount": "Strategies",
+        "totalBalance": "Total Balance",
+        "walletCount": "Wallets"
+      },
+      "markets": {
+        "empty": "No markets found",
+        "name": "Markets",
+        "tooltip": {
+          "enabledBots": "Running Bots",
+          "totalBots": "Total Bots"
+        }
+      },
+      "me": {
+        "anonymous": "Anonymous",
+        "language": {
+          "name": "Language",
+          "title": "Select Language"
+        },
+        "name": "Me"
+      },
+      "rankings": {
+        "apr": {
+          "description": "Profit Rate (Total Records)",
+          "title": "APR Rankings"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "Create Strategy",
+              "editStrategy": "Edit Strategy"
+            },
+            "myStrategy": "My Strategy"
+          }
+        },
+        "filters": {
+          "amountRange": "Amount Range"
+        },
+        "hitRate": {
+          "description": "Participated / Total Records",
+          "title": "Hit Rate Rankings"
+        },
+        "name": "Rankings",
+        "profitRate": {
+          "description": "Total Profit / Total Cost (Participated)",
+          "title": "Profit Rate Rankings"
+        },
+        "title": "Strategy Rankings",
+        "upgradeRequired": {
+          "description": "Upgrade to Pro or higher to access strategy rankings and detailed statistics.",
+          "title": "Upgrade Required"
+        },
+        "winRate": {
+          "description": "Profitable / Participated",
+          "title": "Win Rate Rankings"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "Statistics"
+          },
+          "autoNameNoSteps": "Please create trade steps first",
+          "autoNameTooltip": "Auto-generate strategy name",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "Statistics",
+              "stats": {
+                "apr": "APR",
+                "hitRate": "Hit Rate",
+                "profitRate": "Profit Rate",
+                "winRate": "Win Rate"
+              },
+              "stepCount": "{count} Steps",
+              "title": "Strategy Statistics",
+              "upgradeRequired": {
+                "description": "Upgrade to Pro or higher to view strategy statistics.",
+                "title": "Upgrade Required"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "Add Step"
+              },
+              "emptyState": "No trade steps added yet. Click \"Add Step\" to create your first trade step.",
+              "stats": {
+                "buyCount": "Buy: {count}",
+                "sellCount": "Sell: {count}",
+                "stepCount": "{count}/{max} steps",
+                "totalAmount": "Max Amount per Trade"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "Delete",
+                "edit": "Edit"
+              },
+              "fields": {
+                "maxChange": "Max Underlying Price Change",
+                "minChange": "Min Underlying Price Change",
+                "once": "Once",
+                "outcome": "Outcome",
+                "price": "Price",
+                "size": "Shares",
+                "timeRange": "Time Range"
+              },
+              "side": {
+                "buy": "Buy",
+                "sell": "Sell"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "Chase Up Mode (price > $0.50)\nUnless you know your trading strategy well, this mode is not recommended as it may result in significant losses.",
+                "lowBuy": "Low Buy Mode (price ≤ $0.50)"
+              },
+              "fields": {
+                "maxChange": "Max Underlying Price Change",
+                "minChange": "Min Underlying Price Change",
+                "once": "Execute only once",
+                "outcome": "Outcome",
+                "price": "Price",
+                "side": "Trade Side",
+                "size": "Shares",
+                "timeRange": "Time Range"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "In Low Buy Mode, when the underlying price change exceeds this value, the bot will stop buying the corresponding token based on the price movement direction. Set to 0 to disable this limit.",
+                  "minChange": "In Chase Up Mode, when the underlying price change falls below this value, the bot will stop buying. Set to 0 to disable this limit.",
+                  "once": "Normally, within a trading cycle, if your previously bought position is fully sold, the bot will attempt to place another buy order. Enable this option if you only want to trade once per cycle.",
+                  "outcome": "The trading outcome direction. Unless you are very confident about the future price direction, it is recommended to select both.",
+                  "price": "The buy price per share for this trade. The lower the price, the higher your potential profit margin, and vice versa.",
+                  "size": "The number of shares to buy. Shares multiplied by the buy price equals the total cost of this trade.",
+                  "timeRange": "The valid time window for this buy order. Orders not filled beyond this time range will be cancelled.",
+                  "timeRangeChaseUp": "In a trading cycle, after a certain point in time, the probability of outcome reversal drops significantly, making chasing up more likely to profit. Therefore, set the buy operation to start after this point.",
+                  "timeRangeLowBuy": "In a trading cycle, after a certain point in time, the probability of outcome reversal drops significantly, making buying low more likely to lose. Therefore, set the buy operation to terminate before this point."
+                },
+                "sell": {
+                  "price": "The sell price per share for this trade. The higher the price, the higher your potential profit margin, and vice versa. If you set a price lower than the buy price, you may complete a losing trade.",
+                  "size": "The number of shares to sell. Shares multiplied by the sell price equals the total amount you will receive from this trade.",
+                  "timeRange": "The valid time window for this sell order. Orders not filled beyond this time range will be cancelled.\n\nThe purpose of this time limit is to take profits early in the current trading cycle without keeping sell orders open until the market closes. Within a safe time range where the outcome is unlikely to change, you can cancel orders early to maximize profits."
+                }
+              },
+              "hints": {
+                "minSize": "Minimum 5 shares",
+                "outcome": "Select specific outcome or trade both",
+                "priceRange": "Enter a value between $0.01 and $0.99",
+                "timeRange": "Start and end time in minutes (0-{max})"
+              },
+              "modal": {
+                "titleCreate": "Add Trade Step",
+                "titleEdit": "Edit Trade Step"
+              },
+              "outcomes": {
+                "both": "Both",
+                "down": "Down",
+                "up": "Up"
+              },
+              "side": {
+                "buy": "Buy",
+                "sell": "Sell"
+              },
+              "validation": {
+                "priceMax": "Price must be at most $0.99",
+                "priceMin": "Price must be at least $0.01",
+                "sizeMin": "Shares must be at least 5",
+                "timeRange": "End time must be greater than start time"
+              }
+            }
+          },
+          "duplicateSuffix": "(Copy)",
+          "fields": {
+            "interval": "Interval",
+            "name": "Strategy Name",
+            "strategyJson": "Trade Steps"
+          },
+          "placeholders": {
+            "interval": "Select interval",
+            "name": "Enter strategy name"
+          },
+          "title": "Strategy Details",
+          "titleCreate": "Create Strategy",
+          "titleEdit": "Strategy Details"
+        },
+        "actions": {
+          "create": "Create Strategy",
+          "viewBots": "View Related Bots"
+        },
+        "modals": {
+          "delete": {
+            "message": "Are you sure you want to delete strategy \"{name}\"?",
+            "title": "Delete Strategy"
+          }
+        },
+        "name": "Strategies",
+        "searchPlaceholder": "Search by strategy name",
+        "table": {
+          "amount": "Max Amount per Trade",
+          "botCount": "Bots",
+          "interval": "Interval",
+          "name": "Name"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "Monthly",
+          "YEARLY": "Yearly"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "Downgrade",
+            "limits": {
+              "bots": "Bots",
+              "maxStrategyAmount": "Max Strategy Amount",
+              "statsAccess": "Stats Access",
+              "strategies": "Strategies",
+              "wallets": "Wallets"
+            },
+            "perMonth": "/month",
+            "perYear": "/year",
+            "pricing": {
+              "monthlyEquivalent": "{price}/mo",
+              "originalPrice": "Was {price}",
+              "save": "Save {amount}"
+            },
+            "renew": "Renew",
+            "statsAccess": {
+              "full": "Full Access",
+              "limited": "Partial Access",
+              "none": "Not Available"
+            },
+            "unlimited": "Unlimited",
+            "upgrade": "Upgrade"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "Add Days",
+            "confirm": "Confirm",
+            "convertedDays": "Converted Days",
+            "creditAmount": "Credit: {amount}",
+            "currentRemaining": "Current Remaining",
+            "days": "{count} days",
+            "downgrade": {
+              "description": "Your remaining subscription value will be converted to more days in the lower plan. No refund will be issued.",
+              "title": "Downgrade Plan"
+            },
+            "expiresAt": "Expires: {date}",
+            "newExpiration": "New Expiration",
+            "payAndConfirm": "Pay {amount}",
+            "periodDays": "Period Days",
+            "renew": {
+              "description": "Renewing will add {days} days to your current subscription.",
+              "title": "Renew Subscription"
+            },
+            "totalAmount": "Total Amount",
+            "upgrade": {
+              "description": "Your remaining subscription value will be converted to days in the new plan. You only pay the difference.",
+              "fullyCovered": "Your remaining subscription fully covers this upgrade! No additional payment required.",
+              "title": "Upgrade Plan"
+            },
+            "years": "{count} year | {count} years",
+            "yearsAndDays": "{years} year {days} days | {years} years {days} days"
+          }
+        },
+        "currentPlan": "Current Plan",
+        "expired": "Expired",
+        "expiredWarning": {
+          "description": "Your subscription has expired. You are now on the Free plan with limited features. Upgrade to restore your previous plan benefits.",
+          "title": "Subscription Expired"
+        },
+        "expiresAt": "Expires At",
+        "name": "Subscription",
+        "neverExpires": "Never Expires",
+        "payment": {
+          "createChargeFailed": "Failed to create payment. Please try again.",
+          "noPaymentNeeded": "No payment required for this action.",
+          "title": "Payment"
+        },
+        "paymentHistory": "Payment History",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "Back to Subscription",
+              "description": "Your payment was not completed. No charges have been made to your account.",
+              "name": "Payment Cancelled",
+              "reasons": {
+                "cancelled": "You cancelled the payment",
+                "expired": "The payment session expired",
+                "insufficientFunds": "Insufficient funds in your wallet",
+                "networkError": "Network or blockchain error",
+                "title": "Possible reasons:"
+              },
+              "retryPayment": "Retry Payment",
+              "title": "Payment Cancelled"
+            },
+            "success": {
+              "backToSubscription": "Back to Subscription",
+              "confirmed": {
+                "description": "Your {plan} subscription has been activated.",
+                "title": "Payment Successful!"
+              },
+              "expired": {
+                "createNew": "Create New Payment",
+                "description": "The payment session has expired. Please create a new payment.",
+                "title": "Payment Expired"
+              },
+              "failed": {
+                "description": "Your payment could not be completed. Please try again.",
+                "title": "Payment Failed",
+                "tryAgain": "Try Again"
+              },
+              "loading": {
+                "description": "Retrieving payment status",
+                "title": "Loading..."
+              },
+              "name": "Payment Status",
+              "notFound": {
+                "description": "We couldn't find this payment record.",
+                "title": "Payment Not Found"
+              },
+              "pending": {
+                "continuePayment": "Continue Payment",
+                "description": "Your payment is being processed on the blockchain.",
+                "note": "Cryptocurrency payments may take a few minutes to be confirmed. This page will automatically update when your payment is confirmed.",
+                "title": "Payment Processing"
+              }
+            }
+          },
+          "name": "Payment History",
+          "status": {
+            "CONFIRMED": "Confirmed",
+            "EXPIRED": "Expired",
+            "FAILED": "Failed",
+            "PENDING": "Pending"
+          },
+          "table": {
+            "amount": "Amount",
+            "billingCycle": "Billing Cycle",
+            "chargeCode": "Charge Code",
+            "createdAt": "Created At",
+            "plan": "Plan",
+            "status": "Status"
+          },
+          "title": "Payment History"
+        },
+        "plans": {
+          "description": "Choose a plan that fits your needs",
+          "title": "Available Plans"
+        },
+        "savePercent": "Save {percent}%",
+        "usage": {
+          "bots": "Bots",
+          "strategies": "Strategies",
+          "wallets": "Wallets"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "Buy",
+              "CLAIM": "Claim",
+              "SELL": "Sell"
+            },
+            "notice": "Transaction records are not real-time and may have delays. The delay is related to the market settlement cycle. Only transactions from settled markets are displayed here. Transactions from unsettled markets will appear after settlement.",
+            "profitHistory": {
+              "title": "Profit History (Last 30 Days)"
+            },
+            "table": {
+              "action": "Action",
+              "amount": "Amount",
+              "market": "Market",
+              "timestamp": "Timestamp",
+              "transactionHash": "Transaction Hash"
+            },
+            "title": "Transaction History",
+            "tooltip": {
+              "marketLink": "View on Polymarket"
+            }
+          }
+        },
+        "actions": {
+          "create": "Create Wallet",
+          "import": "Import Wallet",
+          "transactions": "Transaction History",
+          "viewBots": "View Related Bots"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "Before deleting, make sure you have exported and backed up your private key. Without the private key, you will permanently lose access to any funds in this wallet.",
+            "message": "Are you sure you want to delete wallet \"{name}\"?",
+            "title": "Delete Wallet",
+            "warning": "Deleting a wallet is irreversible. All wallet data will be permanently removed from our system."
+          },
+          "DepositModal": {
+            "address": "Deposit Address",
+            "bridgeAddress": "an asset bridge address",
+            "note": "The deposit address is {bridgeAddress} generated by Polymarket. You can send {supportedCrypto}, and funds will be automatically bridged to Polygon and converted to USDC.e. If you're sending USDC.e on Polygon directly (e.g., using our withdrawal feature), you can send funds directly to the Funder Address.",
+            "selectChain": "Select Chain",
+            "supportedCrypto": "cryptocurrency supported by Polymarket",
+            "title": "Deposit"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "A new wallet will be created with a unique private key. A Gnosis Safe contract will be deployed before trading starts.",
+              "title": "Create New Wallet"
+            },
+            "edit": {
+              "title": "Edit Wallet"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "I understand the risks and want to export my private key",
+            "connectToPolymarket": "connect your wallet to Polymarket",
+            "copyWarning": "Click the eye button to reveal your private key. Make sure no one is around you.\nIf you copy it to clipboard, remember to clear your clipboard afterwards to prevent leakage.",
+            "decryptFailed": "Failed to decrypt private key",
+            "funderNotice": "Note: Your funds are stored in the Funder Address (a Gnosis Safe contract), not the wallet address derived from this private key. The Funder Address is a smart contract controlled by your private key. If you import this key into a cryptocurrency wallet, you'll see a different address and won't find your assets there. To access your funds, {connectToPolymarket} and use the {withdraw} feature.",
+            "title": "Export Private Key",
+            "warningDetail": "Never share your private key with anyone. Anyone with access to your private key can steal all assets in your wallet.",
+            "withdraw": "Withdraw"
+          },
+          "ImportModal": {
+            "description": "Import an existing wallet using its private key. For new wallets, a Gnosis Safe contract will be deployed before trading starts.",
+            "encryptFailed": "Failed to encrypt private key",
+            "privateKeyPlaceholder": "Enter private key (0x...)",
+            "title": "Import Wallet",
+            "warning": {
+              "description": "Do not import private keys exported from Polymarket. These keys belong to Proxy Wallets (created via Email or Google login with MagicLink), and our service requires Gnosis Safe wallets.",
+              "learnMore": "Learn more about Polymarket wallet types"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "From Wallet",
+            "info": "Transfer is processed via Polymarket Relayer (gasless). The transaction will be submitted immediately but may take a few minutes to confirm on-chain.",
+            "submitted": "Transfer request submitted successfully. You can track the transaction status on PolygonScan.",
+            "title": "Internal Transfer",
+            "toWallet": "To Wallet",
+            "toWalletHint": "Select a wallet to transfer funds to",
+            "walletActivating": "Your wallet needs to be activated before transfer. The activation and transfer will be processed automatically. This may take a few minutes. You can check the wallet address on PolygonScan to monitor progress."
+          },
+          "WithdrawModal": {
+            "info": "Withdrawal is processed via Polymarket Relayer (gasless). The transaction will be submitted immediately but may take a few minutes to confirm on-chain.",
+            "recipientAddress": "Recipient Address",
+            "recipientPlaceholder": "Enter Polygon address (0x...)",
+            "submitted": "Withdrawal request submitted successfully. You can track the transaction status on PolygonScan.",
+            "title": "Withdraw",
+            "walletActivating": "Your wallet needs to be activated before withdrawal. The activation and withdrawal will be processed automatically. This may take a few minutes. You can check the wallet address on PolygonScan to monitor progress."
+          }
+        },
+        "labels": {
+          "availableBalance": "Available Balance",
+          "viewOnPolygonscan": "View on PolygonScan",
+          "viewWalletOnPolygonscan": "View Wallet on PolygonScan",
+          "walletName": "Wallet Name"
+        },
+        "messages": {
+          "insufficientBalance": "Amount exceeds available balance"
+        },
+        "name": "Wallets",
+        "placeholders": {
+          "amount": "Enter amount",
+          "walletName": "Enter wallet name"
+        },
+        "searchPlaceholder": "Search by wallet name",
+        "status": {
+          "ACTIVE": "Active",
+          "DEPLOYING": "Deploying",
+          "FAILED": "Failed",
+          "INACTIVE": "Inactive"
+        },
+        "table": {
+          "balance": "Balance",
+          "funder": "Funder Address",
+          "name": "Name",
+          "status": "Status"
+        },
+        "tooltips": {
+          "funderHelp": "The Funder Address is your Polymarket Gnosis Safe wallet - a smart contract wallet deployed on Polygon that holds your positions and USDC.e. It's controlled by your EOA wallet and enables gasless transactions.",
+          "funderHelpLink": "Learn more",
+          "inactive": "Wallet will be automatically activated before trading starts."
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Use a different email",
+        "codeHint": "Enter the 6-digit code sent to {email}",
+        "codeLabel": "Verification Code",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "name": "Sign In",
+        "noAccount": "Don't have an account?",
+        "sendCode": "Send Verification Code",
+        "signInWithGithub": "Sign in with GitHub",
+        "signInWithGoogle": "Sign in with Google",
+        "signUp": "Sign up",
+        "subtitle": "Sign in to your account to continue",
+        "title": "Welcome Back",
+        "verify": "Verify & Sign In"
+      },
+      "sign-up": {
+        "agreeToTerms": "I agree to the {termsOfService} and {privacyPolicy}",
+        "changeEmail": "Use a different email",
+        "codeHint": "Enter the 6-digit code sent to {email}",
+        "codeLabel": "Verification Code",
+        "createAccount": "Create Account",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "haveAccount": "Already have an account?",
+        "inviteCodeLabel": "Invite Code",
+        "inviteCodePlaceholder": "Enter your invite code",
+        "marketingEmailsLabel": "Send me product updates and recommendations",
+        "name": "Sign Up",
+        "sendCode": "Send Verification Code",
+        "signIn": "Sign in",
+        "signUpWithGithub": "Sign up with GitHub",
+        "signUpWithGoogle": "Sign up with Google",
+        "subtitle": "Create an account to get started",
+        "title": "Create Account"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Privacy Policy"
+      },
+      "terms-of-service": {
+        "title": "Terms of Service"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Invalid verification code",
+      "AUTH_OAUTH_FAILED": "Authentication failed. Please try again.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Please wait 60 seconds before requesting another code",
+      "AUTH_OTP_IP_RATE_LIMITED": "Too many requests. Please try again later.",
+      "AUTH_TURNSTILE_FAILED": "Security verification failed. Please try again.",
+      "AUTH_USER_ALREADY_EXISTS": "An account with this email already exists",
+      "AUTH_USER_NOT_FOUND": "No account found with this email",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Verification code has expired",
+      "BOT_ALREADY_EXISTS": "Bot already exists for this market",
+      "BOT_ENABLED_CANNOT_DELETE": "Cannot delete a running bot",
+      "BOT_ENABLED_CANNOT_MODIFY": "Cannot modify a running bot",
+      "BOT_NOT_FOUND": "Bot not found",
+      "BOT_WALLET_DEPLOYING": "Wallet is currently being deployed",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Wallet balance is insufficient to start bot",
+      "BOT_WALLET_MARKET_IN_USE": "This wallet is already in use for this market",
+      "COMMON_FORBIDDEN_ERROR": "Access forbidden",
+      "COMMON_NETWORK_ERROR": "Network error occurred",
+      "COMMON_NOT_FOUND_ERROR": "Resource not found",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Too many requests. Please try again later",
+      "COMMON_SERVER_ERROR": "Internal server error",
+      "COMMON_TIMEOUT_ERROR": "Request timeout",
+      "COMMON_UNAUTHORIZED_ERROR": "Unauthorized access",
+      "COMMON_UNKNOWN_ERROR": "An unknown error occurred",
+      "COMMON_VALIDATION_ERROR": "Validation failed",
+      "INTERNAL_API_KEY_INVALID": "Invalid API key",
+      "INTERNAL_API_KEY_MISSING": "API key is required",
+      "INVALID_EMAIL": "Invalid email address",
+      "INVITE_CODE_EXPIRED": "Invite code has expired",
+      "INVITE_CODE_INVALID": "Invalid invite code",
+      "INVITE_CODE_REQUIRED": "Invite code is required",
+      "INVITE_CODE_USAGE_EXCEEDED": "Invite code has reached its usage limit",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Failed to create payment charge. Please try again later.",
+      "PAYMENT_NOT_FOUND": "Payment not found",
+      "STRATEGY_ALREADY_EXISTS": "Strategy already exists",
+      "STRATEGY_HAS_BOTS": "Cannot delete strategy that is used by bots",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "Interval cannot be modified after creation",
+      "STRATEGY_INVALID_JSON": "Invalid strategy configuration",
+      "STRATEGY_NOT_FOUND": "Strategy not found",
+      "STRATEGY_NO_BUY_STEPS": "Strategy must contain at least one buy step",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Bot limit reached. Upgrade your plan to create more bots.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "Stats access denied. Upgrade your plan to access this feature.",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "Strategy amount exceeds your plan limit. Upgrade to use higher amounts.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Strategy limit reached. Upgrade your plan to create more strategies.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Wallet limit reached. Upgrade your plan to create more wallets.",
+      "WALLET_ALREADY_EXISTS": "Wallet already exists",
+      "WALLET_ALREADY_IN_USE": "This wallet is already in use by another user",
+      "WALLET_CREATION_FAILED": "Failed to create wallet",
+      "WALLET_DEPLOYING": "Wallet is currently being deployed. Please wait and try again later.",
+      "WALLET_HAS_BOTS": "Cannot delete wallet that is used by bots",
+      "WALLET_INSUFFICIENT_BALANCE": "Insufficient balance for withdrawal",
+      "WALLET_INVALID_PRIVATE_KEY": "Invalid private key format",
+      "WALLET_NOT_FOUND": "Wallet not found",
+      "WALLET_WITHDRAW_FAILED": "Withdrawal failed"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Your verification code is:",
+          "expiry": "This code will expire in 10 minutes.",
+          "ignore": "If you didn't request this code, please ignore this email.",
+          "subject": "Your verification code",
+          "title": "Verification Code"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "You must agree to the Terms of Service and Privacy Policy"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "Minimum amount must be less than or equal to maximum amount"
+      },
+      "billingCycle": {
+        "invalid": "Invalid billing cycle"
+      },
+      "botDisableReason": {
+        "required": "Bot stop reason is required"
+      },
+      "bots": {
+        "required": "At least one bot is required",
+        "tooMany": "Cannot create more than {maximum} bots at once"
+      },
+      "email": {
+        "invalid": "Invalid email format",
+        "required": "Email is required"
+      },
+      "inviteCode": {
+        "invalid": "Invalid invite code format",
+        "required": "Invite code is required"
+      },
+      "marketInterval": {
+        "invalid": "Invalid interval value"
+      },
+      "marketSymbol": {
+        "invalid": "Invalid market symbol"
+      },
+      "privateKey": {
+        "invalid": "Invalid private key format (must be 0x + 64 hex characters)",
+        "required": "Private key is required"
+      },
+      "publicKey": {
+        "invalid": "Invalid RSA public key format",
+        "required": "Public key is required"
+      },
+      "strategyId": {
+        "required": "Strategy ID is required"
+      },
+      "strategyJson": {
+        "invalid": "Invalid strategy configuration",
+        "required": "Strategy configuration is required"
+      },
+      "strategyName": {
+        "required": "Strategy name is required",
+        "tooLong": "Strategy name must be {maximum} characters or less"
+      },
+      "subscriptionPlan": {
+        "invalid": "Invalid subscription plan"
+      },
+      "timeRange": {
+        "startAfterEnd": "Start time must be less than or equal to end time"
+      },
+      "turnstileToken": {
+        "invalid": "Security verification failed",
+        "required": "Please complete the security verification"
+      },
+      "verificationCode": {
+        "invalid": "Invalid verification code format (must be 6 digits)",
+        "required": "Verification code is required"
+      },
+      "verificationToken": {
+        "invalid": "Invalid verification token format",
+        "required": "Verification token is required"
+      },
+      "walletAddress": {
+        "invalid": "Invalid wallet address format (must be 0x + 40 hex characters)",
+        "required": "Wallet address is required"
+      },
+      "walletName": {
+        "required": "Wallet name is required",
+        "tooLong": "Wallet name must be {maximum} characters or less"
+      },
+      "withdrawAmount": {
+        "invalid": "Invalid withdrawal amount",
+        "min": "Amount must be greater than 0",
+        "required": "Withdrawal amount is required"
+      }
+    }
+  }
+}

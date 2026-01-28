@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "actions": {
+      "back": "返回",
+      "cancel": "取消",
+      "clear": "清除",
+      "close": "關閉",
+      "confirm": "確認",
+      "continue": "繼續",
+      "create": "建立",
+      "delete": "刪除",
+      "deposit": "存款",
+      "duplicate": "複製",
+      "edit": "編輯",
+      "export": "匯出",
+      "goBack": "返回",
+      "import": "匯入",
+      "install": "安裝",
+      "learnMore": "了解更多",
+      "more": "更多",
+      "next": "下一步",
+      "ok": "確定",
+      "refresh": "重新整理",
+      "reload": "重新載入",
+      "reportIssue": "回報問題",
+      "retry": "重試",
+      "save": "儲存",
+      "search": "搜尋",
+      "signIn": "登入",
+      "signOut": "登出",
+      "submit": "提交",
+      "transfer": "轉帳",
+      "uninstall": "解除安裝",
+      "viewDetails": "查看詳情",
+      "withdraw": "提領"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "您確定要登出嗎？",
+        "title": "登出"
+      }
+    },
+    "formats": {
+      "date": "YYYY/MM/DD",
+      "dateRange": {
+        "date": "M月D日",
+        "dateTime": "M月D日 HH:mm"
+      },
+      "dateTime": "YYYY/MM/DD HH:mm:ss",
+      "duration": {
+        "days": "天",
+        "hours": "時",
+        "minutes": "分",
+        "seconds": "秒"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "操作",
+      "active": "啟用中",
+      "alert": "警告",
+      "all": "全部",
+      "amount": "金額",
+      "chain": "鏈",
+      "confirmation": "確認",
+      "createdAt": "建立時間",
+      "dateRange": "日期範圍",
+      "delete": "刪除",
+      "deleteConfirmation": "刪除確認",
+      "email": "電子郵件",
+      "error": "錯誤",
+      "max": "最大",
+      "new": "新增",
+      "no": "否",
+      "optional": "選填",
+      "or": "或",
+      "password": "密碼",
+      "private": "私人",
+      "privateKey": "私鑰",
+      "success": "成功",
+      "token": "代幣",
+      "transactionHash": "交易雜湊",
+      "unknown": "未知",
+      "unlimited": "無限制",
+      "updatedAt": "更新時間",
+      "yes": "是"
+    },
+    "messages": {
+      "createSuccess": "建立成功",
+      "deleteSuccess": "刪除成功",
+      "importSuccess": "匯入成功",
+      "saveSuccess": "儲存成功",
+      "submitSuccess": "提交成功",
+      "updateSuccess": "更新成功"
+    },
+    "statuses": {
+      "closing": "關閉中...",
+      "completed": "已完成",
+      "failed": "失敗",
+      "loading": "載入中...",
+      "pending": "待處理",
+      "processing": "處理中...",
+      "success": "成功"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "深色模式",
+        "lightMode": "淺色模式",
+        "switchToDark": "切換至深色模式",
+        "switchToLight": "切換至淺色模式"
+      },
+      "Footer": {
+        "copyright": "© {year} 版權所有。"
+      },
+      "HasBotsErrorMessage": {
+        "andMore": "以及其他 {count} 個...",
+        "message": "此項目被 {count} 個交易機器人使用中。請先刪除這些機器人："
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "切換語言"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 分鐘",
+          "1d": "1 天",
+          "1h": "1 小時",
+          "4h": "4 小時"
+        },
+        "placeholder": "選擇時間週期"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "選擇代碼"
+      },
+      "Navbar": {
+        "collapseSidebar": "收合側邊欄",
+        "expandSidebar": "展開側邊欄",
+        "goBack": "返回"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "回報問題"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "查看策略詳情",
+        "viewStats": "查看統計"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "全部時間",
+          "custom": "自訂",
+          "month": "最近 30 天",
+          "quarter": "最近 90 天",
+          "week": "最近 7 天"
+        },
+        "labels": {
+          "dateRange": "日期範圍",
+          "interval": "時間週期",
+          "symbol": "代碼"
+        },
+        "upgradeDialog": {
+          "cancel": "取消",
+          "message": "升級至 Plus 或更高方案以存取更多日期範圍選項，包括自訂日期範圍。",
+          "title": "需要升級",
+          "upgrade": "立即升級"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "建立新策略",
+        "emptyMessage": "沒有可用策略",
+        "placeholder": "選擇策略"
+      },
+      "UpgradeOverlay": {
+        "description": "升級您的訂閱以解鎖此功能並存取全面的統計資料。",
+        "title": "高級功能",
+        "upgradeButton": "立即升級"
+      },
+      "WalletSelect": {
+        "createNew": "建立新錢包",
+        "emptyMessage": "沒有可用錢包",
+        "placeholder": "選擇錢包"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "支出（買入）",
+        "income": "收入（賣出 + 領取）",
+        "netProfit": "淨利潤",
+        "txCount": "交易數量"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "操作",
+        "pageReport": "顯示第 {'{first}'} 到 {'{last}'} 筆，共 {'{totalRecords}'} 筆",
+        "pageReportMobile": "共 {'{totalRecords}'} 筆"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "刪除",
+        "confirmationText": "DELETE",
+        "defaultMessage": "此操作無法復原。在繼續之前，請確保您已備份所有重要資料。",
+        "inputLabel": "輸入 {0} 以確認刪除",
+        "title": "刪除"
+      },
+      "CopyButton": {
+        "copied": "已複製！",
+        "copyToClipboard": "複製到剪貼簿"
+      },
+      "DataTable": {
+        "empty": "暫無資料",
+        "filterAll": "全部",
+        "filterApply": "套用",
+        "filterClear": "清除"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "結束日期",
+        "startPlaceholder": "開始日期",
+        "to": "至"
+      },
+      "EmptyState": {
+        "defaultMessage": "暫無資料"
+      },
+      "LogViewer": {
+        "count": "{loaded} / {total}",
+        "empty": "暫無日誌",
+        "refresh": "重新整理",
+        "scrollToBottom": "捲動到底部"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "從剪貼簿貼上",
+        "pasted": "已貼上！"
+      },
+      "SearchSelect": {
+        "createNew": "建立新項目",
+        "noItems": "沒有可用選項",
+        "noSearchItems": "找不到相符結果",
+        "searchPlaceholder": "搜尋..."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "啟動應用",
+      "pricing": {
+        "features": {
+          "bots": "{count} 個交易機器人",
+          "maxAmount": "每個策略最多 {amount}",
+          "strategies": "{count} 個策略",
+          "wallets": "{count} 個錢包"
+        },
+        "getStarted": "免費開始",
+        "perMonth": "/月",
+        "subtitle": "選擇適合您交易需求的方案",
+        "title": "簡單透明的定價"
+      },
+      "tagline": "自動化您的交易策略",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "我們的機器人 24 小時監控市場並執行交易，完全無需手動干預。",
+            "title": "24 小時全天候運行"
+          },
+          "easySetup": {
+            "description": "無需編寫程式碼。使用簡單參數建立策略，數分鐘內部署。",
+            "title": "輕鬆設定"
+          },
+          "gasless": {
+            "description": "使用 Polymarket 的 Gnosis Safe 合約進行無 Gas 費交易。",
+            "title": "無 Gas 費交易"
+          },
+          "multiWallet": {
+            "description": "管理多個錢包以分散您的交易策略投資組合。",
+            "title": "多錢包支援"
+          },
+          "realTimeAnalytics": {
+            "description": "透過儀表板、統計資料和詳細日誌全面監控您的策略表現。",
+            "title": "實時分析"
+          },
+          "strategyStats": {
+            "description": "追蹤策略表現並使用表現最佳的策略快速開始獲利。",
+            "title": "策略分析"
+          }
+        },
+        "title": "為什麼選擇我們"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "建立 Polymarket 代理錢包 (Gnosis Safe)",
+            "title": "新增錢包"
+          },
+          "createStrategies": {
+            "description": "定義您的交易規則和參數",
+            "title": "建立策略"
+          },
+          "deployBots": {
+            "description": "啟動您的機器人並觀看它們自動交易",
+            "title": "部署機器人"
+          },
+          "signUp": {
+            "description": "在幾秒內建立您的帳號",
+            "title": "註冊"
+          }
+        },
+        "subtitle": "透過我們簡單的 4 步流程在幾分鐘內開始",
+        "title": "運作原理"
+      }
+    },
+    "app": {
+      "bots": {
+        "_botId_": {
+          "operation-history": {
+            "action": {
+              "DISABLED": "停止",
+              "ENABLED": "啟動"
+            },
+            "fun-logs": {
+              "notice": "執行日誌不是實時的，會有延遲。它們僅供歷史回顧和故障排除使用，不用於評估機器人當前狀態。僅保留最近一個月的日誌。",
+              "title": "執行日誌"
+            },
+            "info": {
+              "strategy": "策略",
+              "wallet": "錢包"
+            },
+            "reason": {
+              "USER_ACTION": "使用者操作",
+              "WALLET_INSUFFICIENT_BALANCE": "錢包餘額不足",
+              "WALLET_TRANSACTION_ERROR": "交易錯誤"
+            },
+            "table": {
+              "action": "操作",
+              "operatedAt": "操作時間",
+              "reason": "原因"
+            },
+            "tabs": {
+              "logs": "執行日誌",
+              "operations": "操作記錄"
+            },
+            "title": "機器人執行歷史"
+          }
+        },
+        "actions": {
+          "batchDelete": "刪除",
+          "batchDisable": "停止",
+          "batchEnable": "啟動",
+          "create": "建立",
+          "viewRunHistory": "執行歷史"
+        },
+        "components": {
+          "BatchBotOperations": {
+            "actions": {
+              "deleteAll": "全部刪除",
+              "disableAll": "全部停止",
+              "enableAll": "全部啟動"
+            },
+            "menu": {
+              "byConditions": "依條件篩選"
+            },
+            "messages": {
+              "deleteSuccess": "機器人刪除成功",
+              "disableSuccess": "機器人停止成功",
+              "enableSuccess": "機器人啟動成功",
+              "noBotsToDelete": "沒有可刪除的機器人（僅能刪除已停止的機器人）",
+              "noBotsToDisable": "沒有可停止的機器人",
+              "noBotsToEnable": "沒有可啟動的機器人",
+              "resultDeleteSkipped": "{count} 個機器人無法刪除（運行中）",
+              "resultDeleted": "{count} 個機器人刪除成功",
+              "resultEnableSkipped": "{count} 個機器人無法啟動（錢包餘額不足、狀態異常或策略金額超過方案限制）",
+              "resultEnabled": "{count} 個機器人啟動成功",
+              "resultPending": "{count} 個機器人待錢包啟用",
+              "resultPendingAutoStart": "{count} 個機器人待錢包啟用，錢包啟用後將自動啟動"
+            },
+            "modals": {
+              "batchDelete": {
+                "message": "即將刪除所有已停止的機器人。此操作無法復原。您確定要刪除這些機器人嗎？",
+                "title": "刪除機器人"
+              },
+              "batchDisable": {
+                "message": "所有運行中的機器人即將停止。但是，已下達的訂單不會自動取消。您確定要停止所有機器人嗎？",
+                "title": "停止機器人"
+              },
+              "batchEnable": {
+                "message": "所有已停止的機器人即將啟動。一旦啟動，它們將開始使用錢包中的資金下單，這可能導致盈利或虧損。您確定要啟動所有機器人嗎？",
+                "title": "啟動機器人"
+              },
+              "byConditions": {
+                "hint": "所有符合所選條件的機器人都將受到影響。",
+                "intervalDisabledHint": "因為已選擇策略，時間週期篩選被禁用",
+                "intervalLabel": "時間週期",
+                "selectInterval": "選擇時間週期",
+                "selectStrategy": "選擇策略",
+                "selectSymbol": "選擇代碼",
+                "selectWallet": "選擇錢包",
+                "strategyDisabledHint": "因為已選擇時間週期，策略篩選被禁用",
+                "strategyLabel": "策略",
+                "symbolLabel": "代碼",
+                "titleDelete": "依條件刪除機器人",
+                "titleDisable": "依條件停止機器人",
+                "titleEnable": "依條件啟動機器人",
+                "walletLabel": "錢包"
+              }
+            }
+          },
+          "CreateModal": {
+            "fields": {
+              "interval": "時間週期",
+              "strategy": "策略",
+              "symbols": "代碼",
+              "wallet": "錢包"
+            },
+            "hints": {
+              "batchCreate": "為每個市場（代碼 + 時間週期組合）建立一個機器人。如果錢包在該市場已有機器人，則跳過。",
+              "intervalFirst": "請先選擇時間週期，然後選擇匹配的策略",
+              "strategyFiltered": "僅顯示具有所選時間週期的策略",
+              "symbolsOptional": "留空表示為所有代碼建立機器人"
+            },
+            "messages": {
+              "createSuccess": "成功建立 {count} 個機器人",
+              "noBotsToCreate": "沒有可建立的機器人",
+              "resultCreated": "{count} 個機器人建立成功",
+              "resultSkipped": "{count} 個機器人被跳過（該錢包已在這些市場中有機器人）"
+            },
+            "modals": {
+              "result": {
+                "title": "建立結果"
+              }
+            },
+            "placeholders": {
+              "allSymbols": "全部",
+              "selectStrategy": "選擇策略",
+              "selectWallet": "選擇錢包"
+            },
+            "title": "批次建立機器人"
+          },
+          "InsufficientBalanceMessage": {
+            "calculation": "所需餘額為該錢包所有已啟動機器人的總和：\n每個機器人需要的金額 = 單筆最大交易金額 × {multiplier}",
+            "current": "目前餘額",
+            "description": "錢包餘額不足以支撐所有已啟動的機器人。在滿足餘額要求前，您無法啟動此機器人。",
+            "required": "所需（所有已啟動機器人）",
+            "shortfall": "缺口",
+            "suggestion": "請存入資金以彌補缺口，或停止其他機器人以釋放所需餘額。"
+          }
+        },
+        "messages": {
+          "deleteSuccess": "機器人刪除成功",
+          "disableSuccess": "機器人停止成功",
+          "enableSuccess": "機器人啟動成功",
+          "walletActivating": "錢包正在啟用中，一旦錢包啟用，機器人將被啟動"
+        },
+        "modals": {
+          "batchDelete": {
+            "message": "您確定要刪除 {count} 個機器人嗎？此操作無法復原。",
+            "title": "批次刪除機器人"
+          },
+          "batchDisable": {
+            "message": "您確定要停止 {count} 個機器人嗎？",
+            "title": "批次停止機器人"
+          },
+          "batchEnable": {
+            "message": "您確定要啟動 {count} 個機器人嗎？",
+            "title": "批次啟動機器人"
+          },
+          "delete": {
+            "message": "您確定要刪除此機器人嗎？此操作無法復原。",
+            "title": "刪除機器人"
+          },
+          "disable": {
+            "message": "您確定要停止此機器人嗎？",
+            "title": "停止機器人"
+          },
+          "enable": {
+            "message": "您確定要啟動此機器人嗎？",
+            "title": "啟動機器人"
+          }
+        },
+        "name": "交易機器人",
+        "searchPlaceholder": "搜尋錢包名稱或策略名稱",
+        "table": {
+          "market": "市場",
+          "runtime": "運行時間",
+          "status": "狀態",
+          "strategy": "策略",
+          "wallet": "錢包"
+        },
+        "tooltips": {
+          "disable": "停止機器人",
+          "disabling": "停止中...",
+          "enable": "啟動機器人",
+          "enabling": "啟動中...",
+          "walletDeploying": "錢包正在部署中，無法啟動",
+          "walletFailed": "錢包部署失敗"
+        },
+        "walletStatus": {
+          "DEPLOYING": "部署中",
+          "FAILED": "失敗"
+        }
+      },
+      "dashboard": {
+        "botCount": "交易機器人",
+        "name": "儀表板",
+        "profitHistory": {
+          "title": "盈利歷史(最近 30 天)"
+        },
+        "running": "運行中",
+        "strategyCount": "策略",
+        "totalBalance": "總餘額",
+        "walletCount": "錢包"
+      },
+      "markets": {
+        "empty": "未找到市場",
+        "name": "市場",
+        "tooltip": {
+          "enabledBots": "啟動中的機器人",
+          "totalBots": "機器人總數"
+        }
+      },
+      "me": {
+        "anonymous": "匿名",
+        "language": {
+          "name": "語言",
+          "title": "選擇語言"
+        },
+        "name": "個人資料"
+      },
+      "rankings": {
+        "apr": {
+          "description": "利潤率（總記錄數）",
+          "title": "年化利潤率排行榜"
+        },
+        "components": {
+          "StrategyDetailModal": {
+            "actions": {
+              "createStrategy": "建立策略",
+              "editStrategy": "編輯策略"
+            },
+            "myStrategy": "我的策略"
+          }
+        },
+        "filters": {
+          "amountRange": "金額範圍"
+        },
+        "hitRate": {
+          "description": "參與次數 / 總記錄數",
+          "title": "命中率排行榜"
+        },
+        "name": "排行榜",
+        "profitRate": {
+          "description": "總利潤 / 總成本（參與次數）",
+          "title": "利潤率排行榜"
+        },
+        "title": "策略排行榜",
+        "upgradeRequired": {
+          "description": "升級至 Pro 或更高方案以存取策略排行榜和詳細統計資料。",
+          "title": "需要升級"
+        },
+        "winRate": {
+          "description": "獲利次數 / 參與次數",
+          "title": "勝率排行榜"
+        }
+      },
+      "strategies": {
+        "_id_": {
+          "actions": {
+            "stats": "統計"
+          },
+          "autoNameNoSteps": "請先建立交易步驟",
+          "autoNameTooltip": "自動產生策略名稱",
+          "components": {
+            "StrategyStatsModal": {
+              "statistics": "統計",
+              "stats": {
+                "apr": "年化利潤率",
+                "hitRate": "命中率",
+                "profitRate": "利潤率",
+                "winRate": "勝率"
+              },
+              "stepCount": "{count} 個步驟",
+              "title": "策略統計",
+              "upgradeRequired": {
+                "description": "升級至 Pro 或更高方案以查看策略統計資料。",
+                "title": "需要升級"
+              }
+            },
+            "StrategyStepsInput": {
+              "actions": {
+                "addStep": "新增步驟"
+              },
+              "emptyState": "尚未新增交易步驟。點擊「新增步驟」來建立您的第一個交易步驟。",
+              "stats": {
+                "buyCount": "買入：{count}",
+                "sellCount": "賣出：{count}",
+                "stepCount": "{count}/{max} 步驟",
+                "totalAmount": "每筆交易最大金額"
+              }
+            },
+            "TradeStepCard": {
+              "actions": {
+                "delete": "刪除",
+                "edit": "編輯"
+              },
+              "fields": {
+                "maxChange": "標的物最大價格變動",
+                "minChange": "標的物最小價格變動",
+                "once": "僅一次",
+                "outcome": "結果方向",
+                "price": "價格",
+                "size": "股數",
+                "timeRange": "時間範圍"
+              },
+              "side": {
+                "buy": "買入",
+                "sell": "賣出"
+              }
+            },
+            "TradeStepModal": {
+              "buyMode": {
+                "chaseUp": "追漲模式（價格 > $0.50）\n除非您非常了解您的交易策略，否則不建議使用此模式，因為可能導致重大虧損。",
+                "lowBuy": "低買模式（價格 ≤ $0.50）"
+              },
+              "fields": {
+                "maxChange": "標的物最大價格變動",
+                "minChange": "標的物最小價格變動",
+                "once": "僅執行一次",
+                "outcome": "結果方向",
+                "price": "價格",
+                "side": "交易方向",
+                "size": "股數",
+                "timeRange": "時間範圍"
+              },
+              "help": {
+                "buy": {
+                  "maxChange": "在低買模式下，當標的物價格變動超過此值時，機器人會根據價格移動方向停止購買對應的代幣。設定為 0 可停用此限制。",
+                  "minChange": "在追漲模式下，當標的物價格變動低於此值時，機器人會停止購買。設定為 0 可停用此限制。",
+                  "once": "通常在一個交易週期內，如果您先前買入的部位已全部賣出，機器人會嘗試再次下單買入。如果您只想在每個週期內交易一次，請啟用此選項。",
+                  "outcome": "交易結果方向。除非您對未來價格走向非常有信心，否則建議兩者都選擇。",
+                  "price": "此筆交易每股的買入價格。價格越低，潛在利潤空間越大，反之亦然。",
+                  "size": "要購買的股數。股數乘以買入價格等於此筆交易的總成本。",
+                  "timeRange": "此買入訂單的有效時間範圍。超過此時間範圍未成交的訂單將被取消。",
+                  "timeRangeChaseUp": "在一個交易週期中，過了某個時間點後，結果反轉的機率會大幅降低，這使得追漲更有可能獲利。因此，請將買入操作設定為在此時間點之後開始。",
+                  "timeRangeLowBuy": "在一個交易週期中，過了某個時間點後，結果反轉的機率會大幅降低，這使得低買更有可能虧損。因此，請將買入操作設定為在此時間點之前結束。"
+                },
+                "sell": {
+                  "price": "此筆交易每股的賣出價格。價格越高，潛在利潤空間越大，反之亦然。如果您設定的價格低於買入價格，可能會完成一筆虧損交易。",
+                  "size": "要賣出的股數。股數乘以賣出價格等於此筆交易您將獲得的總金額。",
+                  "timeRange": "此賣出訂單的有效時間範圍。超過此時間範圍未成交的訂單將被取消。\n\n此時間限制的目的是在當前交易週期中提早獲利了結，而不是將賣出訂單保持到市場收盤。在結果不太可能改變的安全時間範圍內，您可以提早取消訂單以最大化利潤。"
+                }
+              },
+              "hints": {
+                "minSize": "最少 5 股",
+                "outcome": "選擇特定結果或兩者都交易",
+                "priceRange": "輸入介於 $0.01 和 $0.99 之間的值",
+                "timeRange": "開始和結束時間（分鐘，0-{max}）"
+              },
+              "modal": {
+                "titleCreate": "新增交易步驟",
+                "titleEdit": "編輯交易步驟"
+              },
+              "outcomes": {
+                "both": "兩者都選",
+                "down": "下跌",
+                "up": "上漲"
+              },
+              "side": {
+                "buy": "買入",
+                "sell": "賣出"
+              },
+              "validation": {
+                "priceMax": "價格最高為 $0.99",
+                "priceMin": "價格最低為 $0.01",
+                "sizeMin": "股數最少為 5",
+                "timeRange": "結束時間必須大於開始時間"
+              }
+            }
+          },
+          "duplicateSuffix": "（副本）",
+          "fields": {
+            "interval": "時間週期",
+            "name": "策略名稱",
+            "strategyJson": "交易步驟"
+          },
+          "placeholders": {
+            "interval": "選擇時間週期",
+            "name": "輸入策略名稱"
+          },
+          "title": "策略詳情",
+          "titleCreate": "建立策略",
+          "titleEdit": "策略詳情"
+        },
+        "actions": {
+          "create": "建立策略",
+          "viewBots": "查看相關機器人"
+        },
+        "modals": {
+          "delete": {
+            "message": "您確定要刪除策略「{name}」嗎？",
+            "title": "刪除策略"
+          }
+        },
+        "name": "策略",
+        "searchPlaceholder": "搜尋策略名稱",
+        "table": {
+          "amount": "每筆交易最大金額",
+          "botCount": "機器人數量",
+          "interval": "時間週期",
+          "name": "名稱"
+        }
+      },
+      "subscription": {
+        "billingCycle": {
+          "MONTHLY": "每月",
+          "YEARLY": "每年"
+        },
+        "components": {
+          "PlanCard": {
+            "downgrade": "降級",
+            "limits": {
+              "bots": "機器人",
+              "maxStrategyAmount": "最大策略金額",
+              "statsAccess": "統計存取",
+              "strategies": "策略",
+              "wallets": "錢包"
+            },
+            "perMonth": "/月",
+            "perYear": "/年",
+            "pricing": {
+              "monthlyEquivalent": "{price}/月",
+              "originalPrice": "原價 {price}",
+              "save": "節省 {amount}"
+            },
+            "renew": "續訂",
+            "statsAccess": {
+              "full": "完全存取",
+              "limited": "部分存取",
+              "none": "不可用"
+            },
+            "unlimited": "無限制",
+            "upgrade": "升級"
+          },
+          "SubscriptionActionModal": {
+            "addDays": "增加天數",
+            "confirm": "確認",
+            "convertedDays": "轉換天數",
+            "creditAmount": "額度：{amount}",
+            "currentRemaining": "目前餘額",
+            "days": "{count} 天",
+            "downgrade": {
+              "description": "您剩餘的訂閱價值將轉換為較低方案中的更多天數。不會發放退款。",
+              "title": "降級方案"
+            },
+            "expiresAt": "到期：{date}",
+            "newExpiration": "新到期日期",
+            "payAndConfirm": "支付 {amount}",
+            "periodDays": "週期天數",
+            "renew": {
+              "description": "續訂將為您目前的訂閱增加 {days} 天。",
+              "title": "續訂訂閱"
+            },
+            "totalAmount": "總金額",
+            "upgrade": {
+              "description": "您剩餘的訂閱價值將轉換為新方案中的天數。您只需支付差額。",
+              "fullyCovered": "您剩餘的訂閱完全涵蓋此次升級！無需額外付款。",
+              "title": "升級方案"
+            },
+            "years": "{count} 年",
+            "yearsAndDays": "{years} 年 {days} 天"
+          }
+        },
+        "currentPlan": "目前方案",
+        "expired": "已過期",
+        "expiredWarning": {
+          "description": "您的訂閱已過期。您目前使用的是功能受限的免費方案。升級以恢復之前的方案權益。",
+          "title": "訂閱已過期"
+        },
+        "expiresAt": "到期時間",
+        "name": "訂閱管理",
+        "neverExpires": "永不過期",
+        "payment": {
+          "createChargeFailed": "建立付款失敗。請重試。",
+          "noPaymentNeeded": "此操作無需付款。",
+          "title": "付款"
+        },
+        "paymentHistory": "付款歷史",
+        "payments": {
+          "_id_": {
+            "cancel": {
+              "backToSubscription": "返回訂閱",
+              "description": "您的付款未完成。您的帳戶未被收費。",
+              "name": "付款已取消",
+              "reasons": {
+                "cancelled": "您取消了付款",
+                "expired": "付款會話已過期",
+                "insufficientFunds": "您的錢包資金不足",
+                "networkError": "網路或區塊鏈錯誤",
+                "title": "可能的原因："
+              },
+              "retryPayment": "重試付款",
+              "title": "付款已取消"
+            },
+            "success": {
+              "backToSubscription": "返回訂閱",
+              "confirmed": {
+                "description": "您的 {plan} 訂閱已啟用。",
+                "title": "付款成功！"
+              },
+              "expired": {
+                "createNew": "建立新付款",
+                "description": "付款會話已過期。請建立新付款。",
+                "title": "付款已過期"
+              },
+              "failed": {
+                "description": "無法完成您的付款。請重試。",
+                "title": "付款失敗",
+                "tryAgain": "重試"
+              },
+              "loading": {
+                "description": "正在檢索付款狀態",
+                "title": "載入中..."
+              },
+              "name": "付款狀態",
+              "notFound": {
+                "description": "我們找不到此付款記錄。",
+                "title": "找不到付款"
+              },
+              "pending": {
+                "continuePayment": "繼續付款",
+                "description": "您的付款正在區塊鏈上處理。",
+                "note": "加密貨幣付款可能需要幾分鐘才能確認。此頁面將在您的付款被確認時自動更新。",
+                "title": "付款處理中"
+              }
+            }
+          },
+          "name": "付款歷史",
+          "status": {
+            "CONFIRMED": "已確認",
+            "EXPIRED": "已過期",
+            "FAILED": "失敗",
+            "PENDING": "待處理"
+          },
+          "table": {
+            "amount": "金額",
+            "billingCycle": "帳單週期",
+            "chargeCode": "交易代碼",
+            "createdAt": "建立時間",
+            "plan": "方案",
+            "status": "狀態"
+          },
+          "title": "付款歷史"
+        },
+        "plans": {
+          "description": "選擇適合您需求的方案",
+          "title": "可選方案"
+        },
+        "savePercent": "節省 {percent}%",
+        "usage": {
+          "bots": "機器人",
+          "strategies": "策略",
+          "wallets": "錢包"
+        }
+      },
+      "wallets": {
+        "_funder_": {
+          "transactions": {
+            "action": {
+              "BUY": "買入",
+              "CLAIM": "領取",
+              "SELL": "賣出"
+            },
+            "notice": "交易紀錄不是實時的，可能有延遲。延遲與市場結算週期有關。此處僅顯示已結算市場的交易。未結算市場的交易將在結算後顯示。",
+            "profitHistory": {
+              "title": "盈利歷史(最近 30 天)"
+            },
+            "table": {
+              "action": "操作",
+              "amount": "金額",
+              "market": "市場",
+              "timestamp": "時間",
+              "transactionHash": "交易雜湊"
+            },
+            "title": "交易紀錄",
+            "tooltip": {
+              "marketLink": "在 Polymarket 上查看"
+            }
+          }
+        },
+        "actions": {
+          "create": "建立錢包",
+          "import": "匯入錢包",
+          "transactions": "交易紀錄",
+          "viewBots": "查看相關機器人"
+        },
+        "components": {
+          "DeleteModal": {
+            "backupReminder": "刪除前，請確保已導出並備份您的私鑰。沒有私鑰，您將永久失去對此錢包中所有資金的存取權。",
+            "message": "您確定要刪除錢包「{name}」嗎？",
+            "title": "刪除錢包",
+            "warning": "刪除錢包是不可逆的操作。所有錢包資料將從系統中永久刪除。"
+          },
+          "DepositModal": {
+            "address": "入金地址",
+            "bridgeAddress": "資產橋接地址",
+            "note": "入金地址是 {bridgeAddress}，由 Polymarket 生成。您可以發送 Polymarket 支持的任何加密貨幣，資金將自動橋接到 Polygon 並轉換為 USDC.e。如果您直接在 Polygon 上發送 USDC.e（例如，使用我們的提領功能），您可以直接將資金發送到資金方地址。",
+            "selectChain": "選擇鏈",
+            "supportedCrypto": "Polymarket 支持的加密貨幣",
+            "title": "入金"
+          },
+          "DetailModal": {
+            "create": {
+              "description": "將建立一個具有唯一私鑰的新錢包。Gnosis Safe 合約將在交易開始前部署。",
+              "title": "建立新錢包"
+            },
+            "edit": {
+              "title": "編輯錢包"
+            }
+          },
+          "ExportModal": {
+            "confirmCheckbox": "我已了解風險，並想要導出我的私鑰",
+            "connectToPolymarket": "連接您的錢包到 Polymarket",
+            "copyWarning": "點擊眼睛按鈕以顯示您的私鑰。確保周圍沒有人。\n如果您複製到剪貼簿，請記得之後清除剪貼簿以防止洩露。",
+            "decryptFailed": "無法解密私鑰",
+            "funderNotice": "注意：您的資金存儲在資金方地址（Gnosis Safe 合約）中，而不是從此私鑰衍生的錢包地址。資金方地址是由您的私鑰控制的智能合約。如果您將此鑰導入加密貨幣錢包，您將看到不同的地址，並且找不到您的資產。要存取您的資金，{connectToPolymarket}並使用{withdraw}功能。",
+            "title": "導出私鑰",
+            "warningDetail": "切勿與任何人分享您的私鑰。任何能夠存取您私鑰的人都可以竊取錢包中的所有資產。",
+            "withdraw": "提領"
+          },
+          "ImportModal": {
+            "description": "使用其私鑰匯入現有錢包。對於新錢包，Gnosis Safe 合約將在交易開始前部署。",
+            "encryptFailed": "無法加密私鑰",
+            "privateKeyPlaceholder": "輸入私鑰 (0x...)",
+            "title": "匯入錢包",
+            "warning": {
+              "description": "不要匯入從 Polymarket 導出的私鑰。這些鑰屬於代理錢包（透過電子郵件或使用 MagicLink 的 Google 登入建立），而我們的服務需要 Gnosis Safe 錢包。",
+              "learnMore": "了解更多有關 Polymarket 錢包類型的信息"
+            }
+          },
+          "TransferModal": {
+            "fromWallet": "來源錢包",
+            "info": "轉帳通過 Polymarket Relayer 處理（無 gas）。交易將立即提交，但可能需要幾分鐘才能在鏈上確認。",
+            "submitted": "轉帳請求提交成功。您可以在 PolygonScan 上追蹤交易狀態。",
+            "title": "內部轉帳",
+            "toWallet": "目標錢包",
+            "toWalletHint": "選擇一個錢包以轉帳資金到",
+            "walletActivating": "您的錢包需要在轉帳前啟用。啟用和轉帳將自動處理。這可能需要幾分鐘。您可以在 PolygonScan 上檢查錢包地址以監控進度。"
+          },
+          "WithdrawModal": {
+            "info": "提領通過 Polymarket Relayer 處理（無 gas）。交易將立即提交，但可能需要幾分鐘才能在鏈上確認。",
+            "recipientAddress": "收款地址",
+            "recipientPlaceholder": "輸入 Polygon 地址 (0x...)",
+            "submitted": "提領請求提交成功。您可以在 PolygonScan 上追蹤交易狀態。",
+            "title": "提領",
+            "walletActivating": "您的錢包需要在提領前啟用。啟用和提領將自動處理。這可能需要幾分鐘。您可以在 PolygonScan 上檢查錢包地址以監控進度。"
+          }
+        },
+        "labels": {
+          "availableBalance": "可用餘額",
+          "viewOnPolygonscan": "在 PolygonScan 上查看",
+          "viewWalletOnPolygonscan": "在 PolygonScan 上查看錢包",
+          "walletName": "錢包名稱"
+        },
+        "messages": {
+          "insufficientBalance": "金額超過可用餘額"
+        },
+        "name": "錢包",
+        "placeholders": {
+          "amount": "輸入金額",
+          "walletName": "輸入錢包名稱"
+        },
+        "searchPlaceholder": "搜尋錢包名稱",
+        "status": {
+          "ACTIVE": "啟用中",
+          "DEPLOYING": "部署中",
+          "FAILED": "失敗",
+          "INACTIVE": "未啟用"
+        },
+        "table": {
+          "balance": "餘額",
+          "funder": "資金方地址",
+          "name": "名稱",
+          "status": "狀態"
+        },
+        "tooltips": {
+          "funderHelp": "資金方地址是您的 Polymarket Gnosis Safe 錢包 - 部署在 Polygon 上的智能合約錢包，用於保存您的部位和 USDC.e。它由您的 EOA 錢包控制，支持無需 gas 的交易。",
+          "funderHelpLink": "了解更多",
+          "inactive": "錢包將在交易開始前自動啟用。"
+        }
+      }
+    },
+    "auth": {
+      "sign-in": {
+        "changeEmail": "使用不同的電子郵件",
+        "codeHint": "輸入發送到 {email} 的 6 位數驗證碼",
+        "codeLabel": "驗證碼",
+        "emailLabel": "電子郵件地址",
+        "emailPlaceholder": "輸入您的電子郵件地址",
+        "name": "登入",
+        "noAccount": "還沒有帳號？",
+        "sendCode": "發送驗證碼",
+        "signInWithGithub": "透過 GitHub 登入",
+        "signInWithGoogle": "透過 Google 登入",
+        "signUp": "註冊",
+        "subtitle": "登入您的帳號以繼續",
+        "title": "歡迎回來",
+        "verify": "驗證並登入"
+      },
+      "sign-up": {
+        "agreeToTerms": "我同意{termsOfService}和{privacyPolicy}",
+        "changeEmail": "使用不同的電子郵件",
+        "codeHint": "輸入發送到 {email} 的 6 位數驗證碼",
+        "codeLabel": "驗證碼",
+        "createAccount": "建立帳號",
+        "emailLabel": "電子郵件地址",
+        "emailPlaceholder": "輸入您的電子郵件地址",
+        "haveAccount": "已經有帳號了？",
+        "inviteCodeLabel": "邀請碼",
+        "inviteCodePlaceholder": "輸入您的邀請碼",
+        "marketingEmailsLabel": "向我發送產品更新和建議",
+        "name": "註冊",
+        "sendCode": "發送驗證碼",
+        "signIn": "登入",
+        "signUpWithGithub": "透過 GitHub 註冊",
+        "signUpWithGoogle": "透過 Google 註冊",
+        "subtitle": "建立帳號以開始使用",
+        "title": "建立帳號"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "隱私政策"
+      },
+      "terms-of-service": {
+        "title": "服務條款"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "驗證碼無效",
+      "AUTH_OAUTH_FAILED": "驗證失敗，請重試。",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "請等待 60 秒後再申請新的驗證碼",
+      "AUTH_OTP_IP_RATE_LIMITED": "請求次數過多。請稍後再試",
+      "AUTH_TURNSTILE_FAILED": "安全驗證失敗。請重試。",
+      "AUTH_USER_ALREADY_EXISTS": "此電子郵件已有對應的帳號",
+      "AUTH_USER_NOT_FOUND": "找不到此電子郵件的帳號",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "驗證碼已過期",
+      "BOT_ALREADY_EXISTS": "此市場已存在機器人",
+      "BOT_ENABLED_CANNOT_DELETE": "無法刪除運行中的機器人",
+      "BOT_ENABLED_CANNOT_MODIFY": "無法修改運行中的機器人",
+      "BOT_NOT_FOUND": "找不到機器人",
+      "BOT_WALLET_DEPLOYING": "錢包目前正在部署中",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "錢包餘額不足，無法啟動機器人",
+      "BOT_WALLET_MARKET_IN_USE": "此錢包已在此市場中使用",
+      "COMMON_FORBIDDEN_ERROR": "禁止存取",
+      "COMMON_NETWORK_ERROR": "發生網路錯誤",
+      "COMMON_NOT_FOUND_ERROR": "找不到資源",
+      "COMMON_RATE_LIMIT_EXCEEDED": "請求次數過多。請稍後再試",
+      "COMMON_SERVER_ERROR": "伺服器內部錯誤",
+      "COMMON_TIMEOUT_ERROR": "請求逾時",
+      "COMMON_UNAUTHORIZED_ERROR": "未經授權的存取",
+      "COMMON_UNKNOWN_ERROR": "發生未知錯誤",
+      "COMMON_VALIDATION_ERROR": "驗證失敗",
+      "INTERNAL_API_KEY_INVALID": "API 金鑰無效",
+      "INTERNAL_API_KEY_MISSING": "API 金鑰為必填項目",
+      "INVALID_EMAIL": "電子郵件地址無效",
+      "INVITE_CODE_EXPIRED": "邀請碼已過期",
+      "INVITE_CODE_INVALID": "邀請碼無效",
+      "INVITE_CODE_REQUIRED": "邀請碼為必填項目",
+      "INVITE_CODE_USAGE_EXCEEDED": "邀請碼已達到使用上限",
+      "PAYMENT_CHARGE_CREATION_FAILED": "建立付款失敗。請稍後再試。",
+      "PAYMENT_NOT_FOUND": "找不到付款",
+      "STRATEGY_ALREADY_EXISTS": "策略已存在",
+      "STRATEGY_HAS_BOTS": "無法刪除正被機器人使用的策略",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "時間週期在建立後無法修改",
+      "STRATEGY_INVALID_JSON": "策略配置無效",
+      "STRATEGY_NOT_FOUND": "找不到策略",
+      "STRATEGY_NO_BUY_STEPS": "策略必須包含至少一個買入步驟",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "已達到機器人數量上限。請升級方案以建立更多機器人。",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "統計存取被拒絕。升級您的訂閱方案以存取此功能",
+      "SUBSCRIPTION_STRATEGY_AMOUNT_EXCEEDED": "策略金額超出方案限制。請升級以使用更高金額。",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "已達到策略數量上限。請升級方案以建立更多策略。",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "已達到錢包數量上限。請升級方案以建立更多錢包。",
+      "WALLET_ALREADY_EXISTS": "錢包已存在",
+      "WALLET_ALREADY_IN_USE": "此錢包已被其他使用者使用",
+      "WALLET_CREATION_FAILED": "建立錢包失敗",
+      "WALLET_DEPLOYING": "錢包目前正在部署中。請稍候再試。",
+      "WALLET_HAS_BOTS": "無法刪除正被機器人使用的錢包",
+      "WALLET_INSUFFICIENT_BALANCE": "餘額不足，無法提領",
+      "WALLET_INVALID_PRIVATE_KEY": "私鑰格式無效",
+      "WALLET_NOT_FOUND": "找不到錢包",
+      "WALLET_WITHDRAW_FAILED": "提領失敗"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "您的驗證碼是：",
+          "expiry": "此驗證碼將在 10 分鐘後過期。",
+          "ignore": "如果您沒有要求此驗證碼，請忽略此電子郵件。",
+          "subject": "您的驗證碼",
+          "title": "驗證碼"
+        }
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "agreeToTerms": {
+        "required": "您必須同意服務條款和隱私權政策"
+      },
+      "amountRange": {
+        "minGreaterThanMax": "最小金額必須小於或等於最大金額"
+      },
+      "billingCycle": {
+        "invalid": "無效的帳單週期"
+      },
+      "botDisableReason": {
+        "required": "機器人停用原因為必填項目"
+      },
+      "bots": {
+        "required": "至少需要一個機器人",
+        "tooMany": "一次最多只能建立 {maximum} 個機器人"
+      },
+      "email": {
+        "invalid": "電子郵件格式無效",
+        "required": "電子郵件為必填項目"
+      },
+      "inviteCode": {
+        "invalid": "邀請碼格式無效",
+        "required": "邀請碼為必填項目"
+      },
+      "marketInterval": {
+        "invalid": "時間週期值無效"
+      },
+      "marketSymbol": {
+        "invalid": "市場代碼無效"
+      },
+      "privateKey": {
+        "invalid": "私鑰格式無效（必須是 0x + 64 個十六進位字元）",
+        "required": "私鑰為必填項目"
+      },
+      "publicKey": {
+        "invalid": "RSA 公鑰格式無效",
+        "required": "公鑰為必填項目"
+      },
+      "strategyId": {
+        "required": "策略 ID 為必填項目"
+      },
+      "strategyJson": {
+        "invalid": "策略配置無效",
+        "required": "策略配置為必填項目"
+      },
+      "strategyName": {
+        "required": "策略名稱為必填項目",
+        "tooLong": "策略名稱長度不得超過 {maximum} 個字元"
+      },
+      "subscriptionPlan": {
+        "invalid": "無效的訂閱方案"
+      },
+      "timeRange": {
+        "startAfterEnd": "開始時間必須小於或等於結束時間"
+      },
+      "turnstileToken": {
+        "invalid": "安全驗證失敗",
+        "required": "請完成安全驗證"
+      },
+      "verificationCode": {
+        "invalid": "驗證碼格式無效（必須是 6 位數）",
+        "required": "驗證碼為必填項目"
+      },
+      "verificationToken": {
+        "invalid": "驗證權杖格式無效",
+        "required": "驗證權杖為必填項目"
+      },
+      "walletAddress": {
+        "invalid": "錢包地址格式無效（必須是 0x + 40 個十六進位字元）",
+        "required": "錢包地址為必填項目"
+      },
+      "walletName": {
+        "required": "錢包名稱為必填項目",
+        "tooLong": "錢包名稱長度不得超過 {maximum} 個字元"
+      },
+      "withdrawAmount": {
+        "invalid": "提領金額無效",
+        "min": "金額必須大於 0",
+        "required": "提領金額為必填項目"
+      }
+    }
+  }
+}

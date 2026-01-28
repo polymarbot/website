@@ -1,0 +1,4 @@
+{
+  "notice": "Run logs are not real-time and have delays. They are for historical review and troubleshooting only, not for assessing current bot status. Only logs from the last month are retained.",
+  "title": "Run Logs"
+}

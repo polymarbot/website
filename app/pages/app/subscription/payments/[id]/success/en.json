@@ -1,0 +1,32 @@
+{
+  "backToSubscription": "Back to Subscription",
+  "confirmed": {
+    "description": "Your {plan} subscription has been activated.",
+    "title": "Payment Successful!"
+  },
+  "expired": {
+    "createNew": "Create New Payment",
+    "description": "The payment session has expired. Please create a new payment.",
+    "title": "Payment Expired"
+  },
+  "failed": {
+    "description": "Your payment could not be completed. Please try again.",
+    "title": "Payment Failed",
+    "tryAgain": "Try Again"
+  },
+  "loading": {
+    "description": "Retrieving payment status",
+    "title": "Loading..."
+  },
+  "name": "Payment Status",
+  "notFound": {
+    "description": "We couldn't find this payment record.",
+    "title": "Payment Not Found"
+  },
+  "pending": {
+    "continuePayment": "Continue Payment",
+    "description": "Your payment is being processed on the blockchain.",
+    "note": "Cryptocurrency payments may take a few minutes to be confirmed. This page will automatically update when your payment is confirmed.",
+    "title": "Payment Processing"
+  }
+}
