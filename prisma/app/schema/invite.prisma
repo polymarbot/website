@@ -1,0 +1,26 @@
+// Invite code for registration
+model InviteCode {
+  code      String    @id @db.VarChar(32) // Invite code as primary key
+  maxUses   Int? // Max uses, null = unlimited
+  usedCount Int       @default(0)
+  expiresAt DateTime? @db.Timestamptz(3) // Expiry time, null = never expires
+  note      String?   @db.VarChar(255) // Note (e.g., "For xxx")
+  creatorId String?   @db.VarChar(24) // Reserved: creator user ID for user invite system
+  createdAt DateTime  @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  records InviteRecord[]
+}
+
+// Invite record (who used which invite code)
+model InviteRecord {
+  inviteCode String   @db.VarChar(32)
+  userId     String   @unique @db.VarChar(24) // One user can only be invited once
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  code InviteCode @relation(fields: [inviteCode], references: [code])
+  user User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([inviteCode, userId])
+}

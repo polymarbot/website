@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} すべての権利を保有しています。"
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "アプリを起動",
+      "pricing": {
+        "features": {
+          "bots": "{count} ボット",
+          "maxBuySize": "{size} 最大購入シェア数",
+          "statsAccess": {
+            "extended": "拡張統計アクセス",
+            "full": "フルアクセス統計",
+            "limited": "部分アクセス統計",
+            "none": "統計アクセスなし"
+          },
+          "strategies": "{count} ストラテジー",
+          "unlimitedBuySize": "無制限購入シェア数",
+          "wallets": "{count} ウォレット"
+        },
+        "getStarted": "無料で始める",
+        "perMonth": "/月",
+        "subtitle": "トレードのニーズに合ったプランを選択してください",
+        "title": "シンプルで透明性のある価格設定"
+      },
+      "slogan": {
+        "line1Left": "方向性に賭けない",
+        "line1Right": "ボラティリティをトレード",
+        "line2Left": "高いボラティリティ",
+        "line2Right": "安定した利益"
+      },
+      "tagline": "Polymarketの自動トレーディングボット",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "ボットが24時間体制で市場を監視し、手動操作なしに取引を実行します。",
+            "title": "常時稼働"
+          },
+          "easySetup": {
+            "description": "コード不要。シンプルなパラメータでストラテジーを作成し、数分でデプロイできます。",
+            "title": "簡単セットアップ"
+          },
+          "gasless": {
+            "description": "Polymarketの Gnosis Safe コントラクトを使用し、ガス代なしで取引できます。",
+            "title": "ガスレス取引"
+          },
+          "liveMonitoring": {
+            "description": "ボットの実行ステータス、取引履歴、ポジション変更をライブダッシュボードで監視します。",
+            "title": "ライブモニタリング"
+          },
+          "multiWallet": {
+            "description": "複数のウォレットを管理してポートフォリオを多様化し、リスクを分散させます。",
+            "title": "マルチウォレット対応"
+          },
+          "strategyRankings": {
+            "description": "ストラテジーリーダーボードを参照し、最高成績のストラテジーをコピーして素早く利益を開始します。",
+            "title": "ストラテジーランキング"
+          }
+        },
+        "title": "なぜ当社を選ぶのか"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket プロキシウォレット（Gnosis Safe）を作成",
+            "title": "ウォレットを追加"
+          },
+          "createStrategies": {
+            "description": "トレードルールとパラメータを定義",
+            "title": "ストラテジーを作成"
+          },
+          "deployBots": {
+            "description": "ボットを起動し、自動取引を開始",
+            "title": "ボットをデプロイ"
+          },
+          "signUp": {
+            "description": "数秒でアカウントを作成",
+            "title": "サインアップ"
+          }
+        },
+        "subtitle": "シンプルな4ステップのプロセスで数分で始めることができます",
+        "title": "仕組み"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "プライバシーポリシー"
+      },
+      "terms-of-service": {
+        "title": "サービス利用規約"
+      }
+    }
+  }
+}

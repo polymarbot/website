@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Quay lại",
+      "cancel": "Hủy",
+      "clear": "Xóa",
+      "close": "Đóng",
+      "confirm": "Xác nhận",
+      "continue": "Tiếp tục",
+      "create": "Tạo",
+      "delete": "Xóa",
+      "deposit": "Gửi tiền",
+      "duplicate": "Nhân đôi",
+      "edit": "Chỉnh sửa",
+      "export": "Xuất",
+      "goBack": "Quay lại",
+      "import": "Nhập",
+      "install": "Cài đặt",
+      "learnMore": "Tìm hiểu thêm",
+      "more": "Thêm",
+      "next": "Tiếp theo",
+      "ok": "OK",
+      "refresh": "Làm mới",
+      "reload": "Tải lại",
+      "reportIssue": "Báo cáo vấn đề",
+      "retry": "Thử lại",
+      "save": "Lưu",
+      "search": "Tìm kiếm",
+      "submit": "Gửi",
+      "transfer": "Chuyển",
+      "uninstall": "Gỡ cài đặt",
+      "viewDetails": "Xem chi tiết",
+      "withdraw": "Rút tiền"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Hành động",
+      "active": "Hoạt động",
+      "alert": "Cảnh báo",
+      "all": "Tất cả",
+      "amount": "Số tiền",
+      "chain": "Chuỗi",
+      "confirmation": "Xác nhận",
+      "createdAt": "Được tạo lúc",
+      "dateRange": "Phạm vi ngày",
+      "delete": "Xóa",
+      "deleteConfirmation": "Xác nhận xóa",
+      "email": "Email",
+      "error": "Lỗi",
+      "max": "Tối đa",
+      "new": "Mới",
+      "no": "Không",
+      "optional": "Tùy chọn",
+      "or": "hoặc",
+      "password": "Mật khẩu",
+      "private": "Riêng tư",
+      "privateKey": "Khoá Riêng Tư",
+      "success": "Thành công",
+      "token": "Mã Thông Báo",
+      "transactionHash": "Hash Giao Dịch",
+      "unknown": "Không xác định",
+      "unlimited": "Không giới hạn",
+      "updatedAt": "Được cập nhật lúc",
+      "yes": "Có"
+    },
+    "messages": {
+      "createSuccess": "Tạo thành công",
+      "deleteSuccess": "Xóa thành công",
+      "importSuccess": "Nhập thành công",
+      "saveSuccess": "Lưu thành công",
+      "submitSuccess": "Gửi thành công",
+      "updateSuccess": "Cập nhật thành công"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Chế độ tối",
+        "lightMode": "Chế độ sáng",
+        "switchToDark": "Chuyển sang chế độ tối",
+        "switchToLight": "Chuyển sang chế độ sáng"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Chuyển ngôn ngữ"
+      },
+      "Navbar": {
+        "collapseSidebar": "Thu gọn thanh bên",
+        "expandSidebar": "Mở rộng thanh bên",
+        "goBack": "Quay lại"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Hành động",
+        "pageReport": "Hiển thị {'{first}'} đến {'{last}'} trong {'{totalRecords}'}",
+        "pageReportMobile": "Tổng: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Xóa",
+        "confirmationText": "XÓA",
+        "defaultMessage": "Hành động này không thể hoàn tác. Vui lòng đảm bảo bạn đã sao lưu mọi dữ liệu quan trọng trước khi tiếp tục.",
+        "inputLabel": "Nhập {0} để xác nhận xóa",
+        "title": "Xóa"
+      },
+      "CopyButton": {
+        "copied": "Đã sao chép!",
+        "copyToClipboard": "Sao chép vào bộ nhớ tạm"
+      },
+      "DataTable": {
+        "empty": "Không có dữ liệu",
+        "filterAll": "Tất cả",
+        "filterApply": "Áp dụng",
+        "filterClear": "Xóa"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Ngày kết thúc",
+        "startPlaceholder": "Ngày bắt đầu",
+        "to": "đến"
+      },
+      "EmptyState": {
+        "defaultMessage": "Không có dữ liệu"
+      },
+      "LogViewer": {
+        "allLoaded": "— Đã tải tất cả nhật ký —",
+        "count": "{loaded} / {total}",
+        "empty": "Không có nhật ký nào",
+        "refresh": "Làm mới",
+        "scrollToBottom": "Cuộn xuống cuối"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Dán từ bộ nhớ tạm",
+        "pasted": "Đã dán!"
+      },
+      "SearchSelect": {
+        "createNew": "Tạo mới",
+        "noItems": "Không có tùy chọn nào",
+        "noSearchItems": "Không tìm thấy kết quả",
+        "searchPlaceholder": "Tìm kiếm..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Truy cập bị cấm",
+      "COMMON_NETWORK_ERROR": "Lỗi mạng xảy ra",
+      "COMMON_NOT_FOUND_ERROR": "Không tìm thấy tài nguyên",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Quá nhiều yêu cầu. Vui lòng thử lại sau",
+      "COMMON_SERVER_ERROR": "Lỗi máy chủ nội bộ",
+      "COMMON_TIMEOUT_ERROR": "Hết thời gian chờ yêu cầu",
+      "COMMON_UNAUTHORIZED_ERROR": "Truy cập không được phép",
+      "COMMON_UNKNOWN_ERROR": "Đã xảy ra lỗi không xác định",
+      "COMMON_VALIDATION_ERROR": "Xác nhận không thành công"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Nhập mã này để xác minh địa chỉ email của bạn:",
+          "expiry": "Mã này hết hạn trong {minutes} phút.",
+          "footer": "Email này được dự định cho {email}. Nếu bạn không mong đợi email này, bạn có thể bỏ qua nó.",
+          "subject": "Mã xác minh của bạn",
+          "title": "Vui lòng xác minh email của bạn"
+        }
+      }
+    }
+  }
+}

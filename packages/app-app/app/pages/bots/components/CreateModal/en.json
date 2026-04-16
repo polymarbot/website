@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "interval": "Interval",
+    "strategy": "Strategy",
+    "symbols": "Symbols",
+    "wallet": "Wallet"
+  },
+  "hints": {
+    "batchCreate": "A bot will be created for each market (symbol + interval). Skipped if the wallet already has a bot in that market.",
+    "intervalFirst": "Select interval first, then choose a matching strategy",
+    "strategyFiltered": "Only strategies with the selected interval are shown",
+    "symbolsOptional": "Leave empty to create bots for all symbols"
+  },
+  "messages": {
+    "createSuccess": "{count} bots created successfully",
+    "noBotsToCreate": "No bots to create",
+    "resultCreated": "{count} bot(s) created successfully.",
+    "resultSkipped": "{count} bot(s) skipped (wallet already has a bot in those markets)."
+  },
+  "modals": {
+    "result": {
+      "title": "Creation Result"
+    }
+  },
+  "placeholders": {
+    "allSymbols": "All",
+    "selectStrategy": "Select strategy",
+    "selectWallet": "Select wallet"
+  },
+  "title": "Batch Create Bots"
+}

@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Voltar",
+      "cancel": "Cancelar",
+      "clear": "Limpar",
+      "close": "Fechar",
+      "confirm": "Confirmar",
+      "continue": "Continuar",
+      "create": "Criar",
+      "delete": "Deletar",
+      "deposit": "Depositar",
+      "duplicate": "Duplicar",
+      "edit": "Editar",
+      "export": "Exportar",
+      "goBack": "Voltar",
+      "import": "Importar",
+      "install": "Instalar",
+      "learnMore": "Saber Mais",
+      "more": "Mais",
+      "next": "Próximo",
+      "ok": "OK",
+      "refresh": "Atualizar",
+      "reload": "Recarregar",
+      "reportIssue": "Reportar Problema",
+      "retry": "Tentar Novamente",
+      "save": "Salvar",
+      "search": "Pesquisar",
+      "submit": "Enviar",
+      "transfer": "Transferir",
+      "uninstall": "Desinstalar",
+      "viewDetails": "Ver Detalhes",
+      "withdraw": "Sacar"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Ações",
+      "active": "Ativo",
+      "alert": "Alerta",
+      "all": "Todos",
+      "amount": "Valor",
+      "chain": "Rede",
+      "confirmation": "Confirmação",
+      "createdAt": "Criado em",
+      "dateRange": "Intervalo de Datas",
+      "delete": "Deletar",
+      "deleteConfirmation": "Confirmar Exclusão",
+      "email": "E-mail",
+      "error": "Erro",
+      "max": "Máximo",
+      "new": "Novo",
+      "no": "Não",
+      "optional": "Opcional",
+      "or": "ou",
+      "password": "Senha",
+      "private": "Privado",
+      "privateKey": "Chave Privada",
+      "success": "Sucesso",
+      "token": "Token",
+      "transactionHash": "Hash da Transação",
+      "unknown": "Desconhecido",
+      "unlimited": "Ilimitado",
+      "updatedAt": "Atualizado em",
+      "yes": "Sim"
+    },
+    "messages": {
+      "createSuccess": "Criado com sucesso",
+      "deleteSuccess": "Deletado com sucesso",
+      "importSuccess": "Importado com sucesso",
+      "saveSuccess": "Salvo com sucesso",
+      "submitSuccess": "Enviado com sucesso",
+      "updateSuccess": "Atualizado com sucesso"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Modo Escuro",
+        "lightMode": "Modo Claro",
+        "switchToDark": "Mudar para Modo Escuro",
+        "switchToLight": "Mudar para Modo Claro"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Mudar idioma"
+      },
+      "Navbar": {
+        "collapseSidebar": "Recolher barra lateral",
+        "expandSidebar": "Expandir barra lateral",
+        "goBack": "Voltar"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Ações",
+        "pageReport": "Mostrando {'{first}'} a {'{last}'} de {'{totalRecords}'}",
+        "pageReportMobile": "Total: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Deletar",
+        "confirmationText": "DELETAR",
+        "defaultMessage": "Esta ação não pode ser desfeita. Certifique-se de ter feito backup de qualquer dado importante antes de continuar.",
+        "inputLabel": "Digite {0} para confirmar a exclusão",
+        "title": "Deletar"
+      },
+      "CopyButton": {
+        "copied": "Copiado!",
+        "copyToClipboard": "Copiar para a área de transferência"
+      },
+      "DataTable": {
+        "empty": "Nenhum dado disponível",
+        "filterAll": "Todos",
+        "filterApply": "Aplicar",
+        "filterClear": "Limpar"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Data final",
+        "startPlaceholder": "Data inicial",
+        "to": "até"
+      },
+      "EmptyState": {
+        "defaultMessage": "Nenhum dado"
+      },
+      "LogViewer": {
+        "allLoaded": "— Todos os logs carregados —",
+        "count": "{loaded} / {total}",
+        "empty": "Nenhum log disponível",
+        "refresh": "Atualizar",
+        "scrollToBottom": "Rolar para o final"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Colar da área de transferência",
+        "pasted": "Colado!"
+      },
+      "SearchSelect": {
+        "createNew": "Criar novo",
+        "noItems": "Nenhuma opção disponível",
+        "noSearchItems": "Nenhum resultado encontrado",
+        "searchPlaceholder": "Pesquisar..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Acesso proibido",
+      "COMMON_NETWORK_ERROR": "Erro de rede ocorreu",
+      "COMMON_NOT_FOUND_ERROR": "Recurso não encontrado",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Muitas solicitações. Por favor, tente novamente mais tarde",
+      "COMMON_SERVER_ERROR": "Erro interno do servidor",
+      "COMMON_TIMEOUT_ERROR": "Tempo limite da solicitação",
+      "COMMON_UNAUTHORIZED_ERROR": "Acesso não autorizado",
+      "COMMON_UNKNOWN_ERROR": "Um erro desconhecido ocorreu",
+      "COMMON_VALIDATION_ERROR": "Falha na validação"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Digite este código para verificar seu endereço de e-mail:",
+          "expiry": "Este código expira em {minutes} minutos.",
+          "footer": "Este e-mail foi destinado a {email}. Se você não estava esperando este e-mail, pode ignorá-lo.",
+          "subject": "Seu código de verificação",
+          "title": "Por favor, verifique seu e-mail"
+        }
+      }
+    }
+  }
+}

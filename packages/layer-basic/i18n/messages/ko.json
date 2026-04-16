@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "뒤로",
+      "cancel": "취소",
+      "clear": "지우기",
+      "close": "닫기",
+      "confirm": "확인",
+      "continue": "계속",
+      "create": "생성",
+      "delete": "삭제",
+      "deposit": "입금",
+      "duplicate": "복제",
+      "edit": "편집",
+      "export": "내보내기",
+      "goBack": "뒤로 가기",
+      "import": "가져오기",
+      "install": "설치",
+      "learnMore": "자세히 알아보기",
+      "more": "더 보기",
+      "next": "다음",
+      "ok": "확인",
+      "refresh": "새로고침",
+      "reload": "새로 불러오기",
+      "reportIssue": "문제 보고",
+      "retry": "다시 시도",
+      "save": "저장",
+      "search": "검색",
+      "submit": "제출",
+      "transfer": "이체",
+      "uninstall": "제거",
+      "viewDetails": "자세히 보기",
+      "withdraw": "출금"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "M월 D일",
+        "dateTime": "M월 D일 HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "일",
+        "hours": "시간",
+        "minutes": "분",
+        "seconds": "초"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "작업",
+      "active": "활성",
+      "alert": "알림",
+      "all": "전체",
+      "amount": "금액",
+      "chain": "체인",
+      "confirmation": "확인",
+      "createdAt": "생성일",
+      "dateRange": "날짜 범위",
+      "delete": "삭제",
+      "deleteConfirmation": "삭제 확인",
+      "email": "이메일",
+      "error": "오류",
+      "max": "최대",
+      "new": "새 항목",
+      "no": "아니요",
+      "optional": "선택 사항",
+      "or": "또는",
+      "password": "비밀번호",
+      "private": "비공개",
+      "privateKey": "개인 키",
+      "success": "성공",
+      "token": "토큰",
+      "transactionHash": "트랜잭션 해시",
+      "unknown": "알 수 없음",
+      "unlimited": "무제한",
+      "updatedAt": "업데이트일",
+      "yes": "예"
+    },
+    "messages": {
+      "createSuccess": "성공적으로 생성되었습니다",
+      "deleteSuccess": "성공적으로 삭제되었습니다",
+      "importSuccess": "성공적으로 가져왔습니다",
+      "saveSuccess": "성공적으로 저장되었습니다",
+      "submitSuccess": "성공적으로 제출되었습니다",
+      "updateSuccess": "성공적으로 업데이트되었습니다"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "다크 모드",
+        "lightMode": "라이트 모드",
+        "switchToDark": "다크 모드로 전환",
+        "switchToLight": "라이트 모드로 전환"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "언어 변경"
+      },
+      "Navbar": {
+        "collapseSidebar": "사이드바 접기",
+        "expandSidebar": "사이드바 펼치기",
+        "goBack": "뒤로 가기"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "작업",
+        "pageReport": "전체 {'{totalRecords}'}건 중 {'{first}'}-{'{last}'} 표시",
+        "pageReportMobile": "총 {'{totalRecords}'}건"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "삭제",
+        "confirmationText": "삭제",
+        "defaultMessage": "이 작업은 되돌릴 수 없습니다. 진행 전에 중요한 데이터를 백업했는지 확인하세요.",
+        "inputLabel": "삭제를 확인하려면 {0}을 입력하세요",
+        "title": "삭제"
+      },
+      "CopyButton": {
+        "copied": "복사됨!",
+        "copyToClipboard": "클립보드에 복사"
+      },
+      "DataTable": {
+        "empty": "데이터가 없습니다",
+        "filterAll": "전체",
+        "filterApply": "적용",
+        "filterClear": "지우기"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "종료 날짜",
+        "startPlaceholder": "시작 날짜",
+        "to": "~"
+      },
+      "EmptyState": {
+        "defaultMessage": "데이터 없음"
+      },
+      "LogViewer": {
+        "allLoaded": "— 모든 로그를 불러왔습니다 —",
+        "count": "{loaded} / {total}",
+        "empty": "로그가 없습니다",
+        "refresh": "새로고침",
+        "scrollToBottom": "맨 아래로 스크롤"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "클립보드에서 붙여넣기",
+        "pasted": "붙여넣었습니다!"
+      },
+      "SearchSelect": {
+        "createNew": "새로 만들기",
+        "noItems": "선택지가 없습니다",
+        "noSearchItems": "결과가 없습니다",
+        "searchPlaceholder": "검색..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "접근이 거부되었습니다",
+      "COMMON_NETWORK_ERROR": "네트워크 오류가 발생했습니다",
+      "COMMON_NOT_FOUND_ERROR": "리소스를 찾을 수 없습니다",
+      "COMMON_RATE_LIMIT_EXCEEDED": "요청이 너무 많습니다. 나중에 다시 시도하세요",
+      "COMMON_SERVER_ERROR": "내부 서버 오류",
+      "COMMON_TIMEOUT_ERROR": "요청 시간이 초과되었습니다",
+      "COMMON_UNAUTHORIZED_ERROR": "권한이 없습니다",
+      "COMMON_UNKNOWN_ERROR": "알 수 없는 오류가 발생했습니다",
+      "COMMON_VALIDATION_ERROR": "검증에 실패했습니다"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "이 코드를 입력하여 이메일 주소를 확인하세요:",
+          "expiry": "이 코드는 {minutes}분 후 만료됩니다.",
+          "footer": "이 이메일은 {email}을 위한 것입니다. 이 이메일을 예상하지 못했다면 무시할 수 있습니다.",
+          "subject": "인증 코드",
+          "title": "이메일을 확인하세요"
+        }
+      }
+    }
+  }
+}

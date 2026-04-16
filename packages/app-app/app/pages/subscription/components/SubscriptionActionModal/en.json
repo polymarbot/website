@@ -1,0 +1,28 @@
+{
+  "addDays": "Add Days",
+  "confirm": "Confirm",
+  "convertedDays": "Converted Days",
+  "creditAmount": "Credit: {amount}",
+  "currentRemaining": "Current Remaining",
+  "days": "{count} days",
+  "downgrade": {
+    "description": "Your remaining subscription value will be converted to more days in the lower plan. No refund will be issued.",
+    "title": "Downgrade Plan"
+  },
+  "expiresAt": "Expires: {date}",
+  "newExpiration": "New Expiration",
+  "payAndConfirm": "Pay {amount}",
+  "periodDays": "Period Days",
+  "renew": {
+    "description": "Renewing will add {days} days to your current subscription.",
+    "title": "Renew Subscription"
+  },
+  "totalAmount": "Total Amount",
+  "upgrade": {
+    "description": "Your remaining subscription value will be converted to days in the new plan. You only pay the difference.",
+    "fullyCovered": "Your remaining subscription fully covers this upgrade! No additional payment required.",
+    "title": "Upgrade Plan"
+  },
+  "years": "{count} year | {count} years",
+  "yearsAndDays": "{years} year {days} days | {years} years {days} days"
+}

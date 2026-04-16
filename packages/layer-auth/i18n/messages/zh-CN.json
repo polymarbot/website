@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "登录",
+      "signOut": "退出登录"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "您确定要退出登录吗?",
+        "title": "退出登录"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "验证码无效",
+      "AUTH_OAUTH_FAILED": "认证失败，请重试",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "请等待 60 秒后再请求新的验证码",
+      "AUTH_OTP_IP_RATE_LIMITED": "请求过于频繁。请稍后再试",
+      "AUTH_TURNSTILE_FAILED": "安全验证失败。请重试",
+      "AUTH_USER_ALREADY_EXISTS": "该邮箱已被注册",
+      "AUTH_USER_NOT_FOUND": "未找到与该邮箱关联的账户",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "验证码已过期",
+      "IMPERSONATION_INVALID_TICKET": "无效的模拟凭证",
+      "IMPERSONATION_TICKET_EXPIRED": "模拟凭证已过期",
+      "IMPERSONATION_USER_NOT_FOUND": "目标用户未找到",
+      "IMPERSONATION_WRITE_FORBIDDEN": "在支持登录模式下不允许执行写操作",
+      "INVALID_EMAIL": "邮箱地址无效",
+      "INVITE_CODE_EXPIRED": "邀请码已过期",
+      "INVITE_CODE_INVALID": "邀请码无效",
+      "INVITE_CODE_REQUIRED": "邀请码为必填项",
+      "INVITE_CODE_USAGE_EXCEEDED": "邀请码已达到使用上限"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "邮箱格式无效",
+        "required": "邮箱为必填项"
+      },
+      "inviteCode": {
+        "invalid": "邀请码格式无效",
+        "required": "邀请码为必填项"
+      },
+      "turnstileToken": {
+        "invalid": "安全验证失败",
+        "required": "请完成安全验证"
+      },
+      "verificationCode": {
+        "invalid": "验证码格式无效（必须是 6 位数字）",
+        "required": "验证码为必填项"
+      }
+    }
+  }
+}

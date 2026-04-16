@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "戻る",
+      "cancel": "キャンセル",
+      "clear": "クリア",
+      "close": "閉じる",
+      "confirm": "確認",
+      "continue": "続ける",
+      "create": "作成",
+      "delete": "削除",
+      "deposit": "入金",
+      "duplicate": "複製",
+      "edit": "編集",
+      "export": "エクスポート",
+      "goBack": "戻る",
+      "import": "インポート",
+      "install": "インストール",
+      "learnMore": "詳細を見る",
+      "more": "もっと見る",
+      "next": "次へ",
+      "ok": "OK",
+      "refresh": "更新",
+      "reload": "再読み込み",
+      "reportIssue": "問題を報告",
+      "retry": "再試行",
+      "save": "保存",
+      "search": "検索",
+      "submit": "送信",
+      "transfer": "転送",
+      "uninstall": "アンインストール",
+      "viewDetails": "詳細を表示",
+      "withdraw": "出金"
+    },
+    "formats": {
+      "date": "YYYY/MM/DD",
+      "dateRange": {
+        "date": "M月D日",
+        "dateTime": "M月D日 HH:mm"
+      },
+      "dateTime": "YYYY/MM/DD HH:mm:ss",
+      "duration": {
+        "days": "日",
+        "hours": "時",
+        "minutes": "分",
+        "seconds": "秒"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "操作",
+      "active": "アクティブ",
+      "alert": "アラート",
+      "all": "すべて",
+      "amount": "金額",
+      "chain": "チェーン",
+      "confirmation": "確認",
+      "createdAt": "作成日時",
+      "dateRange": "日付範囲",
+      "delete": "削除",
+      "deleteConfirmation": "削除の確認",
+      "email": "メールアドレス",
+      "error": "エラー",
+      "max": "最大",
+      "new": "新規",
+      "no": "いいえ",
+      "optional": "オプション",
+      "or": "または",
+      "password": "パスワード",
+      "private": "プライベート",
+      "privateKey": "秘密鍵",
+      "success": "成功",
+      "token": "トークン",
+      "transactionHash": "トランザクションハッシュ",
+      "unknown": "不明",
+      "unlimited": "無制限",
+      "updatedAt": "更新日時",
+      "yes": "はい"
+    },
+    "messages": {
+      "createSuccess": "作成しました",
+      "deleteSuccess": "削除しました",
+      "importSuccess": "インポートしました",
+      "saveSuccess": "保存しました",
+      "submitSuccess": "送信しました",
+      "updateSuccess": "更新しました"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "ダークモード",
+        "lightMode": "ライトモード",
+        "switchToDark": "ダークモードに切り替える",
+        "switchToLight": "ライトモードに切り替える"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "言語を切り替える"
+      },
+      "Navbar": {
+        "collapseSidebar": "サイドバーを折りたたむ",
+        "expandSidebar": "サイドバーを展開する",
+        "goBack": "戻る"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "操作",
+        "pageReport": "{'{totalRecords}'} 件中 {'{first}'} から {'{last}'} を表示",
+        "pageReportMobile": "合計: {'{totalRecords}'} 件"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "削除",
+        "confirmationText": "DELETE",
+        "defaultMessage": "この操作は取り消せません。続行する前に、重要なデータをバックアップしていることを確認してください。",
+        "inputLabel": "削除を確認するには {0} と入力してください",
+        "title": "削除"
+      },
+      "CopyButton": {
+        "copied": "コピーしました！",
+        "copyToClipboard": "クリップボードにコピー"
+      },
+      "DataTable": {
+        "empty": "データがありません",
+        "filterAll": "すべて",
+        "filterApply": "適用",
+        "filterClear": "クリア"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "終了日",
+        "startPlaceholder": "開始日",
+        "to": "～"
+      },
+      "EmptyState": {
+        "defaultMessage": "データがありません"
+      },
+      "LogViewer": {
+        "allLoaded": "— すべてのログを読み込みました —",
+        "count": "{loaded} / {total}",
+        "empty": "ログがありません",
+        "refresh": "更新",
+        "scrollToBottom": "一番下にスクロール"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "クリップボードから貼り付け",
+        "pasted": "貼り付けました！"
+      },
+      "SearchSelect": {
+        "createNew": "新規作成",
+        "noItems": "利用可能なオプションがありません",
+        "noSearchItems": "結果が見つかりません",
+        "searchPlaceholder": "検索..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "アクセスが禁止されています",
+      "COMMON_NETWORK_ERROR": "ネットワークエラーが発生しました",
+      "COMMON_NOT_FOUND_ERROR": "リソースが見つかりません",
+      "COMMON_RATE_LIMIT_EXCEEDED": "リクエストが多すぎます。後でもう一度お試しください",
+      "COMMON_SERVER_ERROR": "内部サーバーエラー",
+      "COMMON_TIMEOUT_ERROR": "リクエストタイムアウト",
+      "COMMON_UNAUTHORIZED_ERROR": "認証されていないアクセスです",
+      "COMMON_UNKNOWN_ERROR": "不明なエラーが発生しました",
+      "COMMON_VALIDATION_ERROR": "検証に失敗しました"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "このコードを入力してメールアドレスを認証してください",
+          "expiry": "このコードは{minutes}分で有効期限切れになります",
+          "footer": "このメールは{email}宛です。このメールを受け取る予定がなかった場合は、無視してください。",
+          "subject": "あなたの認証コード",
+          "title": "メールアドレスを認証してください"
+        }
+      }
+    }
+  }
+}

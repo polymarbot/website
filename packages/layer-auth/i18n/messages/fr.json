@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Connexion",
+      "signOut": "Déconnexion"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Êtes-vous sûr de vouloir vous déconnecter ?",
+        "title": "Se déconnecter"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Code de vérification invalide",
+      "AUTH_OAUTH_FAILED": "L'authentification a échoué. Veuillez réessayer.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Veuillez attendre 60 secondes avant de demander un nouveau code",
+      "AUTH_OTP_IP_RATE_LIMITED": "Trop de requêtes. Veuillez réessayer plus tard.",
+      "AUTH_TURNSTILE_FAILED": "Vérification de sécurité échouée. Veuillez réessayer.",
+      "AUTH_USER_ALREADY_EXISTS": "Un compte avec cet e-mail existe déjà",
+      "AUTH_USER_NOT_FOUND": "Aucun compte trouvé avec cet e-mail",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Le code de vérification a expiré",
+      "IMPERSONATION_INVALID_TICKET": "Ticket d'usurpation invalide",
+      "IMPERSONATION_TICKET_EXPIRED": "Le ticket d'usurpation a expiré",
+      "IMPERSONATION_USER_NOT_FOUND": "Utilisateur cible non trouvé",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Les opérations d'écriture ne sont pas autorisées en mode connexion de support",
+      "INVALID_EMAIL": "Adresse e-mail invalide",
+      "INVITE_CODE_EXPIRED": "Le code d'invitation a expiré",
+      "INVITE_CODE_INVALID": "Code d'invitation invalide",
+      "INVITE_CODE_REQUIRED": "Le code d'invitation est requis",
+      "INVITE_CODE_USAGE_EXCEEDED": "Le code d'invitation a atteint sa limite d'utilisation"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Format d'e-mail invalide",
+        "required": "L'e-mail est requis"
+      },
+      "inviteCode": {
+        "invalid": "Format de code d'invitation invalide",
+        "required": "Le code d'invitation est requis"
+      },
+      "turnstileToken": {
+        "invalid": "Vérification de sécurité échouée",
+        "required": "Veuillez compléter la vérification de sécurité"
+      },
+      "verificationCode": {
+        "invalid": "Format de code de vérification invalide (doit être 6 chiffres)",
+        "required": "Le code de vérification est requis"
+      }
+    }
+  }
+}

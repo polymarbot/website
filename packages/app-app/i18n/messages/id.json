@@ -1,0 +1,969 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {
+      "privacyPolicy": "Kebijakan Privasi",
+      "termsOfService": "Syarat Layanan",
+      "viewOnPolymarket": "Lihat di Polymarket"
+    },
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "HasBotsErrorMessage": {
+        "message": "Item ini digunakan oleh {count} bot. Pergi ke {link} untuk menghapusnya terlebih dahulu.",
+        "viewBots": "Halaman bot"
+      },
+      "ImpersonationBanner": {
+        "stop": "Hentikan",
+        "viewingAs": "Melihat sebagai {email}"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 Menit",
+          "1d": "1 Hari",
+          "1h": "1 Jam",
+          "4h": "4 Jam",
+          "5m": "5 Menit"
+        },
+        "placeholder": "Pilih interval"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Pilih simbol"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Laporkan Masalah"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "Lihat detail strategi",
+        "viewStats": "Lihat statistik"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "Tahun Terakhir",
+          "custom": "Kustom",
+          "month": "30 Hari Terakhir",
+          "quarter": "90 Hari Terakhir",
+          "week": "7 Hari Terakhir"
+        },
+        "labels": {
+          "dateRange": "Rentang Tanggal",
+          "interval": "Interval",
+          "symbol": "Simbol"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Buat strategi baru",
+        "emptyMessage": "Tidak ada strategi yang tersedia",
+        "placeholder": "Pilih strategi"
+      },
+      "TransactionHistory": {
+        "action": {
+          "BUY": "Beli",
+          "CLAIM": "Klaim",
+          "SELL": "Jual"
+        },
+        "notice": "Catatan transaksi bukan real-time dan dapat mengalami keterlambatan. Keterlambatan terkait dengan siklus penyelesaian pasar. Hanya transaksi dari pasar yang diselesaikan yang ditampilkan di sini. Transaksi dari pasar yang belum diselesaikan akan muncul setelah penyelesaian.",
+        "profitHistory": {
+          "title": "Riwayat Laba (30 Hari Terakhir)"
+        },
+        "table": {
+          "action": "Tindakan",
+          "amount": "Jumlah",
+          "botId": "Bot",
+          "market": "Pasar",
+          "timestamp": "Sidik waktu",
+          "transactionHash": "Hash Transaksi"
+        },
+        "tooltip": {
+          "viewBotTransactions": "Lihat Riwayat Transaksi Bot",
+          "viewOnPolygonscan": "Lihat di PolygonScan"
+        }
+      },
+      "UpgradeModal": {
+        "message": "Tingkatkan paket Anda untuk membuka fitur ini.",
+        "messageWithTarget": "Tingkatkan ke paket {plan} untuk membuka fitur ini.",
+        "title": "Peningkatan Diperlukan",
+        "upgradeButton": "Tingkatkan Sekarang"
+      },
+      "UpgradeOverlay": {
+        "description": "Tingkatkan langganan Anda untuk membuka fitur ini dan mengakses statistik lengkap.",
+        "title": "Fitur Premium",
+        "upgradeButton": "Tingkatkan Sekarang"
+      },
+      "WalletSelect": {
+        "createNew": "Buat dompet baru",
+        "emptyMessage": "Tidak ada dompet yang tersedia",
+        "placeholder": "Pilih dompet"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Biaya (Beli)",
+        "income": "Pendapatan (Jual + Klaim)",
+        "netProfit": "Laba Bersih",
+        "txCount": "Transaksi"
+      }
+    }
+  },
+  "pages": {
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Gunakan email yang berbeda",
+        "codeHint": "Masukkan kode 6 digit yang dikirim ke {email}",
+        "codeLabel": "Kode Verifikasi",
+        "emailLabel": "Alamat Email",
+        "emailPlaceholder": "Masukkan alamat email Anda",
+        "name": "Masuk",
+        "noAccount": "Belum memiliki akun?",
+        "sendCode": "Kirim Kode Verifikasi",
+        "signInWithGithub": "Masuk dengan GitHub",
+        "signInWithGoogle": "Masuk dengan Google",
+        "signUp": "Daftar",
+        "subtitle": "Masuk ke akun Anda untuk melanjutkan",
+        "title": "Selamat Datang Kembali",
+        "verify": "Verifikasi & Masuk"
+      },
+      "sign-up": {
+        "agreeToTerms": "Saya setuju dengan {termsOfService} dan {privacyPolicy}",
+        "changeEmail": "Gunakan email yang berbeda",
+        "codeHint": "Masukkan kode 6 digit yang dikirim ke {email}",
+        "codeLabel": "Kode Verifikasi",
+        "createAccount": "Buat Akun",
+        "emailLabel": "Alamat Email",
+        "emailPlaceholder": "Masukkan alamat email Anda",
+        "haveAccount": "Sudah memiliki akun?",
+        "inviteCodeLabel": "Kode Undangan",
+        "inviteCodePlaceholder": "Masukkan kode undangan Anda",
+        "marketingEmailsLabel": "Kirim saya update produk dan rekomendasi",
+        "name": "Daftar",
+        "sendCode": "Kirim Kode Verifikasi",
+        "signIn": "Masuk",
+        "signUpWithGithub": "Daftar dengan GitHub",
+        "signUpWithGoogle": "Daftar dengan Google",
+        "subtitle": "Buat akun untuk memulai",
+        "title": "Buat Akun"
+      }
+    },
+    "bots": {
+      "_botId_": {
+        "operation-history": {
+          "action": {
+            "DISABLED": "Hentikan",
+            "ENABLED": "Mulai"
+          },
+          "fun-logs": {
+            "notice": "Log eksekusi tidak real-time dan memiliki keterlambatan. Log ini hanya untuk tinjauan historis dan pemecahan masalah, bukan untuk menilai status bot saat ini. Hanya log dari {duration} terakhir yang disimpan.",
+            "title": "Log Jalankan"
+          },
+          "reason": {
+            "PLAN_LIMIT_EXCEEDED": "Batas paket terlampaui",
+            "USER_ACTION": "Tindakan pengguna",
+            "WALLET_INSUFFICIENT_BALANCE": "Saldo dompet tidak cukup",
+            "WALLET_TRANSACTION_ERROR": "Kesalahan transaksi"
+          },
+          "table": {
+            "action": "Tindakan",
+            "operatedAt": "Dioperasikan Pada",
+            "reason": "Alasan"
+          },
+          "tabs": {
+            "logs": "Log Jalankan",
+            "operations": "Operasi"
+          },
+          "title": "Riwayat Jalankan Bot"
+        },
+        "transactions": {
+          "dataNotice": "Hanya transaksi setelah {date} yang dapat dikaitkan dengan bot individual. Catatan sebelumnya tidak disertakan.",
+          "title": "Riwayat Transaksi Bot"
+        }
+      },
+      "actions": {
+        "batchDelete": "Hapus",
+        "batchDisable": "Hentikan",
+        "batchEnable": "Mulai",
+        "create": "Buat",
+        "transactions": "Riwayat Transaksi",
+        "viewRunHistory": "Riwayat Jalankan"
+      },
+      "components": {
+        "BatchBotOperations": {
+          "actions": {
+            "deleteAll": "Hapus Semua",
+            "disableAll": "Hentikan Semua",
+            "enableAll": "Mulai Semua"
+          },
+          "menu": {
+            "byConditions": "Berdasarkan Kondisi"
+          },
+          "messages": {
+            "deleteSuccess": "Bot berhasil dihapus",
+            "disableSuccess": "Bot berhasil dihentikan",
+            "enableSuccess": "Bot berhasil dimulai",
+            "noBotsToDelete": "Tidak ada bot untuk dihapus (hanya bot yang dihentikan dapat dihapus)",
+            "noBotsToDisable": "Tidak ada bot untuk dihentikan",
+            "noBotsToEnable": "Tidak ada bot untuk dimulai",
+            "resultDeleteSkipped": "{count} bot tidak dapat dihapus (sedang berjalan).",
+            "resultDeleted": "{count} bot berhasil dihapus.",
+            "resultEnabled": "{count} bot berhasil dimulai.",
+            "resultPending": "{count} bot menunggu aktivasi dompet.",
+            "resultPendingAutoStart": "{count} bot menunggu aktivasi dompet dan akan dimulai secara otomatis setelah dompet diaktifkan.",
+            "skippedInsufficientBalance": "{count} bot tidak dapat dimulai karena saldo dompet tidak cukup.",
+            "skippedStrategyLimit": "{count} bot tidak dapat dimulai karena Saham Beli Maksimal melebihi batas rencana.",
+            "skippedWalletStatus": "{count} bot tidak dapat dimulai karena dompet masih dalam proses penyebaran."
+          },
+          "modals": {
+            "batchDelete": {
+              "message": "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin?",
+              "scopeAll": "Semua bot yang dihentikan akan segera dihapus.",
+              "scopeFiltered": "Bot yang dihentikan dan cocok dengan filter saat ini akan segera dihapus.",
+              "scopeSelected": "{count} bot yang dipilih akan segera dihapus.",
+              "title": "Hapus Bot"
+            },
+            "batchDisable": {
+              "message": "Namun, pesanan yang telah ditempatkan tidak akan secara otomatis dibatalkan. Apakah Anda yakin?",
+              "scopeAll": "Semua bot yang sedang berjalan akan segera dihentikan.",
+              "scopeFiltered": "Bot yang sedang berjalan dan cocok dengan filter saat ini akan segera dihentikan.",
+              "scopeSelected": "{count} bot yang dipilih akan segera dihentikan.",
+              "title": "Hentikan Bot"
+            },
+            "batchEnable": {
+              "message": "Setelah dimulai, mereka akan mulai menggunakan dana di dompet mereka untuk menempatkan pesanan, yang dapat menghasilkan keuntungan atau kerugian. Apakah Anda yakin?",
+              "scopeAll": "Semua bot yang dihentikan akan segera dimulai.",
+              "scopeFiltered": "Bot yang dihentikan dan cocok dengan filter saat ini akan segera dimulai.",
+              "scopeSelected": "{count} bot yang dipilih akan segera dimulai.",
+              "title": "Mulai Bot"
+            },
+            "byConditions": {
+              "hint": "Semua bot yang cocok dengan kondisi yang dipilih akan terpengaruh.",
+              "intervalDisabledHint": "Filter interval dinonaktifkan karena strategi dipilih",
+              "intervalLabel": "Interval",
+              "selectInterval": "Pilih Interval",
+              "selectStrategy": "Pilih Strategi",
+              "selectSymbol": "Pilih Simbol",
+              "selectWallet": "Pilih Dompet",
+              "strategyDisabledHint": "Filter strategi dinonaktifkan karena interval dipilih",
+              "strategyLabel": "Strategi",
+              "symbolLabel": "Simbol",
+              "titleDelete": "Hapus Bot Berdasarkan Kondisi",
+              "titleDisable": "Hentikan Bot Berdasarkan Kondisi",
+              "titleEnable": "Mulai Bot Berdasarkan Kondisi",
+              "walletLabel": "Dompet"
+            }
+          }
+        },
+        "BotInfoTable": {
+          "strategy": "Strategi",
+          "wallet": "Dompet"
+        },
+        "CreateModal": {
+          "fields": {
+            "interval": "Interval",
+            "strategy": "Strategi",
+            "symbols": "Simbol",
+            "wallet": "Dompet"
+          },
+          "hints": {
+            "batchCreate": "Bot akan dibuat untuk setiap pasar (simbol + interval). Dilewati jika dompet sudah memiliki bot di pasar tersebut.",
+            "intervalFirst": "Pilih interval terlebih dahulu, kemudian pilih strategi yang cocok",
+            "strategyFiltered": "Hanya strategi dengan interval yang dipilih yang ditampilkan",
+            "symbolsOptional": "Biarkan kosong untuk membuat bot untuk semua simbol"
+          },
+          "messages": {
+            "createSuccess": "{count} bot berhasil dibuat",
+            "noBotsToCreate": "Tidak ada bot untuk dibuat",
+            "resultCreated": "{count} bot berhasil dibuat.",
+            "resultSkipped": "{count} bot dilewati (dompet sudah memiliki bot di pasar-pasar tersebut)."
+          },
+          "modals": {
+            "result": {
+              "title": "Hasil Pembuatan"
+            }
+          },
+          "placeholders": {
+            "allSymbols": "Semua",
+            "selectStrategy": "Pilih strategi",
+            "selectWallet": "Pilih dompet"
+          },
+          "title": "Batch Buat Bot"
+        },
+        "InsufficientBalanceMessage": {
+          "calculation": "Saldo yang diperlukan adalah total dari semua bot aktif di dompet ini:\nSetiap bot memerlukan = Jumlah Maksimal per Perdagangan × {multiplier}",
+          "current": "Saldo Saat Ini",
+          "description": "Saldo dompet tidak cukup untuk mendukung semua bot aktif. Anda tidak dapat memulai bot ini sampai persyaratan saldo terpenuhi.",
+          "required": "Diperlukan (Semua Bot Aktif)",
+          "shortfall": "Kekurangan",
+          "suggestion": "Harap setor dana untuk menutupi kekurangan, atau hentikan bot lain untuk membebaskan saldo yang diperlukan."
+        }
+      },
+      "messages": {
+        "deleteSuccess": "Bot berhasil dihapus",
+        "disableSuccess": "Bot berhasil dihentikan",
+        "enableSuccess": "Bot berhasil dimulai",
+        "walletActivating": "Dompet sedang diaktifkan, bot akan dimulai setelah dompet aktif"
+      },
+      "modals": {
+        "delete": {
+          "message": "Apakah Anda yakin ingin menghapus bot ini? Tindakan ini tidak dapat dibatalkan.",
+          "title": "Hapus Bot"
+        },
+        "disable": {
+          "message": "Apakah Anda yakin ingin menghentikan bot ini?",
+          "title": "Hentikan Bot"
+        },
+        "enable": {
+          "message": "Apakah Anda yakin ingin memulai bot ini?",
+          "title": "Mulai Bot"
+        }
+      },
+      "name": "Bot",
+      "searchPlaceholder": "Cari berdasarkan nama dompet atau nama strategi",
+      "table": {
+        "market": "Pasar",
+        "runtime": "Waktu Jalankan",
+        "status": "Status",
+        "strategy": "Strategi",
+        "wallet": "Dompet"
+      },
+      "tooltips": {
+        "disable": "Hentikan bot",
+        "disabling": "Menghentikan...",
+        "enable": "Mulai bot",
+        "enabling": "Memulai...",
+        "walletDeploying": "Dompet sedang di-deploy, tidak dapat dimulai",
+        "walletFailed": "Deployment dompet gagal"
+      },
+      "walletStatus": {
+        "DEPLOYING": "Di-deploy",
+        "FAILED": "Gagal"
+      }
+    },
+    "dashboard": {
+      "botCount": "Bot",
+      "name": "Dasbor",
+      "profitHistory": {
+        "title": "Riwayat Laba (30 Hari Terakhir)"
+      },
+      "running": "berjalan",
+      "strategyCount": "Strategi",
+      "totalBalance": "Total Saldo",
+      "walletCount": "Dompet"
+    },
+    "markets": {
+      "empty": "Tidak ada pasar yang ditemukan",
+      "name": "Pasar",
+      "tooltip": {
+        "enabledBots": "Bot yang Berjalan",
+        "totalBots": "Total Bot"
+      }
+    },
+    "me": {
+      "anonymous": "Anonim",
+      "language": {
+        "name": "Bahasa",
+        "title": "Pilih Bahasa"
+      },
+      "name": "Profil Saya"
+    },
+    "rankings": {
+      "apr": {
+        "description": "Tingkat Keuntungan (Total Catatan)",
+        "title": "Peringkat APR"
+      },
+      "components": {
+        "StrategyDetailModal": {
+          "actions": {
+            "createStrategy": "Buat Strategi",
+            "editStrategy": "Edit Strategi"
+          },
+          "myStrategy": "Strategi Saya"
+        }
+      },
+      "filters": {
+        "buySizeRange": "Rentang Saham Beli",
+        "max": "Maksimal",
+        "minParticipatedCount": "Min Diikuti",
+        "minRecordCount": "Min Catatan"
+      },
+      "helps": {
+        "buySizeRange": "Filter strategi berdasarkan Saham Beli Maksimal mereka. Maksimum ditentukan oleh rencana langganan Anda.",
+        "minParticipatedCount": "Saring strategi berdasarkan jumlah partisipasi mereka. Hanya strategi dengan setidaknya partisipasi sebanyak ini yang disertakan dalam peringkat.",
+        "minRecordCount": "Saring strategi berdasarkan jumlah catatan total mereka. Hanya strategi dengan setidaknya catatan sebanyak ini yang disertakan dalam peringkat."
+      },
+      "hitRate": {
+        "description": "Berpartisipasi / Total Catatan",
+        "title": "Peringkat Tingkat Kena"
+      },
+      "name": "Peringkat",
+      "profitRate": {
+        "description": "Total Laba / Total Biaya (Berpartisipasi)",
+        "title": "Peringkat Tingkat Laba"
+      },
+      "title": "Peringkat Strategi",
+      "upgradeRequired": {
+        "description": "Tingkatkan ke Pro atau lebih tinggi untuk mengakses peringkat strategi dan statistik terperinci.",
+        "title": "Peningkatan Diperlukan"
+      },
+      "winRate": {
+        "description": "Menguntungkan / Berpartisipasi",
+        "title": "Peringkat Tingkat Kemenangan"
+      }
+    },
+    "strategies": {
+      "_id_": {
+        "actions": {
+          "stats": "Statistik"
+        },
+        "autoNameNoSteps": "Harap buat langkah perdagangan terlebih dahulu",
+        "autoNameTooltip": "Buat nama strategi secara otomatis",
+        "components": {
+          "StrategyStatsModal": {
+            "botIdOnly": "Hanya Bot Saat Ini",
+            "helps": {
+              "botIdOnly": "Hanya statistik setelah {date} yang dapat dikaitkan dengan bot individual. Catatan sebelumnya tidak disertakan."
+            },
+            "statistics": "Statistik",
+            "stats": {
+              "apr": "APR",
+              "hitRate": "Tingkat Kena",
+              "profitRate": "Tingkat Laba",
+              "winRate": "Tingkat Kemenangan"
+            },
+            "stepCount": "{count} Langkah",
+            "title": "Statistik Strategi",
+            "upgradeRequired": {
+              "description": "Tingkatkan ke Pro atau lebih tinggi untuk melihat statistik strategi.",
+              "title": "Peningkatan Diperlukan"
+            }
+          },
+          "StrategyStepsInput": {
+            "actions": {
+              "addStep": "Tambah Langkah"
+            },
+            "emptyState": "Belum ada langkah perdagangan yang ditambahkan. Klik \"Tambah Langkah\" untuk membuat langkah perdagangan pertama Anda.",
+            "stats": {
+              "buyCount": "Beli: {count}",
+              "sellCount": "Jual: {count}",
+              "stepCount": "{count}/{max} langkah",
+              "totalAmount": "Jumlah Maksimal per Perdagangan",
+              "totalBuySize": "Saham Beli Maksimal"
+            },
+            "warnings": {
+              "buySizeTooHigh": "Saham beli strategi melebihi batas paket Anda ({maximum}). Tingkatkan untuk menggunakan saham beli yang lebih tinggi."
+            }
+          },
+          "TradeStepCard": {
+            "actions": {
+              "delete": "Hapus",
+              "edit": "Edit"
+            },
+            "fields": {
+              "maxChange": "Perubahan Harga Underlying Maksimal",
+              "minChange": "Perubahan Harga Underlying Minimal",
+              "once": "Sekali",
+              "outcome": "Hasil",
+              "price": "Harga",
+              "size": "Saham",
+              "timeRange": "Rentang Waktu"
+            },
+            "side": {
+              "buy": "Beli",
+              "sell": "Jual"
+            }
+          },
+          "TradeStepModal": {
+            "buyMode": {
+              "chaseUp": "Mode Kejar Naik (harga > $0.50)\nBot secara otomatis memilih Token mana yang akan dibeli berdasarkan arah pergerakan harga aset yang mendasar.\n\nHarga yang Anda tetapkan adalah harga maksimal yang bersedia Anda bayar (harga batas), BUKAN harga pemicu. Jika harga pasar saat ini Token lebih rendah dari harga yang Anda tetapkan, pesanan akan langsung terisi dengan harga pasar. Contoh: tetapkan pembelian pada $0.70, harga pasar saat ini adalah $0.51, pesanan terisi pada ≈$0.51 langsung.\n\nDisarankan untuk menetapkan \"Perubahan Harga Underlying Minimal\" untuk menghindari membeli terlalu awal ketika pergerakan harga tidak cukup signifikan.",
+              "lowBuy": "Mode Beli Rendah (harga ≤ $0.50)\nBot menempatkan pesanan beli batas pada harga yang Anda tetapkan, menunggu harga pasar turun ke level itu untuk terisi."
+            },
+            "fields": {
+              "maxChange": "Perubahan Harga Underlying Maksimal",
+              "minChange": "Perubahan Harga Underlying Minimal",
+              "once": "Jalankan hanya sekali",
+              "outcome": "Hasil",
+              "price": "Harga",
+              "side": "Sisi Perdagangan",
+              "size": "Saham",
+              "timeRange": "Rentang Waktu"
+            },
+            "help": {
+              "buy": {
+                "maxChange": "Dalam Mode Beli Rendah, ketika perubahan harga underlying melebihi nilai ini, bot akan berhenti membeli token terkait berdasarkan arah pergerakan harga. Atur ke 0 untuk menonaktifkan batas ini.",
+                "minChange": "Dalam Mode Kejar Naik, ketika perubahan harga underlying jatuh di bawah nilai ini, bot akan berhenti membeli. Atur ke 0 untuk menonaktifkan batas ini.",
+                "once": "Biasanya, dalam siklus perdagangan, jika posisi yang Anda beli sebelumnya dijual sepenuhnya, bot akan mencoba menempatkan pesanan beli lagi. Aktifkan opsi ini jika Anda hanya ingin berdagang sekali per siklus.",
+                "outcome": "Arah hasil perdagangan. Kecuali Anda sangat yakin tentang arah harga di masa depan, disarankan untuk memilih keduanya.",
+                "price": "Harga beli per saham untuk perdagangan ini. Semakin rendah harganya, semakin tinggi potensi margin keuntungan Anda, dan sebaliknya.",
+                "size": "Jumlah saham yang akan dibeli. Saham dikalikan dengan harga beli sama dengan biaya total perdagangan ini.",
+                "timeRange": "Jendela waktu yang valid untuk pesanan beli ini. Pesanan yang tidak diisi di luar rentang waktu ini akan dibatalkan.",
+                "timeRangeChaseUp": "Dalam siklus perdagangan, setelah titik waktu tertentu, kemungkinan pembalikan hasil turun secara signifikan, membuat pengejar naik lebih mungkin untuk menguntungkan. Oleh karena itu, atur operasi beli untuk dimulai setelah titik ini.",
+                "timeRangeLowBuy": "Dalam siklus perdagangan, setelah titik waktu tertentu, kemungkinan pembalikan hasil turun secara signifikan, membuat pembelian rendah lebih mungkin untuk rugi. Oleh karena itu, atur operasi beli untuk dihentikan sebelum titik ini."
+              },
+              "sell": {
+                "price": "Harga jual per saham untuk perdagangan ini. Semakin tinggi harganya, semakin tinggi potensi margin keuntungan Anda, dan sebaliknya. Jika Anda menetapkan harga lebih rendah dari harga beli, Anda dapat menyelesaikan perdagangan yang rugi.",
+                "size": "Jumlah saham yang akan dijual. Saham dikalikan dengan harga jual sama dengan jumlah total yang akan Anda terima dari perdagangan ini.",
+                "timeRange": "Jendela waktu yang valid untuk pesanan jual ini. Pesanan yang tidak diisi di luar rentang waktu ini akan dibatalkan.\n\nTujuan dari batas waktu ini adalah untuk mengambil keuntungan lebih awal dalam siklus perdagangan saat ini tanpa membuat pesanan jual tetap terbuka hingga pasar tutup. Dalam rentang waktu yang aman di mana hasil tidak mungkin berubah, Anda dapat membatalkan pesanan lebih awal untuk memaksimalkan keuntungan."
+              }
+            },
+            "hints": {
+              "minSize": "Minimum 5 saham",
+              "outcome": "Pilih hasil tertentu atau perdagangkan keduanya",
+              "priceRange": "Masukkan nilai antara $0.01 dan $0.99",
+              "sellSizeRange": "Minimal 5, hingga {max} (Saham Beli Maksimal)",
+              "timeRange": "Waktu mulai dan akhir dalam menit (0-{max})"
+            },
+            "modal": {
+              "titleCreate": "Tambah Langkah Perdagangan",
+              "titleEdit": "Edit Langkah Perdagangan"
+            },
+            "outcomes": {
+              "both": "Keduanya",
+              "down": "Turun",
+              "up": "Naik"
+            },
+            "side": {
+              "buy": "Beli",
+              "sell": "Jual"
+            },
+            "validation": {
+              "priceMax": "Harga paling banyak $0.99",
+              "priceMin": "Harga minimal $0.01",
+              "sizeMin": "Saham minimal 5",
+              "timeRange": "Waktu akhir harus lebih besar dari waktu mulai"
+            },
+            "warnings": {
+              "sellNeedsBuySteps": "Harap tambahkan setidaknya satu langkah beli sebelum membuat langkah jual."
+            }
+          }
+        },
+        "duplicateSuffix": "(Salinan)",
+        "fields": {
+          "interval": "Interval",
+          "name": "Nama Strategi",
+          "strategyJson": "Langkah Perdagangan"
+        },
+        "placeholders": {
+          "interval": "Pilih interval",
+          "name": "Masukkan nama strategi"
+        },
+        "title": "Detail Strategi",
+        "titleCreate": "Buat Strategi",
+        "titleEdit": "Detail Strategi"
+      },
+      "actions": {
+        "create": "Buat Strategi",
+        "viewBots": "Lihat Bot Terkait"
+      },
+      "hint": {
+        "text": "Tidak yakin cara membuat strategi? Kunjungi {link} untuk menyalin strategi berkinerja terbaik dan mulai menguntungkan!"
+      },
+      "modals": {
+        "delete": {
+          "message": "Apakah Anda yakin ingin menghapus strategi \"{name}\"?",
+          "title": "Hapus Strategi"
+        }
+      },
+      "name": "Strategi",
+      "searchPlaceholder": "Cari berdasarkan nama strategi",
+      "table": {
+        "amount": "Jumlah Maksimal per Perdagangan",
+        "botCount": "Bot",
+        "interval": "Interval",
+        "maxBuySize": "Saham Beli Maksimal",
+        "name": "Nama"
+      }
+    },
+    "subscription": {
+      "billingCycle": {
+        "MONTHLY": "Bulanan",
+        "YEARLY": "Tahunan"
+      },
+      "components": {
+        "PlanCard": {
+          "downgrade": "Turunkan",
+          "limits": {
+            "bots": "Bot",
+            "maxBuySize": "Saham Beli Maksimal",
+            "statsAccess": "Akses Statistik",
+            "strategies": "Strategi",
+            "wallets": "Dompet"
+          },
+          "perMonth": "/bulan",
+          "perYear": "/tahun",
+          "pricing": {
+            "monthlyEquivalent": "{price}/bln",
+            "originalPrice": "Dulu {price}",
+            "save": "Hemat {amount}"
+          },
+          "renew": "Perpanjang",
+          "statsAccess": {
+            "extended": "Akses Diperluas",
+            "full": "Akses Penuh",
+            "limited": "Akses Sebagian",
+            "none": "Tidak Tersedia"
+          },
+          "unlimited": "Tidak Terbatas",
+          "upgrade": "Tingkatkan"
+        },
+        "SubscriptionActionModal": {
+          "addDays": "Tambah Hari",
+          "confirm": "Konfirmasi",
+          "convertedDays": "Hari Konversi",
+          "creditAmount": "Kredit: {amount}",
+          "currentRemaining": "Sisa Saat Ini",
+          "days": "{count} hari",
+          "downgrade": {
+            "description": "Nilai langganan yang tersisa akan dikonversi ke lebih banyak hari dalam paket yang lebih rendah. Tidak ada pengembalian dana yang akan dikeluarkan.",
+            "title": "Turunkan Paket"
+          },
+          "expiresAt": "Kadaluarsa: {date}",
+          "newExpiration": "Kedaluarsa Baru",
+          "payAndConfirm": "Bayar {amount}",
+          "periodDays": "Hari Periode",
+          "renew": {
+            "description": "Perpanjangan akan menambahkan {days} hari ke langganan Anda saat ini.",
+            "title": "Perpanjang Langganan"
+          },
+          "totalAmount": "Jumlah Total",
+          "upgrade": {
+            "description": "Nilai langganan yang tersisa akan dikonversi menjadi hari di paket baru. Anda hanya membayar perbedaannya.",
+            "fullyCovered": "Langganan yang tersisa sepenuhnya mencakup peningkatan ini! Tidak ada pembayaran tambahan yang diperlukan.",
+            "title": "Tingkatkan Paket"
+          },
+          "years": "{count} tahun | {count} tahun",
+          "yearsAndDays": "{years} tahun {days} hari | {years} tahun {days} hari"
+        }
+      },
+      "currentPlan": "Paket Saat Ini",
+      "expired": "Kadaluarsa",
+      "expiredWarning": {
+        "description": "Langganan Anda telah kadaluarsa. Anda sekarang berada di paket Gratis dengan fitur terbatas. Tingkatkan untuk mengembalikan manfaat paket sebelumnya."
+      },
+      "expiresAt": "Kadaluarsa Pada",
+      "name": "Langganan",
+      "neverExpires": "Tidak Pernah Kadaluarsa",
+      "payment": {
+        "noPaymentNeeded": "Tidak ada pembayaran yang diperlukan untuk tindakan ini.",
+        "title": "Pembayaran"
+      },
+      "paymentHistory": "Riwayat Pembayaran",
+      "payments": {
+        "_id_": {
+          "cancel": {
+            "backToSubscription": "Kembali ke Langganan",
+            "description": "Pembayaran Anda tidak selesai. Tidak ada biaya yang dibebankan ke akun Anda.",
+            "name": "Pembayaran Dibatalkan",
+            "reasons": {
+              "cancelled": "Anda membatalkan pembayaran",
+              "expired": "Sesi pembayaran kadaluarsa",
+              "insufficientFunds": "Dana tidak cukup di dompet Anda",
+              "networkError": "Kesalahan jaringan atau blockchain",
+              "title": "Kemungkinan alasan:"
+            },
+            "retryPayment": "Coba Bayar Lagi",
+            "title": "Pembayaran Dibatalkan"
+          },
+          "success": {
+            "backToSubscription": "Kembali ke Langganan",
+            "confirmed": {
+              "description": "Langganan {plan} Anda telah diaktifkan.",
+              "title": "Pembayaran Berhasil!"
+            },
+            "expired": {
+              "createNew": "Buat Pembayaran Baru",
+              "description": "Sesi pembayaran telah kadaluarsa. Harap buat pembayaran baru.",
+              "title": "Pembayaran Kadaluarsa"
+            },
+            "failed": {
+              "description": "Pembayaran Anda tidak dapat diselesaikan. Harap coba lagi.",
+              "title": "Pembayaran Gagal",
+              "tryAgain": "Coba Lagi"
+            },
+            "loading": {
+              "description": "Mengambil status pembayaran",
+              "title": "Memuat..."
+            },
+            "name": "Status Pembayaran",
+            "notFound": {
+              "description": "Kami tidak dapat menemukan catatan pembayaran ini.",
+              "title": "Pembayaran Tidak Ditemukan"
+            },
+            "pending": {
+              "continuePayment": "Lanjutkan Pembayaran",
+              "description": "Pembayaran Anda sedang diproses di blockchain.",
+              "note": "Pembayaran cryptocurrency dapat memakan waktu beberapa menit untuk dikonfirmasi. Halaman ini akan secara otomatis diperbarui ketika pembayaran Anda dikonfirmasi.",
+              "title": "Pembayaran Sedang Diproses"
+            }
+          }
+        },
+        "name": "Riwayat Pembayaran",
+        "status": {
+          "CONFIRMED": "Dikonfirmasi",
+          "EXPIRED": "Kadaluarsa",
+          "FAILED": "Gagal",
+          "PENDING": "Tertunda"
+        },
+        "table": {
+          "amount": "Jumlah",
+          "billingCycle": "Siklus Penagihan",
+          "chargeCode": "Kode Biaya",
+          "createdAt": "Dibuat Pada",
+          "plan": "Paket",
+          "status": "Status"
+        },
+        "title": "Riwayat Pembayaran"
+      },
+      "plans": {
+        "description": "Pilih paket yang sesuai dengan kebutuhan Anda",
+        "title": "Paket Tersedia"
+      },
+      "savePercent": "Hemat {percent}%",
+      "usage": {
+        "bots": "Bot",
+        "strategies": "Strategi",
+        "wallets": "Dompet"
+      }
+    },
+    "wallets": {
+      "_funder_": {
+        "transactions": {
+          "title": "Riwayat Transaksi"
+        }
+      },
+      "actions": {
+        "create": "Buat Dompet",
+        "import": "Impor Dompet",
+        "transactions": "Riwayat Transaksi",
+        "viewBots": "Lihat Bot Terkait"
+      },
+      "components": {
+        "BridgeAssetSelector": {
+          "chain": "Rantai",
+          "token": "Token"
+        },
+        "DeleteModal": {
+          "backupReminder": "Sebelum menghapus, pastikan Anda telah mengekspor dan membuat cadangan kunci pribadi Anda. Tanpa kunci pribadi, Anda akan kehilangan akses permanen ke dana apa pun di dompet ini.",
+          "message": "Apakah Anda yakin ingin menghapus dompet \"{name}\"?",
+          "title": "Hapus Dompet",
+          "warning": "Menghapus dompet tidak dapat dibalikkan. Semua data dompet akan dihapus secara permanen dari sistem kami."
+        },
+        "DepositModal": {
+          "address": "Alamat Setoran",
+          "bridgeAddress": "alamat jembatan aset",
+          "directDepositInfo": "Kirim USDC.e langsung ke Alamat Funder dompet Anda di Polygon. Tanpa biaya jembatan.",
+          "minimumDeposit": "Polymarket memerlukan setoran minimum sebesar {amount}. Setoran di bawah jumlah ini mungkin tidak dikreditkan ke akun Anda.",
+          "note": "Alamat setoran adalah {bridgeAddress} yang dihasilkan oleh Polymarket. Anda dapat mengirim {supportedCrypto}, dan dana akan otomatis dijembatani ke Polygon dan dikonversi ke USDC.e. Jika Anda ingin mengirim USDC.e langsung di Polygon (misalnya, menggunakan fitur penarikan kami), Anda dapat mengirim dana langsung ke Alamat Funder tanpa menggunakan alamat setoran.",
+          "supportedCrypto": "Cryptocurrency yang didukung oleh Polymarket",
+          "title": "Setoran"
+        },
+        "DetailModal": {
+          "create": {
+            "description": "Dompet baru akan dibuat dengan kunci pribadi unik. Kontrak Gnosis Safe akan di-deploy sebelum perdagangan dimulai.",
+            "title": "Buat Dompet Baru"
+          },
+          "edit": {
+            "title": "Edit Dompet"
+          }
+        },
+        "ExportModal": {
+          "confirmCheckbox": "Saya memahami risiko dan ingin mengekspor kunci pribadi saya",
+          "connectToPolymarket": "hubungkan dompet Anda ke Polymarket",
+          "copyWarning": "Klik tombol mata untuk menampilkan kunci pribadi Anda. Pastikan tidak ada orang di sekitar Anda.\nJika Anda menyalinnya ke papan klip, ingatlah untuk menghapus papan klip Anda setelahnya untuk mencegah kebocoran.",
+          "decryptFailed": "Gagal mendekripsi kunci pribadi",
+          "funderNotice": "Catatan: Dana Anda disimpan di Alamat Funder (kontrak Gnosis Safe), bukan di alamat dompet yang berasal dari kunci pribadi ini. Alamat Funder adalah kontrak pintar yang dikontrol oleh kunci pribadi Anda. Jika Anda mengimpor kunci ini ke dompet kripto, Anda akan melihat alamat yang berbeda dan tidak akan menemukan aset Anda di sana. Untuk mengakses dana Anda, {connectToPolymarket} dan gunakan fitur {withdraw}.",
+          "title": "Ekspor Kunci Pribadi",
+          "warningDetail": "Jangan pernah bagikan kunci pribadi Anda kepada siapa pun. Siapa pun yang memiliki akses ke kunci pribadi Anda dapat mencuri semua aset di dompet Anda.",
+          "withdraw": "Tarik"
+        },
+        "ImportModal": {
+          "description": "Impor dompet yang ada menggunakan kunci pribadinya. Untuk dompet baru, kontrak Gnosis Safe akan di-deploy sebelum perdagangan dimulai.",
+          "encryptFailed": "Gagal mengenkripsi kunci pribadi",
+          "privateKeyPlaceholder": "Masukkan kunci pribadi (0x...)",
+          "title": "Impor Dompet",
+          "warning": {
+            "description": "Jangan impor kunci pribadi yang diekspor dari Polymarket. Kunci-kunci ini milik Proxy Wallets (dibuat melalui Email atau login Google dengan MagicLink), dan layanan kami memerlukan dompet Gnosis Safe.",
+            "learnMore": "Pelajari lebih lanjut tentang jenis dompet Polymarket"
+          }
+        },
+        "TransactionResult": {
+          "viewOnPolygonscan": "Lihat di PolygonScan",
+          "viewWalletOnPolygonscan": "Lihat Dompet di PolygonScan"
+        },
+        "TransferModal": {
+          "fromWallet": "Dari Dompet",
+          "info": "Transfer diproses melalui Polymarket Relayer (tanpa gas). Transaksi akan dikirimkan segera tetapi mungkin memerlukan beberapa menit untuk dikonfirmasi di rantai.",
+          "submitted": "Permintaan transfer berhasil dikirimkan. Anda dapat melacak status transaksi di PolygonScan.",
+          "title": "Transfer Internal",
+          "toWallet": "Ke Dompet",
+          "toWalletHint": "Pilih dompet untuk mentransfer dana ke",
+          "walletActivating": "Dompet Anda perlu diaktifkan sebelum transfer. Aktivasi dan transfer akan diproses secara otomatis. Ini mungkin memerlukan beberapa menit. Anda dapat memeriksa alamat dompet di PolygonScan untuk memantau kemajuan."
+        },
+        "WithdrawModal": {
+          "bridgeInfo": "Penarikan lintas rantai melalui Polymarket Bridge. USDC.e akan dijembatani ke rantai tujuan. Biaya jembatan berlaku.",
+          "directInfo": "Transfer diproses melalui Polymarket Relayer (tanpa gas). Transaksi akan dikirimkan segera tetapi mungkin memerlukan beberapa menit untuk dikonfirmasi di rantai.",
+          "estimatedOutput": "Perkiraan Output",
+          "estimatedTime": "Perkiraan Waktu",
+          "fee": "Biaya Jembatan",
+          "loadingQuote": "Mendapatkan penawaran...",
+          "quoteError": "Gagal mendapatkan penawaran. Anda masih dapat melanjutkan dengan penarikan.",
+          "recipientAddress": "Alamat Penerima",
+          "recipientPlaceholder": "Masukkan alamat Polygon (0x...)",
+          "seconds": "~{time}d",
+          "submitted": "Permintaan penarikan berhasil dikirimkan. Anda dapat melacak status transaksi di PolygonScan.",
+          "submittedBridge": "Penarikan jembatan berhasil dikirimkan. Jembatan akan secara otomatis mengirimkan token kepada penerima di rantai tujuan. Ini mungkin memerlukan beberapa menit.",
+          "title": "Tarik",
+          "usdceWarningBody": "Mengirim USDC.e ke platform yang tidak didukung dapat mengakibatkan kehilangan dana secara permanen. Selalu periksa kompatibilitas token sebelum transfer.",
+          "usdceWarningTitle": "USDC.e tidak didukung secara luas oleh sebagian besar bursa.",
+          "walletActivating": "Dompet Anda perlu diaktifkan sebelum penarikan. Aktivasi dan penarikan akan diproses secara otomatis. Ini mungkin memerlukan beberapa menit. Anda dapat memeriksa alamat dompet di PolygonScan untuk memantau kemajuan."
+        }
+      },
+      "labels": {
+        "availableBalance": "Saldo Tersedia",
+        "walletName": "Nama Dompet"
+      },
+      "messages": {
+        "insufficientBalance": "Jumlah melebihi saldo yang tersedia"
+      },
+      "name": "Dompet",
+      "placeholders": {
+        "amount": "Masukkan jumlah",
+        "walletName": "Masukkan nama dompet"
+      },
+      "searchPlaceholder": "Cari berdasarkan nama dompet",
+      "status": {
+        "ACTIVE": "Aktif",
+        "DEPLOYING": "Di-deploy",
+        "FAILED": "Gagal",
+        "INACTIVE": "Tidak Aktif"
+      },
+      "table": {
+        "balance": "Saldo",
+        "botCount": "Bot",
+        "funder": "Alamat Funder",
+        "name": "Nama",
+        "status": "Status"
+      },
+      "tooltips": {
+        "funderHelp": "Alamat Funder adalah dompet Gnosis Safe Polymarket Anda - dompet kontrak pintar yang digunakan di Polygon yang menyimpan posisi dan USDC.e Anda. Ini dikontrol oleh dompet EOA Anda dan memungkinkan transaksi tanpa gas.",
+        "funderHelpLink": "Pelajari lebih lanjut",
+        "inactive": "Dompet akan secara otomatis diaktifkan sebelum perdagangan dimulai."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "BOT_ALREADY_EXISTS": "Bot sudah ada untuk pasar ini",
+      "BOT_ENABLED_CANNOT_DELETE": "Tidak dapat menghapus bot yang sedang berjalan",
+      "BOT_ENABLED_CANNOT_MODIFY": "Tidak dapat memodifikasi bot yang sedang berjalan",
+      "BOT_NOT_FOUND": "Bot tidak ditemukan",
+      "BOT_WALLET_DEPLOYING": "Dompet sedang di-deploy",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Saldo dompet tidak cukup untuk memulai bot",
+      "BOT_WALLET_MARKET_IN_USE": "Dompet ini sudah digunakan untuk pasar ini",
+      "BRIDGE_FETCH_ASSETS_FAILED": "Gagal mengambil aset jembatan yang didukung. Harap coba lagi nanti.",
+      "BRIDGE_QUOTE_FAILED": "Gagal mendapatkan penawaran jembatan. Harap coba lagi nanti.",
+      "BRIDGE_WITHDRAW_FAILED": "Penarikan jembatan gagal. Harap coba lagi nanti.",
+      "INTERNAL_API_KEY_INVALID": "Kunci API tidak valid",
+      "INTERNAL_API_KEY_MISSING": "Kunci API diperlukan",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Gagal membuat biaya pembayaran. Harap coba lagi nanti.",
+      "PAYMENT_NOT_FOUND": "Pembayaran tidak ditemukan",
+      "STRATEGY_ALREADY_EXISTS": "Strategi sudah ada",
+      "STRATEGY_HAS_BOTS": "Tidak dapat menghapus strategi yang digunakan oleh bot",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "Interval tidak dapat diubah setelah pembuatan",
+      "STRATEGY_INVALID_JSON": "Konfigurasi strategi tidak valid",
+      "STRATEGY_NOT_FOUND": "Strategi tidak ditemukan",
+      "STRATEGY_NO_BUY_STEPS": "Strategi harus berisi setidaknya satu langkah beli",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Batas bot tercapai. Tingkatkan paket Anda untuk membuat lebih banyak bot.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "Akses statistik ditolak. Tingkatkan paket Anda untuk mengakses fitur ini.",
+      "SUBSCRIPTION_STRATEGY_BUY_SIZE_EXCEEDED": "Saham beli strategi melebihi batas paket Anda. Tingkatkan untuk menggunakan saham beli yang lebih tinggi.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Batas strategi tercapai. Tingkatkan paket Anda untuk membuat lebih banyak strategi.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Batas dompet tercapai. Tingkatkan paket Anda untuk membuat lebih banyak dompet.",
+      "WALLET_ALREADY_EXISTS": "Dompet sudah ada",
+      "WALLET_ALREADY_IN_USE": "Dompet ini sudah digunakan oleh pengguna lain",
+      "WALLET_CREATION_FAILED": "Gagal membuat dompet",
+      "WALLET_DEPLOYING": "Dompet sedang di-deploy. Harap tunggu dan coba lagi nanti.",
+      "WALLET_HAS_BOTS": "Tidak dapat menghapus dompet yang digunakan oleh bot",
+      "WALLET_INSUFFICIENT_BALANCE": "Saldo tidak cukup untuk penarikan",
+      "WALLET_INVALID_PRIVATE_KEY": "Format kunci pribadi tidak valid",
+      "WALLET_NOT_FOUND": "Dompet tidak ditemukan",
+      "WALLET_WITHDRAW_FAILED": "Penarikan gagal"
+    }
+  },
+  "shared": {
+    "validation": {
+      "amount": {
+        "min": "Jumlah harus lebih besar dari 0",
+        "required": "Jumlah penarikan diperlukan"
+      },
+      "billingCycle": {
+        "invalid": "Siklus penagihan tidak valid"
+      },
+      "botDisableReason": {
+        "required": "Alasan penghentian bot diperlukan"
+      },
+      "bridgeChainId": {
+        "invalid": "ID rantai tidak valid",
+        "required": "Rantai tujuan diperlukan"
+      },
+      "bridgeRecipientAddr": {
+        "invalid": "Alamat penerima tidak valid",
+        "required": "Alamat penerima diperlukan"
+      },
+      "bridgeTokenAddress": {
+        "required": "Alamat token diperlukan"
+      },
+      "buySizeRange": {
+        "minGreaterThanMax": "Saham beli minimum harus kurang dari atau sama dengan saham beli maksimum"
+      },
+      "datePreset": {
+        "invalid": "Preset tanggal tidak valid"
+      },
+      "marketInterval": {
+        "invalid": "Nilai interval tidak valid"
+      },
+      "marketSymbol": {
+        "invalid": "Simbol pasar tidak valid"
+      },
+      "privateKey": {
+        "invalid": "Format kunci pribadi tidak valid (harus 0x + 64 karakter heksadesimal)",
+        "required": "Kunci pribadi diperlukan"
+      },
+      "publicKey": {
+        "invalid": "Format kunci publik RSA tidak valid",
+        "required": "Kunci publik diperlukan"
+      },
+      "solanaAddress": {
+        "invalid": "Format alamat Solana tidak valid (harus 32-44 karakter base58)"
+      },
+      "strategyId": {
+        "required": "ID strategi diperlukan"
+      },
+      "strategyJson": {
+        "required": "Konfigurasi strategi diperlukan"
+      },
+      "strategyName": {
+        "required": "Nama strategi diperlukan",
+        "tooLong": "Nama strategi harus {maximum} karakter atau kurang"
+      },
+      "subscriptionPlan": {
+        "invalid": "Paket langganan tidak valid"
+      },
+      "timeRange": {
+        "customEndRequired": "Waktu akhir diperlukan untuk rentang tanggal khusus",
+        "customStartRequired": "Waktu mulai diperlukan untuk rentang tanggal khusus",
+        "exceedsMaxSpan": "Rentang tanggal tidak dapat melebihi {days} hari",
+        "startAfterEnd": "Waktu mulai harus kurang dari atau sama dengan waktu akhir"
+      },
+      "tronAddress": {
+        "invalid": "Format alamat Tron tidak valid (harus dimulai dengan T, 34 karakter base58)"
+      },
+      "walletAddress": {
+        "invalid": "Format alamat dompet tidak valid (harus 0x + 40 karakter heksadesimal)",
+        "required": "Alamat dompet diperlukan"
+      },
+      "walletName": {
+        "required": "Nama dompet diperlukan",
+        "tooLong": "Nama dompet harus {maximum} karakter atau kurang"
+      }
+    }
+  }
+}

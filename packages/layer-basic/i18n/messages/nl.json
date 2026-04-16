@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Terug",
+      "cancel": "Annuleren",
+      "clear": "Wissen",
+      "close": "Sluiten",
+      "confirm": "Bevestigen",
+      "continue": "Doorgaan",
+      "create": "Creëren",
+      "delete": "Verwijderen",
+      "deposit": "Storten",
+      "duplicate": "Dupliceren",
+      "edit": "Bewerken",
+      "export": "Exporteren",
+      "goBack": "Terug gaan",
+      "import": "Importeren",
+      "install": "Installeren",
+      "learnMore": "Meer informatie",
+      "more": "Meer",
+      "next": "Volgende",
+      "ok": "OK",
+      "refresh": "Vernieuwen",
+      "reload": "Opnieuw laden",
+      "reportIssue": "Probleem melden",
+      "retry": "Opnieuw proberen",
+      "save": "Opslaan",
+      "search": "Zoeken",
+      "submit": "Indienen",
+      "transfer": "Overboeking",
+      "uninstall": "Verwijderen",
+      "viewDetails": "Details weergeven",
+      "withdraw": "Opnemen"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Acties",
+      "active": "Actief",
+      "alert": "Waarschuwing",
+      "all": "Alles",
+      "amount": "Bedrag",
+      "chain": "Keten",
+      "confirmation": "Bevestiging",
+      "createdAt": "Gemaakt op",
+      "dateRange": "Datumbereik",
+      "delete": "Verwijderen",
+      "deleteConfirmation": "Verwijderingsbevestiging",
+      "email": "E-mailadres",
+      "error": "Fout",
+      "max": "Max",
+      "new": "Nieuw",
+      "no": "Nee",
+      "optional": "Optioneel",
+      "or": "of",
+      "password": "Wachtwoord",
+      "private": "Privé",
+      "privateKey": "Privésleutel",
+      "success": "Succes",
+      "token": "Token",
+      "transactionHash": "Transactiehash",
+      "unknown": "Onbekend",
+      "unlimited": "Onbeperkt",
+      "updatedAt": "Bijgewerkt op",
+      "yes": "Ja"
+    },
+    "messages": {
+      "createSuccess": "Succesvol gemaakt",
+      "deleteSuccess": "Succesvol verwijderd",
+      "importSuccess": "Succesvol geïmporteerd",
+      "saveSuccess": "Succesvol opgeslagen",
+      "submitSuccess": "Succesvol ingediend",
+      "updateSuccess": "Succesvol bijgewerkt"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Donkere modus",
+        "lightMode": "Lichte modus",
+        "switchToDark": "Overschakelen naar donkere modus",
+        "switchToLight": "Overschakelen naar lichte modus"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Taal wijzigen"
+      },
+      "Navbar": {
+        "collapseSidebar": "Zijbalk samenvouwen",
+        "expandSidebar": "Zijbalk uitvouwen",
+        "goBack": "Terug gaan"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Acties",
+        "pageReport": "Weergave {'{first}'} tot {'{last}'} van {'{totalRecords}'}",
+        "pageReportMobile": "Totaal: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Verwijderen",
+        "confirmationText": "VERWIJDEREN",
+        "defaultMessage": "Deze actie kan niet ongedaan worden gemaakt. Zorg ervoor dat u een back-up hebt gemaakt van belangrijke gegevens voordat u doorgaat.",
+        "inputLabel": "Typ {0} om verwijdering te bevestigen",
+        "title": "Verwijderen"
+      },
+      "CopyButton": {
+        "copied": "Gekopieerd!",
+        "copyToClipboard": "Naar klembord kopiëren"
+      },
+      "DataTable": {
+        "empty": "Geen gegevens beschikbaar",
+        "filterAll": "Alles",
+        "filterApply": "Toepassen",
+        "filterClear": "Wissen"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Einddatum",
+        "startPlaceholder": "Startdatum",
+        "to": "tot"
+      },
+      "EmptyState": {
+        "defaultMessage": "Geen gegevens"
+      },
+      "LogViewer": {
+        "allLoaded": "— Alle logs geladen —",
+        "count": "{loaded} / {total}",
+        "empty": "Geen logs beschikbaar",
+        "refresh": "Vernieuwen",
+        "scrollToBottom": "Naar beneden scrollen"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Uit klembord plakken",
+        "pasted": "Geplakt!"
+      },
+      "SearchSelect": {
+        "createNew": "Nieuwe maken",
+        "noItems": "Geen opties beschikbaar",
+        "noSearchItems": "Geen resultaten gevonden",
+        "searchPlaceholder": "Zoeken..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Toegang geweigerd",
+      "COMMON_NETWORK_ERROR": "Netwerkfout opgetreden",
+      "COMMON_NOT_FOUND_ERROR": "Bron niet gevonden",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Te veel verzoeken. Probeer het later opnieuw",
+      "COMMON_SERVER_ERROR": "Interne serverfout",
+      "COMMON_TIMEOUT_ERROR": "Verzoektime-out",
+      "COMMON_UNAUTHORIZED_ERROR": "Onbevoegde toegang",
+      "COMMON_UNKNOWN_ERROR": "Een onbekende fout is opgetreden",
+      "COMMON_VALIDATION_ERROR": "Validatie mislukt"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Voer deze code in om uw e-mailadres te verifiëren:",
+          "expiry": "Deze code verloopt over {minutes} minuten.",
+          "footer": "Dit e-mailbericht was bedoeld voor {email}. Als u dit e-mailbericht niet verwachtte, kunt u het negeren.",
+          "subject": "Uw verificatiecode",
+          "title": "Verifieer uw e-mailadres alstublieft"
+        }
+      }
+    }
+  }
+}

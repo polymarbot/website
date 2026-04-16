@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Back",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "close": "Close",
+      "confirm": "Confirm",
+      "continue": "Continue",
+      "create": "Create",
+      "delete": "Delete",
+      "deposit": "Deposit",
+      "duplicate": "Duplicate",
+      "edit": "Edit",
+      "export": "Export",
+      "goBack": "Go Back",
+      "import": "Import",
+      "install": "Install",
+      "learnMore": "Learn More",
+      "more": "More",
+      "next": "Next",
+      "ok": "OK",
+      "refresh": "Refresh",
+      "reload": "Reload",
+      "reportIssue": "Report Issue",
+      "retry": "Retry",
+      "save": "Save",
+      "search": "Search",
+      "submit": "Submit",
+      "transfer": "Transfer",
+      "uninstall": "Uninstall",
+      "viewDetails": "View Details",
+      "withdraw": "Withdraw"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Actions",
+      "active": "Active",
+      "alert": "Alert",
+      "all": "All",
+      "amount": "Amount",
+      "chain": "Chain",
+      "confirmation": "Confirmation",
+      "createdAt": "Created At",
+      "dateRange": "Date Range",
+      "delete": "Delete",
+      "deleteConfirmation": "Delete Confirmation",
+      "email": "Email",
+      "error": "Error",
+      "max": "Max",
+      "new": "New",
+      "no": "No",
+      "optional": "Optional",
+      "or": "or",
+      "password": "Password",
+      "private": "Private",
+      "privateKey": "Private Key",
+      "success": "Success",
+      "token": "Token",
+      "transactionHash": "Transaction Hash",
+      "unknown": "Unknown",
+      "unlimited": "Unlimited",
+      "updatedAt": "Updated At",
+      "yes": "Yes"
+    },
+    "messages": {
+      "createSuccess": "Created successfully",
+      "deleteSuccess": "Deleted successfully",
+      "importSuccess": "Imported successfully",
+      "saveSuccess": "Saved successfully",
+      "submitSuccess": "Submitted successfully",
+      "updateSuccess": "Updated successfully"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Dark Mode",
+        "lightMode": "Light Mode",
+        "switchToDark": "Switch to Dark Mode",
+        "switchToLight": "Switch to Light Mode"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Switch language"
+      },
+      "Navbar": {
+        "collapseSidebar": "Collapse sidebar",
+        "expandSidebar": "Expand sidebar",
+        "goBack": "Go back"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Actions",
+        "pageReport": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'}",
+        "pageReportMobile": "Total: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Delete",
+        "confirmationText": "DELETE",
+        "defaultMessage": "This action cannot be undone. Please make sure you have backed up any important data before proceeding.",
+        "inputLabel": "Type {0} to confirm deletion",
+        "title": "Delete"
+      },
+      "CopyButton": {
+        "copied": "Copied!",
+        "copyToClipboard": "Copy to clipboard"
+      },
+      "DataTable": {
+        "empty": "No data available",
+        "filterAll": "All",
+        "filterApply": "Apply",
+        "filterClear": "Clear"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "End date",
+        "startPlaceholder": "Start date",
+        "to": "to"
+      },
+      "EmptyState": {
+        "defaultMessage": "No data"
+      },
+      "LogViewer": {
+        "allLoaded": "— All logs loaded —",
+        "count": "{loaded} / {total}",
+        "empty": "No logs available",
+        "refresh": "Refresh",
+        "scrollToBottom": "Scroll to bottom"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Paste from clipboard",
+        "pasted": "Pasted!"
+      },
+      "SearchSelect": {
+        "createNew": "Create new",
+        "noItems": "No options available",
+        "noSearchItems": "No results found",
+        "searchPlaceholder": "Search..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Access forbidden",
+      "COMMON_NETWORK_ERROR": "Network error occurred",
+      "COMMON_NOT_FOUND_ERROR": "Resource not found",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Too many requests. Please try again later",
+      "COMMON_SERVER_ERROR": "Internal server error",
+      "COMMON_TIMEOUT_ERROR": "Request timeout",
+      "COMMON_UNAUTHORIZED_ERROR": "Unauthorized access",
+      "COMMON_UNKNOWN_ERROR": "An unknown error occurred",
+      "COMMON_VALIDATION_ERROR": "Validation failed"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Enter this code to verify your email address:",
+          "expiry": "This code expires in {minutes} minutes.",
+          "footer": "This email was intended for {email}. If you were not expecting this email, you can ignore it.",
+          "subject": "Your verification code",
+          "title": "Please verify your email"
+        }
+      }
+    }
+  }
+}

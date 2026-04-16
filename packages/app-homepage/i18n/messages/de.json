@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Alle Rechte vorbehalten."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "App starten",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bots",
+          "maxBuySize": "{size} Max. Kaufaktien",
+          "statsAccess": {
+            "extended": "Erweiterter Statistikzugriff",
+            "full": "Vollständiger Statistikzugriff",
+            "limited": "Teilweiser Statistikzugriff",
+            "none": "Kein Statistikzugriff"
+          },
+          "strategies": "{count} Strategien",
+          "unlimitedBuySize": "Unbegrenzte Kaufaktien",
+          "wallets": "{count} Geldbörsen"
+        },
+        "getStarted": "Kostenlos starten",
+        "perMonth": "/Monat",
+        "subtitle": "Wählen Sie den Plan, der Ihren Tradingbedürfnissen entspricht",
+        "title": "Einfache, transparente Preisgestaltung"
+      },
+      "slogan": {
+        "line1Left": "Keine Wetten auf die Richtung",
+        "line1Right": "Handeln Sie einfach Volatilität",
+        "line2Left": "Hohe Volatilität",
+        "line2Right": "Stabile Gewinne"
+      },
+      "tagline": "Automatisierte Trading-Bots für Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Unsere Bots überwachen Märkte und führen rund um die Uhr ohne manuelle Eingriffe Trades aus.",
+            "title": "Rund um die Uhr"
+          },
+          "easySetup": {
+            "description": "Keine Programmierkenntnisse erforderlich. Erstellen Sie Strategien mit einfachen Parametern und stellen Sie sie in Minuten bereit.",
+            "title": "Einfache Einrichtung"
+          },
+          "gasless": {
+            "description": "Handeln Sie ohne Gasgebühren mit Polymarkets Gnosis Safe-Verträgen.",
+            "title": "Gebührenloser Handel"
+          },
+          "liveMonitoring": {
+            "description": "Überwachen Sie den Bot-Ausführungsstatus, Handelsverlauf und Positionsänderungen mit Live-Dashboards.",
+            "title": "Live-Überwachung"
+          },
+          "multiWallet": {
+            "description": "Verwalten Sie mehrere Geldbörsen, um Ihr Portfolio zu diversifizieren und Risiken zu streuen.",
+            "title": "Multi-Geldbörse"
+          },
+          "strategyRankings": {
+            "description": "Durchsuchen Sie Strategie-Bestenlisten und kopieren Sie die leistungsstärksten Strategien, um schnell Gewinne zu erzielen.",
+            "title": "Strategie-Rankings"
+          }
+        },
+        "title": "Warum Sie uns wählen sollten"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Erstellen Sie Polymarket-Proxy-Geldbörsen (Gnosis Safe)",
+            "title": "Geldbörsen hinzufügen"
+          },
+          "createStrategies": {
+            "description": "Definieren Sie Ihre Handelsregeln und Parameter",
+            "title": "Strategien erstellen"
+          },
+          "deployBots": {
+            "description": "Starten Sie Ihre Bots und sehen Sie sie automatisch handeln",
+            "title": "Bots bereitstellen"
+          },
+          "signUp": {
+            "description": "Erstellen Sie Ihr Konto in Sekunden",
+            "title": "Registrieren"
+          }
+        },
+        "subtitle": "Starten Sie in Minuten mit unserem einfachen 4-Schritte-Prozess",
+        "title": "Wie es funktioniert"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Datenschutzrichtlinie"
+      },
+      "terms-of-service": {
+        "title": "Nutzungsbedingungen"
+      }
+    }
+  }
+}

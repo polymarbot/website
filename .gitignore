@@ -1,0 +1,35 @@
+# Temporary files
+docs/development/
+docs/dev-memory/
+
+# i18n merged messages (auto-generated)
+packages/**/i18n/merged-messages/
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+components.d.ts
+
+# Prisma generated clients
+prisma/**/generated
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example

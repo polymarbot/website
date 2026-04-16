@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Zaloguj się",
+      "signOut": "Wyloguj się"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Czy na pewno chcesz się wylogować?",
+        "title": "Wyloguj się"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Nieprawidłowy kod weryfikacyjny",
+      "AUTH_OAUTH_FAILED": "Uwierzytelnianie nie powiodło się. Spróbuj ponownie.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Czekaj 60 sekund przed żądaniem kolejnego kodu",
+      "AUTH_OTP_IP_RATE_LIMITED": "Zbyt wiele żądań. Spróbuj ponownie później.",
+      "AUTH_TURNSTILE_FAILED": "Weryfikacja bezpieczeństwa nie powiodła się. Spróbuj ponownie.",
+      "AUTH_USER_ALREADY_EXISTS": "Konto z tym adresem e-mail już istnieje",
+      "AUTH_USER_NOT_FOUND": "Nie znaleziono konta z tym adresem e-mail",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Kod weryfikacyjny wygasł",
+      "IMPERSONATION_INVALID_TICKET": "Nieprawidłowy bilet personifikacji",
+      "IMPERSONATION_TICKET_EXPIRED": "Bilet personifikacji wygasł",
+      "IMPERSONATION_USER_NOT_FOUND": "Użytkownik docelowy nie znaleziony",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Operacje zapisu nie są dozwolone w trybie logowania wspierającego",
+      "INVALID_EMAIL": "Nieprawidłowy adres e-mail",
+      "INVITE_CODE_EXPIRED": "Kod zaproszenia wygasł",
+      "INVITE_CODE_INVALID": "Nieprawidłowy kod zaproszenia",
+      "INVITE_CODE_REQUIRED": "Kod zaproszenia jest wymagany",
+      "INVITE_CODE_USAGE_EXCEEDED": "Kod zaproszenia osiągnął limit użycia"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Nieprawidłowy format e-maila",
+        "required": "E-mail jest wymagany"
+      },
+      "inviteCode": {
+        "invalid": "Nieprawidłowy format kodu zaproszenia",
+        "required": "Kod zaproszenia jest wymagany"
+      },
+      "turnstileToken": {
+        "invalid": "Weryfikacja bezpieczeństwa nie powiodła się",
+        "required": "Proszę ukończyć weryfikację bezpieczeństwa"
+      },
+      "verificationCode": {
+        "invalid": "Nieprawidłowy format kodu weryfikacyjnego (musi to być 6 cyfr)",
+        "required": "Kod weryfikacyjny jest wymagany"
+      }
+    }
+  }
+}

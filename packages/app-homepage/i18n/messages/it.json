@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Tutti i diritti riservati"
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Avvia App",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxBuySize": "{size} Azioni di Acquisto Massime",
+          "statsAccess": {
+            "extended": "Accesso Statistiche Esteso",
+            "full": "Accesso Statistiche Completo",
+            "limited": "Accesso Statistiche Parziale",
+            "none": "Nessun Accesso Statistiche"
+          },
+          "strategies": "{count} Strategie",
+          "unlimitedBuySize": "Azioni di Acquisto Illimitate",
+          "wallets": "{count} Portafogli"
+        },
+        "getStarted": "Inizia Gratuitamente",
+        "perMonth": "/mese",
+        "subtitle": "Scegli il piano che si adatta alle tue esigenze di trading",
+        "title": "Prezzi Semplici e Trasparenti"
+      },
+      "slogan": {
+        "line1Left": "Nessuna scommessa sulla direzione",
+        "line1Right": "Scambia solo la volatilità",
+        "line2Left": "Alta volatilità",
+        "line2Right": "Profitti costanti"
+      },
+      "tagline": "Bot di Trading Automatizzati per Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "I nostri bot monitorano i mercati ed eseguono scambi 24 ore su 24 senza alcun intervento manuale.",
+            "title": "Sempre Attivo"
+          },
+          "easySetup": {
+            "description": "Non è necessaria alcuna codifica. Crea strategie con semplici parametri e distribuisci in pochi minuti.",
+            "title": "Configurazione Facile"
+          },
+          "gasless": {
+            "description": "Scambia senza spese di gas utilizzando i contratti Gnosis Safe di Polymarket.",
+            "title": "Scambio Senza Gas"
+          },
+          "liveMonitoring": {
+            "description": "Monitora lo stato di esecuzione del bot, la cronologia degli scambi e i cambiamenti di posizione con dashboard in diretta.",
+            "title": "Monitoraggio in Diretta"
+          },
+          "multiWallet": {
+            "description": "Gestisci più portafogli per diversificare il tuo portafoglio e distribuire il rischio.",
+            "title": "Multi-Portafoglio"
+          },
+          "strategyRankings": {
+            "description": "Sfoglia le classifiche delle strategie e copia le strategie con le migliori prestazioni per iniziare a guadagnare rapidamente.",
+            "title": "Classifiche Strategia"
+          }
+        },
+        "title": "Perché Scegliere Noi"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Crea portafogli proxy Polymarket (Gnosis Safe)",
+            "title": "Aggiungi Portafogli"
+          },
+          "createStrategies": {
+            "description": "Definisci le tue regole di trading e i parametri",
+            "title": "Crea Strategie"
+          },
+          "deployBots": {
+            "description": "Avvia i tuoi bot e guardali scambiare automaticamente",
+            "title": "Distribuisci Bot"
+          },
+          "signUp": {
+            "description": "Crea il tuo account in pochi secondi",
+            "title": "Iscriviti"
+          }
+        },
+        "subtitle": "Inizia in pochi minuti con il nostro semplice processo in 4 fasi",
+        "title": "Come Funziona"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Politica sulla Privacy"
+      },
+      "terms-of-service": {
+        "title": "Condizioni di Servizio"
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Zurück",
+      "cancel": "Abbrechen",
+      "clear": "Löschen",
+      "close": "Schließen",
+      "confirm": "Bestätigen",
+      "continue": "Weiter",
+      "create": "Erstellen",
+      "delete": "Löschen",
+      "deposit": "Einzahlung",
+      "duplicate": "Duplizieren",
+      "edit": "Bearbeiten",
+      "export": "Exportieren",
+      "goBack": "Zurück",
+      "import": "Importieren",
+      "install": "Installieren",
+      "learnMore": "Mehr erfahren",
+      "more": "Mehr",
+      "next": "Weiter",
+      "ok": "OK",
+      "refresh": "Aktualisieren",
+      "reload": "Neu laden",
+      "reportIssue": "Problem melden",
+      "retry": "Erneut versuchen",
+      "save": "Speichern",
+      "search": "Suchen",
+      "submit": "Absenden",
+      "transfer": "Übertrag",
+      "uninstall": "Deinstallieren",
+      "viewDetails": "Details anzeigen",
+      "withdraw": "Abheben"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "T",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Aktionen",
+      "active": "Aktiv",
+      "alert": "Warnung",
+      "all": "Alle",
+      "amount": "Betrag",
+      "chain": "Blockchain",
+      "confirmation": "Bestätigung",
+      "createdAt": "Erstellt am",
+      "dateRange": "Datumsbereich",
+      "delete": "Löschen",
+      "deleteConfirmation": "Löschbestätigung",
+      "email": "E-Mail",
+      "error": "Fehler",
+      "max": "Max.",
+      "new": "Neu",
+      "no": "Nein",
+      "optional": "Optional",
+      "or": "oder",
+      "password": "Passwort",
+      "private": "Privat",
+      "privateKey": "Privater Schlüssel",
+      "success": "Erfolg",
+      "token": "Token",
+      "transactionHash": "Transaktions-Hash",
+      "unknown": "Unbekannt",
+      "unlimited": "Unbegrenzt",
+      "updatedAt": "Aktualisiert am",
+      "yes": "Ja"
+    },
+    "messages": {
+      "createSuccess": "Erfolgreich erstellt",
+      "deleteSuccess": "Erfolgreich gelöscht",
+      "importSuccess": "Erfolgreich importiert",
+      "saveSuccess": "Erfolgreich gespeichert",
+      "submitSuccess": "Erfolgreich abgesendet",
+      "updateSuccess": "Erfolgreich aktualisiert"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Dunkler Modus",
+        "lightMode": "Heller Modus",
+        "switchToDark": "Zum dunklen Modus wechseln",
+        "switchToLight": "Zum hellen Modus wechseln"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Sprache wechseln"
+      },
+      "Navbar": {
+        "collapseSidebar": "Seitenleiste einklappen",
+        "expandSidebar": "Seitenleiste ausklappen",
+        "goBack": "Zurück"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Aktionen",
+        "pageReport": "Zeige {'{first}'} bis {'{last}'} von {'{totalRecords}'}",
+        "pageReportMobile": "Gesamt: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Löschen",
+        "confirmationText": "LÖSCHEN",
+        "defaultMessage": "Diese Aktion kann nicht rückgängig gemacht werden. Bitte stellen Sie sicher, dass Sie alle wichtigen Daten gesichert haben, bevor Sie fortfahren.",
+        "inputLabel": "Geben Sie {0} ein, um das Löschen zu bestätigen",
+        "title": "Löschen"
+      },
+      "CopyButton": {
+        "copied": "Kopiert!",
+        "copyToClipboard": "In die Zwischenablage kopieren"
+      },
+      "DataTable": {
+        "empty": "Keine Daten verfügbar",
+        "filterAll": "Alle",
+        "filterApply": "Anwenden",
+        "filterClear": "Löschen"
+      },
+      "DatePicker": {
+        "dateFormat": "JJ/MM/TT"
+      },
+      "DateRangePicker": {
+        "dateFormat": "JJ/MM/TT",
+        "endPlaceholder": "Enddatum",
+        "startPlaceholder": "Startdatum",
+        "to": "bis"
+      },
+      "EmptyState": {
+        "defaultMessage": "Keine Daten"
+      },
+      "LogViewer": {
+        "allLoaded": "— Alle Protokolle geladen —",
+        "count": "{loaded} / {total}",
+        "empty": "Keine Protokolle verfügbar",
+        "refresh": "Aktualisieren",
+        "scrollToBottom": "Nach unten scrollen"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Aus der Zwischenablage einfügen",
+        "pasted": "Eingefügt!"
+      },
+      "SearchSelect": {
+        "createNew": "Neu erstellen",
+        "noItems": "Keine Optionen verfügbar",
+        "noSearchItems": "Keine Ergebnisse gefunden",
+        "searchPlaceholder": "Suchen..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Zugriff verboten",
+      "COMMON_NETWORK_ERROR": "Netzwerkfehler aufgetreten",
+      "COMMON_NOT_FOUND_ERROR": "Ressource nicht gefunden",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Zu viele Anfragen. Bitte versuchen Sie es später erneut",
+      "COMMON_SERVER_ERROR": "Interner Serverfehler",
+      "COMMON_TIMEOUT_ERROR": "Anfrage-Timeout",
+      "COMMON_UNAUTHORIZED_ERROR": "Unbefugter Zugriff",
+      "COMMON_UNKNOWN_ERROR": "Ein unbekannter Fehler ist aufgetreten",
+      "COMMON_VALIDATION_ERROR": "Validierung fehlgeschlagen"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Geben Sie diesen Code ein, um Ihre E-Mail-Adresse zu bestätigen:",
+          "expiry": "Dieser Code verfällt in {minutes} Minuten.",
+          "footer": "Diese E-Mail war für {email} bestimmt. Wenn Sie diese E-Mail nicht erwartet haben, können Sie sie ignorieren.",
+          "subject": "Ihr Bestätigungscode",
+          "title": "Bitte bestätigen Sie Ihre E-Mail"
+        }
+      }
+    }
+  }
+}

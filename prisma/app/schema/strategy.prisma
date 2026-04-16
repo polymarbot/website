@@ -1,0 +1,19 @@
+model Strategy {
+  id           String   @id @default(cuid(2)) @db.VarChar(24)
+  name         String   @db.VarChar(100) // User-defined strategy name
+  interval     String   @db.VarChar(10) // Market time interval (e.g., "5m", "1h", "1d")
+  strategyJson String   @db.Text // JSON string of TradeStep[]
+  strategyHash String   @db.VarChar(64) // SHA-256 hash of normalized strategy JSON
+  amount       Decimal  @db.Decimal(10, 2) // Total investment amount (sum of all buy steps)
+  maxBuySize   Int      @default(0) // Total buy size (sum of all buy step sizes)
+  ownerId      String   @db.VarChar(24) // Owner user ID
+  owner        User     @relation(fields: [ownerId], references: [id])
+  createdAt    DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  bots Bot[]
+
+  @@unique([ownerId, strategyHash, interval])
+  @@index([ownerId, interval]) // Composite index for common query: WHERE ownerId = ? AND interval = ?
+}

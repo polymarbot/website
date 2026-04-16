@@ -1,0 +1,20 @@
+{
+  "actions": {
+    "stats": "Statistics"
+  },
+  "autoNameNoSteps": "Please create trade steps first",
+  "autoNameTooltip": "Auto-generate strategy name",
+  "duplicateSuffix": "(Copy)",
+  "fields": {
+    "interval": "Interval",
+    "name": "Strategy Name",
+    "strategyJson": "Trade Steps"
+  },
+  "placeholders": {
+    "interval": "Select interval",
+    "name": "Enter strategy name"
+  },
+  "title": "Strategy Details",
+  "titleCreate": "Create Strategy",
+  "titleEdit": "Strategy Details"
+}

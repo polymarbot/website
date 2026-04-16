@@ -1,0 +1,22 @@
+{
+  "name": "@polymarbot/app-homepage",
+  "type": "module",
+  "scripts": {
+    "dev": "../../scripts/env.sh nuxt dev",
+    "build": "../../scripts/env.sh nuxt generate",
+    "preview": "../../scripts/env.sh nuxt preview",
+    "prepare": "nuxt prepare",
+    "typecheck": "nuxt prepare && nuxt typecheck",
+    "lint": "git add . && lint-staged --config ../../.lintstagedrc.lint-only.json",
+    "format": "git add . && lint-staged --config ../../.lintstagedrc.json",
+    "i18n:build": "tsx ../../scripts/i18n/build --packages layer-basic && pnpm i18n:fix:alignment",
+    "i18n:check:undefined": "tsx ../../scripts/i18n/checkUndefinedKeys --packages layer-basic",
+    "i18n:check:unused": "tsx ../../scripts/i18n/checkUnusedKeys --packages layer-basic",
+    "i18n:fix:unused": "tsx ../../scripts/i18n/checkUnusedKeys --packages layer-basic --fix && pnpm i18n:build",
+    "i18n:fix:alignment": "tsx ../../scripts/i18n/checkI18nAlignment --fix"
+  },
+  "dependencies": {
+    "@polymarbot/layer-basic": "workspace:*",
+    "primevue": "catalog:"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} جميع الحقوق محفوظة."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "تشغيل التطبيق",
+      "pricing": {
+        "features": {
+          "bots": "{count} روبوتات",
+          "maxBuySize": "{size} أقصى أسهم مشتراة",
+          "statsAccess": {
+            "extended": "الوصول الموسع للإحصائيات",
+            "full": "الوصول الكامل للإحصائيات",
+            "limited": "الوصول الجزئي للإحصائيات",
+            "none": "لا يوجد وصول للإحصائيات"
+          },
+          "strategies": "{count} استراتيجيات",
+          "unlimitedBuySize": "أسهم مشتراة غير محدودة",
+          "wallets": "{count} محافظ"
+        },
+        "getStarted": "ابدأ مجاناً",
+        "perMonth": "/شهر",
+        "subtitle": "اختر الخطة التي تناسب احتياجات التداول الخاصة بك",
+        "title": "تسعير بسيط وشفاف"
+      },
+      "slogan": {
+        "line1Left": "لا تراهن على الاتجاه",
+        "line1Right": "تداول التقلبات فحسب",
+        "line2Left": "تقلبات عالية",
+        "line2Right": "أرباح مستقرة"
+      },
+      "tagline": "روبوتات تداول آلية لـ Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "تراقب روبوتاتنا الأسواق وتنفذ الصفقات على مدار الساعة بدون تدخل يدوي.",
+            "title": "على مدار الساعة"
+          },
+          "easySetup": {
+            "description": "لا يتطلب الأمر أي ترميز. أنشئ استراتيجيات بمعاملات بسيطة واطلقها في دقائق.",
+            "title": "إعداد سهل"
+          },
+          "gasless": {
+            "description": "التداول بدون رسوم غاز باستخدام عقود Gnosis Safe من Polymarket.",
+            "title": "التداول بدون رسوم"
+          },
+          "liveMonitoring": {
+            "description": "مراقبة حالة تنفيذ الروبوت وسجل التداول والتغييرات في المركز من خلال لوحات معلومات مباشرة.",
+            "title": "المراقبة المباشرة"
+          },
+          "multiWallet": {
+            "description": "إدارة محافظ متعددة لتنويع محفظتك وتوزيع المخاطر.",
+            "title": "محافظ متعددة"
+          },
+          "strategyRankings": {
+            "description": "استعرض جداول ترتيب الاستراتيجيات ونسخ الاستراتيجيات الأفضل أداءً لبدء جني الأرباح بسرعة.",
+            "title": "ترتيب الاستراتيجيات"
+          }
+        },
+        "title": "لماذا تختارنا"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "إنشاء محافظ وكيل Polymarket (Gnosis Safe)",
+            "title": "إضافة محافظ"
+          },
+          "createStrategies": {
+            "description": "حدد قواعد وسياسات التداول الخاصة بك",
+            "title": "إنشاء استراتيجيات"
+          },
+          "deployBots": {
+            "description": "شغّل روبوتاتك واشاهدها تتداول تلقائياً",
+            "title": "نشر الروبوتات"
+          },
+          "signUp": {
+            "description": "أنشئ حسابك في ثوانٍ",
+            "title": "إنشاء حساب"
+          }
+        },
+        "subtitle": "ابدأ في دقائق مع عملية بسيطة من 4 خطوات",
+        "title": "كيفية عمل النظام"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "سياسة الخصوصية"
+      },
+      "terms-of-service": {
+        "title": "شروط الخدمة"
+      }
+    }
+  }
+}

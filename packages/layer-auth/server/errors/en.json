@@ -1,0 +1,19 @@
+{
+  "AUTH_INVALID_VERIFICATION_CODE": "Invalid verification code",
+  "AUTH_OAUTH_FAILED": "Authentication failed. Please try again.",
+  "AUTH_OTP_EMAIL_RATE_LIMITED": "Please wait 60 seconds before requesting another code",
+  "AUTH_OTP_IP_RATE_LIMITED": "Too many requests. Please try again later.",
+  "AUTH_TURNSTILE_FAILED": "Security verification failed. Please try again.",
+  "AUTH_USER_ALREADY_EXISTS": "An account with this email already exists",
+  "AUTH_USER_NOT_FOUND": "No account found with this email",
+  "AUTH_VERIFICATION_CODE_EXPIRED": "Verification code has expired",
+  "IMPERSONATION_INVALID_TICKET": "Invalid impersonation ticket",
+  "IMPERSONATION_TICKET_EXPIRED": "Impersonation ticket has expired",
+  "IMPERSONATION_USER_NOT_FOUND": "Target user not found",
+  "IMPERSONATION_WRITE_FORBIDDEN": "Write operations are not allowed in support login mode",
+  "INVALID_EMAIL": "Invalid email address",
+  "INVITE_CODE_EXPIRED": "Invite code has expired",
+  "INVITE_CODE_INVALID": "Invalid invite code",
+  "INVITE_CODE_REQUIRED": "Invite code is required",
+  "INVITE_CODE_USAGE_EXCEEDED": "Invite code has reached its usage limit"
+}

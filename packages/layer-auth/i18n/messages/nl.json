@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Aanmelden",
+      "signOut": "Afmelden"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Weet u zeker dat u zich wilt afmelden?",
+        "title": "Afmelden"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Ongeldige verificatiecode",
+      "AUTH_OAUTH_FAILED": "Verificatie mislukt. Probeer het opnieuw.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Wacht alstublieft 60 seconden voordat u een andere code aanvraagt",
+      "AUTH_OTP_IP_RATE_LIMITED": "Te veel verzoeken. Probeer het later opnieuw.",
+      "AUTH_TURNSTILE_FAILED": "Veiligheidscontrole mislukt. Probeer het opnieuw.",
+      "AUTH_USER_ALREADY_EXISTS": "Er bestaat al een account met dit e-mailadres",
+      "AUTH_USER_NOT_FOUND": "Geen account gevonden met dit e-mailadres",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Verificatiecode is verlopen",
+      "IMPERSONATION_INVALID_TICKET": "Ongeldig persoonsgegevensticket",
+      "IMPERSONATION_TICKET_EXPIRED": "Persoonsgegevensticket is verlopen",
+      "IMPERSONATION_USER_NOT_FOUND": "Doelgebruiker niet gevonden",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Schrijfbewerkingen zijn niet toegestaan in ondersteuningsaanmelding",
+      "INVALID_EMAIL": "Ongeldig e-mailadres",
+      "INVITE_CODE_EXPIRED": "Uitnodigingscode is verlopen",
+      "INVITE_CODE_INVALID": "Ongeldige uitnodigingscode",
+      "INVITE_CODE_REQUIRED": "Uitnodigingscode is vereist",
+      "INVITE_CODE_USAGE_EXCEEDED": "Uitnodigingscode heeft het gebruikslimiet bereikt"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Ongeldige e-mailindeling",
+        "required": "E-mailadres is vereist"
+      },
+      "inviteCode": {
+        "invalid": "Ongeldige uitnodigingscodeindeling",
+        "required": "Uitnodigingscode is vereist"
+      },
+      "turnstileToken": {
+        "invalid": "Veiligheidscontrole mislukt",
+        "required": "Veiligheidscontrole moet worden voltooid"
+      },
+      "verificationCode": {
+        "invalid": "Ongeldige verificatiecodeindeling (moet 6 cijfers zijn)",
+        "required": "Verificatiecode is vereist"
+      }
+    }
+  }
+}

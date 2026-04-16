@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "ログイン",
+      "signOut": "ログアウト"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "ログアウトしてもよろしいですか？",
+        "title": "ログアウト"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "無効な認証コードです",
+      "AUTH_OAUTH_FAILED": "認証に失敗しました。もう一度お試しください。",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "別のコードをリクエストする前に60秒お待ちください",
+      "AUTH_OTP_IP_RATE_LIMITED": "リクエストが多すぎます。後でもう一度お試しください。",
+      "AUTH_TURNSTILE_FAILED": "セキュリティ認証に失敗しました。もう一度お試しください。",
+      "AUTH_USER_ALREADY_EXISTS": "このメールアドレスのアカウントは既に存在します",
+      "AUTH_USER_NOT_FOUND": "このメールアドレスのアカウントが見つかりません",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "認証コードの有効期限が切れています",
+      "IMPERSONATION_INVALID_TICKET": "無効なサポートログインチケットです",
+      "IMPERSONATION_TICKET_EXPIRED": "サポートログインチケットの有効期限が切れています",
+      "IMPERSONATION_USER_NOT_FOUND": "ターゲットユーザーが見つかりません",
+      "IMPERSONATION_WRITE_FORBIDDEN": "サポートログインモードでは書き込み操作は許可されていません",
+      "INVALID_EMAIL": "無効なメールアドレスです",
+      "INVITE_CODE_EXPIRED": "招待コードの有効期限が切れています",
+      "INVITE_CODE_INVALID": "無効な招待コードです",
+      "INVITE_CODE_REQUIRED": "招待コードは必須です",
+      "INVITE_CODE_USAGE_EXCEEDED": "招待コードが使用制限に達しました"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "無効なメールアドレス形式です",
+        "required": "メールアドレスは必須です"
+      },
+      "inviteCode": {
+        "invalid": "無効な招待コード形式です",
+        "required": "招待コードは必須です"
+      },
+      "turnstileToken": {
+        "invalid": "セキュリティ認証に失敗しました",
+        "required": "セキュリティ認証を完了してください"
+      },
+      "verificationCode": {
+        "invalid": "無効な認証コード形式です（6桁である必要があります）",
+        "required": "認証コードは必須です"
+      }
+    }
+  }
+}

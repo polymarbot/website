@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "تسجيل الدخول",
+      "signOut": "تسجيل الخروج"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "هل أنت متأكد من أنك تريد تسجيل الخروج؟",
+        "title": "تسجيل الخروج"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "رمز التحقق غير صحيح",
+      "AUTH_OAUTH_FAILED": "فشل المصادقة. يرجى المحاولة مرة أخرى.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "يرجى الانتظار 60 ثانية قبل طلب رمز آخر",
+      "AUTH_OTP_IP_RATE_LIMITED": "طلبات كثيرة جداً. يرجى المحاولة لاحقاً.",
+      "AUTH_TURNSTILE_FAILED": "فشل التحقق الأمني. يرجى المحاولة مرة أخرى.",
+      "AUTH_USER_ALREADY_EXISTS": "يوجد حساب بهذا البريد الإلكتروني بالفعل",
+      "AUTH_USER_NOT_FOUND": "لم يتم العثور على حساب بهذا البريد الإلكتروني",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "انتهت صلاحية رمز التحقق",
+      "IMPERSONATION_INVALID_TICKET": "تذكرة المحاكاة غير صحيحة",
+      "IMPERSONATION_TICKET_EXPIRED": "انتهت صلاحية تذكرة المحاكاة",
+      "IMPERSONATION_USER_NOT_FOUND": "لم يتم العثور على المستخدم المستهدف",
+      "IMPERSONATION_WRITE_FORBIDDEN": "عمليات الكتابة غير مسموحة في وضع دعم تسجيل الدخول",
+      "INVALID_EMAIL": "عنوان بريد إلكتروني غير صحيح",
+      "INVITE_CODE_EXPIRED": "انتهت صلاحية رمز الدعوة",
+      "INVITE_CODE_INVALID": "رمز الدعوة غير صحيح",
+      "INVITE_CODE_REQUIRED": "رمز الدعوة مطلوب",
+      "INVITE_CODE_USAGE_EXCEEDED": "وصل رمز الدعوة إلى حد الاستخدام الخاص به"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "صيغة البريد الإلكتروني غير صحيحة",
+        "required": "البريد الإلكتروني مطلوب"
+      },
+      "inviteCode": {
+        "invalid": "صيغة رمز الدعوة غير صحيحة",
+        "required": "رمز الدعوة مطلوب"
+      },
+      "turnstileToken": {
+        "invalid": "فشل التحقق الأمني",
+        "required": "يرجى إكمال التحقق الأمني"
+      },
+      "verificationCode": {
+        "invalid": "صيغة رمز التحقق غير صحيحة (يجب أن يكون 6 أرقام)",
+        "required": "رمز التحقق مطلوب"
+      }
+    }
+  }
+}

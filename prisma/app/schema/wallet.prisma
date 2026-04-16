@@ -1,0 +1,23 @@
+enum WalletStatus {
+  INACTIVE
+  ACTIVE
+  DEPLOYING
+  FAILED
+}
+
+model Wallet {
+  funder       String       @id @db.VarChar(42) // Safe contract address as primary key
+  name         String       @db.VarChar(50) // User-defined wallet name
+  encryptedKey String       @db.Text // Encrypted private key
+  ownerId      String       @db.VarChar(24) // Owner user ID
+  owner        User         @relation(fields: [ownerId], references: [id])
+  status       WalletStatus @default(INACTIVE) // Wallet deployment status
+  deleted      Boolean      @default(false) // Soft delete flag
+  createdAt    DateTime     @default(now()) @db.Timestamptz(3)
+  updatedAt    DateTime     @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  bots Bot[]
+
+  @@index([ownerId, deleted]) // Composite index for common query: WHERE ownerId = ? AND deleted = false
+}

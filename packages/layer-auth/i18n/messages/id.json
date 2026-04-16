@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Masuk",
+      "signOut": "Keluar"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Apakah Anda yakin ingin keluar?",
+        "title": "Keluar"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Kode verifikasi tidak valid",
+      "AUTH_OAUTH_FAILED": "Autentikasi gagal. Harap coba lagi.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Harap tunggu 60 detik sebelum meminta kode lain",
+      "AUTH_OTP_IP_RATE_LIMITED": "Terlalu banyak permintaan. Harap coba lagi nanti.",
+      "AUTH_TURNSTILE_FAILED": "Verifikasi keamanan gagal. Harap coba lagi.",
+      "AUTH_USER_ALREADY_EXISTS": "Akun dengan email ini sudah ada",
+      "AUTH_USER_NOT_FOUND": "Tidak ada akun yang ditemukan dengan email ini",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Kode verifikasi telah kadaluarsa",
+      "IMPERSONATION_INVALID_TICKET": "Tiket penyamaran tidak valid",
+      "IMPERSONATION_TICKET_EXPIRED": "Tiket penyamaran telah kadaluarsa",
+      "IMPERSONATION_USER_NOT_FOUND": "Pengguna target tidak ditemukan",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Operasi tulis tidak diizinkan dalam mode login dukungan",
+      "INVALID_EMAIL": "Alamat email tidak valid",
+      "INVITE_CODE_EXPIRED": "Kode undangan telah kadaluarsa",
+      "INVITE_CODE_INVALID": "Kode undangan tidak valid",
+      "INVITE_CODE_REQUIRED": "Kode undangan diperlukan",
+      "INVITE_CODE_USAGE_EXCEEDED": "Kode undangan telah mencapai batas penggunaan"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Format email tidak valid",
+        "required": "Email diperlukan"
+      },
+      "inviteCode": {
+        "invalid": "Format kode undangan tidak valid",
+        "required": "Kode undangan diperlukan"
+      },
+      "turnstileToken": {
+        "invalid": "Verifikasi keamanan gagal",
+        "required": "Harap selesaikan verifikasi keamanan"
+      },
+      "verificationCode": {
+        "invalid": "Format kode verifikasi tidak valid (harus 6 digit)",
+        "required": "Kode verifikasi diperlukan"
+      }
+    }
+  }
+}

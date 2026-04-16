@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Tüm hakları saklıdır."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Uygulamayı Başlat",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxBuySize": "{size} Maksimum Satın Al Hisseleri",
+          "statsAccess": {
+            "extended": "Genişletilmiş İstatistik Erişimi",
+            "full": "Tam İstatistik Erişimi",
+            "limited": "Kısmi İstatistik Erişimi",
+            "none": "İstatistik Erişimi Yok"
+          },
+          "strategies": "{count} Strateji",
+          "unlimitedBuySize": "Sınırsız Satın Al Hisseleri",
+          "wallets": "{count} Cüzdan"
+        },
+        "getStarted": "Ücretsiz Başlayın",
+        "perMonth": "/ay",
+        "subtitle": "Ticaret ihtiyaçlarınıza uygun planı seçin",
+        "title": "Basit, Şeffaf Fiyatlandırma"
+      },
+      "slogan": {
+        "line1Left": "Yön tahminlemesine bahis yok",
+        "line1Right": "Sadece oynaklığı ticarete katılın",
+        "line2Left": "Yüksek oynaklık",
+        "line2Right": "Sabit karlar"
+      },
+      "tagline": "Polymarket için Otomatik Ticaret Botları",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Botlarımız piyasaları izler ve hiçbir manuel müdahale olmaksızın gün içinde ticari işlemler yürütür.",
+            "title": "Her Zaman Aktif"
+          },
+          "easySetup": {
+            "description": "Kodlamaya gerek yok. Basit parametrelerle stratejiler oluşturun ve dakikalar içinde dağıtın.",
+            "title": "Kolay Kurulum"
+          },
+          "gasless": {
+            "description": "Polymarket'in Gnosis Safe sözleşmelerini kullanarak gaz ücretleri olmadan ticaret yapın.",
+            "title": "Gaz Ücretsiz Ticaret"
+          },
+          "liveMonitoring": {
+            "description": "Canlı panolarla bot yürütme durumunu, ticaret geçmişini ve pozisyon değişikliklerini izleyin.",
+            "title": "Canlı İzleme"
+          },
+          "multiWallet": {
+            "description": "Portföyünüzü çeşitlendirmek ve riski yaymak için birden çok cüzdanı yönetin.",
+            "title": "Çoklu Cüzdan"
+          },
+          "strategyRankings": {
+            "description": "Strateji liderlik tablolarına göz atın ve hızlı kar etmeye başlamak için en iyi performans gösteren stratejileri kopyalayın.",
+            "title": "Strateji Sıralamaları"
+          }
+        },
+        "title": "Neden Bizi Seçin"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket proxy cüzdanları oluşturun (Gnosis Safe)",
+            "title": "Cüzdan Ekle"
+          },
+          "createStrategies": {
+            "description": "Ticaret kurallarınızı ve parametrelerini tanımlayın",
+            "title": "Stratejiler Oluşturun"
+          },
+          "deployBots": {
+            "description": "Botlarınızı başlatın ve ticaret yaparken izleyin otomatik olarak",
+            "title": "Botları Dağıt"
+          },
+          "signUp": {
+            "description": "Hesabınızı saniyeler içinde oluşturun",
+            "title": "Kaydol"
+          }
+        },
+        "subtitle": "Basit 4 adımlı sürecimizle dakikalar içinde başlayın",
+        "title": "Nasıl Çalışır"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Gizlilik Politikası"
+      },
+      "terms-of-service": {
+        "title": "Hizmet Şartları"
+      }
+    }
+  }
+}

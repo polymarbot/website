@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "登入",
+      "signOut": "登出"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "您確定要登出嗎？",
+        "title": "登出"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "驗證碼無效",
+      "AUTH_OAUTH_FAILED": "驗證失敗，請重試。",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "請等待 60 秒後再申請新的驗證碼",
+      "AUTH_OTP_IP_RATE_LIMITED": "請求次數過多。請稍後再試",
+      "AUTH_TURNSTILE_FAILED": "安全驗證失敗。請重試。",
+      "AUTH_USER_ALREADY_EXISTS": "此電子郵件已有對應的帳號",
+      "AUTH_USER_NOT_FOUND": "找不到此電子郵件的帳號",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "驗證碼已過期",
+      "IMPERSONATION_INVALID_TICKET": "無效的模擬認憑",
+      "IMPERSONATION_TICKET_EXPIRED": "模擬認憑已過期",
+      "IMPERSONATION_USER_NOT_FOUND": "目標使用者找不到",
+      "IMPERSONATION_WRITE_FORBIDDEN": "在支持登入模式下不允許執行寫入操作",
+      "INVALID_EMAIL": "電子郵件地址無效",
+      "INVITE_CODE_EXPIRED": "邀請碼已過期",
+      "INVITE_CODE_INVALID": "邀請碼無效",
+      "INVITE_CODE_REQUIRED": "邀請碼為必填項目",
+      "INVITE_CODE_USAGE_EXCEEDED": "邀請碼已達到使用上限"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "電子郵件格式無效",
+        "required": "電子郵件為必填項目"
+      },
+      "inviteCode": {
+        "invalid": "邀請碼格式無效",
+        "required": "邀請碼為必填項目"
+      },
+      "turnstileToken": {
+        "invalid": "安全驗證失敗",
+        "required": "請完成安全驗證"
+      },
+      "verificationCode": {
+        "invalid": "驗證碼格式無效（必須是 6 位數）",
+        "required": "驗證碼為必填項目"
+      }
+    }
+  }
+}

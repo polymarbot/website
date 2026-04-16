@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model BotLog {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  level     String   @db.VarChar(10)
+  message   String
+  botId     String   @db.VarChar(255)
+
+  @@index([botId, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([level, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([createdAt(sort: Desc), id(sort: Desc)])
+}
+
+model ScriptLog {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  level     String   @db.VarChar(10)
+  message   String
+  script    String   @db.VarChar(255)
+
+  @@index([script, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([level, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([createdAt(sort: Desc), id(sort: Desc)])
+}
+
+model ServerLog {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  level     String   @db.VarChar(10)
+  message   String
+  source    String   @db.VarChar(50)
+  trackId   String?  @db.VarChar(20)
+
+  @@index([source, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([level, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([trackId, createdAt(sort: Desc), id(sort: Desc)])
+  @@index([createdAt(sort: Desc), id(sort: Desc)])
+}

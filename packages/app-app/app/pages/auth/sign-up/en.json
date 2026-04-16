@@ -1,0 +1,20 @@
+{
+  "agreeToTerms": "I agree to the {termsOfService} and {privacyPolicy}",
+  "changeEmail": "Use a different email",
+  "codeHint": "Enter the 6-digit code sent to {email}",
+  "codeLabel": "Verification Code",
+  "createAccount": "Create Account",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "haveAccount": "Already have an account?",
+  "inviteCodeLabel": "Invite Code",
+  "inviteCodePlaceholder": "Enter your invite code",
+  "marketingEmailsLabel": "Send me product updates and recommendations",
+  "name": "Sign Up",
+  "sendCode": "Send Verification Code",
+  "signIn": "Sign in",
+  "signUpWithGithub": "Sign up with GitHub",
+  "signUpWithGoogle": "Sign up with Google",
+  "subtitle": "Create an account to get started",
+  "title": "Create Account"
+}

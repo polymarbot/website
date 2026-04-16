@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Anmelden",
+      "signOut": "Abmelden"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Möchten Sie sich wirklich abmelden?",
+        "title": "Abmelden"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Ungültiger Bestätigungscode",
+      "AUTH_OAUTH_FAILED": "Authentifizierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Bitte warten Sie 60 Sekunden, bevor Sie einen weiteren Code anfordern",
+      "AUTH_OTP_IP_RATE_LIMITED": "Zu viele Anfragen. Bitte versuchen Sie es später erneut.",
+      "AUTH_TURNSTILE_FAILED": "Sicherheitsüberprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "AUTH_USER_ALREADY_EXISTS": "Ein Konto mit dieser E-Mail existiert bereits",
+      "AUTH_USER_NOT_FOUND": "Kein Konto mit dieser E-Mail gefunden",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Bestätigungscode ist abgelaufen",
+      "IMPERSONATION_INVALID_TICKET": "Ungültiges Identitätswechsel-Ticket",
+      "IMPERSONATION_TICKET_EXPIRED": "Identitätswechsel-Ticket ist abgelaufen",
+      "IMPERSONATION_USER_NOT_FOUND": "Zielbenutzer nicht gefunden",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Schreibvorgänge sind im Support-Anmeldungsmodus nicht erlaubt",
+      "INVALID_EMAIL": "Ungültige E-Mail-Adresse",
+      "INVITE_CODE_EXPIRED": "Einladungscode ist abgelaufen",
+      "INVITE_CODE_INVALID": "Ungültiger Einladungscode",
+      "INVITE_CODE_REQUIRED": "Einladungscode erforderlich",
+      "INVITE_CODE_USAGE_EXCEEDED": "Einladungscode hat seine Nutzungsgrenze erreicht"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Ungültiges E-Mail-Format",
+        "required": "E-Mail erforderlich"
+      },
+      "inviteCode": {
+        "invalid": "Ungültiges Einladungscode-Format",
+        "required": "Einladungscode erforderlich"
+      },
+      "turnstileToken": {
+        "invalid": "Sicherheitsüberprüfung fehlgeschlagen",
+        "required": "Bitte führen Sie die Sicherheitsüberprüfung durch"
+      },
+      "verificationCode": {
+        "invalid": "Ungültiges Bestätigungscode-Format (muss 6 Ziffern sein)",
+        "required": "Bestätigungscode erforderlich"
+      }
+    }
+  }
+}

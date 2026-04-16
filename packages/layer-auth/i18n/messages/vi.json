@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Đăng nhập",
+      "signOut": "Đăng xuất"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Bạn có chắc chắn muốn đăng xuất?",
+        "title": "Đăng xuất"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Mã xác minh không hợp lệ",
+      "AUTH_OAUTH_FAILED": "Xác thực không thành công. Vui lòng thử lại.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Vui lòng chờ 60 giây trước khi yêu cầu mã khác",
+      "AUTH_OTP_IP_RATE_LIMITED": "Quá nhiều yêu cầu. Vui lòng thử lại sau.",
+      "AUTH_TURNSTILE_FAILED": "Xác minh bảo mật không thành công. Vui lòng thử lại.",
+      "AUTH_USER_ALREADY_EXISTS": "Một tài khoản với email này đã tồn tại",
+      "AUTH_USER_NOT_FOUND": "Không tìm thấy tài khoản nào với email này",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Mã xác minh đã hết hạn",
+      "IMPERSONATION_INVALID_TICKET": "Vé bắt chước không hợp lệ",
+      "IMPERSONATION_TICKET_EXPIRED": "Vé bắt chước đã hết hạn",
+      "IMPERSONATION_USER_NOT_FOUND": "Không tìm thấy người dùng mục tiêu",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Các thao tác ghi không được phép ở chế độ hỗ trợ đăng nhập",
+      "INVALID_EMAIL": "Địa chỉ email không hợp lệ",
+      "INVITE_CODE_EXPIRED": "Mã mời đã hết hạn",
+      "INVITE_CODE_INVALID": "Mã mời không hợp lệ",
+      "INVITE_CODE_REQUIRED": "Mã mời là bắt buộc",
+      "INVITE_CODE_USAGE_EXCEEDED": "Mã mời đã đạt đến giới hạn sử dụng"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Định dạng email không hợp lệ",
+        "required": "Email là bắt buộc"
+      },
+      "inviteCode": {
+        "invalid": "Định dạng mã mời không hợp lệ",
+        "required": "Mã mời là bắt buộc"
+      },
+      "turnstileToken": {
+        "invalid": "Xác minh bảo mật không thành công",
+        "required": "Vui lòng hoàn thành xác minh bảo mật"
+      },
+      "verificationCode": {
+        "invalid": "Định dạng mã xác minh không hợp lệ (phải là 6 chữ số)",
+        "required": "Mã xác minh là bắt buộc"
+      }
+    }
+  }
+}

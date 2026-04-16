@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Todos os direitos reservados."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Iniciar Aplicativo",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bots",
+          "maxBuySize": "{size} Ações de Compra Máximas",
+          "statsAccess": {
+            "extended": "Acesso Estendido a Estatísticas",
+            "full": "Acesso Completo a Estatísticas",
+            "limited": "Acesso Parcial a Estatísticas",
+            "none": "Sem Acesso a Estatísticas"
+          },
+          "strategies": "{count} Estratégias",
+          "unlimitedBuySize": "Ações de Compra Ilimitadas",
+          "wallets": "{count} Carteiras"
+        },
+        "getStarted": "Começar Grátis",
+        "perMonth": "/mês",
+        "subtitle": "Escolha o plano que se adequa às suas necessidades de negociação",
+        "title": "Preços Simples e Transparentes"
+      },
+      "slogan": {
+        "line1Left": "Sem apostar em direção",
+        "line1Right": "Apenas negocie volatilidade",
+        "line2Left": "Alta volatilidade",
+        "line2Right": "Lucros constantes"
+      },
+      "tagline": "Bots de Negociação Automatizados para Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Nossos bots monitoram mercados e executam negociações 24 horas por dia sem intervenção manual.",
+            "title": "Sempre Ativo"
+          },
+          "easySetup": {
+            "description": "Sem necessidade de programação. Crie estratégias com parâmetros simples e implante em minutos.",
+            "title": "Configuração Fácil"
+          },
+          "gasless": {
+            "description": "Negocie sem taxas de gas usando os contratos Gnosis Safe do Polymarket.",
+            "title": "Negociação Sem Gas"
+          },
+          "liveMonitoring": {
+            "description": "Monitore o status de execução do bot, histórico de negociações e alterações de posição com painéis em tempo real.",
+            "title": "Monitoramento em Tempo Real"
+          },
+          "multiWallet": {
+            "description": "Gerencie múltiplas carteiras para diversificar seu portfólio e distribuir riscos.",
+            "title": "Multi-Carteira"
+          },
+          "strategyRankings": {
+            "description": "Navegue pelos quadros de liderança de estratégias e copie as estratégias com melhor desempenho para começar a lucrar rapidamente.",
+            "title": "Classificações de Estratégias"
+          }
+        },
+        "title": "Por Que Nos Escolher"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Crie carteiras proxy do Polymarket (Gnosis Safe)",
+            "title": "Adicionar Carteiras"
+          },
+          "createStrategies": {
+            "description": "Defina suas regras de negociação e parâmetros",
+            "title": "Criar Estratégias"
+          },
+          "deployBots": {
+            "description": "Implante seus bots e observe-os negociar automaticamente",
+            "title": "Implantar Bots"
+          },
+          "signUp": {
+            "description": "Crie sua conta em segundos",
+            "title": "Inscrever-se"
+          }
+        },
+        "subtitle": "Comece em minutos com nosso simples processo de 4 etapas",
+        "title": "Como Funciona"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Política de Privacidade"
+      },
+      "terms-of-service": {
+        "title": "Termos de Serviço"
+      }
+    }
+  }
+}

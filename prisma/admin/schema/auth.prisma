@@ -1,0 +1,67 @@
+model User {
+  id            String  @id @default(cuid(2)) @db.VarChar(24)
+  email         String  @unique @db.VarChar(255)
+  emailVerified Boolean @default(false)
+  name          String? @db.VarChar(100)
+  image         String? @db.Text
+
+  // Relations
+  sessions Session[]
+  accounts Account[]
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+}
+
+// better-auth Session table
+model Session {
+  id             String   @id @default(cuid(2)) @db.VarChar(24)
+  userId         String   @db.VarChar(24)
+  token          String   @unique @db.VarChar(255)
+  expiresAt      DateTime @db.Timestamptz(3)
+  ipAddress      String?  @db.VarChar(45)
+  userAgent      String?  @db.Text
+  impersonatedBy String?  @db.VarChar(50)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([userId])
+}
+
+// better-auth Account table (OAuth connections)
+model Account {
+  id                    String    @id @default(cuid(2)) @db.VarChar(24)
+  userId                String    @db.VarChar(24)
+  accountId             String    @db.VarChar(255) // Provider user ID
+  providerId            String    @db.VarChar(50) // Provider name (e.g., "google", "credential")
+  accessToken           String?   @db.Text
+  refreshToken          String?   @db.Text
+  accessTokenExpiresAt  DateTime? @db.Timestamptz(3)
+  refreshTokenExpiresAt DateTime? @db.Timestamptz(3)
+  scope                 String?   @db.Text
+  idToken               String?   @db.Text
+  password              String?   @db.Text // For credential auth (not used)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+}
+
+// Verification table for email OTP and better-auth OAuth state
+model Verification {
+  id         String   @id @default(cuid(2)) @db.VarChar(24)
+  identifier String   @db.VarChar(255) // Email address
+  value      String   @db.Text // 6-digit code for email, or OAuth state JSON
+  expiresAt  DateTime @db.Timestamptz(3)
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt  DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([identifier])
+}

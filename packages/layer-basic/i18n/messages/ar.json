@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "رجوع",
+      "cancel": "إلغاء",
+      "clear": "مسح",
+      "close": "إغلاق",
+      "confirm": "تأكيد",
+      "continue": "متابعة",
+      "create": "إنشاء",
+      "delete": "حذف",
+      "deposit": "إيداع",
+      "duplicate": "نسخ",
+      "edit": "تعديل",
+      "export": "تصدير",
+      "goBack": "العودة",
+      "import": "استيراد",
+      "install": "تثبيت",
+      "learnMore": "معرفة المزيد",
+      "more": "المزيد",
+      "next": "التالي",
+      "ok": "موافق",
+      "refresh": "تحديث",
+      "reload": "إعادة تحميل",
+      "reportIssue": "الإبلاغ عن مشكلة",
+      "retry": "إعادة المحاولة",
+      "save": "حفظ",
+      "search": "بحث",
+      "submit": "إرسال",
+      "transfer": "تحويل",
+      "uninstall": "إلغاء التثبيت",
+      "viewDetails": "عرض التفاصيل",
+      "withdraw": "سحب"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "إجراءات",
+      "active": "نشط",
+      "alert": "تنبيه",
+      "all": "الكل",
+      "amount": "المبلغ",
+      "chain": "السلسلة",
+      "confirmation": "تأكيد",
+      "createdAt": "تم الإنشاء في",
+      "dateRange": "نطاق التاريخ",
+      "delete": "حذف",
+      "deleteConfirmation": "تأكيد الحذف",
+      "email": "البريد الإلكتروني",
+      "error": "خطأ",
+      "max": "الأقصى",
+      "new": "جديد",
+      "no": "لا",
+      "optional": "اختياري",
+      "or": "أو",
+      "password": "كلمة المرور",
+      "private": "خاص",
+      "privateKey": "المفتاح الخاص",
+      "success": "نجاح",
+      "token": "الرمز المميز",
+      "transactionHash": "تجزئة المعاملة",
+      "unknown": "غير معروف",
+      "unlimited": "غير محدود",
+      "updatedAt": "تم التحديث في",
+      "yes": "نعم"
+    },
+    "messages": {
+      "createSuccess": "تم الإنشاء بنجاح",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "importSuccess": "تم الاستيراد بنجاح",
+      "saveSuccess": "تم الحفظ بنجاح",
+      "submitSuccess": "تم الإرسال بنجاح",
+      "updateSuccess": "تم التحديث بنجاح"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "الوضع الداكن",
+        "lightMode": "الوضع الفاتح",
+        "switchToDark": "التبديل إلى الوضع الداكن",
+        "switchToLight": "التبديل إلى الوضع الفاتح"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "تبديل اللغة"
+      },
+      "Navbar": {
+        "collapseSidebar": "طي الشريط الجانبي",
+        "expandSidebar": "توسيع الشريط الجانبي",
+        "goBack": "العودة"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "إجراءات",
+        "pageReport": "عرض {'{first}'} إلى {'{last}'} من {'{totalRecords}'}",
+        "pageReportMobile": "الإجمالي: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "حذف",
+        "confirmationText": "حذف",
+        "defaultMessage": "لا يمكن التراجع عن هذا الإجراء. يرجى التأكد من عمل نسخة احتياطية من أي بيانات مهمة قبل المتابعة.",
+        "inputLabel": "اكتب {0} لتأكيد الحذف",
+        "title": "حذف"
+      },
+      "CopyButton": {
+        "copied": "تم النسخ!",
+        "copyToClipboard": "نسخ إلى الحافظة"
+      },
+      "DataTable": {
+        "empty": "لا توجد بيانات متاحة",
+        "filterAll": "الكل",
+        "filterApply": "تطبيق",
+        "filterClear": "مسح"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "تاريخ الانتهاء",
+        "startPlaceholder": "تاريخ البداية",
+        "to": "إلى"
+      },
+      "EmptyState": {
+        "defaultMessage": "لا توجد بيانات"
+      },
+      "LogViewer": {
+        "allLoaded": "— تم تحميل جميع السجلات —",
+        "count": "{loaded} / {total}",
+        "empty": "لا توجد سجلات متاحة",
+        "refresh": "تحديث",
+        "scrollToBottom": "التمرير إلى الأسفل"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "لصق من الحافظة",
+        "pasted": "تم اللصق!"
+      },
+      "SearchSelect": {
+        "createNew": "إنشاء جديد",
+        "noItems": "لا توجد خيارات متاحة",
+        "noSearchItems": "لم يتم العثور على نتائج",
+        "searchPlaceholder": "بحث..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "الوصول مرفوض",
+      "COMMON_NETWORK_ERROR": "حدث خطأ في الشبكة",
+      "COMMON_NOT_FOUND_ERROR": "المورد غير موجود",
+      "COMMON_RATE_LIMIT_EXCEEDED": "عدد الطلبات كثير جداً. يرجى المحاولة لاحقاً",
+      "COMMON_SERVER_ERROR": "خطأ في السيرفر الداخلي",
+      "COMMON_TIMEOUT_ERROR": "انتهت مهلة الطلب",
+      "COMMON_UNAUTHORIZED_ERROR": "وصول غير مصرح",
+      "COMMON_UNKNOWN_ERROR": "حدث خطأ غير معروف",
+      "COMMON_VALIDATION_ERROR": "فشل التحقق"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "أدخل هذا الرمز للتحقق من عنوان بريدك الإلكتروني:",
+          "expiry": "سينتهي صلاحية هذا الرمز في {minutes} دقيقة.",
+          "footer": "كان هذا البريد الإلكتروني مقصوداً لـ {email}. إذا كنت لم تتوقع هذا البريد الإلكتروني، يمكنك تجاهله.",
+          "subject": "رمز التحقق الخاص بك",
+          "title": "يرجى التحقق من بريدك الإلكتروني"
+        }
+      }
+    }
+  }
+}

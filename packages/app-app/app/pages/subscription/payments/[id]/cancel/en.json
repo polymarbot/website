@@ -1,0 +1,14 @@
+{
+  "backToSubscription": "Back to Subscription",
+  "description": "Your payment was not completed. No charges have been made to your account.",
+  "name": "Payment Cancelled",
+  "reasons": {
+    "cancelled": "You cancelled the payment",
+    "expired": "The payment session expired",
+    "insufficientFunds": "Insufficient funds in your wallet",
+    "networkError": "Network or blockchain error",
+    "title": "Possible reasons:"
+  },
+  "retryPayment": "Retry Payment",
+  "title": "Payment Cancelled"
+}

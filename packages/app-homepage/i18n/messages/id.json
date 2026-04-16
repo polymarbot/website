@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Semua hak dilindungi."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Luncurkan Aplikasi",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxBuySize": "{size} Saham Beli Maksimal",
+          "statsAccess": {
+            "extended": "Akses Statistik Diperluas",
+            "full": "Akses Statistik Penuh",
+            "limited": "Akses Statistik Sebagian",
+            "none": "Tidak Ada Akses Statistik"
+          },
+          "strategies": "{count} Strategi",
+          "unlimitedBuySize": "Saham Beli Tidak Terbatas",
+          "wallets": "{count} Dompet"
+        },
+        "getStarted": "Mulai Gratis",
+        "perMonth": "/bln",
+        "subtitle": "Pilih paket yang sesuai dengan kebutuhan trading Anda",
+        "title": "Harga Sederhana dan Transparan"
+      },
+      "slogan": {
+        "line1Left": "Tidak ada taruhan pada arah",
+        "line1Right": "Hanya berdagang volatilitas",
+        "line2Left": "Volatilitas tinggi",
+        "line2Right": "Keuntungan stabil"
+      },
+      "tagline": "Bot Trading Otomatis untuk Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Bot kami memantau pasar dan mengeksekusi perdagangan sepanjang waktu tanpa intervensi manual apa pun.",
+            "title": "Selalu Aktif"
+          },
+          "easySetup": {
+            "description": "Tidak diperlukan coding. Buat strategi dengan parameter sederhana dan deploy dalam hitungan menit.",
+            "title": "Mudah Diatur"
+          },
+          "gasless": {
+            "description": "Berdagang tanpa biaya gas menggunakan kontrak Gnosis Safe Polymarket.",
+            "title": "Perdagangan Tanpa Gas"
+          },
+          "liveMonitoring": {
+            "description": "Pantau status eksekusi bot, riwayat perdagangan, dan perubahan posisi dengan dasbor langsung.",
+            "title": "Pemantauan Langsung"
+          },
+          "multiWallet": {
+            "description": "Kelola beberapa dompet untuk mendiversifikasi portofolio Anda dan menyebarkan risiko.",
+            "title": "Multi-Dompet"
+          },
+          "strategyRankings": {
+            "description": "Jelajahi papan peringkat strategi dan salin strategi berkinerja terbaik untuk mulai menguntungkan dengan cepat.",
+            "title": "Peringkat Strategi"
+          }
+        },
+        "title": "Mengapa Memilih Kami"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Buat dompet proxy Polymarket (Gnosis Safe)",
+            "title": "Tambah Dompet"
+          },
+          "createStrategies": {
+            "description": "Tentukan aturan dan parameter perdagangan Anda",
+            "title": "Buat Strategi"
+          },
+          "deployBots": {
+            "description": "Luncurkan bot Anda dan saksikan mereka berdagang secara otomatis",
+            "title": "Deploy Bot"
+          },
+          "signUp": {
+            "description": "Buat akun Anda dalam hitungan detik",
+            "title": "Daftar"
+          }
+        },
+        "subtitle": "Mulai dalam hitungan menit dengan proses 4 langkah sederhana kami",
+        "title": "Cara Kerjanya"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Kebijakan Privasi"
+      },
+      "terms-of-service": {
+        "title": "Syarat Layanan"
+      }
+    }
+  }
+}

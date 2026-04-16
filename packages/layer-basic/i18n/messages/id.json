@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Kembali",
+      "cancel": "Batal",
+      "clear": "Hapus",
+      "close": "Tutup",
+      "confirm": "Konfirmasi",
+      "continue": "Lanjutkan",
+      "create": "Buat",
+      "delete": "Hapus",
+      "deposit": "Setor",
+      "duplicate": "Duplikat",
+      "edit": "Edit",
+      "export": "Ekspor",
+      "goBack": "Kembali",
+      "import": "Impor",
+      "install": "Pasang",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "more": "Lainnya",
+      "next": "Berikutnya",
+      "ok": "OK",
+      "refresh": "Segarkan",
+      "reload": "Muat Ulang",
+      "reportIssue": "Laporkan Masalah",
+      "retry": "Coba Lagi",
+      "save": "Simpan",
+      "search": "Cari",
+      "submit": "Kirim",
+      "transfer": "Transfer",
+      "uninstall": "Copot Pasang",
+      "viewDetails": "Lihat Detail",
+      "withdraw": "Tarik"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "h",
+        "hours": "j",
+        "minutes": "m",
+        "seconds": "d"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Tindakan",
+      "active": "Aktif",
+      "alert": "Peringatan",
+      "all": "Semua",
+      "amount": "Jumlah",
+      "chain": "Rantai",
+      "confirmation": "Konfirmasi",
+      "createdAt": "Dibuat Pada",
+      "dateRange": "Rentang Tanggal",
+      "delete": "Hapus",
+      "deleteConfirmation": "Konfirmasi Penghapusan",
+      "email": "Email",
+      "error": "Kesalahan",
+      "max": "Maks",
+      "new": "Baru",
+      "no": "Tidak",
+      "optional": "Opsional",
+      "or": "atau",
+      "password": "Kata Sandi",
+      "private": "Pribadi",
+      "privateKey": "Kunci Pribadi",
+      "success": "Berhasil",
+      "token": "Token",
+      "transactionHash": "Hash Transaksi",
+      "unknown": "Tidak Diketahui",
+      "unlimited": "Tidak Terbatas",
+      "updatedAt": "Diperbarui Pada",
+      "yes": "Ya"
+    },
+    "messages": {
+      "createSuccess": "Berhasil dibuat",
+      "deleteSuccess": "Berhasil dihapus",
+      "importSuccess": "Berhasil diimpor",
+      "saveSuccess": "Berhasil disimpan",
+      "submitSuccess": "Berhasil dikirim",
+      "updateSuccess": "Berhasil diperbarui"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Mode Gelap",
+        "lightMode": "Mode Terang",
+        "switchToDark": "Beralih ke Mode Gelap",
+        "switchToLight": "Beralih ke Mode Terang"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Ubah bahasa"
+      },
+      "Navbar": {
+        "collapseSidebar": "Perkecil bilah samping",
+        "expandSidebar": "Perluas bilah samping",
+        "goBack": "Kembali"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Tindakan",
+        "pageReport": "Menampilkan {'{first}'} hingga {'{last}'} dari {'{totalRecords}'}",
+        "pageReportMobile": "Total: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Hapus",
+        "confirmationText": "HAPUS",
+        "defaultMessage": "Tindakan ini tidak dapat dibatalkan. Harap pastikan Anda telah memback up data penting sebelum melanjutkan.",
+        "inputLabel": "Ketik {0} untuk mengonfirmasi penghapusan",
+        "title": "Hapus"
+      },
+      "CopyButton": {
+        "copied": "Disalin!",
+        "copyToClipboard": "Salin ke papan klip"
+      },
+      "DataTable": {
+        "empty": "Tidak ada data yang tersedia",
+        "filterAll": "Semua",
+        "filterApply": "Terapkan",
+        "filterClear": "Hapus"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Tanggal akhir",
+        "startPlaceholder": "Tanggal mulai",
+        "to": "hingga"
+      },
+      "EmptyState": {
+        "defaultMessage": "Tidak ada data"
+      },
+      "LogViewer": {
+        "allLoaded": "— Semua log telah dimuat —",
+        "count": "{loaded} / {total}",
+        "empty": "Tidak ada log yang tersedia",
+        "refresh": "Segarkan",
+        "scrollToBottom": "Gulir ke bawah"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Tempel dari papan klip",
+        "pasted": "Ditempel!"
+      },
+      "SearchSelect": {
+        "createNew": "Buat baru",
+        "noItems": "Tidak ada opsi yang tersedia",
+        "noSearchItems": "Tidak ada hasil yang ditemukan",
+        "searchPlaceholder": "Cari..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Akses ditolak",
+      "COMMON_NETWORK_ERROR": "Kesalahan jaringan terjadi",
+      "COMMON_NOT_FOUND_ERROR": "Sumber daya tidak ditemukan",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Terlalu banyak permintaan. Harap coba lagi nanti",
+      "COMMON_SERVER_ERROR": "Kesalahan server internal",
+      "COMMON_TIMEOUT_ERROR": "Waktu tunggu permintaan habis",
+      "COMMON_UNAUTHORIZED_ERROR": "Akses tidak sah",
+      "COMMON_UNKNOWN_ERROR": "Kesalahan tidak diketahui terjadi",
+      "COMMON_VALIDATION_ERROR": "Validasi gagal"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Masukkan kode ini untuk memverifikasi alamat email Anda:",
+          "expiry": "Kode ini berlaku selama {minutes} menit.",
+          "footer": "Email ini ditujukan untuk {email}. Jika Anda tidak mengharapkan email ini, Anda dapat mengabaikannya.",
+          "subject": "Kode verifikasi Anda",
+          "title": "Silakan verifikasi email Anda"
+        }
+      }
+    }
+  }
+}

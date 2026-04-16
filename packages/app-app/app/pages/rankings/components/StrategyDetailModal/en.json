@@ -1,0 +1,7 @@
+{
+  "actions": {
+    "createStrategy": "Create Strategy",
+    "editStrategy": "Edit Strategy"
+  },
+  "myStrategy": "My Strategy"
+}

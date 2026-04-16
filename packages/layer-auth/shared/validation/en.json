@@ -1,0 +1,18 @@
+{
+  "email": {
+    "invalid": "Invalid email format",
+    "required": "Email is required"
+  },
+  "inviteCode": {
+    "invalid": "Invalid invite code format",
+    "required": "Invite code is required"
+  },
+  "turnstileToken": {
+    "invalid": "Security verification failed",
+    "required": "Please complete the security verification"
+  },
+  "verificationCode": {
+    "invalid": "Invalid verification code format (must be 6 digits)",
+    "required": "Verification code is required"
+  }
+}

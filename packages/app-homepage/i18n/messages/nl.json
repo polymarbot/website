@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Alle rechten voorbehouden."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "App starten",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bots",
+          "maxBuySize": "{size} Maximale Aankoopaandelen",
+          "statsAccess": {
+            "extended": "Uitgebreide Statistiekentoegang",
+            "full": "Volledige statistiekentoegang",
+            "limited": "Gedeeltelijke statistiekentoegang",
+            "none": "Geen statistiekentoegang"
+          },
+          "strategies": "{count} Strategieën",
+          "unlimitedBuySize": "Onbeperkte Aankoopaandelen",
+          "wallets": "{count} Portefeuilles"
+        },
+        "getStarted": "Gratis aan de slag",
+        "perMonth": "/maand",
+        "subtitle": "Kies het plan dat bij uw handelsbehoeften past",
+        "title": "Eenvoudige, transparante prijzen"
+      },
+      "slogan": {
+        "line1Left": "Geen gokken op richting",
+        "line1Right": "Gewoon volatiliteit handelen",
+        "line2Left": "Hoge volatiliteit",
+        "line2Right": "Stabiele winsten"
+      },
+      "tagline": "Geautomatiseerde handelsbots voor Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Onze bots controleren markten en voeren transacties 24/7 uit zonder handmatige tussenkomst.",
+            "title": "Altijd ingeschakeld"
+          },
+          "easySetup": {
+            "description": "Geen coderingen vereist. Maak strategieën met eenvoudige parameters en implementeer in minuten.",
+            "title": "Gemakkelijke installatie"
+          },
+          "gasless": {
+            "description": "Handel zonder gastarieven met behulp van Polymarket's Gnosis Safe-contracten.",
+            "title": "Gasloze handel"
+          },
+          "liveMonitoring": {
+            "description": "Controleer de status van bot-uitvoering, handelsgeschiedenis en positiewijzigingen met live dashboards.",
+            "title": "Live monitoring"
+          },
+          "multiWallet": {
+            "description": "Beheer meerdere portefeuilles om uw portefeuille te diversifiëren en risico's te spreiden.",
+            "title": "Multi-portefeuille"
+          },
+          "strategyRankings": {
+            "description": "Blader door strategie-ranglijsten en kopieer toppresterende strategieën om snel winst te maken.",
+            "title": "Strategierankings"
+          }
+        },
+        "title": "Waarom kiezen voor ons"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket-proxyportefeuilles (Gnosis Safe) creëren",
+            "title": "Portefeuilles toevoegen"
+          },
+          "createStrategies": {
+            "description": "Definieer uw handelsregels en parameters",
+            "title": "Strategieën creëren"
+          },
+          "deployBots": {
+            "description": "Start uw bots en kijk hoe ze automatisch handelen",
+            "title": "Bots implementeren"
+          },
+          "signUp": {
+            "description": "Creëer uw account in enkele seconden",
+            "title": "Registreren"
+          }
+        },
+        "subtitle": "Aan de slag in minuten met ons eenvoudige proces in 4 stappen",
+        "title": "Hoe het werkt"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Privacybeleid"
+      },
+      "terms-of-service": {
+        "title": "Servicevoorwaarden"
+      }
+    }
+  }
+}

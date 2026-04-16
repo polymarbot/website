@@ -1,0 +1,18 @@
+{
+  "bridgeInfo": "Cross-chain withdrawal via Polymarket Bridge. USDC.e will be bridged to the destination chain. Bridge fees apply.",
+  "directInfo": "Transfer is processed via Polymarket Relayer (gasless). The transaction will be submitted immediately but may take a few minutes to confirm on-chain.",
+  "estimatedOutput": "Estimated Output",
+  "estimatedTime": "Estimated Time",
+  "fee": "Bridge Fee",
+  "loadingQuote": "Getting quote...",
+  "quoteError": "Failed to get quote. You can still proceed with the withdrawal.",
+  "recipientAddress": "Recipient Address",
+  "recipientPlaceholder": "Enter recipient address on destination chain",
+  "seconds": "~{time}s",
+  "submitted": "Withdrawal request submitted successfully. You can track the transaction status on PolygonScan.",
+  "submittedBridge": "Bridge withdrawal submitted successfully. The bridge will automatically deliver tokens to the recipient on the destination chain. This may take a few minutes.",
+  "title": "Withdraw",
+  "usdceWarningBody": "Sending USDC.e to an unsupported platform may result in a permanent loss of funds. Always double-check token compatibility before transferring.",
+  "usdceWarningTitle": "USDC.e is not widely supported by most exchanges.",
+  "walletActivating": "Your wallet needs to be activated before withdrawal. The activation and withdrawal will be processed automatically. This may take a few minutes. You can check the wallet address on PolygonScan to monitor progress."
+}

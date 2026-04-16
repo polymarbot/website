@@ -1,0 +1,4 @@
+{
+  "dataNotice": "Only transactions after {date} can be attributed to individual bots. Earlier records are not included.",
+  "title": "Bot Transaction History"
+}

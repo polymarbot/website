@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} 版權所有。"
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "啟動應用",
+      "pricing": {
+        "features": {
+          "bots": "{count} 個交易機器人",
+          "maxBuySize": "{size} 最大買入股數",
+          "statsAccess": {
+            "extended": "延長統計存取",
+            "full": "完整統計存取",
+            "limited": "部分統計存取",
+            "none": "無統計存取"
+          },
+          "strategies": "{count} 個策略",
+          "unlimitedBuySize": "無限買入股數",
+          "wallets": "{count} 個錢包"
+        },
+        "getStarted": "免費開始",
+        "perMonth": "/月",
+        "subtitle": "選擇適合您交易需求的方案",
+        "title": "簡單透明的定價"
+      },
+      "slogan": {
+        "line1Left": "無需預測方向",
+        "line1Right": "只需交易波動率",
+        "line2Left": "高波動性",
+        "line2Right": "穩定利潤"
+      },
+      "tagline": "Polymarket 自動化交易機器人",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "我們的機器人 24 小時監控市場並執行交易，完全無需手動干預。",
+            "title": "24 小時全天候運行"
+          },
+          "easySetup": {
+            "description": "無需編寫程式碼。使用簡單參數建立策略，數分鐘內部署。",
+            "title": "輕鬆設定"
+          },
+          "gasless": {
+            "description": "使用 Polymarket 的 Gnosis Safe 合約進行無 Gas 費交易。",
+            "title": "無 Gas 費交易"
+          },
+          "liveMonitoring": {
+            "description": "監控機器人執行狀態、交易歷史和部位變化，使用實時儀表板。",
+            "title": "實時監控"
+          },
+          "multiWallet": {
+            "description": "管理多個錢包，多元化投資組合並分散風險。",
+            "title": "多錢包支援"
+          },
+          "strategyRankings": {
+            "description": "瀏覽策略排行榜並複製表現最佳的策略，快速開始獲利。",
+            "title": "策略排行榜"
+          }
+        },
+        "title": "為什麼選擇我們"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "建立 Polymarket 代理錢包 (Gnosis Safe)",
+            "title": "新增錢包"
+          },
+          "createStrategies": {
+            "description": "定義您的交易規則和參數",
+            "title": "建立策略"
+          },
+          "deployBots": {
+            "description": "啟動您的機器人並觀看它們自動交易",
+            "title": "部署機器人"
+          },
+          "signUp": {
+            "description": "在幾秒內建立您的帳號",
+            "title": "註冊"
+          }
+        },
+        "subtitle": "透過我們簡單的 4 步流程在幾分鐘內開始",
+        "title": "運作原理"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "隱私政策"
+      },
+      "terms-of-service": {
+        "title": "服務條款"
+      }
+    }
+  }
+}

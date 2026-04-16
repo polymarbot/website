@@ -1,0 +1,12 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "viewOnPolymarket": "View on Polymarket"
+    },
+    "messages": {}
+  }
+}

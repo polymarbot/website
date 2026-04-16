@@ -1,0 +1,16 @@
+{
+  "actions": {
+    "addStep": "Add Step"
+  },
+  "emptyState": "No trade steps added yet. Click \"Add Step\" to create your first trade step.",
+  "stats": {
+    "buyCount": "Buy: {count}",
+    "sellCount": "Sell: {count}",
+    "stepCount": "{count}/{max} steps",
+    "totalAmount": "Max Amount per Trade",
+    "totalBuySize": "Max Buy Shares"
+  },
+  "warnings": {
+    "buySizeTooHigh": "Strategy buy shares exceeds your plan limit ({maximum}). Upgrade to use higher buy shares."
+  }
+}

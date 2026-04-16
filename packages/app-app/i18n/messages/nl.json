@@ -1,0 +1,969 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {
+      "privacyPolicy": "Privacybeleid",
+      "termsOfService": "Servicevoorwaarden",
+      "viewOnPolymarket": "Bekijken op Polymarket"
+    },
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "HasBotsErrorMessage": {
+        "message": "Dit item wordt gebruikt door {count} bot(s). Ga naar {link} om ze eerst te verwijderen.",
+        "viewBots": "Bots-pagina"
+      },
+      "ImpersonationBanner": {
+        "stop": "Stoppen",
+        "viewingAs": "Weergeven als {email}"
+      },
+      "MarketIntervalSelect": {
+        "intervals": {
+          "15m": "15 Minuten",
+          "1d": "1 Dag",
+          "1h": "1 Uur",
+          "4h": "4 Uur",
+          "5m": "5 Minuten"
+        },
+        "placeholder": "Interval selecteren"
+      },
+      "MarketSymbolSelect": {
+        "placeholder": "Selecteer symbolen"
+      },
+      "ProfileDropdown": {
+        "reportIssue": "Probleem melden"
+      },
+      "StrategyDisplay": {
+        "viewDetails": "Strategiedetails weergeven",
+        "viewStats": "Statistieken weergeven"
+      },
+      "StrategyFilters": {
+        "dateRange": {
+          "all": "Afgelopen 1 Jaar",
+          "custom": "Aangepast",
+          "month": "Afgelopen 30 dagen",
+          "quarter": "Afgelopen 90 dagen",
+          "week": "Afgelopen 7 dagen"
+        },
+        "labels": {
+          "dateRange": "Datumbereik",
+          "interval": "Interval",
+          "symbol": "Symbool"
+        }
+      },
+      "StrategySelect": {
+        "createNew": "Nieuwe strategie creëren",
+        "emptyMessage": "Geen strategieën beschikbaar",
+        "placeholder": "Selecteer een strategie"
+      },
+      "TransactionHistory": {
+        "action": {
+          "BUY": "Kopen",
+          "CLAIM": "Claimen",
+          "SELL": "Verkopen"
+        },
+        "notice": "Transactierecords zijn niet in realtime en kunnen vertragingen hebben. De vertraging is gerelateerd aan de marktvereffeningscyclus. Alleen transacties van vereffende markten worden hier weergegeven. Transacties van niet-vereffende markten verschijnen na vereffening.",
+        "profitHistory": {
+          "title": "Winstgeschiedenis (afgelopen 30 dagen)"
+        },
+        "table": {
+          "action": "Actie",
+          "amount": "Bedrag",
+          "botId": "Bot",
+          "market": "Markt",
+          "timestamp": "Timestamp",
+          "transactionHash": "Transactiehash"
+        },
+        "tooltip": {
+          "viewBotTransactions": "Botransactiegeschiedenis weergeven",
+          "viewOnPolygonscan": "Bekijk op PolygonScan"
+        }
+      },
+      "UpgradeModal": {
+        "message": "Upgrade uw abonnement om deze functie te ontgrendelen.",
+        "messageWithTarget": "Upgrade naar het {plan} plan om deze functie te ontgrendelen.",
+        "title": "Upgrade vereist",
+        "upgradeButton": "Nu upgraden"
+      },
+      "UpgradeOverlay": {
+        "description": "Upgrade uw abonnement om deze functie te ontgrendelen en uitgebreide statistieken te raadplegen.",
+        "title": "Premium-functie",
+        "upgradeButton": "Nu upgraden"
+      },
+      "WalletSelect": {
+        "createNew": "Nieuwe portefeuille creëren",
+        "emptyMessage": "Geen portefeuilles beschikbaar",
+        "placeholder": "Selecteer een portefeuille"
+      }
+    },
+    "chart": {
+      "ProfitHistory": {
+        "expense": "Uitgave (Kopen)",
+        "income": "Inkomsten (Verkopen + Claimen)",
+        "netProfit": "Nettowinst",
+        "txCount": "Transacties"
+      }
+    }
+  },
+  "pages": {
+    "auth": {
+      "sign-in": {
+        "changeEmail": "Een ander e-mailadres gebruiken",
+        "codeHint": "Voer de 6-cijferige code in die naar {email} is verzonden",
+        "codeLabel": "Verificatiecode",
+        "emailLabel": "E-mailadres",
+        "emailPlaceholder": "Voer uw e-mailadres in",
+        "name": "Aanmelden",
+        "noAccount": "Hebt u geen account?",
+        "sendCode": "Verificatiecode verzenden",
+        "signInWithGithub": "Aanmelden met GitHub",
+        "signInWithGoogle": "Aanmelden met Google",
+        "signUp": "Aanmelden",
+        "subtitle": "Meld u aan bij uw account om door te gaan",
+        "title": "Welkom terug",
+        "verify": "Verifiëren en aanmelden"
+      },
+      "sign-up": {
+        "agreeToTerms": "Ik ga akkoord met de {termsOfService} en {privacyPolicy}",
+        "changeEmail": "Een ander e-mailadres gebruiken",
+        "codeHint": "Voer de 6-cijferige code in die naar {email} is verzonden",
+        "codeLabel": "Verificatiecode",
+        "createAccount": "Account creëren",
+        "emailLabel": "E-mailadres",
+        "emailPlaceholder": "Voer uw e-mailadres in",
+        "haveAccount": "Hebt u al een account?",
+        "inviteCodeLabel": "Uitnodigingscode",
+        "inviteCodePlaceholder": "Voer uw uitnodigingscode in",
+        "marketingEmailsLabel": "Stuur mij productupdates en aanbevelingen",
+        "name": "Aanmelden",
+        "sendCode": "Verificatiecode verzenden",
+        "signIn": "Aanmelden",
+        "signUpWithGithub": "Aanmelden met GitHub",
+        "signUpWithGoogle": "Aanmelden met Google",
+        "subtitle": "Maak een account aan om aan de slag te gaan",
+        "title": "Account creëren"
+      }
+    },
+    "bots": {
+      "_botId_": {
+        "operation-history": {
+          "action": {
+            "DISABLED": "Stoppen",
+            "ENABLED": "Starten"
+          },
+          "fun-logs": {
+            "notice": "Uitvoeringslogboeken zijn niet realtime en hebben vertragingen. Ze zijn alleen bedoeld voor historisch overzicht en probleemoplossing, niet voor het beoordelen van de huidige botstatus. Alleen logboeken van de laatste {duration} worden bewaard.",
+            "title": "Uitvoerlogs"
+          },
+          "reason": {
+            "PLAN_LIMIT_EXCEEDED": "Planlimiet overschreden",
+            "USER_ACTION": "Gebruikersactie",
+            "WALLET_INSUFFICIENT_BALANCE": "Onvoldoende saldo in portefeuille",
+            "WALLET_TRANSACTION_ERROR": "Transactiefout"
+          },
+          "table": {
+            "action": "Actie",
+            "operatedAt": "Uitgevoerd op",
+            "reason": "Reden"
+          },
+          "tabs": {
+            "logs": "Uitvoerlogs",
+            "operations": "Operaties"
+          },
+          "title": "Botuitvoeringsgeschiedenis"
+        },
+        "transactions": {
+          "dataNotice": "Alleen transacties na {date} kunnen aan individuele bots worden toegeschreven. Eerdere records zijn niet inbegrepen.",
+          "title": "Botransactiegeschiedenis"
+        }
+      },
+      "actions": {
+        "batchDelete": "Verwijderen",
+        "batchDisable": "Stoppen",
+        "batchEnable": "Starten",
+        "create": "Creëren",
+        "transactions": "Transactiegeschiedenis",
+        "viewRunHistory": "Uitvoeringsgeschiedenis"
+      },
+      "components": {
+        "BatchBotOperations": {
+          "actions": {
+            "deleteAll": "Alles verwijderen",
+            "disableAll": "Alles stoppen",
+            "enableAll": "Alles starten"
+          },
+          "menu": {
+            "byConditions": "Op voorwaarden"
+          },
+          "messages": {
+            "deleteSuccess": "Bots succesvol verwijderd",
+            "disableSuccess": "Bots succesvol gestopt",
+            "enableSuccess": "Bots succesvol gestart",
+            "noBotsToDelete": "Geen bots om te verwijderen (alleen gestopte bots kunnen worden verwijderd)",
+            "noBotsToDisable": "Geen bots om te stoppen",
+            "noBotsToEnable": "Geen bots om te starten",
+            "resultDeleteSkipped": "{count} bot(s) kon(den) niet worden verwijderd (actief).",
+            "resultDeleted": "{count} bot(s) succesvol verwijderd.",
+            "resultEnabled": "{count} bot(s) succesvol gestart.",
+            "resultPending": "{count} bot(s) in afwachting van portefeuille-activering.",
+            "resultPendingAutoStart": "{count} bot(s) in afwachting van portefeuille-activering en zal(zullen) automatisch starten zodra portefeuilles zijn geactiveerd.",
+            "skippedInsufficientBalance": "{count} bot(s) kon(konden) niet worden gestart vanwege onvoldoende portefeuilleSaldo.",
+            "skippedStrategyLimit": "{count} bot(s) kon(konden) niet worden gestart omdat Max Aankoopaandelen het planlimiet overschrijdt.",
+            "skippedWalletStatus": "{count} bot(s) kon(konden) niet worden gestart omdat de portefeuille nog steeds wordt ingezet."
+          },
+          "modals": {
+            "batchDelete": {
+              "message": "Deze actie kan niet ongedaan worden gemaakt. Weet u het zeker?",
+              "scopeAll": "Alle gestopte bots worden verwijderd.",
+              "scopeFiltered": "Gestopte bots die overeenkomen met de huidige filters worden verwijderd.",
+              "scopeSelected": "{count} geselecteerde bot(s) worden verwijderd.",
+              "title": "Bots verwijderen"
+            },
+            "batchDisable": {
+              "message": "Echter zullen orders die al zijn geplaatst niet automatisch worden geannuleerd. Weet u het zeker?",
+              "scopeAll": "Alle actieve bots worden gestopt.",
+              "scopeFiltered": "Actieve bots die overeenkomen met de huidige filters worden gestopt.",
+              "scopeSelected": "{count} geselecteerde bot(s) worden gestopt.",
+              "title": "Bots stoppen"
+            },
+            "batchEnable": {
+              "message": "Zodra ze zijn gestart, zullen ze fondsen uit hun portefeuilles gebruiken om orders te plaatsen, wat kan leiden tot winsten of verliezen. Weet u het zeker?",
+              "scopeAll": "Alle gestopte bots worden gestart.",
+              "scopeFiltered": "Gestopte bots die overeenkomen met de huidige filters worden gestart.",
+              "scopeSelected": "{count} geselecteerde bot(s) worden gestart.",
+              "title": "Bots starten"
+            },
+            "byConditions": {
+              "hint": "Alle bots die overeenkomen met de geselecteerde voorwaarden worden beïnvloed.",
+              "intervalDisabledHint": "Intervalfilter is uitgeschakeld omdat een strategie is geselecteerd",
+              "intervalLabel": "Interval",
+              "selectInterval": "Interval selecteren",
+              "selectStrategy": "Strategie selecteren",
+              "selectSymbol": "Symbool selecteren",
+              "selectWallet": "Portefeuille selecteren",
+              "strategyDisabledHint": "Strategiefilter is uitgeschakeld omdat intervallen zijn geselecteerd",
+              "strategyLabel": "Strategie",
+              "symbolLabel": "Symbool",
+              "titleDelete": "Bots op voorwaarden verwijderen",
+              "titleDisable": "Bots op voorwaarden stoppen",
+              "titleEnable": "Bots op voorwaarden starten",
+              "walletLabel": "Portefeuille"
+            }
+          }
+        },
+        "BotInfoTable": {
+          "strategy": "Strategie",
+          "wallet": "Portefeuille"
+        },
+        "CreateModal": {
+          "fields": {
+            "interval": "Interval",
+            "strategy": "Strategie",
+            "symbols": "Symbolen",
+            "wallet": "Portefeuille"
+          },
+          "hints": {
+            "batchCreate": "Voor elke markt (symbool + interval) wordt een bot gemaakt. Overgeslagen als de portefeuille al een bot in die markt heeft.",
+            "intervalFirst": "Selecteer eerst het interval, selecteer vervolgens een overeenkomende strategie",
+            "strategyFiltered": "Alleen strategieën met het geselecteerde interval worden weergegeven",
+            "symbolsOptional": "Laat leeg om bots voor alle symbolen te creëren"
+          },
+          "messages": {
+            "createSuccess": "{count} bots succesvol gemaakt",
+            "noBotsToCreate": "Geen bots om te creëren",
+            "resultCreated": "{count} bot(s) succesvol gemaakt.",
+            "resultSkipped": "{count} bot(s) overgeslagen (portefeuille heeft al bots in deze markten)."
+          },
+          "modals": {
+            "result": {
+              "title": "Creatieresultaat"
+            }
+          },
+          "placeholders": {
+            "allSymbols": "Alles",
+            "selectStrategy": "Strategie selecteren",
+            "selectWallet": "Portefeuille selecteren"
+          },
+          "title": "Bots in batch creëren"
+        },
+        "InsufficientBalanceMessage": {
+          "calculation": "Het vereiste saldo is het totaal van alle actieve bots op deze portefeuille:\nElke bot vereist = Max. bedrag per transactie × {multiplier}",
+          "current": "Huidig saldo",
+          "description": "Het portefeuille-saldo is onvoldoende om alle actieve bots te ondersteunen. U kunt deze bot niet starten totdat aan de saldonoodzaak is voldaan.",
+          "required": "Vereist (alle actieve bots)",
+          "shortfall": "Tekort",
+          "suggestion": "Stort alstublieft geldmiddelen om het tekort op te vangen, of stop andere bots om het vereiste saldo vrij te maken."
+        }
+      },
+      "messages": {
+        "deleteSuccess": "Bot succesvol verwijderd",
+        "disableSuccess": "Bot succesvol gestopt",
+        "enableSuccess": "Bot succesvol gestart",
+        "walletActivating": "Portefeuille wordt geactiveerd, bots worden gestart zodra de portefeuille actief is"
+      },
+      "modals": {
+        "delete": {
+          "message": "Weet u zeker dat u deze bot wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+          "title": "Bot verwijderen"
+        },
+        "disable": {
+          "message": "Weet u zeker dat u deze bot wilt stoppen?",
+          "title": "Bot stoppen"
+        },
+        "enable": {
+          "message": "Weet u zeker dat u deze bot wilt starten?",
+          "title": "Bot starten"
+        }
+      },
+      "name": "Bots",
+      "searchPlaceholder": "Zoeken op portefeuillnaam of strategienaam",
+      "table": {
+        "market": "Markt",
+        "runtime": "Uitvoeringstijd",
+        "status": "Status",
+        "strategy": "Strategie",
+        "wallet": "Portefeuille"
+      },
+      "tooltips": {
+        "disable": "Bot stoppen",
+        "disabling": "Stoppen...",
+        "enable": "Bot starten",
+        "enabling": "Starten...",
+        "walletDeploying": "Portefeuille wordt ingezet, kan niet starten",
+        "walletFailed": "Portefeuille-inzet mislukt"
+      },
+      "walletStatus": {
+        "DEPLOYING": "Ingezet",
+        "FAILED": "Mislukt"
+      }
+    },
+    "dashboard": {
+      "botCount": "Bots",
+      "name": "Dashboard",
+      "profitHistory": {
+        "title": "Winstgeschiedenis (afgelopen 30 dagen)"
+      },
+      "running": "actief",
+      "strategyCount": "Strategieën",
+      "totalBalance": "Totaal saldo",
+      "walletCount": "Portefeuilles"
+    },
+    "markets": {
+      "empty": "Geen markten gevonden",
+      "name": "Markten",
+      "tooltip": {
+        "enabledBots": "Actieve bots",
+        "totalBots": "Totale bots"
+      }
+    },
+    "me": {
+      "anonymous": "Anoniem",
+      "language": {
+        "name": "Taal",
+        "title": "Selecteer taal"
+      },
+      "name": "Mij"
+    },
+    "rankings": {
+      "apr": {
+        "description": "Winstpercentage (Totale records)",
+        "title": "APR-rankings"
+      },
+      "components": {
+        "StrategyDetailModal": {
+          "actions": {
+            "createStrategy": "Strategie creëren",
+            "editStrategy": "Strategie bewerken"
+          },
+          "myStrategy": "Mijn strategie"
+        }
+      },
+      "filters": {
+        "buySizeRange": "Aankoopaandelen bereik",
+        "max": "Maximum",
+        "minParticipatedCount": "Min Participaties",
+        "minRecordCount": "Min Records"
+      },
+      "helps": {
+        "buySizeRange": "Filter strategieën op basis van hun Max Aankoopaandelen. Het maximum wordt bepaald door uw abonnementplan.",
+        "minParticipatedCount": "Filtreer strategieën op basis van hun participatieaantal. Alleen strategieën met minstens dit aantal participaties worden opgenomen in rankings.",
+        "minRecordCount": "Filtreer strategieën op basis van hun totale aantal records. Alleen strategieën met minstens dit aantal records worden opgenomen in rankings."
+      },
+      "hitRate": {
+        "description": "Deelgenomen / Totale records",
+        "title": "Hit Rate-rankings"
+      },
+      "name": "Rankings",
+      "profitRate": {
+        "description": "Totale Winst / Totale Kosten (Deelgenomen)",
+        "title": "Winstpercentage-rankings"
+      },
+      "title": "Strategierankings",
+      "upgradeRequired": {
+        "description": "Upgrade naar Pro of hoger om strategierankings en gedetailleerde statistieken te raadplegen.",
+        "title": "Upgrade vereist"
+      },
+      "winRate": {
+        "description": "Winstgevend / Deelgenomen",
+        "title": "Winnende percentage-rankings"
+      }
+    },
+    "strategies": {
+      "_id_": {
+        "actions": {
+          "stats": "Statistieken"
+        },
+        "autoNameNoSteps": "Creëer eerst handelsstappen",
+        "autoNameTooltip": "Strategienaam automatisch genereren",
+        "components": {
+          "StrategyStatsModal": {
+            "botIdOnly": "Alleen huidige bot",
+            "helps": {
+              "botIdOnly": "Alleen statistieken na {date} kunnen aan individuele bots worden toegeschreven. Eerdere records zijn niet inbegrepen."
+            },
+            "statistics": "Statistieken",
+            "stats": {
+              "apr": "APR",
+              "hitRate": "Hit Rate",
+              "profitRate": "Winstpercentage",
+              "winRate": "Winnende percentage"
+            },
+            "stepCount": "{count} stappen",
+            "title": "Strategiestatistieken",
+            "upgradeRequired": {
+              "description": "Upgrade naar Pro of hoger om strategiestatistieken weer te geven.",
+              "title": "Upgrade vereist"
+            }
+          },
+          "StrategyStepsInput": {
+            "actions": {
+              "addStep": "Stap toevoegen"
+            },
+            "emptyState": "Nog geen handelsstappen toegevoegd. Klik op \"Stap toevoegen\" om uw eerste handelsstap te creëren.",
+            "stats": {
+              "buyCount": "Kopen: {count}",
+              "sellCount": "Verkopen: {count}",
+              "stepCount": "{count}/{max} stappen",
+              "totalAmount": "Max. bedrag per transactie",
+              "totalBuySize": "Max Aankoopaandelen"
+            },
+            "warnings": {
+              "buySizeTooHigh": "Strategie-aankoopaandelen overschrijden uw planlimiet ({maximum}). Upgrade voor hogere aankoopaandelen."
+            }
+          },
+          "TradeStepCard": {
+            "actions": {
+              "delete": "Verwijderen",
+              "edit": "Bewerken"
+            },
+            "fields": {
+              "maxChange": "Max. wijziging onderliggende prijs",
+              "minChange": "Min. wijziging onderliggende prijs",
+              "once": "Eenmaal",
+              "outcome": "Uitkomst",
+              "price": "Prijs",
+              "size": "Aandelen",
+              "timeRange": "Tijdsbereik"
+            },
+            "side": {
+              "buy": "Kopen",
+              "sell": "Verkopen"
+            }
+          },
+          "TradeStepModal": {
+            "buyMode": {
+              "chaseUp": "Chase-upmodus (prijs > $0,50)\nDe bot selecteert automatisch welk token moet worden gekocht op basis van de bewegingsrichting van de onderliggende activaprijs.\n\nDe prijs die u instelt, is de maximale prijs die u bereid bent te betalen (limietprijs), NIET een triggerprijs. Als de huidige marktprijs van het token lager is dan de ingestelde prijs, wordt de order onmiddellijk tegen de marktprijs uitgevoerd. Voorbeeld: instellen om te kopen op $0,70, huidige marktprijs is $0,51, order wordt onmiddellijk uitgevoerd op ≈$0,51.\n\nHet wordt aanbevolen om \"Min. Wijziging onderliggende prijs\" in te stellen om te voorkomen dat u te vroeg koopt als de prijsbeweging niet significant genoeg is.",
+              "lowBuy": "Lage koopsmodus (prijs ≤ $0,50)\nDe bot plaatst een limiet-kooporder tegen uw ingestelde prijs en wacht tot de marktprijs naar dat niveau daalt om te worden uitgevoerd."
+            },
+            "fields": {
+              "maxChange": "Max. wijziging onderliggende prijs",
+              "minChange": "Min. wijziging onderliggende prijs",
+              "once": "Slechts eenmaal uitvoeren",
+              "outcome": "Uitkomst",
+              "price": "Prijs",
+              "side": "Handelszijde",
+              "size": "Aandelen",
+              "timeRange": "Tijdsbereik"
+            },
+            "help": {
+              "buy": {
+                "maxChange": "In de lage koopmodus, wanneer de wijziging van de onderliggende prijs deze waarde overschrijdt, stopt de bot met het kopen van het overeenkomende token op basis van de prijsbeweging. Stel in op 0 om deze limiet uit te schakelen.",
+                "minChange": "In Najaagde modus, wanneer de wijziging van de onderliggende prijs onder deze waarde daalt, stopt de bot met kopen. Stel in op 0 om deze limiet uit te schakelen.",
+                "once": "Normaal gesproken zal de bot, binnen een handelscyclus, als uw eerder gekochte positie volledig is verkocht, proberen een ander kooporder in te dienen. Schakel deze optie in als u slechts eenmaal per cyclus wilt handelen.",
+                "outcome": "De handelsuitkomstrichting. Tenzij u zeer zeker bent over de toekomstige prijsrichting, wordt het aanbevolen beide te selecteren.",
+                "price": "De aankoopprijs per aandeel voor deze transactie. Hoe lager de prijs, hoe hoger uw potentiële winstmarge, en omgekeerd.",
+                "size": "Het aantal aandelen dat u wilt kopen. Aandelen vermenigvuldigd met de koopprijs gelijk aan de totale kosten van deze transactie.",
+                "timeRange": "Het geldige tijdvenster voor deze kooporder. Orders die niet binnen dit tijdsbereik zijn gevuld, worden geannuleerd.",
+                "timeRangeChaseUp": "In een handelscyclus daalt na een bepaald moment de waarschijnlijkheid van omkeering van de uitkomst aanzienlijk, waardoor het najagen van meer kans op winst oplevert. Stel daarom de koopbewerking in om na dit moment te starten.",
+                "timeRangeLowBuy": "In een handelscyclus daalt na een bepaald moment de waarschijnlijkheid van omkeering van de uitkomst aanzienlijk, waardoor het laag kopen meer kans op verlies oplevert. Stel daarom de koopbewerking in om voor dit moment te eindigen."
+              },
+              "sell": {
+                "price": "De verkoopprijs per aandeel voor deze transactie. Hoe hoger de prijs, hoe hoger uw potentiële winstmarge, en omgekeerd. Als u een prijs lager dan de koopprijs instelt, voltooit u mogelijk een verliesgevende transactie.",
+                "size": "Het aantal aandelen dat u wilt verkopen. Aandelen vermenigvuldigd met de verkoopprijs gelijk aan het totale bedrag dat u uit deze transactie ontvangt.",
+                "timeRange": "Het geldige tijdvenster voor deze verkooporder. Orders die niet binnen dit tijdsbereik zijn gevuld, worden geannuleerd.\n\nDoel van deze tijdslimiet is het vroeg realiseren van winsten in de huidige handelscyclus zonder verkooporders open te houden tot de markt sluit. Binnen een veilig tijdsbestek waar de uitkomst onwaarschijnlijk zal veranderen, kunt u orders voortijdig annuleren om winsten te maximaliseren."
+              }
+            },
+            "hints": {
+              "minSize": "Minimaal 5 aandelen",
+              "outcome": "Selecteer specifieke uitkomst of handel beiden",
+              "priceRange": "Voer een waarde in tussen $0,01 en $0,99",
+              "sellSizeRange": "Min 5, tot {max} (Max Aankoopaandelen)",
+              "timeRange": "Start- en eindtijd in minuten (0-{max})"
+            },
+            "modal": {
+              "titleCreate": "Handelsstap toevoegen",
+              "titleEdit": "Handelsstap bewerken"
+            },
+            "outcomes": {
+              "both": "Beide",
+              "down": "Omlaag",
+              "up": "Omhoog"
+            },
+            "side": {
+              "buy": "Kopen",
+              "sell": "Verkopen"
+            },
+            "validation": {
+              "priceMax": "Prijs moet maximaal $0,99 zijn",
+              "priceMin": "Prijs moet minimaal $0,01 zijn",
+              "sizeMin": "Aandelen moeten minimaal 5 zijn",
+              "timeRange": "Eindtijd moet groter zijn dan starttijd"
+            },
+            "warnings": {
+              "sellNeedsBuySteps": "Voeg minimaal één aankoopstap toe voordat u een verkoopostap maakt."
+            }
+          }
+        },
+        "duplicateSuffix": "(Kopie)",
+        "fields": {
+          "interval": "Interval",
+          "name": "Strategienaam",
+          "strategyJson": "Handelsstappen"
+        },
+        "placeholders": {
+          "interval": "Interval selecteren",
+          "name": "Voer strategienaam in"
+        },
+        "title": "Strategiedetails",
+        "titleCreate": "Strategie creëren",
+        "titleEdit": "Strategiedetails"
+      },
+      "actions": {
+        "create": "Strategie creëren",
+        "viewBots": "Gerelateerde bots weergeven"
+      },
+      "hint": {
+        "text": "Weet u niet zeker hoe u een strategie maakt? Ga naar {link} om de best presterende strategieën te kopiëren en begin met winnen!"
+      },
+      "modals": {
+        "delete": {
+          "message": "Weet u zeker dat u strategie \"{name}\" wilt verwijderen?",
+          "title": "Strategie verwijderen"
+        }
+      },
+      "name": "Strategieën",
+      "searchPlaceholder": "Zoeken op strategienaam",
+      "table": {
+        "amount": "Max. bedrag per transactie",
+        "botCount": "Bots",
+        "interval": "Interval",
+        "maxBuySize": "Maximale Aankoopaandelen",
+        "name": "Naam"
+      }
+    },
+    "subscription": {
+      "billingCycle": {
+        "MONTHLY": "Maandelijks",
+        "YEARLY": "Jaarlijks"
+      },
+      "components": {
+        "PlanCard": {
+          "downgrade": "Downgraden",
+          "limits": {
+            "bots": "Bots",
+            "maxBuySize": "Maximale Aankoopaandelen",
+            "statsAccess": "Statistieke-toegang",
+            "strategies": "Strategieën",
+            "wallets": "Portefeuilles"
+          },
+          "perMonth": "/maand",
+          "perYear": "/jaar",
+          "pricing": {
+            "monthlyEquivalent": "{price}/ma",
+            "originalPrice": "Was {price}",
+            "save": "Bespaar {amount}"
+          },
+          "renew": "Verlengen",
+          "statsAccess": {
+            "extended": "Uitgebreide Toegang",
+            "full": "Volledige toegang",
+            "limited": "Gedeeltelijke toegang",
+            "none": "Niet beschikbaar"
+          },
+          "unlimited": "Onbeperkt",
+          "upgrade": "Upgraden"
+        },
+        "SubscriptionActionModal": {
+          "addDays": "Dagen toevoegen",
+          "confirm": "Bevestigen",
+          "convertedDays": "Omgezette dagen",
+          "creditAmount": "Tegoed: {amount}",
+          "currentRemaining": "Huidigresterend",
+          "days": "{count} dagen",
+          "downgrade": {
+            "description": "Uw resterende abonnementswaarde wordt omgezet in meer dagen in het lagere plan. Er wordt geen restitutie verleend.",
+            "title": "Plan downgraden"
+          },
+          "expiresAt": "Verloopt: {date}",
+          "newExpiration": "Nieuwe vervaldatum",
+          "payAndConfirm": "Betaal {amount}",
+          "periodDays": "Periodedagen",
+          "renew": {
+            "description": "Verlenging voegt {days} dagen toe aan uw huidige abonnement.",
+            "title": "Abonnement verlengen"
+          },
+          "totalAmount": "Totaal bedrag",
+          "upgrade": {
+            "description": "Uw resterende abonnementswaarde wordt omgezet in dagen in het nieuwe plan. U betaalt alleen het verschil.",
+            "fullyCovered": "Uw resterende abonnement dekt deze upgrade volledig! Geen extra betaling vereist.",
+            "title": "Plan upgraden"
+          },
+          "years": "{count} jaar | {count} jaren",
+          "yearsAndDays": "{years} jaar {days} dagen | {years} jaren {days} dagen"
+        }
+      },
+      "currentPlan": "Huidig plan",
+      "expired": "Verlopen",
+      "expiredWarning": {
+        "description": "Uw abonnement is verlopen. U bent nu op het gratis plan met beperkte functies. Upgrade om uw vorige planvoordelen te herstellen."
+      },
+      "expiresAt": "Verloopt op",
+      "name": "Abonnement",
+      "neverExpires": "Verloopt nooit",
+      "payment": {
+        "noPaymentNeeded": "Geen betaling vereist voor deze actie.",
+        "title": "Betaling"
+      },
+      "paymentHistory": "Betalingsgeschiedenis",
+      "payments": {
+        "_id_": {
+          "cancel": {
+            "backToSubscription": "Terug naar abonnement",
+            "description": "Uw betaling is niet voltooid. Er zijn geen bedragen op uw rekening in rekening gebracht.",
+            "name": "Betaling geannuleerd",
+            "reasons": {
+              "cancelled": "U hebt de betaling geannuleerd",
+              "expired": "De betalingssessie is verlopen",
+              "insufficientFunds": "Onvoldoende geldmiddelen in uw portefeuille",
+              "networkError": "Netwerk- of blockchainafout",
+              "title": "Mogelijke redenen:"
+            },
+            "retryPayment": "Betaling opnieuw proberen",
+            "title": "Betaling geannuleerd"
+          },
+          "success": {
+            "backToSubscription": "Terug naar abonnement",
+            "confirmed": {
+              "description": "Uw {plan} abonnement is geactiveerd.",
+              "title": "Betaling geslaagd!"
+            },
+            "expired": {
+              "createNew": "Nieuwe betaling maken",
+              "description": "De betalingssessie is verlopen. Maak een nieuwe betaling.",
+              "title": "Betaling verlopen"
+            },
+            "failed": {
+              "description": "Uw betaling kon niet worden voltooid. Probeer het opnieuw.",
+              "title": "Betaling mislukt",
+              "tryAgain": "Opnieuw proberen"
+            },
+            "loading": {
+              "description": "Betalingsstatus ophalen",
+              "title": "Laden..."
+            },
+            "name": "Betalingsstatus",
+            "notFound": {
+              "description": "We konden dit betalingsrecord niet vinden.",
+              "title": "Betaling niet gevonden"
+            },
+            "pending": {
+              "continuePayment": "Betaling voortzetten",
+              "description": "Uw betaling wordt verwerkt op de blockchain.",
+              "note": "Cryptovalutabetalingen kunnen enkele minuten nodig hebben om bevestigd te worden. Deze pagina wordt automatisch bijgewerkt wanneer uw betaling is bevestigd.",
+              "title": "Betaling verwerken"
+            }
+          }
+        },
+        "name": "Betalingsgeschiedenis",
+        "status": {
+          "CONFIRMED": "Bevestigd",
+          "EXPIRED": "Verlopen",
+          "FAILED": "Mislukt",
+          "PENDING": "In afwachting"
+        },
+        "table": {
+          "amount": "Bedrag",
+          "billingCycle": "Factureringscyclus",
+          "chargeCode": "Ladingscode",
+          "createdAt": "Gemaakt op",
+          "plan": "Plan",
+          "status": "Status"
+        },
+        "title": "Betalingsgeschiedenis"
+      },
+      "plans": {
+        "description": "Kies een plan dat bij uw behoeften past",
+        "title": "Beschikbare plannen"
+      },
+      "savePercent": "Bespaar {percent}%",
+      "usage": {
+        "bots": "Bots",
+        "strategies": "Strategieën",
+        "wallets": "Portefeuilles"
+      }
+    },
+    "wallets": {
+      "_funder_": {
+        "transactions": {
+          "title": "Transactiegeschiedenis"
+        }
+      },
+      "actions": {
+        "create": "Portefeuille creëren",
+        "import": "Portefeuille importeren",
+        "transactions": "Transactiegeschiedenis",
+        "viewBots": "Gerelateerde bots weergeven"
+      },
+      "components": {
+        "BridgeAssetSelector": {
+          "chain": "Keten",
+          "token": "Token"
+        },
+        "DeleteModal": {
+          "backupReminder": "Zorg er voordat u verwijdert voor dat u uw privésleutel hebt geëxporteerd en een back-up hebt gemaakt. Zonder de privésleutel verliest u permanent de toegang tot alle fondsen in deze portefeuille.",
+          "message": "Weet u zeker dat u portefeuille \"{name}\" wilt verwijderen?",
+          "title": "Portefeuille verwijderen",
+          "warning": "Het verwijderen van een portefeuille is onomkeerbaar. Alle portefeuille-gegevens worden permanent uit ons systeem verwijderd."
+        },
+        "DepositModal": {
+          "address": "Stortingsadres",
+          "bridgeAddress": "een asset bridgeadres",
+          "directDepositInfo": "Stuur USDC.e rechtstreeks naar het Funder-adres van je portefeuille op Polygon. Geen bruggebeur.",
+          "minimumDeposit": "Polymarket vereist een minimale storting van {amount}. Stortingen onder dit bedrag worden mogelijk niet op uw rekening gestort.",
+          "note": "Het stortingsadres is {bridgeAddress} gegenereerd door Polymarket. U kunt {supportedCrypto} versturen en de geldmiddelen worden automatisch naar Polygon overgebracht en omgezet in USDC.e. Als u USDC.e rechtstreeks op Polygon wilt versturen (bijvoorbeeld met onze opnamefunctie), kunt u geldmiddelen rechtstreeks naar het Financieringsadres sturen zonder het stortingsadres te gebruiken.",
+          "supportedCrypto": "cryptovaluta ondersteund door Polymarket",
+          "title": "Storten"
+        },
+        "DetailModal": {
+          "create": {
+            "description": "Een nieuwe portefeuille wordt gemaakt met een unieke privésleutel. Een Gnosis Safe-contract wordt ingezet voordat de handel begint.",
+            "title": "Nieuwe portefeuille creëren"
+          },
+          "edit": {
+            "title": "Portefeuille bewerken"
+          }
+        },
+        "ExportModal": {
+          "confirmCheckbox": "Ik begrijp de risico's en wil mijn privésleutel exporteren",
+          "connectToPolymarket": "uw portefeuille met Polymarket verbinden",
+          "copyWarning": "Klik op de oogknop om uw privésleutel weer te geven. Zorg ervoor dat er niemand bij u in de buurt is.\nAls u deze naar het klembord kopieert, moet u uw klembord achteraf leegmaken om lekken te voorkomen.",
+          "decryptFailed": "Ontsleuteling van privésleutel is mislukt",
+          "funderNotice": "Opmerking: Uw fondsen worden opgeslagen in het Financieringsadres (een Gnosis Safe-contract), niet het portefeuille-adres dat uit deze privésleutel is afgeleid. Het Financieringsadres is een smart contract dat door uw privésleutel wordt beheerd. Als u deze sleutel in een cryptovalutaportefeuille importeert, ziet u een ander adres en vindt u uw activa daar niet. Om uw fondsen te benaderen, {connectToPolymarket} en use the {withdraw} feature.",
+          "title": "Privésleutel exporteren",
+          "warningDetail": "Deel nooit uw privésleutel met iemand. Iemand met toegang tot uw privésleutel kan alle activa in uw portefeuille stelen.",
+          "withdraw": "Opnemen"
+        },
+        "ImportModal": {
+          "description": "Importeer een bestaande portefeuille met behulp van de bijbehorende privésleutel. Voor nieuwe portefeuilles wordt een Gnosis Safe-contract ingezet voordat de handel begint.",
+          "encryptFailed": "Versleuteling van privésleutel is mislukt",
+          "privateKeyPlaceholder": "Voer privésleutel in (0x...)",
+          "title": "Portefeuille importeren",
+          "warning": {
+            "description": "Importeer geen privésleutels die uit Polymarket zijn geëxporteerd. Deze sleutels behoren tot Proxy Wallets (gemaakt via e-mail of Google-aanmelding met MagicLink), en onze service vereist Gnosis Safe-portefeuilles.",
+            "learnMore": "Meer informatie over Polymarket-portefeuilletypes"
+          }
+        },
+        "TransactionResult": {
+          "viewOnPolygonscan": "Bekijk op PolygonScan",
+          "viewWalletOnPolygonscan": "Bekijk portefeuille op PolygonScan"
+        },
+        "TransferModal": {
+          "fromWallet": "Uit portefeuille",
+          "info": "De overboeking wordt verwerkt via Polymarket Relayer (gasless). De transactie wordt onmiddellijk ingediend, maar kan enkele minuten duren om op de keten bevestigd te worden.",
+          "submitted": "Overboekingsverzoek succesvol ingediend. U kunt de transactiestatus op PolygonScan volgen.",
+          "title": "Interne overboeking",
+          "toWallet": "Naar portefeuille",
+          "toWalletHint": "Selecteer een portefeuille om fondsen naar over te boeken",
+          "walletActivating": "Uw portefeuille moet worden geactiveerd voordat u kunt overboeken. De activering en overboeking worden automatisch verwerkt. Dit kan enkele minuten duren. U kunt het portefeuille-adres op PolygonScan controleren om de voortgang te volgen."
+        },
+        "WithdrawModal": {
+          "bridgeInfo": "Ketenoverschrijdende opname via Polymarket Bridge. USDC.e wordt naar de bestemmingsketen gebracht. Er gelden bruggeburen.",
+          "directInfo": "Overdracht wordt verwerkt via Polymarket Relayer (gasloze). De transactie wordt onmiddellijk ingediend maar kan enkele minuten duren voor bevestiging op-chain.",
+          "estimatedOutput": "Geschatte opbrengst",
+          "estimatedTime": "Geschatte tijd",
+          "fee": "Bruggebeur",
+          "loadingQuote": "Offerte ophalen...",
+          "quoteError": "Offerte ophalen mislukt. U kunt nog steeds doorgaan met de opname.",
+          "recipientAddress": "Ontvangeradres",
+          "recipientPlaceholder": "Voer Polygon-adres in (0x...)",
+          "seconds": "~{time}s",
+          "submitted": "Opnameverzoek succesvol ingediend. U kunt de transactiestatus op PolygonScan volgen.",
+          "submittedBridge": "Brugopname succesvol ingediend. De brug zal automatisch tokens aan de ontvanger op de bestemmingsketen bezorgen. Dit kan enkele minuten duren.",
+          "title": "Opnemen",
+          "usdceWarningBody": "Het verzenden van USDC.e naar een niet-ondersteund platform kan leiden tot permanent verlies van middelen. Controleer altijd de tokencompatibiliteit vóór overdracht.",
+          "usdceWarningTitle": "USDC.e wordt niet algemeen ondersteund door de meeste beurzen.",
+          "walletActivating": "Uw portefeuille moet worden geactiveerd voordat u kunt opnemen. De activering en opname worden automatisch verwerkt. Dit kan enkele minuten duren. U kunt het portefeuille-adres op PolygonScan controleren om de voortgang te volgen."
+        }
+      },
+      "labels": {
+        "availableBalance": "Beschikbaar saldo",
+        "walletName": "Portefeuillnaam"
+      },
+      "messages": {
+        "insufficientBalance": "Bedrag overschrijdt beschikbaar saldo"
+      },
+      "name": "Portefeuilles",
+      "placeholders": {
+        "amount": "Voer bedrag in",
+        "walletName": "Voer portefeuillnaam in"
+      },
+      "searchPlaceholder": "Zoeken op portefeuillnaam",
+      "status": {
+        "ACTIVE": "Actief",
+        "DEPLOYING": "Ingezet",
+        "FAILED": "Mislukt",
+        "INACTIVE": "Inactief"
+      },
+      "table": {
+        "balance": "Saldo",
+        "botCount": "Bots",
+        "funder": "Financieringsadres",
+        "name": "Naam",
+        "status": "Status"
+      },
+      "tooltips": {
+        "funderHelp": "Het financieringsadres is uw Polymarket Gnosis Safe-portefeuille, een smart contract-portefeuille ingezet op Polygon die uw posities en USDC.e bevat. Deze wordt beheerd door uw EOA-portefeuille en maakt gasloze transacties mogelijk.",
+        "funderHelpLink": "Meer informatie",
+        "inactive": "Portefeuille wordt automatisch geactiveerd voordat trading begint."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "BOT_ALREADY_EXISTS": "Bot bestaat al voor deze markt",
+      "BOT_ENABLED_CANNOT_DELETE": "Kan actieve bot niet verwijderen",
+      "BOT_ENABLED_CANNOT_MODIFY": "Kan actieve bot niet wijzigen",
+      "BOT_NOT_FOUND": "Bot niet gevonden",
+      "BOT_WALLET_DEPLOYING": "Portefeuille wordt momenteel ingezet",
+      "BOT_WALLET_INSUFFICIENT_BALANCE": "Portefeuille-saldo is onvoldoende om bot te starten",
+      "BOT_WALLET_MARKET_IN_USE": "Deze portefeuille wordt al voor deze markt gebruikt",
+      "BRIDGE_FETCH_ASSETS_FAILED": "Het ophalen van ondersteunde brugactiva is mislukt. Probeer het later opnieuw.",
+      "BRIDGE_QUOTE_FAILED": "Het ophalen van de brugofferte is mislukt. Probeer het later opnieuw.",
+      "BRIDGE_WITHDRAW_FAILED": "Brugopname mislukt. Probeer het later opnieuw.",
+      "INTERNAL_API_KEY_INVALID": "Ongeldige API-sleutel",
+      "INTERNAL_API_KEY_MISSING": "API-sleutel is vereist",
+      "PAYMENT_CHARGE_CREATION_FAILED": "Betaalopdracht kan niet worden gemaakt. Probeer het later opnieuw.",
+      "PAYMENT_NOT_FOUND": "Betaling niet gevonden",
+      "STRATEGY_ALREADY_EXISTS": "Strategie bestaat al",
+      "STRATEGY_HAS_BOTS": "Kan strategie die door bots wordt gebruikt niet verwijderen",
+      "STRATEGY_INTERVAL_NOT_MODIFIABLE": "Interval kan na aanmaak niet worden gewijzigd",
+      "STRATEGY_INVALID_JSON": "Ongeldige strategieconfiguratie",
+      "STRATEGY_NOT_FOUND": "Strategie niet gevonden",
+      "STRATEGY_NO_BUY_STEPS": "Strategie moet minstens één koopstap bevatten",
+      "SUBSCRIPTION_BOT_LIMIT_EXCEEDED": "Bot-limiet bereikt. Upgrade uw plan om meer bots te creëren.",
+      "SUBSCRIPTION_STATS_ACCESS_DENIED": "Statistieke-toegang geweigerd. Upgrade uw plan om toegang tot deze functie te krijgen.",
+      "SUBSCRIPTION_STRATEGY_BUY_SIZE_EXCEEDED": "Strategie-aankoopaandelen overschrijden uw planlimiet. Upgrade voor hogere aankoopaandelen.",
+      "SUBSCRIPTION_STRATEGY_LIMIT_EXCEEDED": "Strategielimiet bereikt. Upgrade uw plan om meer strategieën te creëren.",
+      "SUBSCRIPTION_WALLET_LIMIT_EXCEEDED": "Portefeuille-limiet bereikt. Upgrade uw plan om meer portefeuilles te creëren.",
+      "WALLET_ALREADY_EXISTS": "Portefeuille bestaat al",
+      "WALLET_ALREADY_IN_USE": "Deze portefeuille wordt al door een ander gebruiker gebruikt",
+      "WALLET_CREATION_FAILED": "Portefeuille kan niet worden gemaakt",
+      "WALLET_DEPLOYING": "Portefeuille wordt momenteel ingezet. Wacht alstublieft en probeer het later opnieuw.",
+      "WALLET_HAS_BOTS": "Kan portefeuille die door bots wordt gebruikt niet verwijderen",
+      "WALLET_INSUFFICIENT_BALANCE": "Onvoldoende saldo voor opname",
+      "WALLET_INVALID_PRIVATE_KEY": "Ongeldige privésleutelindeling",
+      "WALLET_NOT_FOUND": "Portefeuille niet gevonden",
+      "WALLET_WITHDRAW_FAILED": "Opname mislukt"
+    }
+  },
+  "shared": {
+    "validation": {
+      "amount": {
+        "min": "Bedrag moet groter zijn dan 0",
+        "required": "Opnamebedrag is vereist"
+      },
+      "billingCycle": {
+        "invalid": "Ongeldige factureringscyclus"
+      },
+      "botDisableReason": {
+        "required": "Botestoppreden is vereist"
+      },
+      "bridgeChainId": {
+        "invalid": "Ongeldige keten-ID",
+        "required": "Bestemmingsketen is vereist"
+      },
+      "bridgeRecipientAddr": {
+        "invalid": "Ongeldig ontvangeradres",
+        "required": "Ontvangeradres is vereist"
+      },
+      "bridgeTokenAddress": {
+        "required": "Tokenadres is vereist"
+      },
+      "buySizeRange": {
+        "minGreaterThanMax": "Minimale aankoopaandelen moeten kleiner dan of gelijk zijn aan maximale aankoopaandelen"
+      },
+      "datePreset": {
+        "invalid": "Ongeldige datumvoorinstelling"
+      },
+      "marketInterval": {
+        "invalid": "Ongeldige intervalwaarde"
+      },
+      "marketSymbol": {
+        "invalid": "Ongeldig marktsymbool"
+      },
+      "privateKey": {
+        "invalid": "Ongeldige privésleutelindeling (moet 0x + 64 hexadecimale tekens zijn)",
+        "required": "Privésleutel is vereist"
+      },
+      "publicKey": {
+        "invalid": "Ongeldige RSA-openbare sleutelindeling",
+        "required": "Openbare sleutel is vereist"
+      },
+      "solanaAddress": {
+        "invalid": "Ongeldige Solana-adresindeling (moet 32-44 base58-tekens zijn)"
+      },
+      "strategyId": {
+        "required": "Strategie-ID is vereist"
+      },
+      "strategyJson": {
+        "required": "Strategieconfiguratie is vereist"
+      },
+      "strategyName": {
+        "required": "Strategienaam is vereist",
+        "tooLong": "Strategienaam mag maximaal {maximum} tekens lang zijn"
+      },
+      "subscriptionPlan": {
+        "invalid": "Ongeldig abonnementsplan"
+      },
+      "timeRange": {
+        "customEndRequired": "Eindtijd is vereist voor aangepast datumbereik",
+        "customStartRequired": "Starttijd is vereist voor aangepast datumbereik",
+        "exceedsMaxSpan": "Datumbereik kan niet meer dan {days} dagen zijn",
+        "startAfterEnd": "Starttijd moet kleiner dan of gelijk zijn aan eindtijd"
+      },
+      "tronAddress": {
+        "invalid": "Ongeldige Tron-adresindeling (moet beginnen met T, 34 base58-tekens)"
+      },
+      "walletAddress": {
+        "invalid": "Ongeldige portefeuille-adresindeling (moet 0x + 40 hexadecimale tekens zijn)",
+        "required": "Portefeuille-adres is vereist"
+      },
+      "walletName": {
+        "required": "Portefeuillnaam is vereist",
+        "tooLong": "Portefeuillnaam mag maximaal {maximum} tekens lang zijn"
+      }
+    }
+  }
+}

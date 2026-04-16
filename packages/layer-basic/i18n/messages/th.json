@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "ย้อนกลับ",
+      "cancel": "ยกเลิก",
+      "clear": "ล้าง",
+      "close": "ปิด",
+      "confirm": "ยืนยัน",
+      "continue": "ต่อไป",
+      "create": "สร้าง",
+      "delete": "ลบ",
+      "deposit": "ฝาก",
+      "duplicate": "ทำซ้ำ",
+      "edit": "แก้ไข",
+      "export": "ส่งออก",
+      "goBack": "ย้อนกลับ",
+      "import": "นำเข้า",
+      "install": "ติดตั้ง",
+      "learnMore": "เรียนรู้เพิ่มเติม",
+      "more": "เพิ่มเติม",
+      "next": "ถัดไป",
+      "ok": "ตกลง",
+      "refresh": "รีเฟรช",
+      "reload": "โหลดใหม่",
+      "reportIssue": "รายงานปัญหา",
+      "retry": "ลองใหม่",
+      "save": "บันทึก",
+      "search": "ค้นหา",
+      "submit": "ส่ง",
+      "transfer": "โอนเงิน",
+      "uninstall": "ถอนการติดตั้ง",
+      "viewDetails": "ดูรายละเอียด",
+      "withdraw": "ถอน"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "การดำเนิน",
+      "active": "ทำงาน",
+      "alert": "การแจ้งเตือน",
+      "all": "ทั้งหมด",
+      "amount": "จำนวน",
+      "chain": "เครือข่าย",
+      "confirmation": "ยืนยัน",
+      "createdAt": "สร้างเมื่อ",
+      "dateRange": "ช่วงวันที่",
+      "delete": "ลบ",
+      "deleteConfirmation": "ยืนยันการลบ",
+      "email": "อีเมล",
+      "error": "ข้อผิดพลาด",
+      "max": "สูงสุด",
+      "new": "ใหม่",
+      "no": "ไม่",
+      "optional": "ไม่บังคับ",
+      "or": "หรือ",
+      "password": "รหัสผ่าน",
+      "private": "ส่วนตัว",
+      "privateKey": "คีย์ส่วนตัว",
+      "success": "สำเร็จ",
+      "token": "โทเค็น",
+      "transactionHash": "แฮชธุรกรรม",
+      "unknown": "ไม่ทราบ",
+      "unlimited": "ไม่จำกัด",
+      "updatedAt": "อัปเดตเมื่อ",
+      "yes": "ใช่"
+    },
+    "messages": {
+      "createSuccess": "สร้างสำเร็จแล้ว",
+      "deleteSuccess": "ลบสำเร็จแล้ว",
+      "importSuccess": "นำเข้าสำเร็จแล้ว",
+      "saveSuccess": "บันทึกสำเร็จแล้ว",
+      "submitSuccess": "ส่งสำเร็จแล้ว",
+      "updateSuccess": "อัปเดตสำเร็จแล้ว"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "โหมดมืด",
+        "lightMode": "โหมดสว่าง",
+        "switchToDark": "สลับไปยังโหมดมืด",
+        "switchToLight": "สลับไปยังโหมดสว่าง"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "เปลี่ยนภาษา"
+      },
+      "Navbar": {
+        "collapseSidebar": "ยุบแถบข้าง",
+        "expandSidebar": "ขยายแถบข้าง",
+        "goBack": "ย้อนกลับ"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "การดำเนิน",
+        "pageReport": "แสดง {'{first}'} ถึง {'{last}'} จาก {'{totalRecords}'}",
+        "pageReportMobile": "ทั้งหมด: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "ลบ",
+        "confirmationText": "ลบ",
+        "defaultMessage": "การดำเนินการนี้ไม่สามารถเลิกทำได้ โปรดแน่ใจว่าคุณได้สำรองข้อมูลสำคัญก่อนดำเนินการต่อ",
+        "inputLabel": "พิมพ์ {0} เพื่อยืนยันการลบ",
+        "title": "ลบ"
+      },
+      "CopyButton": {
+        "copied": "คัดลอกแล้ว!",
+        "copyToClipboard": "คัดลอกไปยังคลิปบอร์ด"
+      },
+      "DataTable": {
+        "empty": "ไม่มีข้อมูลที่พร้อมใช้งาน",
+        "filterAll": "ทั้งหมด",
+        "filterApply": "นำไปใช้",
+        "filterClear": "ล้าง"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "วันที่สิ้นสุด",
+        "startPlaceholder": "วันที่เริ่มต้น",
+        "to": "ถึง"
+      },
+      "EmptyState": {
+        "defaultMessage": "ไม่มีข้อมูล"
+      },
+      "LogViewer": {
+        "allLoaded": "— โหลดบันทึกทั้งหมดแล้ว —",
+        "count": "{loaded} / {total}",
+        "empty": "ไม่มีบันทึกที่พร้อมใช้งาน",
+        "refresh": "รีเฟรช",
+        "scrollToBottom": "เลื่อนไปด้านล่าง"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "วางจากคลิปบอร์ด",
+        "pasted": "วางแล้ว!"
+      },
+      "SearchSelect": {
+        "createNew": "สร้างใหม่",
+        "noItems": "ไม่มีตัวเลือกที่พร้อมใช้งาน",
+        "noSearchItems": "ไม่พบผลลัพธ์",
+        "searchPlaceholder": "ค้นหา..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "ปฏิเสธการเข้าถึง",
+      "COMMON_NETWORK_ERROR": "เกิดข้อผิดพลาดเครือข่าย",
+      "COMMON_NOT_FOUND_ERROR": "ไม่พบทรัพยากร",
+      "COMMON_RATE_LIMIT_EXCEEDED": "ขอจำนวนมากเกินไป โปรดลองอีกครั้งในภายหลัง",
+      "COMMON_SERVER_ERROR": "ข้อผิดพลาดของเซิร์ฟเวอร์ภายใน",
+      "COMMON_TIMEOUT_ERROR": "หมดเวลาคำขอ",
+      "COMMON_UNAUTHORIZED_ERROR": "การเข้าถึงไม่ได้รับอนุญาต",
+      "COMMON_UNKNOWN_ERROR": "เกิดข้อผิดพลาดที่ไม่ทราบ",
+      "COMMON_VALIDATION_ERROR": "การตรวจสอบล้มเหลว"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "ป้อนรหัสนี้เพื่อตรวจสอบที่อยู่อีเมลของคุณ:",
+          "expiry": "รหัสนี้จะหมดอายุใน {minutes} นาที",
+          "footer": "อีเมลนี้มีวัตถุประสงค์สำหรับ {email} หากคุณไม่คาดหวังอีเมลนี้ คุณสามารถละเว้นได้",
+          "subject": "รหัสยืนยันของคุณ",
+          "title": "โปรดตรวจสอบอีเมลของคุณ"
+        }
+      }
+    }
+  }
+}

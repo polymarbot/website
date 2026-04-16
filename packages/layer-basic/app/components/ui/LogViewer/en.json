@@ -1,0 +1,7 @@
+{
+  "allLoaded": "— All logs loaded —",
+  "count": "{loaded} / {total}",
+  "empty": "No logs available",
+  "refresh": "Refresh",
+  "scrollToBottom": "Scroll to bottom"
+}

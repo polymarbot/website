@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "返回",
+      "cancel": "取消",
+      "clear": "清除",
+      "close": "關閉",
+      "confirm": "確認",
+      "continue": "繼續",
+      "create": "建立",
+      "delete": "刪除",
+      "deposit": "存款",
+      "duplicate": "複製",
+      "edit": "編輯",
+      "export": "匯出",
+      "goBack": "返回",
+      "import": "匯入",
+      "install": "安裝",
+      "learnMore": "了解更多",
+      "more": "更多",
+      "next": "下一步",
+      "ok": "確定",
+      "refresh": "重新整理",
+      "reload": "重新載入",
+      "reportIssue": "回報問題",
+      "retry": "重試",
+      "save": "儲存",
+      "search": "搜尋",
+      "submit": "提交",
+      "transfer": "轉帳",
+      "uninstall": "解除安裝",
+      "viewDetails": "查看詳情",
+      "withdraw": "提領"
+    },
+    "formats": {
+      "date": "YYYY/MM/DD",
+      "dateRange": {
+        "date": "M月D日",
+        "dateTime": "M月D日 HH:mm"
+      },
+      "dateTime": "YYYY/MM/DD HH:mm:ss",
+      "duration": {
+        "days": "天",
+        "hours": "時",
+        "minutes": "分",
+        "seconds": "秒"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "操作",
+      "active": "啟用中",
+      "alert": "警告",
+      "all": "全部",
+      "amount": "金額",
+      "chain": "鏈",
+      "confirmation": "確認",
+      "createdAt": "建立時間",
+      "dateRange": "日期範圍",
+      "delete": "刪除",
+      "deleteConfirmation": "刪除確認",
+      "email": "電子郵件",
+      "error": "錯誤",
+      "max": "最大",
+      "new": "新增",
+      "no": "否",
+      "optional": "選填",
+      "or": "或",
+      "password": "密碼",
+      "private": "私人",
+      "privateKey": "私鑰",
+      "success": "成功",
+      "token": "代幣",
+      "transactionHash": "交易雜湊",
+      "unknown": "未知",
+      "unlimited": "無限制",
+      "updatedAt": "更新時間",
+      "yes": "是"
+    },
+    "messages": {
+      "createSuccess": "建立成功",
+      "deleteSuccess": "刪除成功",
+      "importSuccess": "匯入成功",
+      "saveSuccess": "儲存成功",
+      "submitSuccess": "提交成功",
+      "updateSuccess": "更新成功"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "深色模式",
+        "lightMode": "淺色模式",
+        "switchToDark": "切換至深色模式",
+        "switchToLight": "切換至淺色模式"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "切換語言"
+      },
+      "Navbar": {
+        "collapseSidebar": "收合側邊欄",
+        "expandSidebar": "展開側邊欄",
+        "goBack": "返回"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "操作",
+        "pageReport": "顯示第 {'{first}'} 到 {'{last}'} 筆，共 {'{totalRecords}'} 筆",
+        "pageReportMobile": "共 {'{totalRecords}'} 筆"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "刪除",
+        "confirmationText": "DELETE",
+        "defaultMessage": "此操作無法復原。在繼續之前，請確保您已備份所有重要資料。",
+        "inputLabel": "輸入 {0} 以確認刪除",
+        "title": "刪除"
+      },
+      "CopyButton": {
+        "copied": "已複製！",
+        "copyToClipboard": "複製到剪貼簿"
+      },
+      "DataTable": {
+        "empty": "暫無資料",
+        "filterAll": "全部",
+        "filterApply": "套用",
+        "filterClear": "清除"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "結束日期",
+        "startPlaceholder": "開始日期",
+        "to": "至"
+      },
+      "EmptyState": {
+        "defaultMessage": "暫無資料"
+      },
+      "LogViewer": {
+        "allLoaded": "— 所有日誌已載入 —",
+        "count": "{loaded} / {total}",
+        "empty": "暫無日誌",
+        "refresh": "重新整理",
+        "scrollToBottom": "捲動至底部"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "從剪貼簿貼上",
+        "pasted": "已貼上！"
+      },
+      "SearchSelect": {
+        "createNew": "建立新項目",
+        "noItems": "沒有可用選項",
+        "noSearchItems": "找不到相符結果",
+        "searchPlaceholder": "搜尋..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "禁止存取",
+      "COMMON_NETWORK_ERROR": "發生網路錯誤",
+      "COMMON_NOT_FOUND_ERROR": "找不到資源",
+      "COMMON_RATE_LIMIT_EXCEEDED": "請求次數過多。請稍後再試",
+      "COMMON_SERVER_ERROR": "伺服器內部錯誤",
+      "COMMON_TIMEOUT_ERROR": "請求逾時",
+      "COMMON_UNAUTHORIZED_ERROR": "未經授權的存取",
+      "COMMON_UNKNOWN_ERROR": "發生未知錯誤",
+      "COMMON_VALIDATION_ERROR": "驗證失敗"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "輸入此驗證碼以驗證您的電子郵件地址：",
+          "expiry": "此驗證碼將在 {minutes} 分鐘後過期。",
+          "footer": "此電子郵件是發送給 {email}。如果您沒有預期收到此電子郵件，您可以忽略它。",
+          "subject": "您的驗證碼",
+          "title": "請驗證您的電子郵件"
+        }
+      }
+    }
+  }
+}

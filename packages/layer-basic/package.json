@@ -1,0 +1,35 @@
+{
+  "name": "@polymarbot/layer-basic",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "prepare": "nuxt prepare .playground",
+    "typecheck": "nuxt prepare .playground && nuxt typecheck .playground",
+    "lint": "git add . && lint-staged --config ../../.lintstagedrc.lint-only.json",
+    "format": "git add . && lint-staged --config ../../.lintstagedrc.json",
+    "i18n:build": "tsx ../../scripts/i18n/build && pnpm i18n:fix:alignment",
+    "i18n:check:undefined": "tsx ../../scripts/i18n/checkUndefinedKeys",
+    "i18n:check:unused": "tsx ../../scripts/i18n/checkUnusedKeys",
+    "i18n:fix:unused": "tsx ../../scripts/i18n/checkUnusedKeys --fix && pnpm i18n:build",
+    "i18n:fix:alignment": "tsx ../../scripts/i18n/checkI18nAlignment --fix"
+  },
+  "dependencies": {
+    "@polymarbot/shared": "catalog:",
+    "@primeuix/themes": "catalog:",
+    "@primevue/nuxt-module": "catalog:",
+    "clsx": "catalog:",
+    "dayjs": "catalog:",
+    "dompurify": "^3.4.0",
+    "primeicons": "catalog:",
+    "primevue": "catalog:",
+    "qrcode": "catalog:",
+    "resend": "^6.11.0",
+    "tailwind-merge": "catalog:",
+    "tailwindcss-primeui": "catalog:",
+    "typed.js": "^3.0.0",
+    "vue-gtag": "catalog:",
+    "vue-i18n": "catalog:",
+    "vue-router": "catalog:",
+    "zod": "catalog:"
+  }
+}

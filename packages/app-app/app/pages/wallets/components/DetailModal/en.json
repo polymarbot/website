@@ -1,0 +1,9 @@
+{
+  "create": {
+    "description": "A new wallet will be created with a unique private key. A Gnosis Safe contract will be deployed before trading starts.",
+    "title": "Create New Wallet"
+  },
+  "edit": {
+    "title": "Edit Wallet"
+  }
+}

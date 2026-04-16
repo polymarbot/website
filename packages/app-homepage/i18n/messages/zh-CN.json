@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} 版权所有。保留所有权利。"
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "启动应用",
+      "pricing": {
+        "features": {
+          "bots": "{count} 个机器人",
+          "maxBuySize": "{size} 最大买入份额",
+          "statsAccess": {
+            "extended": "扩展统计数据访问权限",
+            "full": "完全统计数据访问权限",
+            "limited": "部分统计数据访问权限",
+            "none": "无统计数据访问权限"
+          },
+          "strategies": "{count} 个策略",
+          "unlimitedBuySize": "无限买入份额",
+          "wallets": "{count} 个钱包"
+        },
+        "getStarted": "免费开始",
+        "perMonth": "/月",
+        "subtitle": "选择适合您交易需求的套餐",
+        "title": "简单、透明的定价"
+      },
+      "slogan": {
+        "line1Left": "无需押注方向",
+        "line1Right": "只需交易波动率",
+        "line2Left": "高波动率",
+        "line2Right": "稳定收益"
+      },
+      "tagline": "Polymarket 自动交易机器人",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "我们的机器人全天候监控市场并执行交易，无需任何手动干预。",
+            "title": "全天运行"
+          },
+          "easySetup": {
+            "description": "无需编码。使用简单参数创建策略，几分钟内部署。",
+            "title": "简单设置"
+          },
+          "gasless": {
+            "description": "使用 Polymarket 的 Gnosis Safe 合约进行无 Gas 交易。",
+            "title": "无 Gas 交易"
+          },
+          "liveMonitoring": {
+            "description": "通过实时仪表盘监控机器人执行状态、交易历史和头寸变化。",
+            "title": "实时监控"
+          },
+          "multiWallet": {
+            "description": "管理多个钱包，多元化投资组合并分散风险。",
+            "title": "多钱包支持"
+          },
+          "strategyRankings": {
+            "description": "浏览策略排行榜并复制表现最佳的策略，快速开始获利。",
+            "title": "策略排行榜"
+          }
+        },
+        "title": "为什么选择我们"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "创建 Polymarket 代理钱包（Gnosis Safe）",
+            "title": "添加钱包"
+          },
+          "createStrategies": {
+            "description": "定义您的交易规则和参数",
+            "title": "创建策略"
+          },
+          "deployBots": {
+            "description": "启动您的机器人并观看它们自动交易",
+            "title": "部署机器人"
+          },
+          "signUp": {
+            "description": "在几秒钟内创建您的账户",
+            "title": "注册"
+          }
+        },
+        "subtitle": "通过我们简单的 4 步流程在几分钟内开始",
+        "title": "工作原理"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "隐私政策"
+      },
+      "terms-of-service": {
+        "title": "服务条款"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "로그인",
+      "signOut": "로그아웃"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "정말 로그아웃하시겠습니까?",
+        "title": "로그아웃"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "잘못된 인증 코드입니다",
+      "AUTH_OAUTH_FAILED": "인증에 실패했습니다. 다시 시도해 주세요.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "다른 코드를 요청하기 전에 60초를 기다리세요",
+      "AUTH_OTP_IP_RATE_LIMITED": "요청이 너무 많습니다. 나중에 다시 시도하세요.",
+      "AUTH_TURNSTILE_FAILED": "보안 검증에 실패했습니다. 다시 시도하세요.",
+      "AUTH_USER_ALREADY_EXISTS": "해당 이메일로 된 계정이 이미 있습니다",
+      "AUTH_USER_NOT_FOUND": "해당 이메일로 된 계정을 찾을 수 없습니다",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "인증 코드가 만료되었습니다",
+      "IMPERSONATION_INVALID_TICKET": "잘못된 대리 로그인 티켓입니다",
+      "IMPERSONATION_TICKET_EXPIRED": "대리 로그인 티켓이 만료되었습니다",
+      "IMPERSONATION_USER_NOT_FOUND": "대상 사용자를 찾을 수 없습니다",
+      "IMPERSONATION_WRITE_FORBIDDEN": "지원 로그인 모드에서는 쓰기 작업이 허용되지 않습니다",
+      "INVALID_EMAIL": "유효하지 않은 이메일 주소입니다",
+      "INVITE_CODE_EXPIRED": "초대 코드가 만료되었습니다",
+      "INVITE_CODE_INVALID": "유효하지 않은 초대 코드입니다",
+      "INVITE_CODE_REQUIRED": "초대 코드가 필요합니다",
+      "INVITE_CODE_USAGE_EXCEEDED": "초대 코드 사용 한도에 도달했습니다"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "잘못된 이메일 형식입니다",
+        "required": "이메일이 필요합니다"
+      },
+      "inviteCode": {
+        "invalid": "잘못된 초대 코드 형식입니다",
+        "required": "초대 코드가 필요합니다"
+      },
+      "turnstileToken": {
+        "invalid": "보안 검증에 실패했습니다",
+        "required": "보안 검증을 완료하세요"
+      },
+      "verificationCode": {
+        "invalid": "잘못된 인증 코드 형식입니다(6자리여야 함)",
+        "required": "인증 코드가 필요합니다"
+      }
+    }
+  }
+}

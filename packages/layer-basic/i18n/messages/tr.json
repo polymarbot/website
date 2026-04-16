@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Geri",
+      "cancel": "İptal",
+      "clear": "Temizle",
+      "close": "Kapat",
+      "confirm": "Onayla",
+      "continue": "Devam Et",
+      "create": "Oluştur",
+      "delete": "Sil",
+      "deposit": "Para Yatır",
+      "duplicate": "Çoğalt",
+      "edit": "Düzenle",
+      "export": "Dışa Aktar",
+      "goBack": "Geri Git",
+      "import": "İçe Aktar",
+      "install": "Yükle",
+      "learnMore": "Daha Fazla Öğren",
+      "more": "Daha Fazla",
+      "next": "Sonraki",
+      "ok": "Tamam",
+      "refresh": "Yenile",
+      "reload": "Yeniden Yükle",
+      "reportIssue": "Sorun Bildir",
+      "retry": "Tekrar Dene",
+      "save": "Kaydet",
+      "search": "Ara",
+      "submit": "Gönder",
+      "transfer": "Aktar",
+      "uninstall": "Kaldır",
+      "viewDetails": "Detayları Görüntüle",
+      "withdraw": "Para Çek"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "g",
+        "hours": "s",
+        "minutes": "d",
+        "seconds": "sn"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "İşlemler",
+      "active": "Aktif",
+      "alert": "Uyarı",
+      "all": "Tümü",
+      "amount": "Tutar",
+      "chain": "Zincir",
+      "confirmation": "Onay",
+      "createdAt": "Oluşturulma Tarihi",
+      "dateRange": "Tarih Aralığı",
+      "delete": "Sil",
+      "deleteConfirmation": "Silme Onayı",
+      "email": "E-posta",
+      "error": "Hata",
+      "max": "Maksimum",
+      "new": "Yeni",
+      "no": "Hayır",
+      "optional": "İsteğe Bağlı",
+      "or": "veya",
+      "password": "Şifre",
+      "private": "Özel",
+      "privateKey": "Özel Anahtar",
+      "success": "Başarı",
+      "token": "Token",
+      "transactionHash": "İşlem Hash'ı",
+      "unknown": "Bilinmiyor",
+      "unlimited": "Sınırsız",
+      "updatedAt": "Güncellenme Tarihi",
+      "yes": "Evet"
+    },
+    "messages": {
+      "createSuccess": "Başarıyla oluşturuldu",
+      "deleteSuccess": "Başarıyla silindi",
+      "importSuccess": "Başarıyla içe aktarıldı",
+      "saveSuccess": "Başarıyla kaydedildi",
+      "submitSuccess": "Başarıyla gönderildi",
+      "updateSuccess": "Başarıyla güncellendi"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Koyu Mod",
+        "lightMode": "Açık Mod",
+        "switchToDark": "Koyu Moda Geç",
+        "switchToLight": "Açık Moda Geç"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Dili değiştir"
+      },
+      "Navbar": {
+        "collapseSidebar": "Kenar çubuğunu daralt",
+        "expandSidebar": "Kenar çubuğunu genişlet",
+        "goBack": "Geri git"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "İşlemler",
+        "pageReport": "{'{first}'} ile {'{last}'} arasındaki {'{totalRecords}'} gösteriliyor",
+        "pageReportMobile": "Toplam: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Sil",
+        "confirmationText": "SİL",
+        "defaultMessage": "Bu işlem geri alınamaz. Lütfen devam etmeden önce önemli verileri yedeklediğinizden emin olun.",
+        "inputLabel": "Silme işlemini onaylamak için {0} yazın",
+        "title": "Sil"
+      },
+      "CopyButton": {
+        "copied": "Kopyalandı!",
+        "copyToClipboard": "Panoya kopyala"
+      },
+      "DataTable": {
+        "empty": "Veri yok",
+        "filterAll": "Tümü",
+        "filterApply": "Uygula",
+        "filterClear": "Temizle"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Bitiş tarihi",
+        "startPlaceholder": "Başlangıç tarihi",
+        "to": "şu tarihe:"
+      },
+      "EmptyState": {
+        "defaultMessage": "Veri yok"
+      },
+      "LogViewer": {
+        "allLoaded": "— Tüm günlükler yüklendi —",
+        "count": "{loaded} / {total}",
+        "empty": "Günlük yok",
+        "refresh": "Yenile",
+        "scrollToBottom": "En alta kaydır"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Panodan yapıştır",
+        "pasted": "Yapıştırıldı!"
+      },
+      "SearchSelect": {
+        "createNew": "Yeni oluştur",
+        "noItems": "Kullanılabilir seçenek yok",
+        "noSearchItems": "Sonuç bulunamadı",
+        "searchPlaceholder": "Ara..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Erişim yasaklandı",
+      "COMMON_NETWORK_ERROR": "Ağ hatası oluştu",
+      "COMMON_NOT_FOUND_ERROR": "Kaynak bulunamadı",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Çok fazla istek. Lütfen daha sonra tekrar deneyin",
+      "COMMON_SERVER_ERROR": "İç sunucu hatası",
+      "COMMON_TIMEOUT_ERROR": "İstek zaman aşımı",
+      "COMMON_UNAUTHORIZED_ERROR": "Yetkisiz erişim",
+      "COMMON_UNKNOWN_ERROR": "Bilinmeyen bir hata oluştu",
+      "COMMON_VALIDATION_ERROR": "Doğrulama başarısız"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "E-posta adresinizi doğrulamak için bu kodu girin:",
+          "expiry": "Bu kod {minutes} dakika içinde süresi dolacak.",
+          "footer": "Bu e-posta {email} adresine gönderildi. Bu e-postayı beklemiyorsanız, bunu göz ardı edebilirsiniz.",
+          "subject": "Doğrulama kodunuz",
+          "title": "Lütfen e-postanızı doğrulayın"
+        }
+      }
+    }
+  }
+}

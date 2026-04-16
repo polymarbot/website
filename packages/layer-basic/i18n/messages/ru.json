@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Назад",
+      "cancel": "Отмена",
+      "clear": "Очистить",
+      "close": "Закрыть",
+      "confirm": "Подтвердить",
+      "continue": "Продолжить",
+      "create": "Создать",
+      "delete": "Удалить",
+      "deposit": "Пополнить",
+      "duplicate": "Дублировать",
+      "edit": "Редактировать",
+      "export": "Экспортировать",
+      "goBack": "Вернуться",
+      "import": "Импортировать",
+      "install": "Установить",
+      "learnMore": "Узнать больше",
+      "more": "Ещё",
+      "next": "Далее",
+      "ok": "ОК",
+      "refresh": "Обновить",
+      "reload": "Перезагрузить",
+      "reportIssue": "Сообщить об ошибке",
+      "retry": "Повторить",
+      "save": "Сохранить",
+      "search": "Поиск",
+      "submit": "Отправить",
+      "transfer": "Перевод",
+      "uninstall": "Удалить",
+      "viewDetails": "Посмотреть детали",
+      "withdraw": "Вывести"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "д",
+        "hours": "ч",
+        "minutes": "м",
+        "seconds": "с"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Действия",
+      "active": "Активно",
+      "alert": "Предупреждение",
+      "all": "Все",
+      "amount": "Сумма",
+      "chain": "Сеть",
+      "confirmation": "Подтверждение",
+      "createdAt": "Создано",
+      "dateRange": "Диапазон дат",
+      "delete": "Удалить",
+      "deleteConfirmation": "Подтверждение удаления",
+      "email": "Электронная почта",
+      "error": "Ошибка",
+      "max": "Макс.",
+      "new": "Новое",
+      "no": "Нет",
+      "optional": "Опционально",
+      "or": "или",
+      "password": "Пароль",
+      "private": "Приватно",
+      "privateKey": "Приватный ключ",
+      "success": "Успешно",
+      "token": "Токен",
+      "transactionHash": "Хеш транзакции",
+      "unknown": "Неизвестно",
+      "unlimited": "Неограниченно",
+      "updatedAt": "Обновлено",
+      "yes": "Да"
+    },
+    "messages": {
+      "createSuccess": "Создано успешно",
+      "deleteSuccess": "Удалено успешно",
+      "importSuccess": "Импортировано успешно",
+      "saveSuccess": "Сохранено успешно",
+      "submitSuccess": "Отправлено успешно",
+      "updateSuccess": "Обновлено успешно"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Тёмный режим",
+        "lightMode": "Светлый режим",
+        "switchToDark": "Переключиться на тёмный режим",
+        "switchToLight": "Переключиться на светлый режим"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Переключить язык"
+      },
+      "Navbar": {
+        "collapseSidebar": "Свернуть боковую панель",
+        "expandSidebar": "Развернуть боковую панель",
+        "goBack": "Вернуться"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Действия",
+        "pageReport": "Показано {'{first}'} по {'{last}'} из {'{totalRecords}'}",
+        "pageReportMobile": "Всего: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Удалить",
+        "confirmationText": "УДАЛИТЬ",
+        "defaultMessage": "Это действие невозможно отменить. Пожалуйста, убедитесь, что вы сделали резервную копию важных данных перед продолжением.",
+        "inputLabel": "Введите {0}, чтобы подтвердить удаление",
+        "title": "Удалить"
+      },
+      "CopyButton": {
+        "copied": "Скопировано!",
+        "copyToClipboard": "Копировать в буфер обмена"
+      },
+      "DataTable": {
+        "empty": "Нет доступных данных",
+        "filterAll": "Все",
+        "filterApply": "Применить",
+        "filterClear": "Очистить"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Дата окончания",
+        "startPlaceholder": "Дата начала",
+        "to": "по"
+      },
+      "EmptyState": {
+        "defaultMessage": "Нет данных"
+      },
+      "LogViewer": {
+        "allLoaded": "— Все логи загружены —",
+        "count": "{loaded} / {total}",
+        "empty": "Нет доступных логов",
+        "refresh": "Обновить",
+        "scrollToBottom": "Прокрутить вниз"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Вставить из буфера обмена",
+        "pasted": "Вставлено!"
+      },
+      "SearchSelect": {
+        "createNew": "Создать новое",
+        "noItems": "Нет доступных опций",
+        "noSearchItems": "Результаты не найдены",
+        "searchPlaceholder": "Поиск..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Доступ запрещен",
+      "COMMON_NETWORK_ERROR": "Произошла ошибка сети",
+      "COMMON_NOT_FOUND_ERROR": "Ресурс не найден",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Слишком много запросов. Пожалуйста, попробуйте позже",
+      "COMMON_SERVER_ERROR": "Внутренняя ошибка сервера",
+      "COMMON_TIMEOUT_ERROR": "Истекло время ожидания запроса",
+      "COMMON_UNAUTHORIZED_ERROR": "Неавторизованный доступ",
+      "COMMON_UNKNOWN_ERROR": "Произошла неизвестная ошибка",
+      "COMMON_VALIDATION_ERROR": "Ошибка валидации"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Введите этот код для подтверждения вашего адреса электронной почты:",
+          "expiry": "Этот код истекает через {minutes} минут.",
+          "footer": "Это письмо было отправлено на {email}. Если вы не ожидали это письмо, вы можете его проигнорировать.",
+          "subject": "Ваш код подтверждения",
+          "title": "Пожалуйста, подтвердите вашу электронную почту"
+        }
+      }
+    }
+  }
+}

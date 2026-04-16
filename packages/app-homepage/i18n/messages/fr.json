@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Tous droits réservés."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Lancer l'application",
+      "pricing": {
+        "features": {
+          "bots": "{count} Robots",
+          "maxBuySize": "{size} Actions Max à Acheter",
+          "statsAccess": {
+            "extended": "Accès Étendu aux Statistiques",
+            "full": "Accès complet aux statistiques",
+            "limited": "Accès partiel aux statistiques",
+            "none": "Pas d'accès aux statistiques"
+          },
+          "strategies": "{count} Stratégies",
+          "unlimitedBuySize": "Actions Illimitées à Acheter",
+          "wallets": "{count} Portefeuilles"
+        },
+        "getStarted": "Commencer gratuitement",
+        "perMonth": "/mois",
+        "subtitle": "Choisissez le plan qui répond à vos besoins de trading",
+        "title": "Tarification simple et transparente"
+      },
+      "slogan": {
+        "line1Left": "Pas de pari sur la direction",
+        "line1Right": "Ne trader que la volatilité",
+        "line2Left": "Haute volatilité",
+        "line2Right": "Bénéfices stables"
+      },
+      "tagline": "Robots de Trading Automatisés pour Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Nos robots surveillent les marchés et exécutent les ordres 24 heures sur 24 sans aucune intervention manuelle.",
+            "title": "Toujours actif"
+          },
+          "easySetup": {
+            "description": "Aucun codage requis. Créez des stratégies avec des paramètres simples et déployez en quelques minutes.",
+            "title": "Configuration facile"
+          },
+          "gasless": {
+            "description": "Négociez sans frais de gaz en utilisant les contrats Gnosis Safe de Polymarket.",
+            "title": "Trading sans frais"
+          },
+          "liveMonitoring": {
+            "description": "Surveillez l'état d'exécution du robot, l'historique des transactions et les changements de position avec des tableaux de bord en direct.",
+            "title": "Surveillance en direct"
+          },
+          "multiWallet": {
+            "description": "Gérez plusieurs portefeuilles pour diversifier votre portefeuille et répartir les risques.",
+            "title": "Multi-portefeuille"
+          },
+          "strategyRankings": {
+            "description": "Parcourez les classements des stratégies et copiez les stratégies les plus performantes pour commencer à gagner rapidement.",
+            "title": "Classements des stratégies"
+          }
+        },
+        "title": "Pourquoi nous choisir"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Créez des portefeuilles proxy Polymarket (Gnosis Safe)",
+            "title": "Ajouter des portefeuilles"
+          },
+          "createStrategies": {
+            "description": "Définissez vos règles de trading et vos paramètres",
+            "title": "Créer des stratégies"
+          },
+          "deployBots": {
+            "description": "Lancez vos robots et regardez-les trader automatiquement",
+            "title": "Déployer des robots"
+          },
+          "signUp": {
+            "description": "Créez votre compte en quelques secondes",
+            "title": "S'inscrire"
+          }
+        },
+        "subtitle": "Commencez en quelques minutes avec notre processus simple en 4 étapes",
+        "title": "Comment ça marche"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Politique de confidentialité"
+      },
+      "terms-of-service": {
+        "title": "Conditions de service"
+      }
+    }
+  }
+}

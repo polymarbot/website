@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Bảo lưu mọi quyền."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Khởi chạy ứng dụng",
+      "pricing": {
+        "features": {
+          "bots": "{count} Bot",
+          "maxBuySize": "{size} Cổ phiếu Mua Tối đa",
+          "statsAccess": {
+            "extended": "Truy cập thống kê mở rộng",
+            "full": "Truy cập đầy đủ thống kê",
+            "limited": "Truy cập một phần thống kê",
+            "none": "Không có sẵn truy cập thống kê"
+          },
+          "strategies": "{count} Chiến lược",
+          "unlimitedBuySize": "Cổ phiếu Mua Không giới hạn",
+          "wallets": "{count} Ví"
+        },
+        "getStarted": "Bắt đầu miễn phí",
+        "perMonth": "/tháng",
+        "subtitle": "Chọn gói phù hợp với nhu cầu giao dịch của bạn",
+        "title": "Giá cả đơn giản, suốt"
+      },
+      "slogan": {
+        "line1Left": "Không cá cược vào hướng",
+        "line1Right": "Chỉ giao dịch biến động giá",
+        "line2Left": "Biến động giá cao",
+        "line2Right": "Lợi nhuận ổn định"
+      },
+      "tagline": "Bot Giao Dịch Tự Động cho Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Bot của chúng tôi giám sát thị trường và thực hiện giao dịch 24/7 mà không cần sự can thiệp thủ công.",
+            "title": "Hoạt động 24/7"
+          },
+          "easySetup": {
+            "description": "Không cần mã hóa. Tạo chiến lược với các tham số đơn giản và triển khai trong vài phút.",
+            "title": "Thiết lập dễ dàng"
+          },
+          "gasless": {
+            "description": "Giao dịch mà không có phí gas bằng cách sử dụng hợp đồng Gnosis Safe của Polymarket.",
+            "title": "Giao dịch không Gas"
+          },
+          "liveMonitoring": {
+            "description": "Giám sát trạng thái thực thi bot, lịch sử giao dịch và những thay đổi vị trí bằng bảng điều khiển trực tiếp.",
+            "title": "Giám Sát Trực Tiếp"
+          },
+          "multiWallet": {
+            "description": "Quản lý nhiều ví để đa dạng hóa danh mục đầu tư của bạn và chia sẻ rủi ro.",
+            "title": "Đa ví"
+          },
+          "strategyRankings": {
+            "description": "Duyệt bảng xếp hạng chiến lược và sao chép các chiến lược hoạt động tốt nhất để bắt đầu kiếm lợi nhuận nhanh chóng.",
+            "title": "Xếp Hạng Chiến Lược"
+          }
+        },
+        "title": "Tại sao chọn chúng tôi"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Tạo ví proxy Polymarket (Gnosis Safe)",
+            "title": "Thêm Ví"
+          },
+          "createStrategies": {
+            "description": "Xác định các quy tắc giao dịch và tham số của bạn",
+            "title": "Tạo Chiến lược"
+          },
+          "deployBots": {
+            "description": "Khởi chạy bot của bạn và theo dõi chúng giao dịch tự động",
+            "title": "Triển khai Bot"
+          },
+          "signUp": {
+            "description": "Tạo tài khoản của bạn trong vài giây",
+            "title": "Đăng ký"
+          }
+        },
+        "subtitle": "Bắt đầu trong vài phút với quá trình 4 bước đơn giản của chúng tôi",
+        "title": "Cách hoạt động"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Chính sách bảo mật"
+      },
+      "terms-of-service": {
+        "title": "Điều khoản dịch vụ"
+      }
+    }
+  }
+}

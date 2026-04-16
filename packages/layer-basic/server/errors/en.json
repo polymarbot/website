@@ -1,0 +1,11 @@
+{
+  "COMMON_FORBIDDEN_ERROR": "Access forbidden",
+  "COMMON_NETWORK_ERROR": "Network error occurred",
+  "COMMON_NOT_FOUND_ERROR": "Resource not found",
+  "COMMON_RATE_LIMIT_EXCEEDED": "Too many requests. Please try again later",
+  "COMMON_SERVER_ERROR": "Internal server error",
+  "COMMON_TIMEOUT_ERROR": "Request timeout",
+  "COMMON_UNAUTHORIZED_ERROR": "Unauthorized access",
+  "COMMON_UNKNOWN_ERROR": "An unknown error occurred",
+  "COMMON_VALIDATION_ERROR": "Validation failed"
+}

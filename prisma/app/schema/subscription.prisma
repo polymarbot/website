@@ -1,0 +1,68 @@
+enum SubscriptionPlan {
+  FREE
+  PRO
+  PLUS
+  MAX
+}
+
+enum BillingCycle {
+  MONTHLY
+  YEARLY
+}
+
+enum PaymentStatus {
+  PENDING
+  CONFIRMED
+  FAILED
+}
+
+model UserSubscription {
+  id        String           @id @default(cuid(2)) @db.VarChar(24)
+  userId    String           @unique @db.VarChar(24) // One subscription per user
+  plan      SubscriptionPlan @default(FREE)
+  expiresAt DateTime?        @db.Timestamptz(3) // null = never expires (for FREE or lifetime)
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+}
+
+model SubscriptionPayment {
+  id String @id @default(cuid(2)) @db.VarChar(24)
+
+  userId String @db.VarChar(24)
+
+  // Payment gateway info
+  chargeId   String @unique @db.VarChar(100) // Gateway invoice/charge ID
+  chargeCode String @unique @db.VarChar(20) // Order reference code (PAY-XXXXXXXX)
+  hostedUrl  String @db.VarChar(500) // Hosted payment page URL
+
+  // Subscription info
+  plan         SubscriptionPlan
+  billingCycle BillingCycle
+
+  // Amount info
+  amount   Decimal @db.Decimal(10, 2) // USD price
+  currency String  @default("USD") @db.VarChar(10)
+
+  // Status
+  status PaymentStatus @default(PENDING)
+
+  // Timestamps
+  chargeExpiresAt DateTime  @db.Timestamptz(3) // Charge expiration time
+  confirmedAt     DateTime? @db.Timestamptz(3) // Payment confirmation time
+
+  // Raw response from payment gateway
+  metadata Json?
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  @@index([userId])
+  @@index([status])
+}

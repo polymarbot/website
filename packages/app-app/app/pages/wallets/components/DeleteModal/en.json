@@ -1,0 +1,6 @@
+{
+  "backupReminder": "Before deleting, make sure you have exported and backed up your private key. Without the private key, you will permanently lose access to any funds in this wallet.",
+  "message": "Are you sure you want to delete wallet \"{name}\"?",
+  "title": "Delete Wallet",
+  "warning": "Deleting a wallet is irreversible. All wallet data will be permanently removed from our system."
+}

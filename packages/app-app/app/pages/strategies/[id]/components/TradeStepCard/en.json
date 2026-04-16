@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "fields": {
+    "maxChange": "Max Underlying Price Change",
+    "minChange": "Min Underlying Price Change",
+    "once": "Once",
+    "outcome": "Outcome",
+    "price": "Price",
+    "size": "Shares",
+    "timeRange": "Time Range"
+  },
+  "side": {
+    "buy": "Buy",
+    "sell": "Sell"
+  }
+}

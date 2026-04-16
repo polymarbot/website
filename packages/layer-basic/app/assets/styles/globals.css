@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+@import './animate.css';
+@import './transition.css';
+@import './colors.css';
+@import './utilities.css';
+@import './primevue-overrides.css';
+
+/* Ensure Tailwind scans all source files in this app */
+@source '../../../..';
+
+/* Dark mode configuration for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  line-height: 1.2;
+}
+body {
+  @apply bg-ground text-color;
+  margin: 0;
+  line-height: inherit;
+}
+
+/* Prevent accidental text selection on touch devices */
+@media (pointer: coarse) {
+  body {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  input,
+  textarea,
+  [contenteditable='true'],
+  pre,
+  code,
+  .selectable {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}

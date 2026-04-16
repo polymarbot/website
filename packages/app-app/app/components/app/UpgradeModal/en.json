@@ -1,0 +1,6 @@
+{
+  "message": "Upgrade your plan to unlock this feature.",
+  "messageWithTarget": "Upgrade to {plan} plan to unlock this feature.",
+  "title": "Upgrade Required",
+  "upgradeButton": "Upgrade Now"
+}

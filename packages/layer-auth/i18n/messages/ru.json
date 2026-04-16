@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Вход",
+      "signOut": "Выход"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Вы уверены, что хотите выйти?",
+        "title": "Выход"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Неверный код подтверждения",
+      "AUTH_OAUTH_FAILED": "Ошибка аутентификации. Пожалуйста, попробуйте снова.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Пожалуйста, подождите 60 секунд перед запросом нового кода",
+      "AUTH_OTP_IP_RATE_LIMITED": "Слишком много запросов. Пожалуйста, попробуйте позже.",
+      "AUTH_TURNSTILE_FAILED": "Проверка безопасности не удалась. Пожалуйста, попробуйте снова.",
+      "AUTH_USER_ALREADY_EXISTS": "Учетная запись с этой электронной почтой уже существует",
+      "AUTH_USER_NOT_FOUND": "Учетная запись не найдена с этой электронной почтой",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Код подтверждения истек",
+      "IMPERSONATION_INVALID_TICKET": "Неверный билет олицетворения",
+      "IMPERSONATION_TICKET_EXPIRED": "Билет олицетворения истек",
+      "IMPERSONATION_USER_NOT_FOUND": "Целевой пользователь не найден",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Операции записи не разрешены в режиме поддержки входа",
+      "INVALID_EMAIL": "Неверный адрес электронной почты",
+      "INVITE_CODE_EXPIRED": "Код приглашения истек",
+      "INVITE_CODE_INVALID": "Неверный код приглашения",
+      "INVITE_CODE_REQUIRED": "Требуется код приглашения",
+      "INVITE_CODE_USAGE_EXCEEDED": "Код приглашения достиг предела использования"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Неверный формат электронной почты",
+        "required": "Электронная почта требуется"
+      },
+      "inviteCode": {
+        "invalid": "Неверный формат кода приглашения",
+        "required": "Требуется код приглашения"
+      },
+      "turnstileToken": {
+        "invalid": "Проверка безопасности не удалась",
+        "required": "Пожалуйста, пройдите проверку безопасности"
+      },
+      "verificationCode": {
+        "invalid": "Неверный формат кода подтверждения (должно быть 6 цифр)",
+        "required": "Требуется код подтверждения"
+      }
+    }
+  }
+}

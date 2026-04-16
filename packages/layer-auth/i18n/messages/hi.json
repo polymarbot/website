@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "साइन इन करें",
+      "signOut": "साइन आउट करें"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "क्या आप वाकई साइन आउट करना चाहते हैं?",
+        "title": "साइन आउट करें"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "अमान्य सत्यापन कोड",
+      "AUTH_OAUTH_FAILED": "प्रमाणीकरण विफल। कृपया पुनः प्रयास करें।",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "कृपया अगले कोड का अनुरोध करने से पहले 60 सेकंड प्रतीक्षा करें",
+      "AUTH_OTP_IP_RATE_LIMITED": "बहुत सारे अनुरोध। कृपया बाद में पुनः प्रयास करें।",
+      "AUTH_TURNSTILE_FAILED": "सुरक्षा सत्यापन विफल। कृपया पुनः प्रयास करें।",
+      "AUTH_USER_ALREADY_EXISTS": "इस ईमेल के साथ एक खाता पहले से मौजूद है",
+      "AUTH_USER_NOT_FOUND": "इस ईमेल के साथ कोई खाता नहीं मिला",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "सत्यापन कोड समाप्त हो गया है",
+      "IMPERSONATION_INVALID_TICKET": "अमान्य प्रतिरूपण टिकट",
+      "IMPERSONATION_TICKET_EXPIRED": "प्रतिरूपण टिकट की समय सीमा समाप्त हो गई है",
+      "IMPERSONATION_USER_NOT_FOUND": "लक्ष्य उपयोगकर्ता नहीं मिला",
+      "IMPERSONATION_WRITE_FORBIDDEN": "समर्थन लॉगिन मोड में लेखन संचालन की अनुमति नहीं है",
+      "INVALID_EMAIL": "अमान्य ईमेल पता",
+      "INVITE_CODE_EXPIRED": "आमंत्रण कोड समाप्त हो गया है",
+      "INVITE_CODE_INVALID": "अमान्य आमंत्रण कोड",
+      "INVITE_CODE_REQUIRED": "आमंत्रण कोड आवश्यक है",
+      "INVITE_CODE_USAGE_EXCEEDED": "आमंत्रण कोड अपनी उपयोग सीमा तक पहुंच गया है"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "अमान्य ईमेल प्रारूप",
+        "required": "ईमेल आवश्यक है"
+      },
+      "inviteCode": {
+        "invalid": "अमान्य आमंत्रण कोड प्रारूप",
+        "required": "आमंत्रण कोड आवश्यक है"
+      },
+      "turnstileToken": {
+        "invalid": "सुरक्षा सत्यापन विफल",
+        "required": "कृपया सुरक्षा सत्यापन पूर्ण करें"
+      },
+      "verificationCode": {
+        "invalid": "अमान्य सत्यापन कोड प्रारूप (6 अंक होने चाहिए)",
+        "required": "सत्यापन कोड आवश्यक है"
+      }
+    }
+  }
+}

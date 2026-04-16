@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Regular hexagon robot mark">
+  <g transform="translate(128 128) scale(0.7) translate(-128 -128)">
+    <!-- Regular hexagon (pointy-top), centered at (128,128), R=112; stroke=27 stays inside viewBox -->
+    <path
+      d="M128 16
+         L224.99 72
+         L224.99 184
+         L128 240
+         L31.01 184
+         L31.01 72
+         Z"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="27"
+      stroke-linejoin="round"
+    />
+
+    <!-- Eyes: width matches stroke (27).
+         Computed using inner edge at y=128: innerWidth = 2*R*cos30 - 27
+         Enforced: leftMargin = gap = rightMargin -->
+    <rect x="82.17" y="92" width="27" height="72" rx="13.5" fill="currentColor"/>
+    <rect x="146.83" y="92" width="27" height="72" rx="13.5" fill="currentColor"/>
+  </g>
+</svg>

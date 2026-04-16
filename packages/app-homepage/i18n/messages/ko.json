@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} 모든 권리 보유."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "앱 실행",
+      "pricing": {
+        "features": {
+          "bots": "{count}개 봇",
+          "maxBuySize": "{size} 최대 매수 주식",
+          "statsAccess": {
+            "extended": "확장된 통계 액세스",
+            "full": "전체 통계 액세스",
+            "limited": "부분 통계 액세스",
+            "none": "통계 액세스 없음"
+          },
+          "strategies": "{count}개 전략",
+          "unlimitedBuySize": "무제한 매수 주식",
+          "wallets": "{count}개 지갑"
+        },
+        "getStarted": "무료로 시작하기",
+        "perMonth": "/월",
+        "subtitle": "거래 요구에 맞는 플랜을 선택하세요",
+        "title": "간단하고 투명한 가격 책정"
+      },
+      "slogan": {
+        "line1Left": "방향성에 베팅하지 않기",
+        "line1Right": "변동성만 거래하기",
+        "line2Left": "높은 변동성",
+        "line2Right": "안정적인 수익"
+      },
+      "tagline": "Polymarket의 자동화된 거래 봇",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "우리의 봇은 시장을 모니터링하고 수동 개입 없이 24시간 거래를 실행합니다.",
+            "title": "항상 활성"
+          },
+          "easySetup": {
+            "description": "코딩이 필요하지 않습니다. 간단한 매개변수로 전략을 만들고 몇 분 안에 배포하세요.",
+            "title": "쉬운 설정"
+          },
+          "gasless": {
+            "description": "Polymarket의 Gnosis Safe 계약을 사용하여 가스비 없이 거래하세요.",
+            "title": "가스비 없는 거래"
+          },
+          "liveMonitoring": {
+            "description": "라이브 대시보드를 통해 봇 실행 상태, 거래 내역, 포지션 변화를 모니터링하세요.",
+            "title": "라이브 모니터링"
+          },
+          "multiWallet": {
+            "description": "포트폴리오를 다양화하고 위험을 분산하기 위해 여러 지갑을 관리하세요.",
+            "title": "다중 지갑"
+          },
+          "strategyRankings": {
+            "description": "전략 리더보드를 보고 상위 전략을 복사하여 빠르게 수익을 얻으세요.",
+            "title": "전략 순위"
+          }
+        },
+        "title": "왜 우리를 선택해야 하나요?"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Polymarket 프록시 지갑(Gnosis Safe) 만들기",
+            "title": "지갑 추가"
+          },
+          "createStrategies": {
+            "description": "거래 규칙과 매개변수 정의",
+            "title": "전략 만들기"
+          },
+          "deployBots": {
+            "description": "봇을 시작하고 자동 거래를 보기",
+            "title": "봇 배포"
+          },
+          "signUp": {
+            "description": "몇 초 안에 계정 만들기",
+            "title": "회원가입"
+          }
+        },
+        "subtitle": "우리의 간단한 4단계 과정으로 몇 분 안에 시작하세요",
+        "title": "어떻게 작동하는가"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "개인정보처리방침"
+      },
+      "terms-of-service": {
+        "title": "이용약관"
+      }
+    }
+  }
+}

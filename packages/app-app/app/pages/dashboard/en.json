@@ -1,0 +1,11 @@
+{
+  "botCount": "Bots",
+  "name": "Dashboard",
+  "profitHistory": {
+    "title": "Profit History (Last 30 Days)"
+  },
+  "running": "running",
+  "strategyCount": "Strategies",
+  "totalBalance": "Total Balance",
+  "walletCount": "Wallets"
+}

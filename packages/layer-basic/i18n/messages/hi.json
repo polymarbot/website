@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "वापस जाएं",
+      "cancel": "रद्द करें",
+      "clear": "साफ करें",
+      "close": "बंद करें",
+      "confirm": "पुष्टि करें",
+      "continue": "जारी रखें",
+      "create": "बनाएं",
+      "delete": "हटाएं",
+      "deposit": "जमा करें",
+      "duplicate": "डुप्लिकेट करें",
+      "edit": "संपादित करें",
+      "export": "निर्यात करें",
+      "goBack": "वापस जाएं",
+      "import": "आयात करें",
+      "install": "स्थापित करें",
+      "learnMore": "और जानें",
+      "more": "अधिक",
+      "next": "आगे",
+      "ok": "ठीक है",
+      "refresh": "ताजा करें",
+      "reload": "पुनः लोड करें",
+      "reportIssue": "समस्या की रिपोर्ट करें",
+      "retry": "पुनः प्रयास करें",
+      "save": "सहेजें",
+      "search": "खोजें",
+      "submit": "जमा करें",
+      "transfer": "स्थानांतरण",
+      "uninstall": "अनइंस्टॉल करें",
+      "viewDetails": "विवरण देखें",
+      "withdraw": "निकालें"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "d",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "क्रियाएं",
+      "active": "सक्रिय",
+      "alert": "सतर्कता",
+      "all": "सभी",
+      "amount": "राशि",
+      "chain": "श्रृंखला",
+      "confirmation": "पुष्टिकरण",
+      "createdAt": "बनाया गया",
+      "dateRange": "तारीख की रेंज",
+      "delete": "हटाएं",
+      "deleteConfirmation": "हटाने की पुष्टि",
+      "email": "ईमेल",
+      "error": "त्रुटि",
+      "max": "अधिकतम",
+      "new": "नया",
+      "no": "नहीं",
+      "optional": "वैकल्पिक",
+      "or": "या",
+      "password": "पासवर्ड",
+      "private": "निजी",
+      "privateKey": "निजी कुंजी",
+      "success": "सफल",
+      "token": "टोकन",
+      "transactionHash": "लेनदेन हैश",
+      "unknown": "अज्ञात",
+      "unlimited": "असीमित",
+      "updatedAt": "अपडेट किया गया",
+      "yes": "हां"
+    },
+    "messages": {
+      "createSuccess": "सफलतापूर्वक बनाया गया",
+      "deleteSuccess": "सफलतापूर्वक हटाया गया",
+      "importSuccess": "सफलतापूर्वक आयात किया गया",
+      "saveSuccess": "सफलतापूर्वक सहेजा गया",
+      "submitSuccess": "सफलतापूर्वक जमा किया गया",
+      "updateSuccess": "सफलतापूर्वक अपडेट किया गया"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "डार्क मोड",
+        "lightMode": "लाइट मोड",
+        "switchToDark": "डार्क मोड पर स्विच करें",
+        "switchToLight": "लाइट मोड पर स्विच करें"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "भाषा स्विच करें"
+      },
+      "Navbar": {
+        "collapseSidebar": "साइडबार को संक्षिप्त करें",
+        "expandSidebar": "साइडबार को विस्तृत करें",
+        "goBack": "वापस जाएं"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "क्रियाएं",
+        "pageReport": "{'{first}'} से {'{last}'} दिखाया जा रहा है कुल {'{totalRecords}'}",
+        "pageReportMobile": "कुल: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "हटाएं",
+        "confirmationText": "हटाएं",
+        "defaultMessage": "यह क्रिया पूर्ववत नहीं की जा सकती है। कृपया आगे बढ़ने से पहले किसी भी महत्वपूर्ण डेटा का बैकअप ले लें।",
+        "inputLabel": "हटाने की पुष्टि करने के लिए {0} टाइप करें",
+        "title": "हटाएं"
+      },
+      "CopyButton": {
+        "copied": "कॉपी किया गया!",
+        "copyToClipboard": "क्लिपबोर्ड पर कॉपी करें"
+      },
+      "DataTable": {
+        "empty": "कोई डेटा उपलब्ध नहीं है",
+        "filterAll": "सभी",
+        "filterApply": "लागू करें",
+        "filterClear": "साफ करें"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "अंतिम तारीख",
+        "startPlaceholder": "शुरुआती तारीख",
+        "to": "को"
+      },
+      "EmptyState": {
+        "defaultMessage": "कोई डेटा नहीं"
+      },
+      "LogViewer": {
+        "allLoaded": "— सभी लॉग लोड हो गए —",
+        "count": "{loaded} / {total}",
+        "empty": "कोई लॉग उपलब्ध नहीं है",
+        "refresh": "ताजा करें",
+        "scrollToBottom": "नीचे स्क्रॉल करें"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "क्लिपबोर्ड से पेस्ट करें",
+        "pasted": "पेस्ट किया गया!"
+      },
+      "SearchSelect": {
+        "createNew": "नया बनाएं",
+        "noItems": "कोई विकल्प उपलब्ध नहीं है",
+        "noSearchItems": "कोई परिणाम नहीं मिला",
+        "searchPlaceholder": "खोजें..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "पहुंच निषिद्ध",
+      "COMMON_NETWORK_ERROR": "नेटवर्क त्रुटि हुई",
+      "COMMON_NOT_FOUND_ERROR": "संसाधन नहीं मिला",
+      "COMMON_RATE_LIMIT_EXCEEDED": "बहुत सारे अनुरोध। कृपया बाद में पुनः प्रयास करें",
+      "COMMON_SERVER_ERROR": "आंतरिक सर्वर त्रुटि",
+      "COMMON_TIMEOUT_ERROR": "अनुरोध समय सीमा",
+      "COMMON_UNAUTHORIZED_ERROR": "अनाधिकृत पहुंच",
+      "COMMON_UNKNOWN_ERROR": "एक अज्ञात त्रुटि हुई",
+      "COMMON_VALIDATION_ERROR": "सत्यापन विफल"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "अपने ईमेल पते को सत्यापित करने के लिए इस कोड को दर्ज करें:",
+          "expiry": "यह कोड {minutes} मिनट में समाप्त हो जाता है।",
+          "footer": "यह ईमेल {email} के लिए है। यदि आप इस ईमेल की अपेक्षा नहीं कर रहे थे, तो आप इसे नज़रअंदाज़ कर सकते हैं।",
+          "subject": "आपका सत्यापन कोड",
+          "title": "कृपया अपने ईमेल को सत्यापित करें"
+        }
+      }
+    }
+  }
+}

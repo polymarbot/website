@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Accedi",
+      "signOut": "Esci"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Sei sicuro di voler uscire?",
+        "title": "Esci"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Codice verifica non valido",
+      "AUTH_OAUTH_FAILED": "Autenticazione non riuscita. Per favore riprova.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Per favore attendi 60 secondi prima di richiedere un altro codice",
+      "AUTH_OTP_IP_RATE_LIMITED": "Troppe richieste. Per favore riprova più tardi.",
+      "AUTH_TURNSTILE_FAILED": "Verifica della sicurezza non riuscita. Per favore riprova.",
+      "AUTH_USER_ALREADY_EXISTS": "Un account con questa email esiste già",
+      "AUTH_USER_NOT_FOUND": "Nessun account trovato con questa email",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Il codice di verifica è scaduto",
+      "IMPERSONATION_INVALID_TICKET": "Ticket di rappresentazione non valido",
+      "IMPERSONATION_TICKET_EXPIRED": "Ticket di rappresentazione scaduto",
+      "IMPERSONATION_USER_NOT_FOUND": "Utente di destinazione non trovato",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Le operazioni di scrittura non sono consentite in modalità accesso supporto",
+      "INVALID_EMAIL": "Indirizzo email non valido",
+      "INVITE_CODE_EXPIRED": "Il codice di invito è scaduto",
+      "INVITE_CODE_INVALID": "Codice di invito non valido",
+      "INVITE_CODE_REQUIRED": "Il codice di invito è obbligatorio",
+      "INVITE_CODE_USAGE_EXCEEDED": "Il codice di invito ha raggiunto il limite di utilizzo"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Formato email non valido",
+        "required": "L'email è obbligatoria"
+      },
+      "inviteCode": {
+        "invalid": "Formato codice di invito non valido",
+        "required": "Il codice di invito è obbligatorio"
+      },
+      "turnstileToken": {
+        "invalid": "Verifica della sicurezza non riuscita",
+        "required": "Per favore completa la verifica della sicurezza"
+      },
+      "verificationCode": {
+        "invalid": "Formato codice di verifica non valido (deve essere 6 cifre)",
+        "required": "Il codice di verifica è obbligatorio"
+      }
+    }
+  }
+}

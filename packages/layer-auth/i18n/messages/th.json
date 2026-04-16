@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "เข้าสู่ระบบ",
+      "signOut": "ออกจากระบบ"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "คุณแน่ใจหรือว่าต้องการออกจากระบบ?",
+        "title": "ออกจากระบบ"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "รหัสยืนยันไม่ถูกต้อง",
+      "AUTH_OAUTH_FAILED": "การตรวจสอบความถูกต้องล้มเหลว โปรดลองอีกครั้ง",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "โปรดรอ 60 วินาทีก่อนขอรหัสอื่น",
+      "AUTH_OTP_IP_RATE_LIMITED": "คำขอมากเกินไป โปรดลองอีกครั้งในภายหลัง",
+      "AUTH_TURNSTILE_FAILED": "การตรวจสอบความปลอดภัยล้มเหลว โปรดลองอีกครั้ง",
+      "AUTH_USER_ALREADY_EXISTS": "มีบัญชีอยู่แล้วสำหรับอีเมลนี้",
+      "AUTH_USER_NOT_FOUND": "ไม่พบบัญชีที่มีอีเมลนี้",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "รหัสยืนยันหมดอายุ",
+      "IMPERSONATION_INVALID_TICKET": "ตั๋ว Impersonation ไม่ถูกต้อง",
+      "IMPERSONATION_TICKET_EXPIRED": "ตั๋ว Impersonation หมดอายุแล้ว",
+      "IMPERSONATION_USER_NOT_FOUND": "ไม่พบผู้ใช้เป้าหมาย",
+      "IMPERSONATION_WRITE_FORBIDDEN": "ไม่อนุญาตให้ดำเนินการเขียนในโหมด Support Login",
+      "INVALID_EMAIL": "ที่อยู่อีเมลไม่ถูกต้อง",
+      "INVITE_CODE_EXPIRED": "รหัสเชิญหมดอายุ",
+      "INVITE_CODE_INVALID": "รหัสเชิญไม่ถูกต้อง",
+      "INVITE_CODE_REQUIRED": "จำเป็นต้องใช้รหัสเชิญ",
+      "INVITE_CODE_USAGE_EXCEEDED": "รหัสเชิญถึงขีดจำกัดการใช้งาน"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "รูปแบบอีเมลไม่ถูกต้อง",
+        "required": "จำเป็นต้องมีอีเมล"
+      },
+      "inviteCode": {
+        "invalid": "รูปแบบรหัสเชิญไม่ถูกต้อง",
+        "required": "จำเป็นต้องมีรหัสเชิญ"
+      },
+      "turnstileToken": {
+        "invalid": "การตรวจสอบความปลอดภัยล้มเหลว",
+        "required": "โปรดทำการตรวจสอบความปลอดภัยให้เสร็จสิ้น"
+      },
+      "verificationCode": {
+        "invalid": "รูปแบบรหัสยืนยันไม่ถูกต้อง (ต้องเป็น 6 หลัก)",
+        "required": "จำเป็นต้องมีรหัสยืนยัน"
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "brand": "PolymarBot",
+  "launchApp": "Launch App",
+  "pricing": {
+    "features": {
+      "bots": "{count} Bots",
+      "maxBuySize": "{size} Max Buy Shares",
+      "statsAccess": {
+        "extended": "Extended Stats Access",
+        "full": "Full Stats Access",
+        "limited": "Partial Stats Access",
+        "none": "No Stats Access"
+      },
+      "strategies": "{count} Strategies",
+      "unlimitedBuySize": "Unlimited Buy Shares",
+      "wallets": "{count} Wallets"
+    },
+    "getStarted": "Get Started Free",
+    "perMonth": "/mo",
+    "subtitle": "Choose the plan that fits your trading needs",
+    "title": "Simple, Transparent Pricing"
+  },
+  "slogan": {
+    "line1Left": "No betting on direction",
+    "line1Right": "Just trade volatility",
+    "line2Left": "High volatility",
+    "line2Right": "Steady profits"
+  },
+  "tagline": "Automated Trading Bots for Polymarket",
+  "whyChooseUs": {
+    "reasons": {
+      "alwaysOn": {
+        "description": "Our bots monitor markets and execute trades around the clock without any manual intervention.",
+        "title": "Always-On"
+      },
+      "easySetup": {
+        "description": "No coding required. Create strategies with simple parameters and deploy in minutes.",
+        "title": "Easy Setup"
+      },
+      "gasless": {
+        "description": "Trade without gas fees using Polymarket's Gnosis Safe contracts.",
+        "title": "Gasless Trading"
+      },
+      "liveMonitoring": {
+        "description": "Monitor bot execution status, trade history, and position changes with live dashboards.",
+        "title": "Live Monitoring"
+      },
+      "multiWallet": {
+        "description": "Manage multiple wallets to diversify your portfolio and spread risk.",
+        "title": "Multi-Wallet"
+      },
+      "strategyRankings": {
+        "description": "Browse strategy leaderboards and copy top-performing strategies to start profiting quickly.",
+        "title": "Strategy Rankings"
+      }
+    },
+    "title": "Why Choose Us"
+  },
+  "workflow": {
+    "steps": {
+      "addWallets": {
+        "description": "Create Polymarket proxy wallets (Gnosis Safe)",
+        "title": "Add Wallets"
+      },
+      "createStrategies": {
+        "description": "Define your trading rules and parameters",
+        "title": "Create Strategies"
+      },
+      "deployBots": {
+        "description": "Launch your bots and watch them trade automatically",
+        "title": "Deploy Bots"
+      },
+      "signUp": {
+        "description": "Create your account in seconds",
+        "title": "Sign Up"
+      }
+    },
+    "subtitle": "Get started in minutes with our simple 4-step process",
+    "title": "How It Works"
+  }
+}

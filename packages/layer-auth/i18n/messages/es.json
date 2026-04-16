@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Iniciar sesión",
+      "signOut": "Cerrar sesión"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "¿Estás seguro de que deseas cerrar sesión?",
+        "title": "Cerrar Sesión"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Código de verificación inválido",
+      "AUTH_OAUTH_FAILED": "La autenticación falló. Por favor, inténtelo de nuevo.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Por favor, espera 60 segundos antes de solicitar otro código",
+      "AUTH_OTP_IP_RATE_LIMITED": "Demasiadas solicitudes. Por favor, intenta más tarde.",
+      "AUTH_TURNSTILE_FAILED": "La verificación de seguridad falló. Por favor, intenta de nuevo.",
+      "AUTH_USER_ALREADY_EXISTS": "Ya existe una cuenta con este correo electrónico",
+      "AUTH_USER_NOT_FOUND": "No se encontró ninguna cuenta con este correo electrónico",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "El código de verificación ha expirado",
+      "IMPERSONATION_INVALID_TICKET": "Boleto de suplantación inválido",
+      "IMPERSONATION_TICKET_EXPIRED": "El boleto de suplantación ha expirado",
+      "IMPERSONATION_USER_NOT_FOUND": "Usuario de destino no encontrado",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Las operaciones de escritura no están permitidas en el modo de inicio de sesión de soporte",
+      "INVALID_EMAIL": "Dirección de correo electrónico inválida",
+      "INVITE_CODE_EXPIRED": "El código de invitación ha expirado",
+      "INVITE_CODE_INVALID": "Código de invitación inválido",
+      "INVITE_CODE_REQUIRED": "El código de invitación es requerido",
+      "INVITE_CODE_USAGE_EXCEEDED": "El código de invitación ha alcanzado su límite de uso"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Formato de correo electrónico inválido",
+        "required": "El correo electrónico es requerido"
+      },
+      "inviteCode": {
+        "invalid": "Formato de código de invitación inválido",
+        "required": "El código de invitación es requerido"
+      },
+      "turnstileToken": {
+        "invalid": "La verificación de seguridad falló",
+        "required": "Por favor, completa la verificación de seguridad"
+      },
+      "verificationCode": {
+        "invalid": "Formato de código de verificación inválido (debe ser 6 dígitos)",
+        "required": "El código de verificación es requerido"
+      }
+    }
+  }
+}

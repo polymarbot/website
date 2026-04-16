@@ -1,0 +1,8 @@
+{
+  "calculation": "The required balance is the total of all active bots on this wallet:\nEach bot requires = Max Amount per Trade × {multiplier}",
+  "current": "Current Balance",
+  "description": "The wallet balance is insufficient to support all active bots. You cannot start this bot until the balance requirement is met.",
+  "required": "Required (All Active Bots)",
+  "shortfall": "Shortfall",
+  "suggestion": "Please deposit funds to cover the shortfall, or stop other bots to free up the required balance."
+}

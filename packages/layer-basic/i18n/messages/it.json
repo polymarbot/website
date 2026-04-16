@@ -1,0 +1,184 @@
+{
+  "common": {
+    "actions": {
+      "back": "Indietro",
+      "cancel": "Annulla",
+      "clear": "Cancella",
+      "close": "Chiudi",
+      "confirm": "Conferma",
+      "continue": "Continua",
+      "create": "Crea",
+      "delete": "Elimina",
+      "deposit": "Deposita",
+      "duplicate": "Duplica",
+      "edit": "Modifica",
+      "export": "Esporta",
+      "goBack": "Torna Indietro",
+      "import": "Importa",
+      "install": "Installa",
+      "learnMore": "Scopri di più",
+      "more": "Altro",
+      "next": "Avanti",
+      "ok": "OK",
+      "refresh": "Aggiorna",
+      "reload": "Ricarica",
+      "reportIssue": "Segnala un Problema",
+      "retry": "Riprova",
+      "save": "Salva",
+      "search": "Ricerca",
+      "submit": "Invia",
+      "transfer": "Trasferimento",
+      "uninstall": "Disinstalla",
+      "viewDetails": "Visualizza Dettagli",
+      "withdraw": "Ritira"
+    },
+    "formats": {
+      "date": "YYYY-MM-DD",
+      "dateRange": {
+        "date": "MMM D",
+        "dateTime": "MMM D HH:mm"
+      },
+      "dateTime": "YYYY-MM-DD HH:mm:ss",
+      "duration": {
+        "days": "g",
+        "hours": "h",
+        "minutes": "m",
+        "seconds": "s"
+      },
+      "time": "HH:mm:ss"
+    },
+    "labels": {
+      "actions": "Azioni",
+      "active": "Attivo",
+      "alert": "Avviso",
+      "all": "Tutti",
+      "amount": "Importo",
+      "chain": "Catena",
+      "confirmation": "Conferma",
+      "createdAt": "Creato Il",
+      "dateRange": "Intervallo Date",
+      "delete": "Elimina",
+      "deleteConfirmation": "Conferma Eliminazione",
+      "email": "Email",
+      "error": "Errore",
+      "max": "Massimo",
+      "new": "Nuovo",
+      "no": "No",
+      "optional": "Facoltativo",
+      "or": "o",
+      "password": "Password",
+      "private": "Privato",
+      "privateKey": "Chiave Privata",
+      "success": "Successo",
+      "token": "Token",
+      "transactionHash": "Hash della Transazione",
+      "unknown": "Sconosciuto",
+      "unlimited": "Illimitato",
+      "updatedAt": "Aggiornato Il",
+      "yes": "Sì"
+    },
+    "messages": {
+      "createSuccess": "Creato con successo",
+      "deleteSuccess": "Eliminato con successo",
+      "importSuccess": "Importato con successo",
+      "saveSuccess": "Salvato con successo",
+      "submitSuccess": "Inviato con successo",
+      "updateSuccess": "Aggiornato con successo"
+    }
+  },
+  "components": {
+    "app": {
+      "DarkModeSwitcher": {
+        "darkMode": "Modalità Scura",
+        "lightMode": "Modalità Chiara",
+        "switchToDark": "Passa a Modalità Scura",
+        "switchToLight": "Passa a Modalità Chiara"
+      },
+      "LanguageSwitcher": {
+        "switchLanguage": "Cambia lingua"
+      },
+      "Navbar": {
+        "collapseSidebar": "Comprimi barra laterale",
+        "expandSidebar": "Espandi barra laterale",
+        "goBack": "Torna Indietro"
+      }
+    },
+    "ui": {
+      "AsyncDataTable": {
+        "actions": "Azioni",
+        "pageReport": "Visualizzazione {'{first}'} a {'{last}'} di {'{totalRecords}'}",
+        "pageReportMobile": "Totale: {'{totalRecords}'}"
+      },
+      "ConfirmDeleteModal": {
+        "confirm": "Elimina",
+        "confirmationText": "ELIMINA",
+        "defaultMessage": "Questa azione non può essere annullata. Assicurati di aver eseguito il backup di tutti i dati importanti prima di procedere.",
+        "inputLabel": "Digita {0} per confermare l'eliminazione",
+        "title": "Elimina"
+      },
+      "CopyButton": {
+        "copied": "Copiato!",
+        "copyToClipboard": "Copia negli appunti"
+      },
+      "DataTable": {
+        "empty": "Nessun dato disponibile",
+        "filterAll": "Tutti",
+        "filterApply": "Applica",
+        "filterClear": "Cancella"
+      },
+      "DatePicker": {
+        "dateFormat": "yy/mm/dd"
+      },
+      "DateRangePicker": {
+        "dateFormat": "yy/mm/dd",
+        "endPlaceholder": "Data di fine",
+        "startPlaceholder": "Data di inizio",
+        "to": "a"
+      },
+      "EmptyState": {
+        "defaultMessage": "Nessun dato"
+      },
+      "LogViewer": {
+        "allLoaded": "— Tutti i log caricati —",
+        "count": "{loaded} / {total}",
+        "empty": "Nessun log disponibile",
+        "refresh": "Aggiorna",
+        "scrollToBottom": "Scorri in fondo"
+      },
+      "PasteButton": {
+        "pasteFromClipboard": "Incolla dagli appunti",
+        "pasted": "Incollato!"
+      },
+      "SearchSelect": {
+        "createNew": "Crea nuovo",
+        "noItems": "Nessuna opzione disponibile",
+        "noSearchItems": "Nessun risultato trovato",
+        "searchPlaceholder": "Ricerca..."
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "COMMON_FORBIDDEN_ERROR": "Accesso vietato",
+      "COMMON_NETWORK_ERROR": "Si è verificato un errore di rete",
+      "COMMON_NOT_FOUND_ERROR": "Risorsa non trovata",
+      "COMMON_RATE_LIMIT_EXCEEDED": "Troppe richieste. Per favore riprova più tardi",
+      "COMMON_SERVER_ERROR": "Errore interno del server",
+      "COMMON_TIMEOUT_ERROR": "Timeout della richiesta",
+      "COMMON_UNAUTHORIZED_ERROR": "Accesso non autorizzato",
+      "COMMON_UNKNOWN_ERROR": "Si è verificato un errore sconosciuto",
+      "COMMON_VALIDATION_ERROR": "Convalida non riuscita"
+    },
+    "utils": {
+      "email": {
+        "verification": {
+          "description": "Inserisci questo codice per verificare il tuo indirizzo email:",
+          "expiry": "Questo codice scade in {minutes} minuti.",
+          "footer": "Questo email era destinato a {email}. Se non ti aspettavi questo email, puoi ignorarlo.",
+          "subject": "Il tuo codice di verifica",
+          "title": "Per favore verifica il tuo email"
+        }
+      }
+    }
+  }
+}

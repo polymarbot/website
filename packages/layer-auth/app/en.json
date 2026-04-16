@@ -1,0 +1,14 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Sign-In",
+      "signOut": "Sign-Out"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Are you sure you want to sign out?",
+        "title": "Sign Out"
+      }
+    }
+  }
+}

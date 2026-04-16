@@ -1,0 +1,106 @@
+{
+  "common": {
+    "actions": {},
+    "formats": {},
+    "labels": {},
+    "messages": {}
+  },
+  "components": {
+    "app": {
+      "Footer": {
+        "copyright": "© {year} Wszystkie prawa zastrzeżone."
+      }
+    }
+  },
+  "pages": {
+    "(homepage)": {
+      "brand": "PolymarBot",
+      "launchApp": "Uruchom aplikację",
+      "pricing": {
+        "features": {
+          "bots": "{count} Botów",
+          "maxBuySize": "{size} Maksymalnych Udziałów Kupna",
+          "statsAccess": {
+            "extended": "Dostęp do Rozszerzonych Statystyk",
+            "full": "Pełny dostęp do statystyk",
+            "limited": "Częściowy dostęp do statystyk",
+            "none": "Brak dostępu do statystyk"
+          },
+          "strategies": "{count} Strategii",
+          "unlimitedBuySize": "Nieograniczone Udziały Kupna",
+          "wallets": "{count} Portfeli"
+        },
+        "getStarted": "Zacznij Bezpłatnie",
+        "perMonth": "/miesiąc",
+        "subtitle": "Wybierz plan, który odpowiada Twoim potrzebom handlowym",
+        "title": "Proste, Przejrzyste Ceny"
+      },
+      "slogan": {
+        "line1Left": "Brak zakładów na kierunek",
+        "line1Right": "Handluj tylko zmiennością",
+        "line2Left": "Wysoka zmienność",
+        "line2Right": "Stałe zyski"
+      },
+      "tagline": "Zautomatyzowane Boty Handlowe dla Polymarket",
+      "whyChooseUs": {
+        "reasons": {
+          "alwaysOn": {
+            "description": "Nasze boty monitorują rynki i wykonują transakcje przez całą dobę bez jakiejkolwiek ręcznej interwencji.",
+            "title": "Zawsze Włączony"
+          },
+          "easySetup": {
+            "description": "Bez kodowania. Twórz strategie z prostymi parametrami i wdrażaj w kilka minut.",
+            "title": "Łatwa Konfiguracja"
+          },
+          "gasless": {
+            "description": "Handluj bez opłat za gaz, korzystając z kontraktów Gnosis Safe na Polymarket.",
+            "title": "Transakcje bez Opłat za Gaz"
+          },
+          "liveMonitoring": {
+            "description": "Monitoruj status wykonywania bota, historię transakcji i zmiany pozycji za pomocą paneli na żywo.",
+            "title": "Monitorowanie na żywo"
+          },
+          "multiWallet": {
+            "description": "Zarządzaj wieloma portfelami, aby zdywersyfikować swoje portfolio i rozłożyć ryzyko.",
+            "title": "Wiele Portfeli"
+          },
+          "strategyRankings": {
+            "description": "Przeglądaj tabele liderów strategii i kopiuj najlepiej działające strategie, aby szybko zacząć czerpać zyski.",
+            "title": "Rankingi Strategii"
+          }
+        },
+        "title": "Dlaczego nas Wybrać"
+      },
+      "workflow": {
+        "steps": {
+          "addWallets": {
+            "description": "Utwórz portfele proxy na Polymarket (Gnosis Safe)",
+            "title": "Dodaj Portfele"
+          },
+          "createStrategies": {
+            "description": "Zdefiniuj swoje reguły handlowe i parametry",
+            "title": "Utwórz Strategie"
+          },
+          "deployBots": {
+            "description": "Uruchom swoich botów i obserwuj automatyczne transakcje",
+            "title": "Wdróż Boty"
+          },
+          "signUp": {
+            "description": "Utwórz swoje konto w kilka sekund",
+            "title": "Zarejestruj się"
+          }
+        },
+        "subtitle": "Zacznij w kilka minut dzięki naszemu prostemu procesowi 4-krokowego",
+        "title": "Jak To Działa"
+      }
+    },
+    "legal": {
+      "privacy-policy": {
+        "title": "Polityka Prywatności"
+      },
+      "terms-of-service": {
+        "title": "Warunki usługi"
+      }
+    }
+  }
+}

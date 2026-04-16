@@ -1,0 +1,55 @@
+{
+  "common": {
+    "actions": {
+      "signIn": "Oturum Aç",
+      "signOut": "Çıkış Yap"
+    },
+    "dialogs": {
+      "signOutConfirm": {
+        "message": "Çıkış yapmak istediğinizden emin misiniz?",
+        "title": "Çıkış Yap"
+      }
+    }
+  },
+  "server": {
+    "errors": {
+      "AUTH_INVALID_VERIFICATION_CODE": "Geçersiz doğrulama kodu",
+      "AUTH_OAUTH_FAILED": "Kimlik doğrulama başarısız. Lütfen tekrar deneyin.",
+      "AUTH_OTP_EMAIL_RATE_LIMITED": "Lütfen başka bir kod talep etmeden önce 60 saniye bekleyin",
+      "AUTH_OTP_IP_RATE_LIMITED": "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
+      "AUTH_TURNSTILE_FAILED": "Güvenlik doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
+      "AUTH_USER_ALREADY_EXISTS": "Bu e-posta adresiyle zaten bir hesap var",
+      "AUTH_USER_NOT_FOUND": "Bu e-posta adresiyle hiçbir hesap bulunamadı",
+      "AUTH_VERIFICATION_CODE_EXPIRED": "Doğrulama kodu süresi doldu",
+      "IMPERSONATION_INVALID_TICKET": "Geçersiz kimlik taklit belgesi",
+      "IMPERSONATION_TICKET_EXPIRED": "Kimlik taklit belgesi süresi doldu",
+      "IMPERSONATION_USER_NOT_FOUND": "Hedef kullanıcı bulunamadı",
+      "IMPERSONATION_WRITE_FORBIDDEN": "Destek giriş modunda yazma işlemlerine izin verilmez",
+      "INVALID_EMAIL": "Geçersiz e-posta adresi",
+      "INVITE_CODE_EXPIRED": "Davet kodu süresi doldu",
+      "INVITE_CODE_INVALID": "Geçersiz davet kodu",
+      "INVITE_CODE_REQUIRED": "Davet kodu gerekli",
+      "INVITE_CODE_USAGE_EXCEEDED": "Davet kodu kullanım limitine ulaştı"
+    }
+  },
+  "shared": {
+    "validation": {
+      "email": {
+        "invalid": "Geçersiz e-posta formatı",
+        "required": "E-posta gerekli"
+      },
+      "inviteCode": {
+        "invalid": "Geçersiz davet kodu formatı",
+        "required": "Davet kodu gerekli"
+      },
+      "turnstileToken": {
+        "invalid": "Güvenlik doğrulaması başarısız oldu",
+        "required": "Lütfen güvenlik doğrulamasını tamamlayın"
+      },
+      "verificationCode": {
+        "invalid": "Geçersiz doğrulama kodu formatı (6 haneli olmalı)",
+        "required": "Doğrulama kodu gerekli"
+      }
+    }
+  }
+}

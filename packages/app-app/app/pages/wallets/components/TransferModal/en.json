@@ -1,0 +1,9 @@
+{
+  "fromWallet": "From Wallet",
+  "info": "Transfer is processed via Polymarket Relayer (gasless). The transaction will be submitted immediately but may take a few minutes to confirm on-chain.",
+  "submitted": "Transfer request submitted successfully. You can track the transaction status on PolygonScan.",
+  "title": "Internal Transfer",
+  "toWallet": "To Wallet",
+  "toWalletHint": "Select a wallet to transfer funds to",
+  "walletActivating": "Your wallet needs to be activated before transfer. The activation and transfer will be processed automatically. This may take a few minutes. You can check the wallet address on PolygonScan to monitor progress."
+}

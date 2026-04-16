@@ -1,0 +1,41 @@
+model Bot {
+  id                  String    @id @default(cuid(2)) @db.VarChar(24)
+  symbol              String    @db.VarChar(10) // Market symbol (e.g., "btc", "eth", "sol", "xrp")
+  interval            String    @db.VarChar(10) // Market time interval (e.g., "5m", "1h", "1d")
+  funder              String    @db.VarChar(42) // Wallet funder address
+  strategyId          String    @db.VarChar(24) // Associated strategy ID
+  enabled             Boolean   @default(false) // Whether the bot is enabled
+  enabledAt           DateTime? @db.Timestamptz(3) // Timestamp when bot was last enabled
+  totalRuntimeSeconds Int       @default(0) // Accumulated runtime in seconds (excludes current run)
+  createdAt           DateTime  @default(now()) @db.Timestamptz(3)
+  updatedAt           DateTime  @updatedAt @db.Timestamptz(3)
+
+  // Relations
+  wallet           Wallet                @relation(fields: [funder], references: [funder])
+  strategy         Strategy              @relation(fields: [strategyId], references: [id])
+  operationHistory BotOperationHistory[]
+
+  @@unique([symbol, interval, funder])
+  @@index([funder])
+  @@index([strategyId])
+  @@index([enabled, createdAt]) // Composite index for common query: WHERE enabled = true ORDER BY createdAt DESC
+}
+
+enum BotOperationType {
+  ENABLED
+  DISABLED
+}
+
+model BotOperationHistory {
+  id        String           @id @default(cuid(2)) @db.VarChar(24)
+  botId     String           @db.VarChar(24)
+  action    BotOperationType
+  reason    String           @db.VarChar(50) // Reason code (e.g., USER_ACTION, WALLET_INSUFFICIENT_BALANCE)
+  createdAt DateTime         @default(now()) @db.Timestamptz(3)
+
+  // Relations
+  bot Bot @relation(fields: [botId], references: [id], onDelete: Cascade)
+
+  @@index([botId])
+  @@index([createdAt])
+}
